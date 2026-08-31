@@ -12,3 +12,7 @@ body {
   color: CanvasText;
   color-scheme: light dark;
 }
+
+h1 {
+  color: lightskyblue;
+}
