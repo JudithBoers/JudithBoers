@@ -11,9 +11,9 @@ body {
   background-color: Canvas;
   color: CanvasText;
   color-scheme: light dark;
-  color: aliceblue;
+  background-color: lightskyblue;
 }
 
 h1 {
-  color: lightskyblue;
+  color: black;
 }
