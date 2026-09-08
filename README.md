@@ -523,6 +523,8 @@ Ik keek hiervoor vooral naar HTML als een manier om mijn content op een webpagin
 
 Dat is voor mij denk ik de belangrijkste conclusie uit deze opdracht: goede HTML gaat niet alleen over of iets werkt en er goed uitziet, maar ook over of de structuur en inhoud voor iedereen goed te begrijpen zijn.
 
+### Voorbereiding voor 3 sept.
+
 ### 31 aug - Kickoff
 
 1. Leg uit wat een source hosting platform is en voor welke jij gekozen hebt.
