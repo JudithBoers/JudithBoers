@@ -4,7 +4,7 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
-### [...]
+## Sprint 1
 
 ### 5 sept - [Schetsen en Typografie]
 
@@ -524,6 +524,74 @@ Ik keek hiervoor vooral naar HTML als een manier om mijn content op een webpagin
 Dat is voor mij denk ik de belangrijkste conclusie uit deze opdracht: goede HTML gaat niet alleen over of iets werkt en er goed uitziet, maar ook over of de structuur en inhoud voor iedereen goed te begrijpen zijn.
 
 ### Voorbereiding voor 3 sept.
+
+## Voorbereiding basis HTML, CSS, fonts en kleur
+
+### Web-safe fonts en `@font-face`
+
+Een lettertype moet beschikbaar zijn op het apparaat van de bezoeker of door de website worden geladen. Er zijn hiervoor drie mogelijkheden:
+
+- **Web-safe fonts:** staan standaard op de meeste apparaten, laden snel en kosten geen extra data. Voorbeelden zijn Arial, Verdana, Georgia en Times New Roman.
+- **Webfontservices:** diensten zoals Google Fonts en Adobe Fonts. Deze mogen wij niet gebruiken vanwege privacy, extra laadtijd, energieverbruik en afhankelijkheid van een externe dienst.
+- **`@font-face`:** hiermee sla je fontbestanden op in je eigen project en laad je ze via CSS.
+
+Met `font-family` bepaal je welk lettertype een element krijgt. Een lettertype op de `body` wordt meestal overgenomen door de elementen die daarin staan. Dit heet inheritance. Met een font-stack geef je meerdere lettertypen op, zodat de browser een alternatief heeft wanneer het eerste font niet beschikbaar is:
+
+```css
+body {
+  font-family: Georgia, Times, serif;
+}
+```
+
+Met `system-ui` gebruikt een website het standaardlettertype van het besturingssysteem. Hierdoor kan de website er per apparaat iets anders uitzien.
+
+Voor een eigen font maak je een map met fontbestanden en koppel je deze bovenaan het CSS-bestand:
+
+```css
+@font-face {
+  font-family: "Dyna Puff";
+  src: url("../fonts/DynaPuff-Bold.ttf");
+}
+
+body {
+  font-family: "Dyna Puff", sans-serif;
+}
+```
+
+Een fontfamilie kan verschillende bestanden bevatten, zoals regular, italic, bold en bold italic. Met `font-weight` en `font-style` geef je aan bij welke variant ieder bestand hoort. De browser kan daarna automatisch het juiste bestand kiezen.
+
+Ik heb ook geleerd dat ik niet te veel fonts en varianten moet toevoegen. Dit maakt de website trager en zorgt voor meer data- en energieverbruik. Daarnaast moet ik controleren of ik een lettertype volgens de licentie op een website mag gebruiken.
+
+### HTML & CSS Is Hard
+
+Voor de voorbereiding heb ik de onderdelen _Introduction_, _Basic Web Pages_ en _Hello, CSS_ gelezen.
+
+In _Introduction_ heb ik geleerd dat HTML, CSS en JavaScript samenwerken. HTML bepaalt de inhoud en structuur, CSS verzorgt de vormgeving en JavaScript maakt interactie mogelijk.
+
+In _Basic Web Pages_ heb ik geleerd hoe een HTML-pagina wordt opgebouwd met `<html>`, `<head>` en `<body>`. Ook kwamen headings, paragrafen en lijsten aan bod. HTML bepaalt niet alleen wat er op een pagina staat, maar geeft ook betekenis aan de inhoud.
+
+In _Hello, CSS_ heb ik geleerd hoe ik CSS aan HTML koppel. Een CSS-regel bestaat uit een selector, property en value. Daarnaast kwamen kleuren, lettertypen, meeteenheden, inheritance en de cascade aan bod.
+
+Door deze artikelen begrijp ik beter dat HTML en CSS gescheiden zijn, maar wel samenwerken: HTML bepaalt wat een onderdeel is en CSS bepaalt hoe het eruitziet.
+
+Na het lezen had ik twee vragen:
+
+1. Wanneer kan ik beter een HTML-element, zoals `p` of `h1`, als selector gebruiken en wanneer is een class handiger?
+2. Hoe bepaalt CSS welke regel voorrang krijgt wanneer meerdere regels hetzelfde element aanpassen?
+
+### MDN – Structuring Content with HTML
+
+Ik heb ongeveer een half uur scannend gelezen op MDN. Ik bekeek semantische elementen zoals `<header>`, `<nav>`, `<main>`, `<section>`, `<article>` en `<footer>`. Deze elementen geven meer betekenis aan een pagina dan wanneer alles met `<div>` wordt opgebouwd.
+
+Ook heb ik gekeken naar links, afbeeldingen, formulieren en tabellen. Hierbij kwam toegankelijkheid vaak terug. Goede HTML helpt browsers, zoekmachines en screenreaders om een website beter te begrijpen.
+
+Ik vond het opvallend dat niet iedere afbeelding een uitgebreide alt-tekst nodig heeft. Een decoratieve afbeelding kan `alt=""` krijgen, zodat een screenreader deze overslaat. Ook leerde ik dat “klik hier” geen goede linktekst is, omdat niet duidelijk wordt waar de link naartoe gaat. Een tekst zoals “Bekijk mijn contactgegevens” geeft veel meer context.
+
+### Wat ik hiervan heb geleerd
+
+Ik heb vooral geleerd dat HTML niet alleen bepaalt wat er op het scherm staat. Met semantische elementen, duidelijke links, goede labels en passende alt-teksten maak je een website begrijpelijker en toegankelijker.
+
+Daarnaast begrijp ik nu beter hoe fonts op het web werken. Voor deze opdracht kan ik web-safe fonts of zelf opgeslagen fonts met `@font-face` gebruiken. Daarbij moet ik letten op leesbaarheid, fallbacks, bestandsgrootte, privacy en licenties.
 
 ### 31 aug - Kickoff
 
