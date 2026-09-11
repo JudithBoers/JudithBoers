@@ -8,6 +8,68 @@ tekst + foto's
 
 ## sprint 0
 
+## woensdag 5 september
+
+## voorbereiding voor 5 september
+
+# Voorbereiding Deep Dive: Typografie
+
+Voor deze Deep Dive heb ik twee artikelen gelezen over het kiezen en gebruiken van lettertypes. Tijdens het lezen heb ik per artikel de dingen opgeschreven die ik het belangrijkste of opvallendste vond.
+
+Artikel 1: How to choose the right typeface
+<a href="[text](https://www.type-together.com/how-to-choose-the-right-typeface)"></a>
+In dit artikel wordt uitgelegd dat het kiezen van een lettertype niet alleen gaat om welk lettertype je mooi vindt. Je moet vooral kijken naar waarvoor je het lettertype gaat gebruiken, wat je ermee wilt uitstralen en of het technisch geschikt is.
+
+Wat ik uit dit artikel heb gehaald:
+
+1. Kijk eerst waarvoor je het lettertype gaat gebruiken.Een lettertype voor een grote titel heeft andere eigenschappen nodig dan een lettertype voor lange stukken tekst. Bij langere teksten is leesbaarheid veel belangrijker, terwijl je bij een grote titel meer ruimte hebt voor een opvallend lettertype.
+
+2. Gebruik liever niet te veel verschillende lettertypes.Voor veel ontwerpen kan één goede fontfamilie al genoeg zijn, omdat daar bijvoorbeeld regular, bold en italic varianten in zitten. Meer lettertypes gebruiken betekent dus niet automatisch dat een ontwerp beter wordt.
+
+3. Een lettertype moet passen bij de boodschap die je wilt overbrengen.Lettertypes hebben een bepaalde uitstraling en kunnen daardoor invloed hebben op hoe de inhoud overkomt. Een lettertype kan bijvoorbeeld formeel, modern, rustig of juist opvallend voelen. Het is daarom belangrijk dat de uitstraling past bij de boodschap van het ontwerp.
+
+4. Controleer welke tekens en talen een lettertype ondersteunt.Dit vond ik iets waar ik zelf niet zo snel aan zou denken. Niet ieder lettertype bevat automatisch alle accenten, symbolen en speciale tekens. Je kunt dus een mooi lettertype kiezen en er later achter komen dat bepaalde tekens die je nodig hebt ontbreken.
+
+5. Niet ieder lettertype werkt even goed op een scherm.Sommige lettertypes zijn speciaal gemaakt om ook op kleinere formaten en beeldschermen goed leesbaar te blijven. Hele dunne of gedetailleerde letters kunnen er mooi uitzien, maar op een klein scherm juist minder goed werken.
+
+6. Bij het combineren van lettertypes moet er samenhang én verschil zijn.Lettertypes hoeven niet precies hetzelfde te zijn om goed bij elkaar te passen. Het kan juist helpen als er contrast is, maar ze moeten wel een bepaalde overeenkomst hebben in bijvoorbeeld uitstraling of bedoeling. Ook helpt het als de lettertypes verschillende functies krijgen, bijvoorbeeld één voor koppen en één voor lopende tekst.
+
+Artikel 2:Typography for User Interfaces
+<a href="(https://arielsalminen.com/2016/typography-for-user-interfaces/)"></a>
+Bij dit artikel ging het veel meer over typografie binnen interfaces en websites. Wat ik hier vooral interessant aan vond, is dat tekst eigenlijk een heel groot onderdeel van een interface is. Typografie bepaalt daardoor niet alleen hoe een website eruitziet, maar ook hoe makkelijk iemand hem kan gebruiken.
+
+Wat ik uit dit artikel heb gehaald:
+
+1. Tekst is een onderdeel van de interface zelf.Een interface bestaat voor een groot deel uit woorden: knoppen, menu's, titels, labels en andere teksten. Typografie is daarom niet alleen iets wat je achteraf mooi maakt, maar hoort echt bij het ontwerpen van de interface.
+
+2. Letters moeten duidelijk van elkaar te onderscheiden zijn.Bij een interface is leesbaarheid extra belangrijk. Letters zoals een hoofdletter I, kleine l en bijvoorbeeld het cijfer 1 kunnen bij sommige lettertypes heel erg op elkaar lijken. Hierdoor moet een gebruiker meer moeite doen om de tekst te begrijpen.
+
+3. Een goed lettertype voor een interface hoeft niet de aandacht te trekken.Het lettertype moet de gebruiker vooral helpen om de inhoud te begrijpen. Het hoeft dus niet altijd het meest bijzondere of opvallende lettertype te zijn. De gebruiker moet eigenlijk zonder moeite kunnen lezen wat er staat.
+
+4. Een UI-lettertype moet op verschillende formaten werken.Een website kan bekeken worden op een groot computerscherm, maar ook op een kleine telefoon. Daarom moet een lettertype flexibel zijn en ook bij kleinere tekstgroottes goed leesbaar blijven.
+
+5. De x-hoogte heeft invloed op de leesbaarheid.De x-hoogte is de hoogte van kleine letters, gemeten aan bijvoorbeeld de letter x. Een grotere x-hoogte kan ervoor zorgen dat tekst op kleine formaten makkelijker leesbaar is. Te groot is alleen ook weer niet altijd beter, omdat sommige letters dan juist moeilijker van elkaar te onderscheiden kunnen worden.
+
+6. Mensen lezen tekst in een interface anders dan een lange tekst.In een interface staan vaak losse woorden of korte stukjes tekst, zoals bij een menu of knop. Daardoor is het extra belangrijk dat individuele letters en woorden snel herkenbaar zijn.
+
+Wat vond ik het opvallendst?
+Ik vond het interessant dat een lettertype binnen een interface eigenlijk niet te veel aandacht hoeft te trekken. In eerste instantie kijk ik bij een lettertype snel naar de uitstraling. Door dit artikel begrijp ik beter dat een lettertype vooral de gebruiker moet ondersteunen en de inhoud duidelijk moet maken.
+
+# Wat heb ik van deze voorbereiding geleerd?
+
+Door deze twee artikelen begrijp ik dat typografie veel meer is dan het kiezen van een mooi lettertype. Een lettertype moet passen bij het doel en de uitstraling van mijn website, maar het moet vooral goed leesbaar en bruikbaar zijn.
+Bij het kiezen van mijn lettertypes wil ik daarom letten op:
+
+- de leesbaarheid van titels en lopende tekst;
+- de uitstraling die bij mijn onderwerp past;
+- het aantal lettertypes en varianten;
+- de herkenbaarheid van verschillende letters en cijfers;
+- de beschikbare tekens en symbolen;
+- de leesbaarheid op desktop en mobiel;
+- het verschil en de samenhang tussen mijn fonts.
+
+Wat ik vooral meeneem, is dat ik mijn keuze niet alleen moet kunnen uitleggen met ‘ik vind dit lettertype mooi’. Ik moet ook kunnen onderbouwen waarom het bij mijn website past en waarom het voor de gebruiker prettig leesbaar is.
+
 ## maandag 3 september
 
 # verwerking van de les
@@ -83,7 +145,7 @@ Ik heb ook geleerd dat het niet slim is om heel veel lettertypen en varianten aa
 Voor de voorbereiding heb ik de onderdelen Introduction, Basic Web Pages en Hello, CSS van HTML & CSS Is Hard gelezen.
 In Introduction heb ik geleerd dat HTML, CSS en JavaScript ieder een eigen functie hebben. HTML bepaalt de inhoud en structuur van een website. CSS wordt gebruikt voor de vormgeving en JavaScript maakt interacties mogelijk.
 
-In Basic Web Pages heb ik geleerd hoe een HTML-pagina wordt opgebouwd met <html>, <head> en <body>. Ook kwamen headings, paragrafen en lijsten aan bod. HTML bepaalt dus niet alleen wat er op een pagina staat, maar geeft ook betekenis en structuur aan de inhoud.
+In Basic Web Pages heb ik geleerd hoe een HTML-pagina wordt opgebouwd met html, head en body. Ook kwamen headings, paragrafen en lijsten aan bod. HTML bepaalt dus niet alleen wat er op een pagina staat, maar geeft ook betekenis en structuur aan de inhoud.
 In Hello, CSS heb ik geleerd hoe ik een CSS-bestand aan HTML kan koppelen. Een CSS-regel bestaat uit een selector, een property en een value. Daarnaast heb ik gelezen over kleuren, lettertypen, meeteenheden, inheritance en de cascade.
 Door deze artikelen begrijp ik beter dat HTML en CSS twee verschillende taken hebben, maar wel met elkaar samenwerken. HTML bepaalt wat een onderdeel is en CSS bepaalt hoe dit onderdeel eruitziet.
 
@@ -93,7 +155,7 @@ Hoe bepaalt CSS welke regel voorrang krijgt als meerdere regels hetzelfde elemen
 
 # MDN – Structuring content with HTML
 
-Ik heb ongeveer een half uur scannend gelezen op MDN. Ik heb vooral gekeken naar semantische elementen, zoals <header>, <nav>, <main>, <section>, <article> en <footer>. Deze elementen geven betekenis aan de verschillende onderdelen van een pagina. Dit is duidelijker dan wanneer een hele website alleen met <div>-elementen wordt opgebouwd.
+Ik heb ongeveer een half uur scannend gelezen op MDN. Ik heb vooral gekeken naar semantische elementen, zoals header, nav, main, section, article en footer. Deze elementen geven betekenis aan de verschillende onderdelen van een pagina. Dit is duidelijker dan wanneer een hele website alleen met div-elementen wordt opgebouwd.
 Ook heb ik gekeken naar links, afbeeldingen, formulieren en tabellen. Bij deze onderwerpen kwam toegankelijkheid vaak terug. Goede HTML helpt niet alleen de browser, maar ook zoekmachines en screenreaders om een website beter te begrijpen.
 
 Ik vond het opvallend dat niet iedere afbeelding een uitgebreide alt-tekst nodig heeft. Als een afbeelding alleen ter decoratie wordt gebruikt, kan deze alt="" krijgen. Een screenreader weet dan dat de afbeelding kan worden overgeslagen.
@@ -106,6 +168,8 @@ Daarnaast begrijp ik nu beter hoe lettertypen op het web werken. Voor deze opdra
 Voor mijn eigen website wil ik daarom bewust omgaan met de hoeveelheid fonts en varianten die ik toevoeg. Ik wil een stijl kiezen die bij mijn onderwerp past, maar mijn website moet ook duidelijk leesbaar zijn en snel blijven laden.
 
 foto: van mijn aantekeningen.
+
+<img src="./assets/images-readme/aantekeningen3september.png" alt="aantekeningen van HTML en CSS basis" />
 
 ## kick-off
 
