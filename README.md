@@ -10,6 +10,40 @@ tekst + foto's
 
 ## maandag 3 september
 
+# verwerking van de les
+
+Voorbereiding
+Voor deze les had ik de artikelen van Interneting Is Hard gelezen en de pagina Structuring content with HTML van MDN gescand. Tijdens het lezen heb ik aantekeningen gemaakt en twee vragen meegenomen naar de les. Ook had ik opgeschreven welke dingen mij tijdens het lezen verwonderden.
+Mijn volledige aantekeningen en voorbereiding staan eerder in mijn Learning Log.
+
+Antwoorden op mijn vragen
+Tijdens mijn voorbereiding had ik twee vragen opgeschreven die ik tijdens de les wilde stellen.
+
+1. Wanneer kan ik beter een HTML-element als selector gebruiken en wanneer een class?
+   Tijdens de les kwam ik erachter dat we binnen dit project geen classes mogen gebruiken. Het is juist de bedoeling dat we leren om HTML-elementen op andere manieren te selecteren met CSS. Hierdoor moet ik dus verder kijken dan alleen een class toevoegen wanneer ik één specifiek onderdeel wil vormgeven.
+   Dit vind ik eigenlijk wel interessant, omdat ik normaal waarschijnlijk snel een class zou gebruiken. Nu word ik gedwongen om beter naar mijn HTML-structuur en CSS-selectors te kijken.
+
+2. Welke CSS-regel krijgt voorrang wanneer meerdere regels hetzelfde element aanpassen?
+   Ik heb geleerd dat de volledige manier waarop CSS bepaalt welke regel voorrang krijgt best complex is. De docent gaf aan dat we daar op dit moment nog niet helemaal diep op in hoeven te gaan.
+   Wat ik voor nu vooral moet onthouden is:
+   Hoe specifieker een CSS-regel is, hoe meer voorrang deze heeft.
+   Voor nu is dit voldoende om mee te werken. Later gaan we waarschijnlijk dieper in op hoe deze voorrang precies wordt berekend.
+
+Wat mij verwonderde
+Tijdens mijn voorbereiding had ik al een aantal dingen gevonden die mij verwonderden, onder andere tijdens het scannen van MDN. Zo kwam ik erachter dat een decoratieve afbeelding juist een lege alt="" kan krijgen en dat ‘klik hier’ geen goede tekst voor een link is.
+Deze verwonderingen en mijn uitleg daarbij heb ik al bij mijn voorbereiding uitgewerkt.
+
+Nieuwe bron uit de les – HTML5 Doctor
+Tijdens de les kregen we ook HTML5 Doctor als website mee. Deze website kan ik gebruiken om meer te ontdekken over HTML-elementen en om op te zoeken waarvoor verschillende elementen bedoeld zijn.
+Dit sluit goed aan op wat we nu aan het leren zijn, omdat we niet alleen moeten kijken naar hoe iets eruitziet, maar ook naar welk HTML-element inhoudelijk het beste past bij de content.
+
+Wat neem ik mee uit deze les?
+Door mijn voorbereiding had ik al kennisgemaakt met HTML-structuur, semantiek, CSS-selectors en de cascade. Tijdens de les zijn vooral mijn vragen hierover duidelijker geworden.
+Ik weet nu dat ik binnen dit project niet zomaar classes kan gebruiken en daardoor bewuster moet nadenken over mijn HTML-structuur en de manier waarop ik elementen selecteer. Ook weet ik dat CSS-regels verschillende prioriteiten kunnen hebben en dat ik voor nu vooral moet onthouden dat de specifiekste regel voorrang krijgt.
+Daarnaast heb ik met HTML5 Doctor een nieuwe bron gekregen die ik tijdens het maken van mijn website kan gebruiken wanneer ik niet weet welk HTML-element ik het beste kan gebruiken.
+
+Vanwege een priva afspraak heb ik helaas niet de tweede deepdive kunnen maken
+
 ## Voorbereidingen 3 september
 
 # Voorbereiding basis HTML, CSS, fonts en kleur
@@ -80,7 +114,7 @@ foto: van mijn aantekeningen.
 Voor mijn website gebruik ik GitHub als source hosting platform. De code van mijn website staat hierdoor online in een repository. De bestanden pas ik aan in Visual Studio Code en daarna stuur ik de nieuwste versie naar GitHub. Met GitHub Pages kan ik mijn website vervolgens online publiceren.
 
 Mijn repository op GitHub, waarin de bestanden en verschillende versies van mijn website worden opgeslagen.
-<img src="assets/Images-readme/gitthubstart.png" alt="Gitthub" />
+<img src="./assets/Images-readme/gitthubstart.png" alt="Gitthub" />
 Deze foto is wel later toegevoeegd omdat ik niet wist dat dat moest.
 
 2. Welke domeinnaam heb ik gekozen en hoe heb ik deze gekoppeld?
