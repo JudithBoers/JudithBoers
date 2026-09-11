@@ -8,7 +8,7 @@ tekst + foto's
 
 # Sprint 1:
 
-# sprint 0:
+# sprint 0: Foto's toevoegen bij Deep Dives vrijdag!!
 
 ## woensdag 5 september
 
