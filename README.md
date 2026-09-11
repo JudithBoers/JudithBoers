@@ -18,6 +18,7 @@ Voor deze Deep Dive heb ik twee artikelen gelezen over het kiezen en gebruiken v
 
 Artikel 1: How to choose the right typeface
 <a href="[text](https://www.type-together.com/how-to-choose-the-right-typeface)"></a>
+
 In dit artikel wordt uitgelegd dat het kiezen van een lettertype niet alleen gaat om welk lettertype je mooi vindt. Je moet vooral kijken naar waarvoor je het lettertype gaat gebruiken, wat je ermee wilt uitstralen en of het technisch geschikt is.
 
 Wat ik uit dit artikel heb gehaald:
@@ -34,8 +35,9 @@ Wat ik uit dit artikel heb gehaald:
 
 6. Bij het combineren van lettertypes moet er samenhang én verschil zijn.Lettertypes hoeven niet precies hetzelfde te zijn om goed bij elkaar te passen. Het kan juist helpen als er contrast is, maar ze moeten wel een bepaalde overeenkomst hebben in bijvoorbeeld uitstraling of bedoeling. Ook helpt het als de lettertypes verschillende functies krijgen, bijvoorbeeld één voor koppen en één voor lopende tekst.
 
-Artikel 2:Typography for User Interfaces
+Artikel 2: Typography for User Interfaces
 <a href="(https://arielsalminen.com/2016/typography-for-user-interfaces/)"></a>
+
 Bij dit artikel ging het veel meer over typografie binnen interfaces en websites. Wat ik hier vooral interessant aan vond, is dat tekst eigenlijk een heel groot onderdeel van een interface is. Typografie bepaalt daardoor niet alleen hoe een website eruitziet, maar ook hoe makkelijk iemand hem kan gebruiken.
 
 Wat ik uit dit artikel heb gehaald:
