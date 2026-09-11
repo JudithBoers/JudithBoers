@@ -6,13 +6,13 @@ tekst + foto's
 
 ## Learning Log
 
-## sprint 0
+# sprint 0
 
 ## woensdag 5 september
 
 ## voorbereiding voor 5 september
 
-# Voorbereiding Deep Dive: Typografie
+### Voorbereiding Deep Dive: Typografie
 
 Voor deze Deep Dive heb ik twee artikelen gelezen over het kiezen en gebruiken van lettertypes. Tijdens het lezen heb ik per artikel de dingen opgeschreven die ik het belangrijkste of opvallendste vond.
 
@@ -57,7 +57,7 @@ Wat ik uit dit artikel heb gehaald:
 Wat vond ik het opvallendst?
 Ik vond het interessant dat een lettertype binnen een interface eigenlijk niet te veel aandacht hoeft te trekken. In eerste instantie kijk ik bij een lettertype snel naar de uitstraling. Door dit artikel begrijp ik beter dat een lettertype vooral de gebruiker moet ondersteunen en de inhoud duidelijk moet maken.
 
-# Wat heb ik van deze voorbereiding geleerd?
+### Wat heb ik van deze voorbereiding geleerd?
 
 Door deze twee artikelen begrijp ik dat typografie veel meer is dan het kiezen van een mooi lettertype. Een lettertype moet passen bij het doel en de uitstraling van mijn website, maar het moet vooral goed leesbaar en bruikbaar zijn.
 Bij het kiezen van mijn lettertypes wil ik daarom letten op:
@@ -74,7 +74,7 @@ Wat ik vooral meeneem, is dat ik mijn keuze niet alleen moet kunnen uitleggen me
 
 ## maandag 3 september
 
-# verwerking van de les
+### verwerking van de les
 
 Voorbereiding
 Voor deze les had ik de artikelen van Interneting Is Hard gelezen en de pagina Structuring content with HTML van MDN gescand. Tijdens het lezen heb ik aantekeningen gemaakt en twee vragen meegenomen naar de les. Ook had ik opgeschreven welke dingen mij tijdens het lezen verwonderden.
@@ -110,11 +110,11 @@ Vanwege een priva afspraak heb ik helaas niet de tweede deepdive kunnen maken
 
 ## Voorbereidingen 3 september
 
-# Voorbereiding basis HTML, CSS, fonts en kleur
+### Voorbereiding basis HTML, CSS, fonts en kleur
 
 Voor de voorbereiding van de les heb ik informatie gelezen over webfonts, HTML en CSS. Hierdoor begrijp ik beter hoe een website wordt opgebouwd en welke keuzes ik moet maken bij het gebruiken van lettertypen.
 
-# Web-safe fonts en @font-face
+### Web-safe fonts en @font-face
 
 Ik heb geleerd dat een lettertype beschikbaar moet zijn op het apparaat van de bezoeker of door de website geladen moet worden. Er zijn hiervoor drie mogelijkheden:
 Web-safe fonts: deze lettertypen staan standaard op de meeste apparaten. Ze laden snel en gebruiken geen extra data. Voorbeelden hiervan zijn Arial, Verdana, Georgia en Times New Roman.
@@ -142,7 +142,7 @@ Ik heb ook geleerd dat het niet slim is om heel veel lettertypen en varianten aa
 
 <img src="./assets/images-readme/aantekening3sepetmber2.png" alt="aantekeningen deep dive (web safe fonts)" />
 
-# HTML & CSS Is Hard
+### HTML & CSS Is Hard
 
 Voor de voorbereiding heb ik de onderdelen Introduction, Basic Web Pages en Hello, CSS van HTML & CSS Is Hard gelezen.
 In Introduction heb ik geleerd dat HTML, CSS en JavaScript ieder een eigen functie hebben. HTML bepaalt de inhoud en structuur van een website. CSS wordt gebruikt voor de vormgeving en JavaScript maakt interacties mogelijk.
@@ -155,7 +155,7 @@ Na het lezen had ik nog twee vragen:
 Wanneer kan ik beter een HTML-element, zoals p of h1, als selector gebruiken en wanneer is een class handiger?
 Hoe bepaalt CSS welke regel voorrang krijgt als meerdere regels hetzelfde element aanpassen?
 
-# MDN – Structuring content with HTML
+### MDN – Structuring content with HTML
 
 Ik heb ongeveer een half uur scannend gelezen op MDN. Ik heb vooral gekeken naar semantische elementen, zoals header, nav, main, section, article en footer. Deze elementen geven betekenis aan de verschillende onderdelen van een pagina. Dit is duidelijker dan wanneer een hele website alleen met div-elementen wordt opgebouwd.
 Ook heb ik gekeken naar links, afbeeldingen, formulieren en tabellen. Bij deze onderwerpen kwam toegankelijkheid vaak terug. Goede HTML helpt niet alleen de browser, maar ook zoekmachines en screenreaders om een website beter te begrijpen.
@@ -163,7 +163,7 @@ Ook heb ik gekeken naar links, afbeeldingen, formulieren en tabellen. Bij deze o
 Ik vond het opvallend dat niet iedere afbeelding een uitgebreide alt-tekst nodig heeft. Als een afbeelding alleen ter decoratie wordt gebruikt, kan deze alt="" krijgen. Een screenreader weet dan dat de afbeelding kan worden overgeslagen.
 Ook heb ik geleerd dat ‘klik hier’ geen goede linktekst is. Zonder extra context is namelijk niet duidelijk waar de link naartoe gaat. Een tekst zoals ‘Bekijk mijn contactgegevens’ vertelt veel duidelijker wat iemand na het aanklikken kan verwachten.
 
-# Wat ik hiervan heb geleerd
+### Wat ik hiervan heb geleerd
 
 Ik heb vooral geleerd dat HTML niet alleen bepaalt wat er op het scherm staat. Door semantische elementen, duidelijke linkteksten en passende alt-teksten te gebruiken, kan ik mijn website begrijpelijker en toegankelijker maken.
 Daarnaast begrijp ik nu beter hoe lettertypen op het web werken. Voor deze opdracht kan ik een web-safe font gebruiken of een zelf opgeslagen lettertype met @font-face aan mijn website koppelen. Daarbij moet ik niet alleen kijken naar wat ik mooi vind, maar ook letten op leesbaarheid, fallbacks, bestandsgrootte, privacy en de licentie van het lettertype.
