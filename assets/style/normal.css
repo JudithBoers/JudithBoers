@@ -1,19 +1,23 @@
 /* HIER KOMT JOUW CSS */
+
+/* het idee van het draadje */
 @font-face {
-  font-family: "Comic Relief";
-  src: url(../type/ComicRelief-Regular.woff2);
+  font-family: "Miss Fajardose";
+  src: url(../type/MissFajardose-Regular.ttf);
   font-weight: 400;
   font-style: normal;
 }
 
 body {
-  font-family: "Comic Relief", system-ui;
   background-color: Canvas;
   color: CanvasText;
   color-scheme: light dark;
-  background-color: lightskyblue;
+  background-color: pink;
 }
 
 h1 {
+  font-family: "Miss Fajardose", system-ui;
   color: black;
+  font-weight: 120;
+  font-size: 100px;
 }
