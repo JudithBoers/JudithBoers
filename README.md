@@ -76,7 +76,7 @@ font-family: "Dyna Puff", sans-serif;
 Een fontfamilie kan uit verschillende bestanden bestaan, zoals regular, italic, bold en bold italic. Met font-weight en font-style geef ik aan welke variant bij ieder bestand hoort. De browser kan daarna automatisch de juiste variant gebruiken.
 Ik heb ook geleerd dat het niet slim is om heel veel lettertypen en varianten aan mijn website toe te voegen. Hierdoor moet de bezoeker meer bestanden downloaden en kan de website langzamer worden. Daarnaast moet ik controleren of de licentie van een lettertype het gebruik op een website toestaat.
 
-<img src="./assets/images-readme/aantekening3september2.png" alt="aantekeningen deep dive (web safe fonts)" />
+<img src="./assets/images-readme/aantekening3sepetmber2.png" alt="aantekeningen deep dive (web safe fonts)" />
 
 # HTML & CSS Is Hard
 
