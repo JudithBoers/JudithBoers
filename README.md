@@ -50,7 +50,8 @@ Vanwege een priva afspraak heb ik helaas niet de tweede deepdive kunnen maken
 
 Voor de voorbereiding van de les heb ik informatie gelezen over webfonts, HTML en CSS. Hierdoor begrijp ik beter hoe een website wordt opgebouwd en welke keuzes ik moet maken bij het gebruiken van lettertypen.
 
-Web-safe fonts en @font-face
+# Web-safe fonts en @font-face
+
 Ik heb geleerd dat een lettertype beschikbaar moet zijn op het apparaat van de bezoeker of door de website geladen moet worden. Er zijn hiervoor drie mogelijkheden:
 Web-safe fonts: deze lettertypen staan standaard op de meeste apparaten. Ze laden snel en gebruiken geen extra data. Voorbeelden hiervan zijn Arial, Verdana, Georgia en Times New Roman.
 Webfontservices: dit zijn diensten zoals Google Fonts en Adobe Fonts. Tijdens deze opdracht mogen wij deze niet gebruiken. Ze kunnen namelijk zorgen voor minder privacy, extra laadtijd en afhankelijkheid van een externe dienst.
@@ -74,6 +75,8 @@ font-family: "Dyna Puff", sans-serif;
 
 Een fontfamilie kan uit verschillende bestanden bestaan, zoals regular, italic, bold en bold italic. Met font-weight en font-style geef ik aan welke variant bij ieder bestand hoort. De browser kan daarna automatisch de juiste variant gebruiken.
 Ik heb ook geleerd dat het niet slim is om heel veel lettertypen en varianten aan mijn website toe te voegen. Hierdoor moet de bezoeker meer bestanden downloaden en kan de website langzamer worden. Daarnaast moet ik controleren of de licentie van een lettertype het gebruik op een website toestaat.
+
+<img src="./assets/images-readme/aantekening3september2.png" alt="aantekeningen deep dive (web safe fonts)" />
 
 # HTML & CSS Is Hard
 
@@ -125,6 +128,8 @@ Deze foto is wel later toegevoeegd omdat ik niet wist dat dat moest.
 
 Foto: domeinkiezen
 
+<img src="./assets/images-readme/Domeinnaamkiezen.png" alt="Domeinnaam kiezen " />
+
 3. Hoe pas ik mijn website aan en publiceer ik deze online?
    Ik pas mijn website aan in Visual Studio Code. Hier kan ik bijvoorbeeld veranderingen maken in mijn HTML- en CSS-bestanden. Tijdens het werken gebruik ik Go Live om mijn website lokaal in de browser te bekijken. Zo kan ik eerst controleren hoe mijn aanpassingen eruitzien, voordat ik ze online publiceer.
    Wanneer ik tevreden ben, sla ik mijn bestanden op. Daarna open ik in Visual Studio Code het onderdeel Source Control. Hier zet ik de aangepaste bestanden klaar en maak ik een commit. Bij deze commit schrijf ik een korte beschrijving van wat ik heb veranderd. Vervolgens push of synchroniseer ik de commit naar GitHub.
@@ -133,3 +138,5 @@ Foto: domeinkiezen
    Aanpassen → testen met Go Live → opslaan → committen → pushen naar GitHub → online publiceren via GitHub Pages
 
 Foto: eerste versie van mijn website.
+
+<img src="./assets/images-readme/Blancoversiewebsite.png" alt="eerste versie website" />
