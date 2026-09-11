@@ -114,7 +114,7 @@ foto: van mijn aantekeningen.
 Voor mijn website gebruik ik GitHub als source hosting platform. De code van mijn website staat hierdoor online in een repository. De bestanden pas ik aan in Visual Studio Code en daarna stuur ik de nieuwste versie naar GitHub. Met GitHub Pages kan ik mijn website vervolgens online publiceren.
 
 Mijn repository op GitHub, waarin de bestanden en verschillende versies van mijn website worden opgeslagen.
-<img src="./assets/Images-readme/gitthubstart.png" alt="Gitthub" />
+<img src="./assets/images-readme/gitthubstart.png" alt="Gitthub" />
 Deze foto is wel later toegevoeegd omdat ik niet wist dat dat moest.
 
 2. Welke domeinnaam heb ik gekozen en hoe heb ik deze gekoppeld?
