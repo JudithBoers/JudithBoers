@@ -6,9 +6,86 @@ tekst + foto's
 
 ## Learning Log
 
-# sprint 0
+# Sprint 1:
+
+# sprint 0:
 
 ## woensdag 5 september
+
+### Deep Dive schetsen
+
+Tijdens deze Deep Dive heb ik geleerd dat schetsen niet alleen bedoeld is om iets mooi te tekenen. Het helpt vooral om na te denken, ideeën te onderzoeken en ontwerpkeuzes zichtbaar te maken. Een belangrijke uitspraak uit de les was:
+Schetsen = denken = niet in één keer ‘klaar’.
+Een schets hoeft dus niet perfect te zijn. Het belangrijkste is dat ik ideeën snel zichtbaar kan maken en verschillende mogelijkheden kan vergelijken.
+
+#### Oude schetsen vergelijken
+
+Voor de eerste opdracht heb ik schetsen uit eerdere projecten meegenomen, zoals logoschetsen, Crazy 8’s, interfaces, typografie, positionering en uitgewerkte tekeningen.
+Mijn tekening van D’Oude Veiling laat duidelijk het eindresultaat zien, maar minder goed hoe ik tot dit ontwerp ben gekomen. Mijn Crazy 8 ziet er minder netjes uit, maar laat juist verschillende oplossingen zien. Bij mijn schetsen voor de positionering en typografie van mijn campagnewebsite is mijn proces nog duidelijker zichtbaar door de varianten en annotaties.
+Hierdoor leerde ik dat een mooie schets niet automatisch een goede ontwerpschets is.
+
+#### Een goede schets
+
+Een goede schets hoeft voor mij niet perfect te zijn, maar moet wel mijn denkproces zichtbaar maken. Daarbij helpen:
+
+- meerdere ideeën en varianten;
+- annotaties, pijlen en korte teksten;
+- verschillende lijndiktes, kleuren, highlights en schaduwen;
+- het zichtbaar maken van interacties en verschillende states.
+  Annotaties zijn handig omdat ik daarmee iets kan uitleggen zonder alles volledig te tekenen.
+
+#### Oefenen met de basis
+
+We hebben geoefend met lijnen, vormen, grids en interfaces. Ik heb geleerd dat ik eerst met eenvoudige vormen de basis kan neerzetten en daarna details kan toevoegen.
+Ook hebben we het verschil tussen low-fi en hi-fi behandeld. Een low-fi schets is eenvoudig en bedoeld om snel een idee of indeling te onderzoeken. Een hi-fi uitwerking bevat meer details en lijkt meer op het uiteindelijke ontwerp.
+Met dikkere lijnen en highlights kan ik belangrijke onderdelen benadrukken. Schaduwen kunnen bijvoorbeeld duidelijk maken dat iets klikbaar is. Door annotaties in een andere kleur te schrijven, blijft het verschil tussen mijn ontwerp en mijn uitleg zichtbaar.
+Interactie en animatie schetsen
+
+Een website bestaat niet alleen uit stilstaande schermen. Een gebruiker kan klikken, swipen en hoveren. Deze interacties kan ik schetsen met pijlen, stippellijnen, annotaties, kleuren en verschillende states.
+Met de zoom-techniek kan ik één onderdeel groter tekenen om te laten zien wat er verandert. In de les zagen we bijvoorbeeld hoe een sidebar verschijnt, hoe een icoon verandert nadat het is geselecteerd en hoe een swipe nieuwe opties zichtbaar maakt.
+
+#### Wat heb ik hier het meest van geleerd?
+
+Ik heb vooral geleerd dat schetsen een manier van denken is. Het is juist waardevol om meerdere versies te maken, dingen opnieuw te proberen en erbij te schrijven waarom ik bepaalde keuzes maak.
+Bij het ontwerpen van mijn website wil ik daarom niet meteen één idee volledig uitwerken. Ik wil eerst verschillende mogelijkheden onderzoeken. Daarbij ga ik ook schetsen hoe gebruikers door mijn website bewegen en hoe onderdelen reageren op klikken, swipen en hoveren.
+
+### Deep Dive – Pick 'n' Mix
+
+Tijdens de Deep Dive hebben we verder gekeken naar hoe je een passend lettertype kiest en hoe je verschillende lettertypes met elkaar kunt combineren. Daarbij kwamen veel dingen uit de artikelen terug.
+Bij het kiezen van een lettertype kan ik onder andere kijken naar:
+
+- stijl – past de uitstraling bij wat ik wil communiceren?
+- leesbaarheid – blijft de tekst duidelijk?
+- opties – welke varianten en mogelijkheden heeft de fontfamilie?
+- beschikbaarheid – kan en mag ik het lettertype daadwerkelijk gebruiken?
+  We hebben ook gekeken naar de geschiedenis van verschillende soorten lettertypes. In de slides kwamen onder andere Fraktur, Venetian, Old Face, Transitional, Modern, Egyptian en Sans voorbij. Hierdoor kon ik goed zien dat lettertypes door de jaren heen steeds andere kenmerken hebben gekregen.
+
+#### Leesbaarheid
+
+Een onderdeel waar ik veel aan had was het verschil in leesbaarheid tussen lettertypes.
+Zelfs wanneer verschillende lettertypes allemaal op bijvoorbeeld 18 px staan, kunnen ze toch heel verschillend groot ogen. Dit komt onder andere door de x-hoogte en de verhoudingen van de letters. In de slides werd dit zichtbaar gemaakt door verschillende lettertypes op dezelfde grootte naast elkaar te zetten.
+Hierdoor begrijp ik beter dat ik bij mijn website niet alleen kan zeggen: "18 px is groot genoeg." Ik moet het lettertype daadwerkelijk op mijn website bekijken en testen of het prettig leesbaar is.
+
+#### Lettertypes combineren
+
+We hebben daarna gekeken naar het combineren van lettertypes. Wat ik hiervan vooral heb onthouden, is dat een goede combinatie vaak bestaat uit een balans tussen contrast en overeenkomst.
+Contrast kan bijvoorbeeld ontstaan door:
+
+- sans serif tegenover serif;
+- bold tegenover light;
+- narrow tegenover wide;
+- roman tegenover italic of small caps.
+  Tegelijkertijd kunnen de lettertypes overeenkomsten hebben, bijvoorbeeld doordat ze uit dezelfde fontfamilie komen, dezelfde letterontwerper hebben, een vergelijkbare constructie hebben of uit ongeveer dezelfde periode komen.
+  Ik vond dit vooral handig omdat ik hiervoor bij het combineren van lettertypes voornamelijk keek naar of ik ze mooi bij elkaar vond staan. Nu weet ik beter naar welke eigenschappen ik kan kijken om uit te leggen waarom twee lettertypes wel of niet bij elkaar passen.
+
+#### Waar had ik het meeste aan?
+
+Waar ik het meeste aan had, is dat ik nu veel beter begrijp dat een lettertype kiezen niet alleen een visuele keuze is. Hiervoor keek ik vooral naar welk lettertype ik mooi vond en of het bij mijn ontwerp paste. Nu weet ik dat ik ook moet kijken naar leesbaarheid, x-hoogte, verschillende gewichten en stijlen, taalondersteuning, het apparaat waarop de tekst wordt bekeken en waarvoor het lettertype gebruikt gaat worden.
+Voor mijn eigen website vind ik vooral de leesbaarheid belangrijk. Mijn portfolio moet er natuurlijk bij mij passen en een eigen uitstraling hebben, maar bezoekers moeten de informatie ook makkelijk kunnen lezen en snel kunnen vinden.
+Ook het combineren van lettertypes vond ik erg nuttig. Ik weet nu dat ik niet zomaar twee mooie lettertypes naast elkaar moet zetten, maar dat ik kan zoeken naar een combinatie met zowel contrast als overeenkomst. Dat geeft mij veel meer houvast wanneer ik straks de typografie voor mijn eigen website ga bepalen.
+
+Wat ik uiteindelijk vooral meeneem uit deze voorbereiding en Deep Dive is:
+Ik moet een lettertype niet alleen kiezen omdat ik het mooi vind, maar omdat het past bij de boodschap, goed leesbaar is én goed werkt op de plek waar ik het ga gebruiken.
 
 ## voorbereiding voor 5 september
 
@@ -16,7 +93,8 @@ tekst + foto's
 
 Voor deze Deep Dive heb ik twee artikelen gelezen over het kiezen en gebruiken van lettertypes. Tijdens het lezen heb ik per artikel de dingen opgeschreven die ik het belangrijkste of opvallendste vond.
 
-Artikel 1: How to choose the right typeface
+### Artikel 1: How to choose the right typeface
+
 <a href="[text](https://www.type-together.com/how-to-choose-the-right-typeface)"></a>
 
 In dit artikel wordt uitgelegd dat het kiezen van een lettertype niet alleen gaat om welk lettertype je mooi vindt. Je moet vooral kijken naar waarvoor je het lettertype gaat gebruiken, wat je ermee wilt uitstralen en of het technisch geschikt is.
@@ -35,7 +113,8 @@ Wat ik uit dit artikel heb gehaald:
 
 6. Bij het combineren van lettertypes moet er samenhang én verschil zijn.Lettertypes hoeven niet precies hetzelfde te zijn om goed bij elkaar te passen. Het kan juist helpen als er contrast is, maar ze moeten wel een bepaalde overeenkomst hebben in bijvoorbeeld uitstraling of bedoeling. Ook helpt het als de lettertypes verschillende functies krijgen, bijvoorbeeld één voor koppen en één voor lopende tekst.
 
-Artikel 2: Typography for User Interfaces
+### Artikel 2: Typography for User Interfaces
+
 <a href="(https://arielsalminen.com/2016/typography-for-user-interfaces/)"></a>
 
 Bij dit artikel ging het veel meer over typografie binnen interfaces en websites. Wat ik hier vooral interessant aan vond, is dat tekst eigenlijk een heel groot onderdeel van een interface is. Typografie bepaalt daardoor niet alleen hoe een website eruitziet, maar ook hoe makkelijk iemand hem kan gebruiken.
@@ -54,10 +133,11 @@ Wat ik uit dit artikel heb gehaald:
 
 6. Mensen lezen tekst in een interface anders dan een lange tekst.In een interface staan vaak losse woorden of korte stukjes tekst, zoals bij een menu of knop. Daardoor is het extra belangrijk dat individuele letters en woorden snel herkenbaar zijn.
 
-Wat vond ik het opvallendst?
+#### Wat vond ik het opvallendst?
+
 Ik vond het interessant dat een lettertype binnen een interface eigenlijk niet te veel aandacht hoeft te trekken. In eerste instantie kijk ik bij een lettertype snel naar de uitstraling. Door dit artikel begrijp ik beter dat een lettertype vooral de gebruiker moet ondersteunen en de inhoud duidelijk moet maken.
 
-### Wat heb ik van deze voorbereiding geleerd?
+#### Wat heb ik van deze voorbereiding geleerd?
 
 Door deze twee artikelen begrijp ik dat typografie veel meer is dan het kiezen van een mooi lettertype. Een lettertype moet passen bij het doel en de uitstraling van mijn website, maar het moet vooral goed leesbaar en bruikbaar zijn.
 Bij het kiezen van mijn lettertypes wil ik daarom letten op:
@@ -76,11 +156,13 @@ Wat ik vooral meeneem, is dat ik mijn keuze niet alleen moet kunnen uitleggen me
 
 ### verwerking van de les
 
-Voorbereiding
+#### Voorbereiding
+
 Voor deze les had ik de artikelen van Interneting Is Hard gelezen en de pagina Structuring content with HTML van MDN gescand. Tijdens het lezen heb ik aantekeningen gemaakt en twee vragen meegenomen naar de les. Ook had ik opgeschreven welke dingen mij tijdens het lezen verwonderden.
 Mijn volledige aantekeningen en voorbereiding staan eerder in mijn Learning Log.
 
-Antwoorden op mijn vragen
+#### Antwoorden op mijn vragen
+
 Tijdens mijn voorbereiding had ik twee vragen opgeschreven die ik tijdens de les wilde stellen.
 
 1. Wanneer kan ik beter een HTML-element als selector gebruiken en wanneer een class?
@@ -93,15 +175,18 @@ Tijdens mijn voorbereiding had ik twee vragen opgeschreven die ik tijdens de les
    Hoe specifieker een CSS-regel is, hoe meer voorrang deze heeft.
    Voor nu is dit voldoende om mee te werken. Later gaan we waarschijnlijk dieper in op hoe deze voorrang precies wordt berekend.
 
-Wat mij verwonderde
+#### Wat mij verwonderde
+
 Tijdens mijn voorbereiding had ik al een aantal dingen gevonden die mij verwonderden, onder andere tijdens het scannen van MDN. Zo kwam ik erachter dat een decoratieve afbeelding juist een lege alt="" kan krijgen en dat ‘klik hier’ geen goede tekst voor een link is.
 Deze verwonderingen en mijn uitleg daarbij heb ik al bij mijn voorbereiding uitgewerkt.
 
-Nieuwe bron uit de les – HTML5 Doctor
+#### Nieuwe bron uit de les; HTML5 Doctor
+
 Tijdens de les kregen we ook HTML5 Doctor als website mee. Deze website kan ik gebruiken om meer te ontdekken over HTML-elementen en om op te zoeken waarvoor verschillende elementen bedoeld zijn.
 Dit sluit goed aan op wat we nu aan het leren zijn, omdat we niet alleen moeten kijken naar hoe iets eruitziet, maar ook naar welk HTML-element inhoudelijk het beste past bij de content.
 
-Wat neem ik mee uit deze les?
+#### Wat neem ik mee uit deze les?
+
 Door mijn voorbereiding had ik al kennisgemaakt met HTML-structuur, semantiek, CSS-selectors en de cascade. Tijdens de les zijn vooral mijn vragen hierover duidelijker geworden.
 Ik weet nu dat ik binnen dit project niet zomaar classes kan gebruiken en daardoor bewuster moet nadenken over mijn HTML-structuur en de manier waarop ik elementen selecteer. Ook weet ik dat CSS-regels verschillende prioriteiten kunnen hebben en dat ik voor nu vooral moet onthouden dat de specifiekste regel voorrang krijgt.
 Daarnaast heb ik met HTML5 Doctor een nieuwe bron gekregen die ik tijdens het maken van mijn website kan gebruiken wanneer ik niet weet welk HTML-element ik het beste kan gebruiken.
