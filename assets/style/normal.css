@@ -22,6 +22,20 @@ main {
   gap: 3em;
 }
 
+/* Gif er ingezet met mijn oude code van blok 2 jaar 1 */
+.wol-gif {
+  position: absolute;
+  width: 160px;
+  height: auto;
+  max-width: none;
+  margin: 0;
+  left: 319px;
+  top: 80px;
+
+  z-index: 1;
+  pointer-events: none;
+}
+
 img {
   max-width: 100%;
   height: auto;
