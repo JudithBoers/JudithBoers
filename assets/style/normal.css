@@ -54,14 +54,17 @@ body {
 }
 
 /* header en keuze menu */
+header {
+  margin: 2em;
+}
 
 header form {
   position: absolute;
-  top: 1.5rem;
-  right: 2rem;
+  top: 1.5em;
+  right: 2em;
 
   display: flex;
-  gap: 1rem;
+  gap: 1em;
 
   color: var(--text-color);
   z-index: 2;
@@ -76,27 +79,27 @@ main {
   margin: 3em;
 }
 
-.Intro-tekst {
+header p {
   grid-column: 1 / -1;
-  font-size: 20px;
-  margin-top: -40px;
+  font-size: 1.25em;
+  margin-top: -2em;
   width: calc(66.666% - 1em);
   line-height: 1.5;
 }
-@media (max-width: 700px) {
-  .Intro-tekst {
+@media (max-width: 43.75em) {
+  header p {
     width: 100%;
   }
 }
 /* gifje */
 .wol-gif {
   position: absolute;
-  width: 160px;
+  width: 10em;
   height: auto;
   max-width: none;
   margin: 0;
-  left: 319px;
-  top: 80px;
+  left: 21.875em;
+  top: 5em;
 
   z-index: 1;
   pointer-events: none;
@@ -109,23 +112,23 @@ img {
   height: auto;
   display: block;
   margin-block: var(--whitespace-s);
-  margin-top: 40px;
+  margin-top: 2.5em;
 }
 
 /* typografie */
 h1 {
   font-family: "Miss Fajardose", sans-serif;
   font-weight: 120;
-  font-size: 80px;
+  font-size: 5em;
 }
 
 h2 {
   font-family: "Edu SA", sans-serif;
   font-weight: 100;
-  font-size: 40px;
+  font-size: 2.5em;
 }
 
 p {
   font-weight: 30;
-  font-size: 16px;
+  font-size: 1em;
 }
