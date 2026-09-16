@@ -8,9 +8,198 @@ tekst + foto's
 
 # Sprint 1:
 
-# sprint 0: Foto's toevoegen bij Deep Dives vrijdag!!
+## voorbereiding 9 september
 
-## woensdag 5 september
+### Presentatie over mijn creatieve interesses
+
+Voor woensdag 9 september moest ik een korte presentatie voorbereiden als startpunt voor mijn digital garden. In de presentatie moest ik:
+mijn persoonlijke interesse uitleggen;
+tien inspiratiebronnen verzamelen;
+ongeveer vijftig afbeeldingen onderzoeken;
+een eerste tekst van maximaal 180 tekens schrijven.
+
+#### Een onderwerp kiezen
+
+Eerst vond ik het lastig om een geschikt onderwerp te kiezen. Mijn eerste idee was om de presentatie over mijn studie CMD te maken. Nadat ik de opdracht beter had bekeken, begreep ik dat het onderwerp echt over een persoonlijke interesse moest gaan.
+Daarna twijfelde ik tussen alleen Pokémon binder art en meerdere creatieve hobby’s. Uiteindelijk koos ik voor mijn creatieve interesses:
+
+- haken;
+- Pokémon binder art maken;
+- stickers ontwerpen en maken;
+- journalen.
+
+Deze hobby’s lijken misschien verschillend, maar hebben veel overeenkomsten. Bij iedere hobby werk ik met kleuren, materialen en kleine details. Vaak begin ik met losse ideeën die tijdens het maken steeds verder groeien.
+<img src="./assets/images-readme/presentatie1.png" alt="slide met alle hobby's" />
+
+#### Inspiratie en afbeeldingen verzamelen
+
+Voor iedere hobby heb ik afbeeldingen verzameld en een eigen collage gemaakt. Hierdoor hoefde ik niet alle vijftig afbeeldingen op één drukke slide te zetten. Ik verdeelde de collages over aparte slides voor haken, binder art, stickers en journalen.
+
+Tijdens het onderzoeken van de afbeeldingen ontdekte ik verschillende overeenkomsten:
+opvallende en bijpassende kleurencombinaties;
+speelse vormen en kleine details;
+digitaal en met de hand werken;
+losse onderdelen samenbrengen tot één geheel;
+experimenteren en ontwerpen blijven aanpassen;
+iets persoonlijks en unieks maken.
+Daarnaast heb ik tien links verzameld die ik als inspiratiebronnen heb gebruikt. Hiervoor heb ik gekeken naar Pokémonkaarten, haakpatronen, stickers, journals en andere creatieve voorbeelden.
+<img src="./assets/images-readme/haken.jpg" alt="collage haken" />
+
+<img src="./assets/images-readme/binder-art.jpg" alt="collage binder-art" />
+
+<img src="./assets/images-readme/journal.jpg" alt="collage journal" />
+
+<img src="./assets/images-readme/stickers.jpg" alt="collage stickers" />
+
+#### De presentatie maken met Remark.js
+
+Ik heb de presentatie met Remark.js gemaakt in Visual Studio Code. Iedere nieuwe slide begint met drie streepjes:
+(---)
+Voor titels gebruikte ik een # en voor opsommingen een -. In mijn presentatiemap maakte ik een aparte map met de naam images. Hierin plaatste ik alle collages en screenshots.
+
+## maandag 7 september
+
+### Sprintplanning en onderzoek
+
+#### Sprintplanning
+
+Tijdens deze les zijn we begonnen met de planning van Sprint 1. De opdracht voor deze sprint is om de eerste versie van mijn eigen digital garden te ontwerpen, te realiseren en uiteindelijk te publiceren met HTML en CSS.
+Het is daarbij niet alleen belangrijk dat mijn website er goed uitziet en technisch werkt. Het ontwerp moet ook ‘webby’ zijn. Dit betekent dat ik gebruik moet maken van de mogelijkheden en eigenschappen van het web. Mijn digital garden moet dus niet aanvoelen als een statische poster die toevallig online staat, maar als een website waarop bezoekers kunnen navigeren, ontdekken en verschillende soorten content kunnen bekijken.
+Tijdens deze sprint wil ik daarom niet alleen aandacht besteden aan de vormgeving. Ik wil ook nadenken over de structuur, navigatie, interactie en de manier waarop verschillende onderwerpen met elkaar verbonden kunnen worden.
+
+#### Mijn sprint plannen
+
+Tijdens de sprintplanning hebben we gekeken naar hoe ik het werk voor deze sprint kan opdelen in kleinere en overzichtelijke taken. Hiervoor gebruiken we een projectboard met drie kolommen:
+
+- Todo
+- In Progress
+- Done
+  In de kolom Todo staan de taken waaraan ik nog moet beginnen. Wanneer ik met een taak bezig ben, verplaats ik deze naar In Progress. Zodra een taak helemaal is afgerond, kan ik deze verplaatsen naar Done.
+
+Ik vind deze manier van plannen handig, omdat ik hierdoor niet alleen één grote opdracht voor mij zie. De opdracht wordt verdeeld in kleinere onderdelen die ik één voor één kan uitvoeren. Hierdoor kan ik beter zien wat er nog moet gebeuren en wordt het makkelijker om aan de opdracht te beginnen.
+Door de taken steeds van Todo naar In Progress en uiteindelijk naar Done te verplaatsen, kan ik mijn voortgang tijdens de sprint bijhouden. Het geeft mij ook een duidelijker beeld van wat ik al heb gedaan en waar ik nog verder aan moet werken.
+
+#### Onderzoek naar Digital Gardens
+
+Na de sprintplanning hebben we ons verdiept in wat een digital garden precies is. Hiervoor hebben we verschillende artikelen gelezen en besproken.
+We werkten hierbij volgens de expertgroepenmethode. Iedere groep verdiepte zich in een ander artikel. Daarna deelden we de belangrijkste informatie en inzichten met elkaar. Op deze manier hoefde niet iedereen precies hetzelfde artikel te onderzoeken en kregen we toch informatie uit meerdere bronnen.
+Door de verschillende artikelen kreeg ik meerdere perspectieven op wat een digital garden kan zijn. Er bestaat namelijk niet één vaste manier waarop een digital garden eruit moet zien. Toch kwamen bepaalde eigenschappen in meerdere artikelen terug.
+De belangrijkste onderwerpen die ik uit het onderzoek heb gehaald, zijn:
+
+- een digital garden blijft groeien;
+- informatie wordt georganiseerd op basis van \* verbindingen;
+- het is een plek om zichtbaar te leren;
+- fouten en feedback horen bij het proces;
+- de website mag persoonlijk en experimenteel zijn;
+- verschillende soorten content mogen door elkaar staan;
+- de maker blijft eigenaar van de website en de inhoud.
+
+#### Een Digital Garden is een groeiende plek
+
+Een van de belangrijkste dingen die ik uit de artikelen heb gehaald, is dat een digital garden niet af hoeft te zijn.
+
+Een normale blog bestaat vaak uit losse artikelen. Deze artikelen worden geschreven, gepubliceerd en daarna meestal niet meer aangepast. De berichten staan vaak op volgorde van publicatiedatum, waarbij het nieuwste bericht bovenaan staat.
+Bij een digital garden werkt dit anders. Pagina’s en ideeën mogen blijven veranderen. Een idee kan klein en nog onvolledig beginnen. Later kan de pagina worden uitgebreid wanneer de maker meer over het onderwerp leert, nieuwe inspiratie krijgt of feedback ontvangt.
+Maggie Appleton beschrijft hiervoor verschillende stadia waarin een pagina zich kan bevinden:
+
+- 🌱 Seedling – een vroeg, klein en nog ruw idee;
+- 🌿 Budding – een idee dat al verder is onderzocht en uitgewerkt;
+- 🌳 Evergreen – een redelijk compleet idee dat nog steeds kan blijven veranderen.
+
+Ik vond deze verdeling interessant, omdat hierdoor zichtbaar wordt dat niet iedere pagina op een website even ver uitgewerkt hoeft te zijn. Een korte ontdekking kan al gedeeld worden als een Seedling. Wanneer ik later meer informatie verzamel, kan deze pagina doorgroeien naar Budding en uiteindelijk naar Evergreen.
+Dit haalt voor mij ook een deel van de druk weg om een pagina meteen helemaal perfect te maken. Het hoort juist bij het concept van een digital garden dat sommige ideeën nog aan het groeien zijn.
+
+#### Informatie organiseren op basis van verbindingen
+
+Een ander belangrijk verschil tussen een blog en een digital garden is de manier waarop de informatie wordt georganiseerd.
+Bij een blog staan berichten meestal in een tijdlijn. Het nieuwste bericht staat bovenaan en oudere berichten zakken steeds verder naar beneden. De datum waarop iets is gepubliceerd, bepaalt dus voor een groot deel waar de informatie staat.
+Bij een digital garden draait het veel meer om de verbindingen tussen verschillende onderwerpen. Pagina’s worden aan elkaar gekoppeld omdat de inhoud iets met elkaar te maken heeft. Een bezoeker hoeft daardoor niet één vaste route te volgen, maar kan via links steeds nieuwe onderwerpen ontdekken.
+Ik vond het beeld van Maggie Appleton hierover erg duidelijk. Een traditionele tijdlijn is één rechte route, terwijl een digital garden meer lijkt op een verzameling van paden die op verschillende manieren met elkaar verbonden zijn.
+Mike Caulfield beschrijft ongeveer hetzelfde verschil met de begrippen The Garden en The Stream.
+
+- The Stream
+  De Stream lijkt op sociale media. Berichten verschijnen in een tijdlijn en worden na verloop van tijd vervangen door nieuwe berichten. Oudere informatie verdwijnt steeds verder naar beneden en wordt daardoor moeilijker terug te vinden.
+- The Garden
+  De Garden is juist een plek waarin informatie kan blijven bestaan en verder kan groeien. Verschillende onderwerpen kunnen met elkaar worden verbonden. De bezoeker kan zelf kiezen welke route die door de informatie wil volgen.
+  Dit inzicht helpt mij om anders naar de structuur van mijn eigen website te kijken. Ik hoef mijn content niet alleen op datum te sorteren. Ik kan onderwerpen ook met elkaar verbinden op basis van overeenkomsten, technieken, materialen of inspiratie.
+
+Bij mijn eigen digital garden kan een bezoeker bijvoorbeeld vanuit een eindresultaat doorklikken naar het maakproces, de inspiratie, een experiment of een andere creatie waarin ik dezelfde techniek heb gebruikt.
+
+#### Een plek om zichtbaar te leren
+
+Een digital garden is niet alleen bedoeld om aan anderen te laten zien wat iemand al weet. Het kan ook een plek zijn waarop je zichtbaar maakt wat je nog aan het leren bent.
+Shawn Wang noemt dit Learning in Public. Binnen zijn digital garden mogen ideeën nog onvolledig zijn en mag hij fouten maken. De bedoeling is juist dat zijn kennis blijft veranderen wanneer hij iets nieuws leert of feedback ontvangt.
+Dit maakt een digital garden voor mij anders dan een portfolio. In een portfolio laat ik meestal mijn beste en meest uitgewerkte werk zien. Het eindresultaat staat daar vaak centraal.
+
+In een digital garden mag ik juist ook laten zien:
+
+- welke ideeën ik heb onderzocht;
+- welke vragen ik nog heb;
+- welke experimenten wel of niet werkten;
+- wat ik tijdens het maken heb ontdekt;
+- hoe mijn ontwerp is veranderd;
+- welke feedback ik heb ontvangen;
+- wat ik later nog verder wil onderzoeken.
+  Hierdoor hoeft mijn digital garden niet alleen een verzameling van perfecte eindproducten te worden. Het mag ook een verzameling zijn van schetsen, experimenten, ontdekkingen en ideeën die nog in ontwikkeling zijn.
+
+Dit past goed bij mijn eigen ontwerp- en maakproces. Mijn eerste idee is namelijk niet altijd meteen het uiteindelijke idee. Door mijn tussenstappen te laten zien, wordt beter zichtbaar hoe ik tot een eindresultaat ben gekomen.
+
+#### Feedback en fouten horen bij het proces
+
+Bij Learning in Public hoort ook dat andere mensen feedback kunnen geven.
+
+In het artikel Digital Garden Terms of Service wordt beschreven dat bezoekers mogen aangeven wanneer informatie niet klopt of wanneer zij het ergens niet mee eens zijn. De schrijver ziet dit niet meteen als iets negatiefs, maar juist als een mogelijkheid om verder te leren.
+Wanneer nieuwe informatie laat zien dat iets niet klopt, kan een pagina opnieuw worden aangepast. De inhoud staat dus niet voor altijd vast.
+
+Dit sluit goed aan bij het idee dat een digital garden nooit helemaal klaar is. Feedback, nieuwe kennis en nieuwe ervaringen kunnen ervoor zorgen dat een pagina opnieuw verandert.
+Ik vind dit een interessant uitgangspunt voor mijn eigen website. Als een onderdeel nog niet goed werkt of als ik later een beter idee krijg, betekent dit niet dat mijn eerdere werk waardeloos was. Het laat juist zien hoe mijn kennis en ontwerp zich ontwikkelen.
+
+#### Mijn eigen website bezitten
+
+Een ander onderwerp dat in het onderzoek naar voren kwam, is independent ownership. Dit betekent dat je digital garden echt van jezelf is en niet volledig afhankelijk is van een bestaand platform.
+Wanneer iemand alleen gebruikmaakt van Instagram, TikTok, Facebook, X of Medium, bepaalt dat platform voor een groot deel hoe de content eruitziet en hoe bezoekers deze kunnen bekijken. Als het platform de regels of mogelijkheden verandert, heb je daar als gebruiker weinig controle over.
+
+Bij een eigen website heb ik meer controle over:
+
+- de vormgeving;
+- de indeling van de pagina’s;
+- de navigatie;
+- de soorten content die ik plaats;
+- de verbindingen tussen onderwerpen;
+- de manier waarop mijn website zich later ontwikkelt.
+
+Met HTML en CSS bouw ik mijn eigen plek op het internet. Ik kan daardoor zelf bepalen hoe mijn digital garden eruitziet en hoe bezoekers door de inhoud bewegen.
+Dit sluit goed aan bij de opdracht, omdat we onze digital garden zelf gaan ontwerpen, bouwen en publiceren.
+
+#### Waar had ik het meeste aan?
+
+Waar ik tijdens deze les het meeste aan had, was het idee dat een digital garden niet af hoeft te zijn.
+Normaal heb ik snel het gevoel dat iets eerst helemaal goed en uitgewerkt moet zijn voordat ik het kan laten zien. Bij een digital garden hoort het juist bij het concept dat ideeën nog groeien en veranderen.
+
+Ik vond vooral het verschil tussen Seedling, Budding en Evergreen duidelijk. Deze termen maken zichtbaar dat niet iedere pagina hetzelfde niveau van uitwerking hoeft te hebben. Een klein idee kan al onderdeel zijn van de website en later verder worden aangevuld.
+Ook het verschil tussen The Garden en The Stream heeft mij geholpen. Ik begrijp hierdoor beter dat ik mijn website niet alleen als een lijst met nieuwe berichten moet zien. Ik kan onderwerpen juist met elkaar verbinden, zodat bezoekers zelf verschillende routes door mijn website kunnen volgen.
+Daarnaast vond ik het idee van Learning in Public interessant. Mijn digital garden hoeft niet alleen te laten zien wat ik al kan. Ik mag ook laten zien wat ik nog aan het ontdekken en leren ben.
+
+### Bronnen:
+
+- Maggie Appleton – informatie over Digital Gardens en de groeistadia Seedling, Budding en Evergreen;
+- Mike Caulfield – The Garden and the Stream;
+- Shawn Wang – Learning in Public;
+  Digital Garden Terms of Service;
+  You and Your Mind Garden;
+  MIT Technology Review – artikel over de ontwikkeling en persoonlijke vorm van Digital Gardens.
+
+### chech-out: heel kort
+
+1. Een digital garden is een persoonlijke website waarop ideeën en projecten blijven groeien. Anders dan een gewone website hoeft de inhoud niet direct af of perfect te zijn.
+
+2. Een website is ‘webby’ wanneer je de mogelijkheden van het web gebruikt, zoals links, interacties, animaties en verschillende routes. Vooral persoonlijke en speelse websites inspireren mij.
+
+3. Ik wil mijn digital garden over mijn haakwereld maken. Hierin wil ik mijn haakcreaties, patronen, inspiratie en maakproces op een persoonlijke en interactieve manier laten zien.
+
+# Sprint 0:
+
+## vrijdag 4 september
 
 ### Deep Dive schetsen
 
@@ -87,7 +276,7 @@ Ook het combineren van lettertypes vond ik erg nuttig. Ik weet nu dat ik niet zo
 Wat ik uiteindelijk vooral meeneem uit deze voorbereiding en Deep Dive is:
 Ik moet een lettertype niet alleen kiezen omdat ik het mooi vind, maar omdat het past bij de boodschap, goed leesbaar is én goed werkt op de plek waar ik het ga gebruiken.
 
-## voorbereiding voor 5 september
+## voorbereiding voor 4 september
 
 ### Voorbereiding Deep Dive: Typografie
 
@@ -152,7 +341,7 @@ Bij het kiezen van mijn lettertypes wil ik daarom letten op:
 
 Wat ik vooral meeneem, is dat ik mijn keuze niet alleen moet kunnen uitleggen met ‘ik vind dit lettertype mooi’. Ik moet ook kunnen onderbouwen waarom het bij mijn website past en waarom het voor de gebruiker prettig leesbaar is.
 
-## maandag 3 september
+## woensdag 2 september
 
 ### verwerking van de les
 
@@ -193,7 +382,7 @@ Daarnaast heb ik met HTML5 Doctor een nieuwe bron gekregen die ik tijdens het ma
 
 Vanwege een priva afspraak heb ik helaas niet de tweede deepdive kunnen maken
 
-## Voorbereidingen 3 september
+## Voorbereidingen 2 september
 
 ### Voorbereiding basis HTML, CSS, fonts en kleur
 
