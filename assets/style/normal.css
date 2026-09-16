@@ -1,5 +1,6 @@
 /* HIER KOMT JOUW CSS */
 
+/* lettertypes */
 /* het idee van het draadje */
 @font-face {
   font-family: "Miss Fajardose";
@@ -15,6 +16,7 @@
   font-style: normal;
 }
 
+/* light & dark themes */
 @media (prefers-color-scheme: dark) {
   .wol-gif {
     filter: invert(100%);
@@ -44,6 +46,15 @@ html:has([value="dark"]:checked) .wol-gif {
   filter: invert(100%);
 }
 
+/* algemene pagina */
+
+body {
+  background-color: var(--background);
+  color: var(--text-color);
+}
+
+/* header en keuze menu */
+
 header {
   position: relative;
 }
@@ -60,11 +71,7 @@ header form {
   z-index: 2;
 }
 
-body {
-  background-color: var(--background);
-  color: var(--text-color);
-}
-
+/* grid en intro */
 main {
   margin: auto;
   display: grid;
@@ -77,8 +84,7 @@ main {
   font-size: 20px;
   margin-top: -40px;
 }
-
-/* Gif er ingezet met mijn oude code van blok 2 jaar 1 */
+/* gifje */
 .wol-gif {
   position: absolute;
   width: 160px;
@@ -93,6 +99,7 @@ main {
   filter: none;
 }
 
+/* afbeeldingen */
 img {
   max-width: 100%;
   height: auto;
@@ -101,6 +108,7 @@ img {
   margin-top: 40px;
 }
 
+/* typografie */
 h1 {
   font-family: "Miss Fajardose", sans-serif;
   font-weight: 120;
