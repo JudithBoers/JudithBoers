@@ -73,12 +73,20 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
   gap: 3em;
+  margin: 3em;
 }
 
 .Intro-tekst {
   grid-column: 1 / -1;
   font-size: 20px;
   margin-top: -40px;
+  width: calc(66.666% - 1em);
+  line-height: 1.5;
+}
+@media (max-width: 700px) {
+  .Intro-tekst {
+    width: 100%;
+  }
 }
 /* gifje */
 .wol-gif {
