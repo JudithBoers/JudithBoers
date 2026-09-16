@@ -8,6 +8,128 @@ tekst + foto's
 
 # Sprint 1:
 
+## voorbereiding 11 september
+
+#### Mobile-first schermschetsen
+
+Ik werkte de gekozen ideeën eerst uit voor een mobiel scherm. Hierdoor moest ik goed nadenken over welke content het belangrijkste is en wat de gebruiker als eerste moet zien.
+Voor het kiezen van een Pokémonkaart maakte ik twee varianten:
+
+- Een horizontale waaier waarin de middelste kaart het grootste is en de gebruiker naar links of rechts kan swipen.
+- Een verticale indeling waarin de kaarten onder elkaar staan en de gebruiker kan scrollen.
+- Voor mijn haakpatronen maakte ik ook twee galerij-indelingen. In de eerste staan grote afbeeldingen onder elkaar. In de tweede worden afbeeldingen afgewisseld met korte teksten. Rond de afbeeldingen tekende ik zachte en wollige vormen om de sfeer van het haken terug te laten komen.
+
+Bij de mobiele schetsen hield ik rekening met:
+
+- een indeling in één kolom;
+- de belangrijkste informatie bovenaan;
+- grote klikvlakken;
+- realistische afbeeldingen en tekst;
+- duidelijke koppen;
+
+# foto toevoegen!!
+
+#### Vertaling naar desktop
+
+Daarna vertaalde ik dezelfde ideeën naar een groter laptopscherm. Ik maakte geen compleet nieuwe ontwerpen, maar onderzocht hoe ik de extra ruimte kon gebruiken.
+Op mobiel staat de content vooral onder elkaar. Op desktop kunnen meerdere kaarten of projecten naast elkaar staan. De belangrijkste Pokémonkaart blijft centraal staan, terwijl andere kaarten of binder-artvarianten eromheen worden geplaatst.
+
+Ik lette erop dat:
+
+- het belangrijkste onderdeel het meeste opvalt;
+- de extra ruimte nuttig wordt gebruikt;
+- meerdere afbeeldingen naast elkaar kunnen staan;
+- de visuele hiërarchie hetzelfde blijft;
+- hover- en focus-states mogelijk zijn;
+- mobiel en desktop herkenbaar bij elkaar horen.
+
+# foto toevoegen!!
+
+## woensdag 9 september (online les NS-staking)
+
+### Visual Research, Crazy 8 en schermschetsen
+
+Tijdens deze les heb ik verder gewerkt aan de visuele stijl en indeling van mijn digital garden. Ik begon met Visual Research. Daarna maakte ik een Crazy 8, beoordeelde ik mijn ideeën en werkte ik de beste ideeën uit als mobiele en desktop-schetsen.
+
+#### Mijn sfeerwoorden bepalen
+
+Als uitgangspunt voor mijn Visual Research koos ik de sfeerwoorden:
+
+- speels
+- cozy
+- fantasierijk
+  Deze woorden passen bij mijn creatieve onderwerpen, zoals Pokémon binder art, haken, stickers en journalen. Ik wil dat mijn website persoonlijk, creatief en gezellig aanvoelt. De verschillende onderdelen mogen een eigen uitstraling hebben, maar moeten door het gebruik van kleuren en vormen wel bij elkaar passen.
+  <img src="./assets/images-readme/9-9-opdracht1.png" alt="" />
+
+#### Stap 1: directe beelden verzamelen
+
+Eerst verzamelde ik afbeeldingen die direct passen bij mijn hobby’s en sfeerwoorden. Ik zocht onder andere naar Pokémon, binder art, haakprojecten, journals, stickers en andere creatieve producten.
+Ik keek niet alleen naar het onderwerp van de afbeeldingen, maar ook naar kleur, vorm, materiaal en uitstraling. Ik zag vooral zachte vormen, vrolijke kleuren, handgemaakte materialen en fantasierijke illustraties terug.
+<img src="./assets/images-readme/9-9-opdracht2.png" alt="" />
+
+#### Stap 2: abstracte beelden verzamelen
+
+Daarna zocht ik naar abstractere beelden. Hierbij keek ik minder naar de hobby’s zelf en meer naar de visuele kenmerken die bij mijn sfeerwoorden passen.
+Ik verzamelde voorbeelden van:
+zachte en organische vormen;
+afgeronde vlakken;
+vrolijke kleuren en pastelkleuren;
+collages en patronen;
+speelse typografie;
+onderdelen die in elkaar overlopen.
+Hierdoor ontdekte ik dat niet alleen het onderwerp, maar ook de kleuren, vormen, typografie en plaatsing de sfeer van mijn website bepalen.
+<img src="./assets/images-readme/9-9-opdracht3.png" alt="" />
+
+#### Stap 3: visuele uitgangspunten bepalen
+
+Uit mijn verzameling koos ik vier afbeeldingen die mij het meeste aanspraken. Per afbeelding beschreef ik waarom deze bij mijn sfeerwoorden past en welke kenmerken ik kan gebruiken.
+Daaruit kwamen de volgende visuele uitgangspunten:
+
+- Ik gebruik afgeronde en organische vormen.
+- Ik werk met zachte kleuren en enkele fellere accenten.
+- Onderdelen mogen speels worden geplaatst.
+- Mijn eigen projecten en afbeeldingen staan centraal.
+- De website moet cozy en persoonlijk aanvoelen.
+- De verschillende hobby’s moeten herkenbaar zijn, maar wel bij dezelfde stijl horen.
+  <img src="./assets/images-readme/9-9-opdracht4.png" alt="" />
+
+#### Crazy 8 maken
+
+Na het Visual Research maakte ik een Crazy 8. Hierbij schetste ik in korte tijd acht verschillende ideeën:
+
+1. Kiezen tussen Pokémonkaarten waarvoor ik binder art heb gemaakt.
+2. Een kaart kiezen en de bijbehorende binder-artvarianten bekijken.
+3. Mijn haakpatronen als een galerij presenteren.
+4. Zelf een stickervel samenstellen.
+5. Mijn creatieve proces als een flow weergeven.
+6. Pokémon-types als gekleurde tegels vormgeven.
+7. Het eindresultaat en proces naast elkaar tonen.
+8. Extra informatie tonen wanneer de gebruiker over een bolletje beweegt of erop klikt.
+   Na het schetsen annoteerde ik de ideeën. Met pijlen en korte teksten gaf ik aan wat een gebruiker kan doen en welke interacties ik voor mij zie.
+   <img src="./assets/images-readme/9-9-opdracht5.png" alt="" />
+
+#### Mijn ideeën beoordelen
+
+Vervolgens beoordeelde ik de acht ideeën met het bijbehorende werkvel. Per idee keek ik of het ontwerp:
+
+- fluïde en adaptief is;
+- interactief en dynamisch is;
+- toegankelijk is;
+- binnen de beschikbare tijd gemaakt kan worden;
+- expressief genoeg is;
+- leuk of verrassend is.
+  Hierdoor keek ik niet alleen naar welke ideeën ik mooi vond, maar ook naar welke ideeën geschikt en haalbaar zijn voor het web. Het zelf samenstellen van een stickervel is bijvoorbeeld erg interactief, maar waarschijnlijk ook lastiger om binnen deze sprint te bouwen.
+  <img src="./assets/images-readme/9-9-opdracht6.png" alt="" />
+
+#### Ideeën verder uitwerken
+
+Na de beoordeling koos ik drie ideeën om verder te onderzoeken:
+Kiezen tussen verschillende Pokémonkaarten.
+Binder art bekijken voor een gekozen kaart.
+Haakpatronen als een galerij presenteren.
+Bij het eerste idee controleert de gebruiker of de eigen Pokémonkaart ertussen staat. Daarna kan de gebruiker bij het tweede idee bekijken welke binder-artvarianten ik voor deze kaart heb gemaakt.
+Deze ideeën passen goed bij mijn content en geven mij mogelijkheden om te experimenteren met scrollen, swipen, selecteren en het tonen van afbeeldingen.
+
 ## voorbereiding 9 september
 
 ### Presentatie over mijn creatieve interesses
