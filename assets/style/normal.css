@@ -55,6 +55,10 @@ body {
 
 /* header en keuze menu */
 
+header {
+  position: relative;
+}
+
 header form {
   position: absolute;
   top: 1.5rem;
