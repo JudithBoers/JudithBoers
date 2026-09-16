@@ -14,12 +14,68 @@
   font-weight: 400;
   font-style: normal;
 }
+
+@media (prefers-color-scheme: dark) {
+  .wol-gif {
+    filter: invert(100%);
+  }
+}
+
+html {
+  color-scheme: light dark;
+
+  --background: light-dark(#f0e4cc, #2b1504);
+  --text-color: light-dark(#080500, #eeeada);
+}
+
+html:has([value="light"]:checked) {
+  color-scheme: light;
+}
+
+html:has([value="dark"]:checked) {
+  color-scheme: dark;
+}
+
+html:has([value="light"]:checked) .wol-gif {
+  filter: none;
+}
+
+html:has([value="dark"]:checked) .wol-gif {
+  filter: invert(100%);
+}
+
+header {
+  position: relative;
+}
+
+header form {
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+
+  display: flex;
+  gap: 1rem;
+
+  color: var(--text-color);
+  z-index: 2;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-color);
+}
+
 main {
-  /* max-width: 30em; */
   margin: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
   gap: 3em;
+}
+
+.Intro-tekst {
+  grid-column: 1 / -1;
+  font-size: 20px;
+  margin-top: -40px;
 }
 
 /* Gif er ingezet met mijn oude code van blok 2 jaar 1 */
@@ -29,11 +85,12 @@ main {
   height: auto;
   max-width: none;
   margin: 0;
-  left: 319px;
-  top: 80px;
+  left: 309px;
+  top: 27px;
 
   z-index: 1;
   pointer-events: none;
+  filter: none;
 }
 
 img {
@@ -44,34 +101,19 @@ img {
   margin-top: 40px;
 }
 
-body {
-  background-color: Canvas;
-  color: CanvasText;
-  color-scheme: light dark;
-  background-color: #fce5cf;
-}
-
 h1 {
   font-family: "Miss Fajardose", sans-serif;
-  color: black;
   font-weight: 120;
   font-size: 80px;
 }
 
 h2 {
   font-family: "Edu SA", sans-serif;
-  color: black;
   font-weight: 100;
   font-size: 40px;
 }
 
-.Intro-tekst {
-  font-size: 20px;
-  margin-top: -40px;
-}
-
 p {
-  color: black;
   font-weight: 30;
   font-size: 16px;
 }
