@@ -43,9 +43,6 @@ html:has([value="light"]:checked) header img {
 html:has([value="dark"]:checked) header img {
   filter: invert(100%);
 }
-footer button {
-  margin: 0 2em 2em 2em;
-}
 
 button {
   background: var(--basis-button);
@@ -87,6 +84,9 @@ header form {
   z-index: 2;
 }
 
+footer {
+  margin-left: 2em;
+}
 /* grid en intro */
 main,
 main#Flappie {
