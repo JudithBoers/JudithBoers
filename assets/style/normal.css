@@ -43,6 +43,9 @@ html:has([value="light"]:checked) header img {
 html:has([value="dark"]:checked) header img {
   filter: invert(100%);
 }
+footer button {
+  margin: 0 2em 2em 2em;
+}
 
 button {
   background: var(--basis-button);
@@ -85,18 +88,20 @@ header form {
 }
 
 /* grid en intro */
-main {
+main,
+main#Flappie {
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
   gap: 3em;
   margin: 3em;
 }
 
-header p {
+header p,
+header p#Flappie {
   grid-column: 1 / -1;
   font-size: 1.25em;
-  margin-top: -2em;
+  margin-top: 0em;
   width: calc(66.666% - 1em);
   line-height: 1.5;
 }
@@ -118,6 +123,21 @@ header img {
   z-index: 1;
   pointer-events: none;
   filter: none;
+}
+
+/* Tweede gifje/afbeelding in de header: Flappie */
+header img:nth-of-type(2) {
+  position: static;
+  float: right;
+  width: 15em;
+  max-width: 40%;
+  height: auto;
+  margin:
+    -2em 2ee,
+    1em 4em;
+}
+html:has([value="dark"]:checked) header img:nth-of-type(2) {
+  filter: invert(0%);
 }
 
 /* afbeeldingen */
@@ -142,8 +162,13 @@ h2 {
   font-weight: 100;
   font-size: 2.5em;
 }
+h3 {
+  font-family: "Edu SA", sans-serif;
+  font-weight: 100;
+  font-size: 1.8em;
+}
 
 p {
-  font-weight: 30;
-  font-size: 1em;
+  font-weight: 32;
+  font-size: 1.1em;
 }
