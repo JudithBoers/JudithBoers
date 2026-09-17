@@ -16,21 +16,21 @@
   font-style: normal;
 }
 
-/* light & dark themes */
-@media (prefers-color-scheme: dark) {
-  .wol-gif {
-    filter: invert(100%);
-  }
-}
-
-html {
+html,
+html#Flappie {
   color-scheme: light dark;
 
   --background: light-dark(#f0e4cc, #2b1504);
   --text-color: light-dark(#080500, #eeeada);
+  --basis-button: light-dark(#2b1504, #f0e4cc);
+  --hover-button: light-dark(#dbc4b3, #5c3a1b);
+  --button-text: light-dark(#f0e4cc, #2b1504);
+  --button-hover-text: light-dark(#2b1504, #f0e4cc);
+  --whitespace: 1em: ;
 }
 
-html:has([value="light"]:checked) {
+html,
+html#Flappie:has([value="light"]:checked) {
   color-scheme: light;
 }
 
@@ -38,14 +38,30 @@ html:has([value="dark"]:checked) {
   color-scheme: dark;
 }
 
-html:has([value="light"]:checked) .wol-gif {
+html:has([value="light"]:checked) header img {
   filter: none;
 }
 
-html:has([value="dark"]:checked) .wol-gif {
+html:has([value="dark"]:checked) header img {
   filter: invert(100%);
 }
 
+button {
+  background: var(--basis-button);
+  color: var(--button-text);
+  padding: 0.5em 1em;
+  appearance: none;
+  border: none;
+  border-radius: 1em;
+  font-size: 1.5em;
+  cursor: pointer;
+  font-family: "Edu SA", sans-serif;
+}
+
+button:hover {
+  background: var(--hover-button);
+  color: var(--button-hover-text);
+}
 /* algemene pagina */
 
 body {
@@ -92,7 +108,7 @@ header p {
   }
 }
 /* gifje */
-.wol-gif {
+header img {
   position: absolute;
   width: 10em;
   height: auto;
