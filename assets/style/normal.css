@@ -16,8 +16,7 @@
   font-style: normal;
 }
 
-html,
-html#Flappie {
+html {
   color-scheme: light dark;
 
   --background: light-dark(#f0e4cc, #2b1504);
@@ -29,8 +28,7 @@ html#Flappie {
   --whitespace: 1em: ;
 }
 
-html,
-html#Flappie:has([value="light"]:checked) {
+html:has([value="light"]:checked) {
   color-scheme: light;
 }
 
@@ -129,6 +127,7 @@ img {
   display: block;
   margin-block: var(--whitespace-s);
   margin-top: 2.5em;
+  margin-bottom: 1.5em;
 }
 
 /* typografie */
