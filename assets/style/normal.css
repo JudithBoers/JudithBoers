@@ -8,14 +8,14 @@
   font-weight: 400;
   font-style: normal;
 }
-
+/* lettertype voor de kopjes */
 @font-face {
   font-family: "Edu SA";
   src: url(../type/EduSA.ttf);
   font-weight: 400;
   font-style: normal;
 }
-
+/* met behulp van de Deepdive er in gezet */
 html {
   color-scheme: light dark;
 
@@ -103,6 +103,7 @@ header p {
   width: calc(66.666% - 1em);
   line-height: 1.5;
 }
+/* met behulp van de Deepdive er in gezet */
 @media (max-width: 43.75em) {
   header p {
     width: 100%;
@@ -134,6 +135,8 @@ header img:nth-of-type(2) {
     -2em 2ee,
     1em 4em;
 }
+
+/* met behulp van de DeepDive er in gezet*/
 html:has([value="dark"]:checked) header img:nth-of-type(2) {
   filter: invert(0%);
 }
@@ -170,6 +173,7 @@ header nav a:hover {
   background-color: var(--hover-button);
   color: var(--button-hover-text);
 }
+
 /* typografie */
 h1 {
   font-family: "Miss Fajardose", sans-serif;

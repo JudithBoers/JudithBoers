@@ -27,7 +27,9 @@ Bij de mobiele schetsen hield ik rekening met:
 - realistische afbeeldingen en tekst;
 - duidelijke koppen;
 
-# foto toevoegen!!
+ <img src="./assets/images-readme/mobielscherm-1.png" alt="" />
+  <img src="./assets/images-readme/mobielscherm-2.png" alt="" />
+   <img src="./assets/images-readme/mobielscherm-3.png" alt="" />
 
 #### Vertaling naar desktop
 
