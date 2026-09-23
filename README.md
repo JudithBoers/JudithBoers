@@ -6,13 +6,182 @@ tekst + foto's
 
 ## Learning Log
 
+# Sprint 2:
+
 # Sprint 1:
+
+## Vrijdag 18 september
+
+## voorbereiding vrijdag 18 september
+
+## Woensdag 16 september
+
+## voorbereiding woensdag 16 september
+
+## Maandag 14 september
+
+### Bi-Weekly geek 1
+
+Tijdens de eerste Bi-Weekly Geek stond de werking, betrouwbaarheid en verantwoordelijkheid van het internet centraal. We gingen in groepjes aan de slag met verschillende hoofdvragen. Het doel was om te leren hoe je een grote vraag kunt opdelen in kleinere deelvragen en daar vervolgens passende onderzoeksmethoden bij kunt zoeken.
+
+#### Onze hoofdvraag
+
+Mijn groepje bestond uit Judith, Eva, Seb en Massimo. Wij kregen de volgende hoofdvraag:
+Moeten kritieke internetdiensten in handen zijn van commerciële bedrijven?
+
+Deze vraag sluit aan bij de voorbereiding over cloudbedrijven en de macht van grote technologiebedrijven. Veel websites en apps zijn afhankelijk van commerciële bedrijven zoals Amazon, Microsoft en Google. Wanneer één van deze bedrijven een grote storing heeft, kunnen veel verschillende diensten tegelijk uitvallen.
+
+Voordat we de hoofdvraag konden beantwoorden, moesten we eerst bedenken welke informatie we nodig hadden. Daarom hebben we de hoofdvraag opgesplitst in kleinere deelvragen.
+
+#### Onze deelvragen
+
+Samen bedachten we de volgende deelvragen:
+
+1. Wat zijn kritieke internetdiensten?
+2. Welke bedrijven vallen onder commerciële bedrijven?
+3. Over welke data beschikken kritieke internetdiensten?
+4. Wat zijn de voor- en nadelen van kritieke internetdiensten in handen van commerciële bedrijven?
+5. Wie heeft de kritieke internetdiensten op dit moment in bezit of onder controle?
+
+Deze deelvragen bekijken de hoofdvraag vanuit verschillende kanten. We moeten eerst begrijpen wat kritieke internetdiensten zijn en welke bedrijven ze beheren. Daarna kunnen we onderzoeken welke gegevens deze diensten verwerken en wat de mogelijke voordelen en risico’s van commercieel beheer zijn.
+
+#### Werkblad uitwisselen
+
+Nadat iedere groep deelvragen had bedacht, wisselden we onze werkbladen uit. Iedere groep kreeg daardoor het blad van een andere groep.
+
+Bij het tweede onderdeel moesten we niet zelf nieuwe deelvragen bedenken. We bekeken de deelvragen van de andere groep en zochten bij iedere vraag een passende onderzoeksmethode. Hiermee onderzochten we hoe de groep informatie kon verzamelen om de hoofdvraag uiteindelijk zo goed mogelijk te beantwoorden.
+
+We dachten bijvoorbeeld na over methoden zoals:
+
+- deskresearch;
+- artikelen en betrouwbare bronnen vergelijken;
+- experts interviewen;
+- verschillende bedrijven of diensten vergelijken;
+- bestaande gegevens en onderzoeken analyseren.
+
+Door het werkblad uit te wisselen, kregen we een andere kijk op de vragen. We moesten niet alleen nadenken over wat iemand wilde weten, maar vooral over hoe die informatie onderzocht kon worden.
+
+Van het tweede werkblad heb ik helaas geen foto gemaakt. Daarom beschrijf ik deze stap in mijn Learning Log.
+
+#### Het verband met mijn voorbereiding
+
+De opdracht sloot goed aan bij de bronnen die ik vooraf had bekeken. In het artikel over de cloudstoring werd duidelijk dat veel internetdiensten afhankelijk zijn van een klein aantal commerciële cloudbedrijven.
+
+Deze bedrijven kunnen voordelen bieden. Ze beschikken bijvoorbeeld over veel technische kennis, grote datacenters en voldoende geld om hun systemen te onderhouden. Tegelijkertijd kan deze afhankelijkheid ook risico’s veroorzaken. Een storing, verandering in voorwaarden of verkeerde beslissing van één bedrijf kan gevolgen hebben voor veel gebruikers en organisaties.
+
+Het artikel over Tim Berners-Lee liet daarnaast zien dat grote technologiebedrijven niet alleen veel infrastructuur beheren, maar ook veel macht hebben over persoonsgegevens, platforms en de manier waarop mensen het web gebruiken.
+
+Door de hoofdvraag begreep ik beter dat de betrouwbaarheid van het internet niet alleen een technisch probleem is. Het is ook een vraag over eigendom, verantwoordelijkheid, privacy en macht.
+
+#### Wat heb ik geleerd?
+
+Tijdens deze les heb ik geleerd dat een brede hoofdvraag niet direct te beantwoorden is. Door de vraag op te delen in kleinere deelvragen wordt duidelijker welke informatie nodig is.
+
+Ook heb ik geleerd dat iedere deelvraag een passende onderzoeksmethode nodig heeft. Een feitelijke vraag kan bijvoorbeeld onderzocht worden met deskresearch, terwijl een vraag over ervaringen of meningen beter onderzocht kan worden met interviews.
+
+Het uitwisselen van de werkbladen vond ik nuttig, omdat een andere groep met een frisse blik naar de vragen keek. Hierdoor zag ik dat onderzoek niet alleen draait om goede vragen bedenken, maar ook om bewust kiezen hoe je betrouwbare antwoorden verzamelt.
+
+## Voorbereiding maandag 14 september
+
+Voor de eerste Bi-Weekly Geek heb ik vooraf één video bekeken en twee artikelen gelezen. De bronnen gingen over de technische werking van het internet, de afhankelijkheid van grote cloudbedrijven en de oorspronkelijke bedoeling van het World Wide Web.
+
+#### Hoe werkt het internet?
+
+In de video van BBC werd uitgelegd dat het internet bestaat uit verschillende computers en apparaten die met elkaar verbonden zijn. Samen vormen deze apparaten een groot netwerk.
+
+Om informatie op de juiste plaats te krijgen, gebruikt het internet vaste regels. Deze regels worden protocollen genoemd. Grote bestanden en berichten worden tijdens het versturen verdeeld in kleine stukjes. Deze stukjes heten pakketjes.
+
+Ieder pakketje bevat informatie over:
+
+- waar het vandaan komt;
+- waar het naartoe moet;
+- hoe het later weer moet worden samengevoegd.
+
+Ieder apparaat op het internet heeft een eigen numeriek adres: een IP-adres. Een Domain Name System, oftewel DNS, werkt als een soort adresboek. Het vertaalt een herkenbare domeinnaam naar het bijbehorende IP-adres.
+
+Vervolgens sturen routers de pakketjes door het netwerk. De pakketjes kunnen verschillende routes volgen. Wanneer ze op hun bestemming aankomen, worden ze weer in de juiste volgorde samengevoegd.
+
+Door deze video begrijp ik beter dat het internet niet één onzichtbaar systeem is. Het bestaat uit veel apparaten, servers, kabels, adressen en afspraken die samenwerken om informatie te versturen.
+
+# foto's toeveogeon van de aantekeningen
+
+#### The Guardian – The cloud crash
+
+Het eerste artikel ging over een grote storing bij Amazon Web Services, ook wel AWS genoemd. AWS levert cloudservices aan veel verschillende bedrijven. Deze bedrijven huren bijvoorbeeld opslagruimte, servers en rekenkracht van Amazon.
+
+Door de storing werkten veel websites en apps tijdelijk niet meer. Dit liet zien dat veel verschillende online diensten achter de schermen afhankelijk zijn van dezelfde grote cloudbedrijven.
+De cloud klinkt alsof gegevens onzichtbaar ergens op het internet zweven, maar bestaat in werkelijkheid uit fysieke datacenters met computers en servers. Wanneer er bij een belangrijk datacenter een probleem ontstaat, kan dit wereldwijd gevolgen hebben.
+
+De grootste cloudproviders zijn:
+
+- Amazon Web Services;
+- Microsoft Azure;
+- Google Cloud.
+  Overstappen naar een andere aanbieder is vaak moeilijk, duur en tijdrovend. Bedrijven bouwen hun systemen namelijk rondom de technieken van één aanbieder. Hierdoor kan een sterke leveranciersafhankelijkheid ontstaan.
+
+Dit is ook belangrijk voor Europa. Veel Europese bedrijven, overheden en publieke diensten gebruiken infrastructuur van Amerikaanse technologiebedrijven. Hierdoor heeft Europa minder controle over belangrijke digitale voorzieningen.
+
+Mogelijke oplossingen zijn:
+
+- Meer Europese cloudinfrastructuur ontwikkelen;
+- open standaarden gebruiken;
+- meer met open-source technologie werken;
+- het makkelijker maken om tussen aanbieders te wisselen.
+
+# foto's toeveogeon van de aantekeningen\
+
+#### Tim Berners-Lee en de toekomst van het web
+
+Het tweede artikel ging over Tim Berners-Lee, de bedenker van het World Wide Web. Hij bedacht het web in 1989 als een open systeem waarmee mensen informatie konden delen en samenwerken.
+
+Het internet en het web zijn niet precies hetzelfde. Het internet is de technische infrastructuur waarmee apparaten met elkaar verbonden zijn. Het World Wide Web is een systeem van websites en pagina’s dat gebruikmaakt van die infrastructuur.
+
+Volgens Berners-Lee is een deel van het web steeds commerciëler geworden. Grote technologiebedrijven verdienen geld aan advertenties, aandacht en persoonsgegevens. Sociale media worden daarom vaak ontworpen om mensen zo lang mogelijk te laten kijken, klikken en scrollen.
+
+Hierdoor heb ik geleerd dat technologie niet neutraal is. Ontwerpkeuzes kunnen het gedrag van gebruikers beïnvloeden. Voorbeelden hiervan zijn:
+
+- eindeloos scrollen;
+- meldingen;
+- aanbevolen berichten;
+- algoritmes die bepalen wat iemand ziet.
+  Berners-Lee werkt daarom aan Solid. Dit project moet gebruikers meer controle geven over hun eigen gegevens. Bij Solid worden persoonlijke gegevens opgeslagen in een eigen digitale opslag, een zogenaamde pod. De gebruiker bepaalt vervolgens zelf wie toegang krijgt tot welke informatie.
+
+In het artikel bespreekt Berners-Lee ook kunstmatige intelligentie. Hij vindt dat er meer onafhankelijke controle, duidelijke regels en internationale samenwerking nodig zijn. Hij vergelijkt dit met CERN, waar wetenschappers uit verschillende landen gezamenlijk onderzoek doen.
+
+De belangrijkste boodschap die ik uit dit artikel haal, is dat het web opnieuw meer voor de gebruiker ontworpen moet worden. Mensen moeten meer controle krijgen over hun gegevens en grote technologiebedrijven moeten niet alle macht over het web en de data van gebruikers hebben.
+
+# foto's toeveogen van de aantekeningen
+
+#### Het verband tussen de bronnen
+
+De drie bronnen bekijken het internet vanuit verschillende kanten.
+De video van BBC legt uit hoe informatie technisch over het internet wordt verstuurd. Het artikel over de cloudstoring laat zien wie een groot deel van de technische infrastructuur beheert. Het artikel over Tim Berners-Lee gaat vooral over wie controle heeft over het web, digitale platforms en de gegevens van gebruikers.
+
+De artikelen laten allebei zien dat het internet open en verspreid lijkt, terwijl veel macht bij een klein aantal grote technologiebedrijven ligt. Deze bedrijven beheren een groot deel van de infrastructuur, platforms en persoonsgegevens.
+
+Hierdoor begrijp ik dat het internet niet alleen een technisch onderwerp is. Het gaat ook over macht, verantwoordelijkheid, privacy, betrouwbaarheid en onafhankelijkheid.
+
+#### Wat heb ik geleerd?
+
+Door deze voorbereiding begrijp ik beter hoe het internet technisch werkt en welke bedrijven een belangrijke rol spelen in de infrastructuur ervan.
+Ik heb geleerd dat:
+
+- gegevens als kleine pakketjes over het internet worden verstuurd;
+- protocollen ervoor zorgen dat apparaten dezelfde regels gebruiken;
+- IP-adressen en DNS nodig zijn om de juiste bestemming te vinden;
+- veel websites afhankelijk zijn van enkele grote cloudproviders;
+- een storing bij één aanbieder veel verschillende diensten kan raken;
+- ontwerpkeuzes invloed hebben op het gedrag van gebruikers;
+- gebruikers vaak weinig controle hebben over hun persoonsgegevens;
+- het belangrijk is om na te denken over openheid, privacy en onafhankelijkheid.
+
+De voorbereiding gaf mij genoeg achtergrondinformatie om tijdens de Bi-Weekly Geek mee te kunnen praten over vragen zoals: Wie heeft controle over het internet? en Wie is verantwoordelijk voor de betrouwbaarheid van het internet?
 
 ## Vrijdag 11 september
 
-### korte samenvatting van de voorberiding
+### korte samenvatting van de voorbereiding (hier onder staat het uitgebreid)
 
-#### Voorbereiding: mobile-first schermschetsen
+#### Mobile-first schermschetsen
 
 Als voorbereiding werkte ik mijn gekozen ideeën eerst uit voor een mobiel scherm. Hierdoor moest ik goed nadenken over welke content het belangrijkste is en wat de gebruiker als eerste moet zien.
 
@@ -62,6 +231,55 @@ Justus legde uit dat het onderwerp haken sterk is omdat het persoonlijk bij mij 
 Deze feedback hielp mij om een duidelijkere keuze te maken. Ik besloot om mij voor mijn website vooral te richten op mijn haakwereld en haakcreaties. Hierdoor werd het makkelijker om keuzes te maken voor de inhoud, typografie, kleuren en vormgeving van mijn website.
 
 De foto's van mijn schetsen en presentatie staat eerder in mijn learnig log.
+
+#### Een passend lettertype onderzoeken
+
+Na het gesprek kon ik weer zelfstandig verder. Ik begon met het zoeken naar een lettertype dat bij de gewenste uitstraling van mijn website past.
+
+Ik wilde een lettertype vinden dat:
+
+- \*acht en creatief aanvoelt;
+- past bij de handgemaakte uitstraling van haken;
+- goed leesbaar blijft;
+- aansluit bij mijn sfeerwoorden;
+- gebruikt kan worden op mijn website.
+
+Ik heb verschillende lettertypen bekeken. Een aantal lettertypen vond ik erg mooi, maar deze waren betaald. Daarom besloot ik deze niet te gebruiken.
+
+Uiteindelijk koos ik een lettertype uit Google Fonts. Bij de verdere uitwerking wil ik onderzoeken of ik het lettertype lokaal in mijn website kan opslaan. Hierdoor hoeft de browser van een bezoeker niet iedere keer verbinding te maken met een externe fontservice. Dit past bij mijn doel om zo bewust mogelijk om te gaan met de privacy en dataverspreiding van mijn bezoekers.
+
+# foto's van de fontsen toevoegen!
+
+#### Kleurenpaletten maken
+
+Naast de typografie heb ik verschillende kleurenpaletten samengesteld. Ik wilde onderzoeken welke kleuren het beste aansluiten bij mijn haakprojecten en mijn sfeerwoorden.
+
+Ik keek daarbij naar:
+
+- zachte en warme kleuren;
+- kleuren die een cozy gevoel geven;
+- voldoende contrast tussen tekst en achtergrond;
+- kleuren die passen bij mijn afbeeldingen;
+- accentkleuren voor knoppen en belangrijke onderdelen.
+
+Door meerdere kleurenpaletten naast elkaar te zetten, kon ik beter vergelijken welke combinatie het beste bij mijn onderwerp past. Ik wilde voorkomen dat de website te druk zou worden. De haakcreaties moeten centraal blijven staan en de kleuren moeten deze afbeeldingen ondersteunen.
+
+# foto's van de kleuren palleten teovoegen.
+
+#### Wat heb ik geleerd?
+
+Tijdens deze les heb ik geleerd hoe waardevol het is om mijn ideeën aan iemand anders te laten zien. Zelf bleef ik lang twijfelen tussen verschillende onderwerpen. Door het gesprek met Justus werd duidelijk welk onderwerp het persoonlijkste is en de meeste mogelijkheden biedt.
+
+Ik heb ook geleerd dat mijn onderwerp invloed heeft op bijna alle ontwerpkeuzes. Nadat ik voor haken had gekozen, kon ik gerichter zoeken naar passende kleuren, lettertypen, vormen en afbeeldingen.
+
+Daarnaast ben ik bewuster gaan nadenken over externe diensten. Een lettertype moet niet alleen mooi en leesbaar zijn, maar ook praktisch beschikbaar zijn en op een bewuste manier aan de website worden toegevoegd.
+
+Aan het einde van de les had ik daardoor een veel duidelijkere richting voor mijn digital garden. Ik wist beter welk onderwerp centraal zou staan en welke uitstraling daarbij past.
+
+### chech-out vrij. 11 sep.
+
+Welke feedback heb gehad?
+Ik heb alle ontvangen feedback hier boven beschreven.
 
 ## voorbereiding 11 september
 
@@ -186,6 +404,20 @@ Binder art bekijken voor een gekozen kaart.
 Haakpatronen als een galerij presenteren.
 Bij het eerste idee controleert de gebruiker of de eigen Pokémonkaart ertussen staat. Daarna kan de gebruiker bij het tweede idee bekijken welke binder-artvarianten ik voor deze kaart heb gemaakt.
 Deze ideeën passen goed bij mijn content en geven mij mogelijkheden om te experimenteren met scrollen, swipen, selecteren en het tonen van afbeeldingen.
+
+### check-out woe. 9 sept.
+
+1. Leg uit waar het Visual Research in 3 stappen naartoe werkt.
+
+Bij stap 1 verzamel je directe beelden die bij je onderwerp en sfeerwoorden passen. Bij stap 2 zoek je abstractere beelden die passen bij de kleuren, vormen, typografie en uitstraling die je wilt gebruiken. Bij stap 3 kies je de belangrijkste beelden en vertaal je deze naar visuele uitgangspunten voor je eigen ontwerp.
+
+2. Vertel in 2 zinnen waar jouw Garden over gaat en met welke content je dat gaat doen (beeld, tekst, sound, animatie enz.).
+
+Mijn digital garden gaat over mijn haakwereld en de knuffels die ik zelf maak. Ik gebruik hiervoor foto’s, teksten, illustraties en animaties om mijn creaties en het maakproces te laten zien.
+
+3. Vertel kort welk idee van de Crazy 8 je het liefst zou willen uitvoeren of verder zou willen onderzoeken.
+
+Van mijn Crazy 8 wil ik het idee van de haakpatronen als galerij verder onderzoeken. Dit idee past het beste bij mij en kan ik persoonlijk maken met zachte vormen, gehaakte omlijstingen en interactieve afbeeldingen.
 
 ## voorbereiding 9 september
 
