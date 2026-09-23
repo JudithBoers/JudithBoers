@@ -8,6 +8,61 @@ tekst + foto's
 
 # Sprint 1:
 
+## Vrijdag 11 september
+
+### korte samenvatting van de voorberiding
+
+#### Voorbereiding: mobile-first schermschetsen
+
+Als voorbereiding werkte ik mijn gekozen ideeën eerst uit voor een mobiel scherm. Hierdoor moest ik goed nadenken over welke content het belangrijkste is en wat de gebruiker als eerste moet zien.
+
+Voor het kiezen van een Pokémonkaart maakte ik twee varianten:
+
+- Een horizontale waaier waarin de middelste kaart het grootste is. De gebruiker kan naar links of rechts swipen.
+- Een verticale indeling waarin de kaarten onder elkaar staan. De gebruiker kan door de kaarten scrollen.
+
+Voor mijn haakpatronen maakte ik ook twee galerij-indelingen. In de eerste schets staan grote afbeeldingen onder elkaar. In de tweede schets wisselen afbeeldingen en korte teksten elkaar af. Rond de afbeeldingen tekende ik zachte en wollige vormen om de sfeer van het haken terug te laten komen.
+Bij de mobiele schetsen hield ik rekening met: \*een indeling in één kolom;
+
+- de belangrijkste informatie bovenaan;
+- grote klikvlakken;
+- duidelijke koppen;
+- realistische verhoudingen voor afbeeldingen en teksten;
+- een ontwerp dat past bij een kleiner scherm.
+
+#### Vertaling naar desktop
+
+Daarna vertaalde ik dezelfde ideeën naar een groter laptopscherm. Ik maakte geen volledig nieuw ontwerp, maar onderzocht hoe ik de extra ruimte kon gebruiken.
+Op een mobiel scherm staat de content vooral onder elkaar. Op een laptopscherm kunnen meerdere kaarten of projecten naast elkaar worden getoond. De belangrijkste Pokémonkaart kan centraal blijven staan, terwijl andere kaarten of binder-artvarianten eromheen worden geplaatst.
+
+Bij de desktopversies lette ik erop dat:
+
+- het belangrijkste onderdeel het meeste opvalt;
+- de extra ruimte nuttig wordt gebruikt;
+- meerdere afbeeldingen naast elkaar kunnen staan;
+- de visuele hiërarchie hetzelfde blijft;
+- hover- en focus-states mogelijk zijn;
+- de mobiele en desktopversie herkenbaar bij elkaar horen.
+
+De foto's staan bij de voorberiding.
+
+### zelfstsandig verder werken + feedback moment.
+
+Tijdens de les mochten we zelfstandig verder werken aan onze website. Tussendoor voerden we in kleine groepjes gesprekken met Justus of Sanne. Tijdens dit gesprek bekeken we hoe ver iedereen was, wat al goed ging en waar iemand nog tegenaan liep.
+
+Ons groepje was als eerste aan de beurt. We lieten één voor één onze presentatie zien. Als iemand al iets in HTML had gebouwd, kon dit ook worden getoond.
+Omdat ik eerder had verteld dat ik nog twijfelde over het onderwerp van mijn website, hebben we bij mij vooral naar mijn presentatie en schetsen gekeken. We onderzochten samen welk onderwerp de meeste mogelijkheden bood voor mijn digital garden.
+
+#### Feedback op mijn onderwerp
+
+Tijdens het bekijken van mijn presentatie merkte ik dat Justus vooral enthousiast werd van mijn haakprojecten. Daarna bekeken we mijn mobiele en desktop-schetsen. Aan de verschillende ideeën was duidelijk te zien dat ik nog niet helemaal zeker wist welke richting ik wilde kiezen.
+
+Justus legde uit dat het onderwerp haken sterk is omdat het persoonlijk bij mij past. Ook sluit het goed aan bij mijn gekozen sfeerwoorden en bij de zachte, handgemaakte uitstraling die ik in mijn Visual Research had verzameld.
+
+Deze feedback hielp mij om een duidelijkere keuze te maken. Ik besloot om mij voor mijn website vooral te richten op mijn haakwereld en haakcreaties. Hierdoor werd het makkelijker om keuzes te maken voor de inhoud, typografie, kleuren en vormgeving van mijn website.
+
+De foto's van mijn schetsen en presentatie staat eerder in mijn learnig log.
+
 ## voorbereiding 11 september
 
 #### Mobile-first schermschetsen
