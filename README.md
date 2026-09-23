@@ -81,6 +81,17 @@ Ook heb ik geleerd dat iedere deelvraag een passende onderzoeksmethode nodig hee
 
 Het uitwisselen van de werkbladen vond ik nuttig, omdat een andere groep met een frisse blik naar de vragen keek. Hierdoor zag ik dat onderzoek niet alleen draait om goede vragen bedenken, maar ook om bewust kiezen hoe je betrouwbare antwoorden verzamelt.
 
+## Check-out maandag 14 sept.
+
+1. Leg uit wanneer een website ‘lelijk’ wordt en geef voorbeelden van wat je kan doen om deze ‘lelijke’ onderdelen te fixen.
+   Een website wordt ‘lelijk’ wanneer de vormgeving op bepaalde schermformaten niet meer goed werkt. Tekst kan bijvoorbeeld te breed worden, afbeeldingen kunnen buiten het scherm vallen en onderdelen kunnen over elkaar heen komen te staan. Dit kan ik oplossen met flexibele eenheden, max-width, flex-wrap en media queries.
+
+2. Vertel welke volgende stap je neemt om je website responsive te maken.
+   Mijn volgende stap is om mijn website op verschillende schermformaten te testen. Daarna pas ik onderdelen die niet goed meeschalen aan en voeg ik waar nodig media queries toe voor grotere schermen.
+
+3. Kun je het ontwerp en de bouw van je eigen Garden uit je hoofd onderbouwen in Webby vocabulary?
+   Mijn digital garden is responsive, omdat de indeling zich aanpast aan verschillende schermformaten. De website is ook interactief en dynamisch door de navigatie, knoppen, links en animaties. Met semantische HTML, duidelijke koppen, alt-teksten, voldoende contrast en toetsenbordfocus probeer ik de website daarnaast toegankelijk te maken. De kleuren, zachte vormen, afbeeldingen en typografie maken mijn website expressief en persoonlijk.
+
 ## Voorbereiding maandag 14 september
 
 Voor de eerste Bi-Weekly Geek heb ik vooraf één video bekeken en twee artikelen gelezen. De bronnen gingen over de technische werking van het internet, de afhankelijkheid van grote cloudbedrijven en de oorspronkelijke bedoeling van het World Wide Web.
