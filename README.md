@@ -249,7 +249,7 @@ Na het gesprek kon ik weer zelfstandig verder. Ik begon met het zoeken naar een 
 
 Ik wilde een lettertype vinden dat:
 
-- \*acht en creatief aanvoelt;
+- creatief aanvoelt;
 - past bij de handgemaakte uitstraling van haken;
 - goed leesbaar blijft;
 - aansluit bij mijn sfeerwoorden;
@@ -259,7 +259,14 @@ Ik heb verschillende lettertypen bekeken. Een aantal lettertypen vond ik erg moo
 
 Uiteindelijk koos ik een lettertype uit Google Fonts. Bij de verdere uitwerking wil ik onderzoeken of ik het lettertype lokaal in mijn website kan opslaan. Hierdoor hoeft de browser van een bezoeker niet iedere keer verbinding te maken met een externe fontservice. Dit past bij mijn doel om zo bewust mogelijk om te gaan met de privacy en dataverspreiding van mijn bezoekers.
 
-# foto's van de fontsen toevoegen!
+ <img src="./assets/images-readme/fontsen.png" alt="De fontsen die ik heb bekeken en heb vergeleken voor mijn website" />
+
+Bronnen:
+[Twisted rope font](https://www.creativefabrica.com/product/twisted-rope/?utm_source=chatgpt.com)
+[Abode fonts](https://fonts.adobe.com/fonts/giddyup?utm_source=chatgpt.com)
+[Envato](https://elements.envato.com/ropelia-display-font-NS6VFNC?utm_source=chatgpt.com)
+[Creative kitting font](https://www.creativefabrica.com/product/creative-knitting/?utm_source=chatgpt.com)
+[Google fonts](https://fonts.google.com)
 
 #### Kleurenpaletten maken
 
@@ -275,7 +282,11 @@ Ik keek daarbij naar:
 
 Door meerdere kleurenpaletten naast elkaar te zetten, kon ik beter vergelijken welke combinatie het beste bij mijn onderwerp past. Ik wilde voorkomen dat de website te druk zou worden. De haakcreaties moeten centraal blijven staan en de kleuren moeten deze afbeeldingen ondersteunen.
 
-# foto's van de kleuren palleten teovoegen.
+ <img src="./assets/images-readme/kleurpallets.png" alt="De kleuren pallets die ik heb gemaakt voor mijn webside." />
+  <img src="./assets/images-readme/gekozen-pallet.png" alt="De kleuren die ik heb gekozen voor mijn website." />
+
+Bron: Adobe color
+[Adobe color website](https://color.adobe.com/create/color-wheel)
 
 #### Wat heb ik geleerd?
 
@@ -287,7 +298,7 @@ Daarnaast ben ik bewuster gaan nadenken over externe diensten. Een lettertype mo
 
 Aan het einde van de les had ik daardoor een veel duidelijkere richting voor mijn digital garden. Ik wist beter welk onderwerp centraal zou staan en welke uitstraling daarbij past.
 
-### chech-out vrij. 11 sep.
+## Chech-out vrijdag 11 september
 
 Welke feedback heb gehad?
 Ik heb alle ontvangen feedback hier boven beschreven.
@@ -344,14 +355,15 @@ Als uitgangspunt voor mijn Visual Research koos ik de sfeerwoorden:
 - speels
 - cozy
 - fantasierijk
+
   Deze woorden passen bij mijn creatieve onderwerpen, zoals Pokémon binder art, haken, stickers en journalen. Ik wil dat mijn website persoonlijk, creatief en gezellig aanvoelt. De verschillende onderdelen mogen een eigen uitstraling hebben, maar moeten door het gebruik van kleuren en vormen wel bij elkaar passen.
-  <img src="./assets/images-readme/9-9-opdracht1.png" alt="" />
+  <img src="./assets/images-readme/9-9-opdracht1.png" alt="Mijn keuze voor mijn sfeerwoorden en de uitleg waarom ik hiervoor heb gekozen." />
 
 #### Stap 1: directe beelden verzamelen
 
 Eerst verzamelde ik afbeeldingen die direct passen bij mijn hobby’s en sfeerwoorden. Ik zocht onder andere naar Pokémon, binder art, haakprojecten, journals, stickers en andere creatieve producten.
 Ik keek niet alleen naar het onderwerp van de afbeeldingen, maar ook naar kleur, vorm, materiaal en uitstraling. Ik zag vooral zachte vormen, vrolijke kleuren, handgemaakte materialen en fantasierijke illustraties terug.
-<img src="./assets/images-readme/9-9-opdracht2.png" alt="" />
+<img src="./assets/images-readme/9-9-opdracht2.png" alt="De afbeeldingen die ik heb gebruikt in mijn presentatie" />
 
 #### Stap 2: abstracte beelden verzamelen
 
@@ -364,7 +376,7 @@ collages en patronen;
 speelse typografie;
 onderdelen die in elkaar overlopen.
 Hierdoor ontdekte ik dat niet alleen het onderwerp, maar ook de kleuren, vormen, typografie en plaatsing de sfeer van mijn website bepalen.
-<img src="./assets/images-readme/9-9-opdracht3.png" alt="" />
+<img src="./assets/images-readme/9-9-opdracht3.png" alt="Inspiratie op zoeken om mijn sfeer woorden een vusieel beeld te geven." />
 
 #### Stap 3: visuele uitgangspunten bepalen
 
@@ -377,7 +389,7 @@ Daaruit kwamen de volgende visuele uitgangspunten:
 - Mijn eigen projecten en afbeeldingen staan centraal.
 - De website moet cozy en persoonlijk aanvoelen.
 - De verschillende hobby’s moeten herkenbaar zijn, maar wel bij dezelfde stijl horen.
-  <img src="./assets/images-readme/9-9-opdracht4.png" alt="" />
+  <img src="./assets/images-readme/9-9-opdracht4.png" alt="Jouw 4 gekozen afbeelding beoordelen aan de hand van 3 vragen" />
 
 #### Crazy 8 maken
 
@@ -392,7 +404,7 @@ Na het Visual Research maakte ik een Crazy 8. Hierbij schetste ik in korte tijd 
 7. Het eindresultaat en proces naast elkaar tonen.
 8. Extra informatie tonen wanneer de gebruiker over een bolletje beweegt of erop klikt.
    Na het schetsen annoteerde ik de ideeën. Met pijlen en korte teksten gaf ik aan wat een gebruiker kan doen en welke interacties ik voor mij zie.
-   <img src="./assets/images-readme/9-9-opdracht5.png" alt="" />
+   <img src="./assets/images-readme/9-9-opdracht5.png" alt="Opdracht een crazy 8 maken" />
 
 #### Mijn ideeën beoordelen
 
@@ -405,7 +417,7 @@ Vervolgens beoordeelde ik de acht ideeën met het bijbehorende werkvel. Per idee
 - expressief genoeg is;
 - leuk of verrassend is.
   Hierdoor keek ik niet alleen naar welke ideeën ik mooi vond, maar ook naar welke ideeën geschikt en haalbaar zijn voor het web. Het zelf samenstellen van een stickervel is bijvoorbeeld erg interactief, maar waarschijnlijk ook lastiger om binnen deze sprint te bouwen.
-  <img src="./assets/images-readme/9-9-opdracht6.png" alt="" />
+  <img src="./assets/images-readme/9-9-opdracht6.png" alt="Mijn beoordelings formulier voor de crazy 8" />
 
 #### Ideeën verder uitwerken
 
@@ -416,7 +428,7 @@ Haakpatronen als een galerij presenteren.
 Bij het eerste idee controleert de gebruiker of de eigen Pokémonkaart ertussen staat. Daarna kan de gebruiker bij het tweede idee bekijken welke binder-artvarianten ik voor deze kaart heb gemaakt.
 Deze ideeën passen goed bij mijn content en geven mij mogelijkheden om te experimenteren met scrollen, swipen, selecteren en het tonen van afbeeldingen.
 
-### check-out woe. 9 sept.
+## Check-out woe. 9 sept.
 
 1. Leg uit waar het Visual Research in 3 stappen naartoe werkt.
 
@@ -430,7 +442,7 @@ Mijn digital garden gaat over mijn haakwereld en de knuffels die ik zelf maak. I
 
 Van mijn Crazy 8 wil ik het idee van de haakpatronen als galerij verder onderzoeken. Dit idee past het beste bij mij en kan ik persoonlijk maken met zachte vormen, gehaakte omlijstingen en interactieve afbeeldingen.
 
-## voorbereiding 9 september
+## Voorbereiding 9 september
 
 ### Presentatie over mijn creatieve interesses
 
@@ -479,7 +491,7 @@ Ik heb de presentatie met Remark.js gemaakt in Visual Studio Code. Iedere nieuwe
 (---)
 Voor titels gebruikte ik een # en voor opsommingen een -. In mijn presentatiemap maakte ik een aparte map met de naam images. Hierin plaatste ik alle collages en screenshots.
 
-## maandag 7 september
+## Maandag 7 september
 
 ### Sprintplanning en onderzoek
 
@@ -619,6 +631,8 @@ Daarnaast vond ik het idee van Learning in Public interessant. Mijn digital gard
 
 3. Ik wil mijn digital garden over mijn haakwereld maken. Hierin wil ik mijn haakcreaties, patronen, inspiratie en maakproces op een persoonlijke en interactieve manier laten zien.
 
+## Voorbereiding maandag 7 september: We hebben voor deze les geen voorbereiding.
+
 # Sprint 0:
 
 ## vrijdag 4 september
@@ -698,6 +712,8 @@ Ook het combineren van lettertypes vond ik erg nuttig. Ik weet nu dat ik niet zo
 Wat ik uiteindelijk vooral meeneem uit deze voorbereiding en Deep Dive is:
 Ik moet een lettertype niet alleen kiezen omdat ik het mooi vind, maar omdat het past bij de boodschap, goed leesbaar is én goed werkt op de plek waar ik het ga gebruiken.
 
+## Check-out vrijdag 4 sept: vanwege de Deep-dives hadden we geen chech-out vandaag.
+
 ## voorbereiding voor 4 september
 
 ### Voorbereiding Deep Dive: Typografie
@@ -705,8 +721,6 @@ Ik moet een lettertype niet alleen kiezen omdat ik het mooi vind, maar omdat het
 Voor deze Deep Dive heb ik twee artikelen gelezen over het kiezen en gebruiken van lettertypes. Tijdens het lezen heb ik per artikel de dingen opgeschreven die ik het belangrijkste of opvallendste vond.
 
 ### Artikel 1: How to choose the right typeface
-
-<a href="[text](https://www.type-together.com/how-to-choose-the-right-typeface)"></a>
 
 In dit artikel wordt uitgelegd dat het kiezen van een lettertype niet alleen gaat om welk lettertype je mooi vindt. Je moet vooral kijken naar waarvoor je het lettertype gaat gebruiken, wat je ermee wilt uitstralen en of het technisch geschikt is.
 
@@ -725,8 +739,6 @@ Wat ik uit dit artikel heb gehaald:
 6. Bij het combineren van lettertypes moet er samenhang én verschil zijn.Lettertypes hoeven niet precies hetzelfde te zijn om goed bij elkaar te passen. Het kan juist helpen als er contrast is, maar ze moeten wel een bepaalde overeenkomst hebben in bijvoorbeeld uitstraling of bedoeling. Ook helpt het als de lettertypes verschillende functies krijgen, bijvoorbeeld één voor koppen en één voor lopende tekst.
 
 ### Artikel 2: Typography for User Interfaces
-
-.<a href="(https://arielsalminen.com/2016/typography-for-user-interfaces/)"></a>
 
 Bij dit artikel ging het veel meer over typografie binnen interfaces en websites. Wat ik hier vooral interessant aan vond, is dat tekst eigenlijk een heel groot onderdeel van een interface is. Typografie bepaalt daardoor niet alleen hoe een website eruitziet, maar ook hoe makkelijk iemand hem kan gebruiken.
 
