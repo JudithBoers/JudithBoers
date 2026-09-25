@@ -10,11 +10,83 @@ tekst + foto's
 
 # Sprint 1:
 
-## Vrijdag 18 september
+## Vrijdag 18 september (eerste DEADLINE!)
+
+### Vrijdag – retrospectief en voortgangsgesprek
+
+Voor de les had ik mijn website ingeleverd voor de deadline. Tijdens de les keken we terug op sprint 1 en bespraken we onze voortgang. Ik had ook het overzicht van de beoordelingspunten erbij. Daarin stond onder andere dat er gekeken werd naar onze website, de manier waarop we ons proces in de learning log hebben vastgelegd, onze ontwerpkeuzes en de uitwerking in HTML en CSS. Het hielp mij om te zien waarop ik feedback zou krijgen.
+
+#### Retrospectief
+
+Tijdens de les werkten we aan een retrospectief. Dat is een opdracht waarbij je terugkijkt op wat er de afgelopen twee weken is gebeurd, wat goed ging en wat lastig was. We gebruikten hiervoor _visual thinking_: je probeert je ervaringen en gedachten zichtbaar te maken met tekeningen. We begonnen met kleine tekenoefeningen, zoals kronkels in vogels veranderen en voorwerpen tekenen met basisvormen. Daardoor lag de nadruk minder op mooi kunnen tekenen en meer op een idee duidelijk overbrengen.
+
+Daarna maakten we een piek- en daltekening van de afgelopen twee weken. Hiermee kon ik terugkijken op de momenten waarop ik vooruitgang voelde en op de momenten waarop het moeilijker ging. Bij die momenten keken we ook naar de competenties waaraan we hadden gewerkt en welke nog aandacht nodig hebben. Als laatste maakten we een metafoor met een titel voor onze ervaring van sprint 1. Ik vond het een andere manier van reflecteren dan alleen tekst schrijven: door te tekenen moest ik nadenken over hoe de verschillende gebeurtenissen met elkaar samenhingen. De afbeeldingen van mijn uitwerkingen voeg ik hieronder toe.
+<img src="./assets/images-readme/aantekeningen-beoordelen.jpg" alt="Aantekeningen beoordelen op onder andere visuele hiërarchie." />
+Foto: groeps opdracht het beoordelen van de aantekeningen.
+
+<img src="./assets/images-readme/retrospectief-1.jpg" alt="Opdracht 1: van ronkels naar vogels" />
+Foto: Opdracht 1: van ronkels naar vogels
+
+<img src="./assets/images-readme/retrospectief-2.jpg" alt="Opdracht 2: simpele elementen tekenen" />
+Foto: Opdracht 2: simpele elementen tekenen
+
+<img src="./assets/images-readme/retrospectief-3.jpg" alt="Opdracht 3:Diek en daal tekening" />
+Foto: Opdracht 3:Diek en daal tekening
+
+<img src="./assets/images-readme/retrospectief-4.jpg" alt="Opdracht 4: een metafoor van sprint 1" />
+Foto:Opdracht 4: een metafoor van sprint 1
+
+#### beoordelingsgesprek
+
+Terwijl we aan de retrospectief werkten, werden we één voor één naar een ander lokaal geroepen voor een voortgangsgesprek. Mijn gesprek was met Diederik. We bespraken mijn website en mijn voortgang aan de hand van de beoordelingspunten. Diederik gaf aan dat hij het knap vond hoeveel ik had gedaan, omdat ik door ziekte en privéomstandigheden niet altijd bij de lessen kon zijn en ook minder tijd had om aan mijn werk te besteden. Dat was fijn om te horen. Ik kreeg tijdens het gesprek het gevoel dat er met respect met mijn situatie werd omgegaan en dat er ook werd gezien hoeveel werk ik ondanks die omstandigheden had verzet.
+
+Ik heb een positieve beoordeling en feedback gekregen. Dit was een formatieve beoordeling, dus ik kreeg geen eindcijfer. Het gesprek gaf mij wel een beter beeld van waar ik nu sta en of ik met mijn website op de goede weg ben. Dat stelde me gerust, zeker omdat ik zelf nog veel onderdelen zie die ik wil verbeteren.
+
+Wat ik uit deze dag meeneem, is dat ik naast de dingen die nog niet af zijn ook mag kijken naar wat ik al heb bereikt. De retrospectief hielp mij om de afgelopen sprint als geheel te bekijken. Het voortgangsgesprek hielp mij om mijn werk door de ogen van een docent te zien. Met de feedback kan ik gerichter kiezen wat ik in de volgende sprint verder wil uitwerken en verbeteren.
+<img src="./assets/images-readme/feedback-sprint1.pdf" alt="De beoordling van mijn ingeleverde wer van sprint 1" />
+Foto: mijn beoordling op mijn ingeleverde werk.
 
 ## voorbereiding vrijdag 18 september
 
+### Vrijdag – voorbereiding en deadline
+
+Voor vrijdag had ik minder voorbereidingstijd dan normaal. Donderdagochtend moest ik werken en in de middag en avond was ik op school voor mijn propedeuse-uitreiking. Gelukkig hoefden we deze keer geen artikelen te lezen of andere opdrachten voor te bereiden. De belangrijkste voorbereiding was om mijn website zo goed mogelijk af te maken voor de deadline en mijn README bij te werken.
+
+Ik was nog niet helemaal tevreden met mijn website. Een website is natuurlijk nooit écht af, maar ik wilde wel dat bij het inleveren duidelijk werd wat mijn idee was en hoe bezoekers erdoorheen konden gaan. Na de uitreiking heb ik daarom nog kort iets gedronken bij Fest en ben ik daarna naar huis gegaan om ’s avonds verder te coderen.
+
+Mijn belangrijkste doel voor die avond was om meerdere HTML-pagina’s te maken. Ik wilde dat de website meer zou zijn dan één losse pagina, zodat je bij het bekijken beter kon zien welke richting ik ermee op wilde. Door mijn lange reistijd had ik uiteindelijk minder tijd om te coderen dan ik vooraf dacht. Ik moest daarom kiezen wat ik voor de deadline nog kon afronden.
+
+Het is gelukt om nog stappen te zetten en mijn website op tijd in te leveren. Mijn README heb ik helaas niet meer up-to-date kunnen maken. Dat heb ik meteen eerlijk vermeld in een notitie bij mijn inlevering, zodat duidelijk was dat de README nog niet de laatste stand van mijn website beschreef.
+
+Ik merk dat ik kritisch blijf kijken naar mijn eigen werk en daardoor steeds nieuwe dingen zie die ik wil verbeteren. Voor deze deadline heb ik geleerd om keuzes te maken in de tijd die ik had. De README bijwerken en de onderdelen waar ik nog niet tevreden over ben, neem ik mee als volgende stappen.
+
 ## Woensdag 16 september
+
+### Zelfstandig werken aan je website
+
+Tijdens de les hebben we vooral zelfstandig aan onze eigen websites gewerkt. Het doel van deze dag was om zo veel mogelijk af te krijgen voor de deadline op vrijdag. Er was ruimte om in mijn eigen tempo door te werken. Als ik ergens tegenaan liep, kon ik rustig een vraag stellen aan de docenten.
+
+Ik heb deze werktijd gebruikt om verder te kijken naar wat mijn website nog nodig had en om onderdelen te verbeteren. Omdat de deadline dichtbij kwam, moest ik keuzes maken: welke dingen waren belangrijk om nu werkend en duidelijk te krijgen, en welke details/informatie konden later nog aangepast worden? Het was prettig dat ik tijdens het werken meteen hulp kon vragen als ik vastliep, maar ook zelf eerst kon proberen een probleem op te lossen.
+
+Deze les liet mij zien dat een website richting de deadline niet alleen afgemaakt, maar ook gecontroleerd moet worden. Ik wil daarom bij de laatste aanpassingen letten op de structuur van mijn pagina’s, de leesbaarheid van de tekst en of onderdelen op verschillende pagina’s consequent zijn vormgegeven.
+
+## Check-out woensdag 16 september
+
+1. Noem 3 Gestalt- of Design principes op en laat de ander uitleggen wat ze betekenen en doen.
+
+Ik kies visuele hiërarchie, contrast en nabijheid:
+
+- Visuele hiërarchie: je laat zien welke informatie het belangrijkst is. Een grote titel valt bijvoorbeeld eerder op dan een kleine paragraaf. Zo weet de bezoeker waar die eerst moet kijken.
+- Contrast: je maakt een duidelijk verschil tussen onderdelen, bijvoorbeeld met lichte en donkere kleuren. Dat kan belangrijke onderdelen laten opvallen en helpt om tekst leesbaar te houden.
+- Nabijheid: onderdelen die dicht bij elkaar staan, zien we als een groep. Een kopje moet daarom dichter bij de tekst staan waar het bij hoort dan bij het volgende onderdeel.
+
+2. Een grid biedt ruimte om te spelen (vrijheid), maar tegelijkertijd ook eenheid en structuur (vastigheid). Wat wordt hiermee bedoeld?
+
+Een grid is een soort onzichtbare indeling van een pagina, bijvoorbeeld met kolommen en vaste afstanden. Het geeft vastigheid, omdat je onderdelen netjes kunt uitlijnen en pagina’s daardoor bij elkaar passen. Binnen die indeling heb je toch vrijheid: een afbeelding kan bijvoorbeeld meer kolommen innemen dan een tekstblok. Je hoeft dus niet alles precies hetzelfde te maken, maar de pagina blijft wel overzichtelijk.
+
+3. Welk principe neem je mee in een laatste iteratie van je eigen Garden?
+
+Ik neem visuele hiërarchie mee. Bij mijn laatste aanpassingen wil ik controleren of meteen duidelijk is wat de titel is, welke kopjes bij welke tekst horen en welke knoppen belangrijk zijn. Daarvoor kijk ik naar de grootte van de tekst, de ruimte tussen onderdelen en het kleurcontrast. Zo kan ik mijn Garden duidelijker maken zonder de hele vormgeving opnieuw te veranderen.
 
 ## voorbereiding woensdag 16 september
 
