@@ -611,7 +611,7 @@ Daarnaast vond ik het idee van Learning in Public interessant. Mijn digital gard
   You and Your Mind Garden;
   MIT Technology Review – artikel over de ontwikkeling en persoonlijke vorm van Digital Gardens.
 
-### chech-out: heel kort
+## chech-out: heel kort
 
 1. Een digital garden is een persoonlijke website waarop ideeën en projecten blijven groeien. Anders dan een gewone website hoeft de inhoud niet direct af of perfect te zijn.
 
@@ -726,7 +726,7 @@ Wat ik uit dit artikel heb gehaald:
 
 ### Artikel 2: Typography for User Interfaces
 
-<a href="(https://arielsalminen.com/2016/typography-for-user-interfaces/)"></a>
+.<a href="(https://arielsalminen.com/2016/typography-for-user-interfaces/)"></a>
 
 Bij dit artikel ging het veel meer over typografie binnen interfaces en websites. Wat ik hier vooral interessant aan vond, is dat tekst eigenlijk een heel groot onderdeel van een interface is. Typografie bepaalt daardoor niet alleen hoe een website eruitziet, maar ook hoe makkelijk iemand hem kan gebruiken.
 
@@ -804,6 +804,8 @@ Daarnaast heb ik met HTML5 Doctor een nieuwe bron gekregen die ik tijdens het ma
 
 Vanwege een priva afspraak heb ik helaas niet de tweede deepdive kunnen maken
 
+## Check-out woensdag 2 sept: vanwege de Deep-dives hadden we geen chech-out vandaag.
+
 ## Voorbereidingen 2 september
 
 ### Voorbereiding basis HTML, CSS, fonts en kleur
@@ -869,7 +871,7 @@ foto: van mijn aantekeningen.
 
 <img src="./assets/images-readme/aantekeningen3september.png" alt="aantekeningen van HTML en CSS basis" />
 
-## kick-off
+## kick-off maandag 31 augustus:
 
 31 augustus: Check out
 
@@ -879,7 +881,7 @@ foto: van mijn aantekeningen.
 Voor mijn website gebruik ik GitHub als source hosting platform. De code van mijn website staat hierdoor online in een repository. De bestanden pas ik aan in Visual Studio Code en daarna stuur ik de nieuwste versie naar GitHub. Met GitHub Pages kan ik mijn website vervolgens online publiceren.
 
 Mijn repository op GitHub, waarin de bestanden en verschillende versies van mijn website worden opgeslagen.
-<img src="./assets/images-readme/gitthubstart.png" alt="Gitthub" />
+<img src="./assets/images-readme/gitthubstart.png" alt="Je domein koppelen aan je Github" />
 Deze foto is wel later toegevoeegd omdat ik niet wist dat dat moest.
 
 2. Welke domeinnaam heb ik gekozen en hoe heb ik deze gekoppeld?
@@ -890,7 +892,7 @@ Deze foto is wel later toegevoeegd omdat ik niet wist dat dat moest.
 
 Foto: domeinkiezen
 
-<img src="./assets/images-readme/Domeinnaamkiezen.png" alt="Domeinnaam kiezen " />
+<img src="./assets/images-readme/Domeinnaamkiezen.png" alt="Hier kozen we onze eigen domein naam" />
 
 3. Hoe pas ik mijn website aan en publiceer ik deze online?
    Ik pas mijn website aan in Visual Studio Code. Hier kan ik bijvoorbeeld veranderingen maken in mijn HTML- en CSS-bestanden. Tijdens het werken gebruik ik Go Live om mijn website lokaal in de browser te bekijken. Zo kan ik eerst controleren hoe mijn aanpassingen eruitzien, voordat ik ze online publiceer.
@@ -901,4 +903,4 @@ Foto: domeinkiezen
 
 Foto: eerste versie van mijn website.
 
-<img src="./assets/images-readme/Blancoversiewebsite.png" alt="eerste versie website" />
+<img src="./assets/images-readme/Blancoversiewebsite.png" alt="Dit is het begin wat we gekregen hadden om onze website te maken." />
