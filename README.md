@@ -18,6 +18,47 @@ tekst + foto's
 
 ## voorbereiding woensdag 16 september
 
+### Verder werken aan mijn website: visueel ontwerp, light/dark mode en testen
+
+Ik heb gelezen over visueel ontwerp en consistentie. Daarnaast heb ik verder gewerkt aan mijn website, een deep dive toegepast in mijn code en mijn website door mijn zussen laten testen. Ik merkte dat deze onderdelen met elkaar samenhangen: de artikelen hielpen mij bewuster naar mijn ontwerp te kijken, terwijl ik tijdens het coderen en testen ontdekte of mijn keuzes ook echt werkten.
+
+#### Wat ik heb gelezen
+
+Ik heb het artikel 5 Principles of Visual Design in UX van Nielsen Norman Group gelezen. Hierin worden vijf principes uitgelegd: schaal, visuele hiërarchie, balans, contrast en Gestalt. Wat ik hier vooral uit meenam, is dat vormgeving bezoekers helpt om informatie te begrijpen. Door een belangrijk onderdeel groter te maken, valt het eerder op. Met kleur, grootte en ruimte kun je laten zien waar iemand eerst naar moet kijken. Ook de afstand tussen onderdelen is belangrijk: als een kopje dicht bij een tekst staat, zie je sneller dat ze bij elkaar horen.
+
+Daarna heb ik de Design Consistency Guide van UXPin gelezen. Dit artikel gaat over het consequent gebruiken van onderdelen in een ontwerp. Als dezelfde soort knop op iedere pagina een andere kleur of vorm heeft, moet een bezoeker telkens opnieuw nadenken over wat die knop doet. Hetzelfde geldt voor lettertypes, afstanden en de opbouw van pagina’s. Ik wil daarom beter opletten of ik mijn ontwerpkeuzes overal op dezelfde manier toepas.
+
+Tijdens het lezen heb ik aantekeningen gemaakt. Hieronder voeg ik foto’s van mijn aantekeningen toe. Die laten zien welke punten ik uit de artikelen heb gehaald en wil gebruiken bij het verder ontwerpen van mijn website.
+<img src="./assets/images-readme/aantekeningen-woe-16-9.png" alt="Aantekeningen van artikelen: 5 principes of visual design in UX en UXPin design consistency guide" />
+
+#### Verder werken aan mijn website
+
+Naast het lezen ben ik verdergegaan met mijn website. De website krijgt steeds meer vorm, maar er zijn ook nog onderdelen die ik moet uitwerken en verbeteren. Ik probeer daarbij niet alleen te kijken of iets er mooi uitziet, maar ook of de tekst duidelijk is, onderdelen bij elkaar horen en bezoekers begrijpen waar ze op kunnen klikken. De artikelen gaven mij woorden voor dingen waar ik tijdens het ontwerpen al mee bezig was, zoals hiërarchie, contrast en consistentie.
+
+Ik loop op dit moment wat achter, omdat ik ziek ben geweest en er privé ook dingen speelden. Daardoor lukt het mij niet om helemaal gelijk te lopen met alle deep dives. Ik heb ervoor gekozen om gericht verder te werken aan mijn website en één deep dive meteen toe te passen. Mijn keuze viel op light en dark mode, omdat ik daar direct iets mee kon toevoegen aan mijn eigen ontwerp en tegelijkertijd kon oefenen met CSS.
+
+#### Light en dark mode toepassen
+
+Met behulp van de deep dive heb ik een lichte en een donkere weergave in mijn website gezet. Daarvoor heb ik de kleuren in mijn CSS vastgelegd en aangegeven welke kleur in de lichte en welke in de donkere stand gebruikt moet worden. Ik moest niet alleen nadenken over de achtergrondkleur, maar ook over de tekst, de knoppen en wat er gebeurt wanneer iemand over een knop beweegt. In beide standen moeten die onderdelen bij elkaar passen en leesbaar blijven.
+
+Het toevoegen lukte niet meteen zonder problemen. Soms werkte iets anders dan ik verwachtte en moest ik opnieuw naar mijn code kijken. Door de uitleg uit de deep dive erbij te pakken en stap voor stap dingen aan te passen, heb ik die problemen kunnen oplossen. Dat vond ik leerzaam, omdat ik zo beter begreep wat de code doet in plaats van alleen een voorbeeld over te nemen.
+
+Eerst had ik naast licht en donker ook een automatische stand toegevoegd. Daarbij kwam soms een fout naar voren in combinatie met mijn gifje. Ik heb geprobeerd te begrijpen waar het misging en heb uiteindelijk besloten de automatische stand weg te halen. Mijn website heeft nu een lichte en een donkere stand waaruit de bezoeker kan kiezen. Dat werkte op dit moment beter voor mijn website.
+
+Van de stappen tijdens het coderen heb ik helaas geen foto’s gemaakt. In mijn code is wel terug te zien hoe ik de kleuren voor light en dark mode heb toegevoegd en welke keuze ik uiteindelijk heb gemaakt.
+
+<img src="./assets/images-readme/aantekeingen-deepdive-lightanddark.png" alt="Aantekeningen van de Depp-dive over light and dark + aantekeningen/ opmerkingen na het coderen." />
+Foto: Aantekeningen van de Depp-dive over light and dark + aantekeningen/ opmerkingen na het coderen
+
+#### Testen met mijn zussen
+
+Mijn zussen hebben mijn website ook getest. Ik heb daar wél 2 foto’s van gekregen en voeg die hieronder toe. Door hen de website te laten bekijken, kon ik zien hoe anderen ermee omgaan. Tijdens het testen zag ik nog een foutje dat mij eerder niet was opgevallen. Dat heb ik meteen opgelost.
+
+Dit liet mij zien waarom het belangrijk is om een website niet alleen zelf te controleren. Als ik er lang aan werk, weet ik al hoe alles bedoeld is en kijk ik soms over een fout heen. Iemand die de website voor het eerst ziet, kijkt er anders naar. Ik wil daarom vaker tussendoor laten testen, ook wanneer de website nog niet helemaal af is.
+
+<img src="./assets/images-readme/testen-lauwendees.png" alt=" Foto's van het bewijs dat ze getest hebben en hoe het er uit ziet." />
+Foto: bewijs van testing + resultaat op mijn website.
+
 ## Maandag 14 september
 
 ### Bi-Weekly geek 1
@@ -26,7 +67,7 @@ Tijdens de eerste Bi-Weekly Geek stond de werking, betrouwbaarheid en verantwoor
 
 #### Onze hoofdvraag
 
-Mijn groepje bestond uit Judith, Eva, Seb en Massimo. Wij kregen de volgende hoofdvraag:
+Mijn groepje bestond uit Eva, Seb, Massimo en mij. Wij kregen de volgende hoofdvraag:
 Moeten kritieke internetdiensten in handen zijn van commerciële bedrijven?
 
 Deze vraag sluit aan bij de voorbereiding over cloudbedrijven en de macht van grote technologiebedrijven. Veel websites en apps zijn afhankelijk van commerciële bedrijven zoals Amazon, Microsoft en Google. Wanneer één van deze bedrijven een grote storing heeft, kunnen veel verschillende diensten tegelijk uitvallen.
@@ -114,8 +155,6 @@ Vervolgens sturen routers de pakketjes door het netwerk. De pakketjes kunnen ver
 
 Door deze video begrijp ik beter dat het internet niet één onzichtbaar systeem is. Het bestaat uit veel apparaten, servers, kabels, adressen en afspraken die samenwerken om informatie te versturen.
 
-# foto's toeveogeon van de aantekeningen
-
 #### The Guardian – The cloud crash
 
 Het eerste artikel ging over een grote storing bij Amazon Web Services, ook wel AWS genoemd. AWS levert cloudservices aan veel verschillende bedrijven. Deze bedrijven huren bijvoorbeeld opslagruimte, servers en rekenkracht van Amazon.
@@ -139,7 +178,8 @@ Mogelijke oplossingen zijn:
 - meer met open-source technologie werken;
 - het makkelijker maken om tussen aanbieders te wisselen.
 
-# foto's toeveogeon van de aantekeningen\
+ <img src="./assets/images-readme/aantekeingen-ma14-9-1.png" alt="Aantekeningen van artikel The Guardian" />
+ Foto: aantekeningen van het artikel
 
 #### Tim Berners-Lee en de toekomst van het web
 
@@ -161,7 +201,8 @@ In het artikel bespreekt Berners-Lee ook kunstmatige intelligentie. Hij vindt da
 
 De belangrijkste boodschap die ik uit dit artikel haal, is dat het web opnieuw meer voor de gebruiker ontworpen moet worden. Mensen moeten meer controle krijgen over hun gegevens en grote technologiebedrijven moeten niet alle macht over het web en de data van gebruikers hebben.
 
-# foto's toeveogen van de aantekeningen
+<img src="./assets/images-readme/aantekeingen-ma14-9-2.png" alt="Aantekeningen van artikel Tim Barners-Lee" />
+ Foto: aantekeningen van het artikel
 
 #### Het verband tussen de bronnen
 
@@ -190,7 +231,7 @@ De voorbereiding gaf mij genoeg achtergrondinformatie om tijdens de Bi-Weekly Ge
 
 ## Vrijdag 11 september
 
-### korte samenvatting van de voorbereiding (hier onder staat het uitgebreid)
+### korte samenvatting van de voorbereiding (bij het voorbereiden kopje staat het uitgebreid)
 
 #### Mobile-first schermschetsen
 
@@ -261,6 +302,8 @@ Uiteindelijk koos ik een lettertype uit Google Fonts. Bij de verdere uitwerking 
 
  <img src="./assets/images-readme/fontsen.png" alt="De fontsen die ik heb bekeken en heb vergeleken voor mijn website" />
 
+Foto" Lettertypes die ik intressant vond.
+
 Bronnen:
 [Twisted rope font](https://www.creativefabrica.com/product/twisted-rope/?utm_source=chatgpt.com)
 [Abode fonts](https://fonts.adobe.com/fonts/giddyup?utm_source=chatgpt.com)
@@ -284,6 +327,7 @@ Door meerdere kleurenpaletten naast elkaar te zetten, kon ik beter vergelijken w
 
  <img src="./assets/images-readme/kleurpallets.png" alt="De kleuren pallets die ik heb gemaakt voor mijn webside." />
   <img src="./assets/images-readme/gekozen-pallet.png" alt="De kleuren die ik heb gekozen voor mijn website." />
+  Foto's: Kleurpalleten
 
 Bron: Adobe color
 [Adobe color website](https://color.adobe.com/create/color-wheel)
@@ -325,6 +369,7 @@ Bij de mobiele schetsen hield ik rekening met:
  <img src="./assets/images-readme/mobielscherm-1.png" alt="" />
   <img src="./assets/images-readme/mobielscherm-2.png" alt="" />
    <img src="./assets/images-readme/mobielscherm-3.png" alt="" />
+Foto's: mijn schetsen van de mobile- first schermschetsen.
 
 #### Vertaling naar desktop
 
@@ -358,12 +403,14 @@ Als uitgangspunt voor mijn Visual Research koos ik de sfeerwoorden:
 
   Deze woorden passen bij mijn creatieve onderwerpen, zoals Pokémon binder art, haken, stickers en journalen. Ik wil dat mijn website persoonlijk, creatief en gezellig aanvoelt. De verschillende onderdelen mogen een eigen uitstraling hebben, maar moeten door het gebruik van kleuren en vormen wel bij elkaar passen.
   <img src="./assets/images-readme/9-9-opdracht1.png" alt="Mijn keuze voor mijn sfeerwoorden en de uitleg waarom ik hiervoor heb gekozen." />
+  Foto: Mijn keuze voor mijn sfeerwoorden en de uitleg waarom ik hiervoor heb gekozen
 
 #### Stap 1: directe beelden verzamelen
 
 Eerst verzamelde ik afbeeldingen die direct passen bij mijn hobby’s en sfeerwoorden. Ik zocht onder andere naar Pokémon, binder art, haakprojecten, journals, stickers en andere creatieve producten.
 Ik keek niet alleen naar het onderwerp van de afbeeldingen, maar ook naar kleur, vorm, materiaal en uitstraling. Ik zag vooral zachte vormen, vrolijke kleuren, handgemaakte materialen en fantasierijke illustraties terug.
 <img src="./assets/images-readme/9-9-opdracht2.png" alt="De afbeeldingen die ik heb gebruikt in mijn presentatie" />
+Foto:De afbeeldingen die ik heb gebruikt in mijn presentatie
 
 #### Stap 2: abstracte beelden verzamelen
 
@@ -377,6 +424,7 @@ speelse typografie;
 onderdelen die in elkaar overlopen.
 Hierdoor ontdekte ik dat niet alleen het onderwerp, maar ook de kleuren, vormen, typografie en plaatsing de sfeer van mijn website bepalen.
 <img src="./assets/images-readme/9-9-opdracht3.png" alt="Inspiratie op zoeken om mijn sfeer woorden een vusieel beeld te geven." />
+Foto: Inspiratie op zoeken om mijn sfeer woorden een vusieel beeld te geven.
 
 #### Stap 3: visuele uitgangspunten bepalen
 
@@ -390,6 +438,7 @@ Daaruit kwamen de volgende visuele uitgangspunten:
 - De website moet cozy en persoonlijk aanvoelen.
 - De verschillende hobby’s moeten herkenbaar zijn, maar wel bij dezelfde stijl horen.
   <img src="./assets/images-readme/9-9-opdracht4.png" alt="Jouw 4 gekozen afbeelding beoordelen aan de hand van 3 vragen" />
+  Foto: Jouw 4 gekozen afbeelding beoordelen aan de hand van 3 vragen
 
 #### Crazy 8 maken
 
@@ -405,6 +454,7 @@ Na het Visual Research maakte ik een Crazy 8. Hierbij schetste ik in korte tijd 
 8. Extra informatie tonen wanneer de gebruiker over een bolletje beweegt of erop klikt.
    Na het schetsen annoteerde ik de ideeën. Met pijlen en korte teksten gaf ik aan wat een gebruiker kan doen en welke interacties ik voor mij zie.
    <img src="./assets/images-readme/9-9-opdracht5.png" alt="Opdracht een crazy 8 maken" />
+   Foto: Opdracht een crazy 8 maken
 
 #### Mijn ideeën beoordelen
 
@@ -418,6 +468,7 @@ Vervolgens beoordeelde ik de acht ideeën met het bijbehorende werkvel. Per idee
 - leuk of verrassend is.
   Hierdoor keek ik niet alleen naar welke ideeën ik mooi vond, maar ook naar welke ideeën geschikt en haalbaar zijn voor het web. Het zelf samenstellen van een stickervel is bijvoorbeeld erg interactief, maar waarschijnlijk ook lastiger om binnen deze sprint te bouwen.
   <img src="./assets/images-readme/9-9-opdracht6.png" alt="Mijn beoordelings formulier voor de crazy 8" />
+  Foto: Mijn beoordelings formulier voor de crazy 8
 
 #### Ideeën verder uitwerken
 
@@ -464,6 +515,7 @@ Daarna twijfelde ik tussen alleen Pokémon binder art en meerdere creatieve hobb
 
 Deze hobby’s lijken misschien verschillend, maar hebben veel overeenkomsten. Bij iedere hobby werk ik met kleuren, materialen en kleine details. Vaak begin ik met losse ideeën die tijdens het maken steeds verder groeien.
 <img src="./assets/images-readme/presentatie1.png" alt="slide met alle hobby's" />
+Foto: slide met alle hobby's
 
 #### Inspiratie en afbeeldingen verzamelen
 
@@ -478,12 +530,16 @@ experimenteren en ontwerpen blijven aanpassen;
 iets persoonlijks en unieks maken.
 Daarnaast heb ik tien links verzameld die ik als inspiratiebronnen heb gebruikt. Hiervoor heb ik gekeken naar Pokémonkaarten, haakpatronen, stickers, journals en andere creatieve voorbeelden.
 <img src="./assets/images-readme/haken.jpg" alt="collage haken" />
+Foto: collage Haken.
 
 <img src="./assets/images-readme/binder-art.jpg" alt="collage binder-art" />
+foto: collage Pokemon binder art.
 
 <img src="./assets/images-readme/journal.jpg" alt="collage journal" />
+Foto: collage journaling.
 
 <img src="./assets/images-readme/stickers.jpg" alt="collage stickers" />
+Foto: collage stickers
 
 #### De presentatie maken met Remark.js
 
@@ -536,9 +592,9 @@ Een normale blog bestaat vaak uit losse artikelen. Deze artikelen worden geschre
 Bij een digital garden werkt dit anders. Pagina’s en ideeën mogen blijven veranderen. Een idee kan klein en nog onvolledig beginnen. Later kan de pagina worden uitgebreid wanneer de maker meer over het onderwerp leert, nieuwe inspiratie krijgt of feedback ontvangt.
 Maggie Appleton beschrijft hiervoor verschillende stadia waarin een pagina zich kan bevinden:
 
-- 🌱 Seedling – een vroeg, klein en nog ruw idee;
-- 🌿 Budding – een idee dat al verder is onderzocht en uitgewerkt;
-- 🌳 Evergreen – een redelijk compleet idee dat nog steeds kan blijven veranderen.
+- Seedling – een vroeg, klein en nog ruw idee;
+- Budding – een idee dat al verder is onderzocht en uitgewerkt;
+- Evergreen – een redelijk compleet idee dat nog steeds kan blijven veranderen.
 
 Ik vond deze verdeling interessant, omdat hierdoor zichtbaar wordt dat niet iedere pagina op een website even ver uitgewerkt hoeft te zijn. Een korte ontdekking kan al gedeeld worden als een Seedling. Wanneer ik later meer informatie verzamel, kan deze pagina doorgroeien naar Budding en uiteindelijk naar Evergreen.
 Dit haalt voor mij ook een deel van de druk weg om een pagina meteen helemaal perfect te maken. Het hoort juist bij het concept van een digital garden dat sommige ideeën nog aan het groeien zijn.
@@ -613,15 +669,6 @@ Normaal heb ik snel het gevoel dat iets eerst helemaal goed en uitgewerkt moet z
 Ik vond vooral het verschil tussen Seedling, Budding en Evergreen duidelijk. Deze termen maken zichtbaar dat niet iedere pagina hetzelfde niveau van uitwerking hoeft te hebben. Een klein idee kan al onderdeel zijn van de website en later verder worden aangevuld.
 Ook het verschil tussen The Garden en The Stream heeft mij geholpen. Ik begrijp hierdoor beter dat ik mijn website niet alleen als een lijst met nieuwe berichten moet zien. Ik kan onderwerpen juist met elkaar verbinden, zodat bezoekers zelf verschillende routes door mijn website kunnen volgen.
 Daarnaast vond ik het idee van Learning in Public interessant. Mijn digital garden hoeft niet alleen te laten zien wat ik al kan. Ik mag ook laten zien wat ik nog aan het ontdekken en leren ben.
-
-### Bronnen:
-
-- Maggie Appleton – informatie over Digital Gardens en de groeistadia Seedling, Budding en Evergreen;
-- Mike Caulfield – The Garden and the Stream;
-- Shawn Wang – Learning in Public;
-  Digital Garden Terms of Service;
-  You and Your Mind Garden;
-  MIT Technology Review – artikel over de ontwikkeling en persoonlijke vorm van Digital Gardens.
 
 ## chech-out: heel kort
 
@@ -851,6 +898,7 @@ Een fontfamilie kan uit verschillende bestanden bestaan, zoals regular, italic, 
 Ik heb ook geleerd dat het niet slim is om heel veel lettertypen en varianten aan mijn website toe te voegen. Hierdoor moet de bezoeker meer bestanden downloaden en kan de website langzamer worden. Daarnaast moet ik controleren of de licentie van een lettertype het gebruik op een website toestaat.
 
 <img src="./assets/images-readme/aantekening3sepetmber2.png" alt="aantekeningen deep dive (web safe fonts)" />
+Foto: aantekeningen deep dive (web safe font).
 
 ### HTML & CSS Is Hard
 
@@ -879,9 +927,8 @@ Ik heb vooral geleerd dat HTML niet alleen bepaalt wat er op het scherm staat. D
 Daarnaast begrijp ik nu beter hoe lettertypen op het web werken. Voor deze opdracht kan ik een web-safe font gebruiken of een zelf opgeslagen lettertype met @font-face aan mijn website koppelen. Daarbij moet ik niet alleen kijken naar wat ik mooi vind, maar ook letten op leesbaarheid, fallbacks, bestandsgrootte, privacy en de licentie van het lettertype.
 Voor mijn eigen website wil ik daarom bewust omgaan met de hoeveelheid fonts en varianten die ik toevoeg. Ik wil een stijl kiezen die bij mijn onderwerp past, maar mijn website moet ook duidelijk leesbaar zijn en snel blijven laden.
 
-foto: van mijn aantekeningen.
-
 <img src="./assets/images-readme/aantekeningen3september.png" alt="aantekeningen van HTML en CSS basis" />
+ Foto: aantekeningen van HTML en CSS basi
 
 ## kick-off maandag 31 augustus:
 
@@ -894,6 +941,7 @@ Voor mijn website gebruik ik GitHub als source hosting platform. De code van mij
 
 Mijn repository op GitHub, waarin de bestanden en verschillende versies van mijn website worden opgeslagen.
 <img src="./assets/images-readme/gitthubstart.png" alt="Je domein koppelen aan je Github" />
+Foto:Je domein koppelen aan je Github
 Deze foto is wel later toegevoeegd omdat ik niet wist dat dat moest.
 
 2. Welke domeinnaam heb ik gekozen en hoe heb ik deze gekoppeld?
@@ -902,7 +950,7 @@ Deze foto is wel later toegevoeegd omdat ik niet wist dat dat moest.
    Om mijn domeinnaam aan mijn website te koppelen, heb ik binnen GitHub Pages mijn eigen domein ingevuld. Daarna heb ik bij mijn domein de benodigde DNS-instellingen aangepast. De uitleg en gegevens die ik hiervoor nodig had, kon ik op DLO vinden.
    Nadat ik deze instellingen had toegevoegd, controleerde GitHub de verbinding. Ik kreeg daarna de melding ‘DNS check successful’. Dit betekende dat mijn GitHub-pagina goed was gekoppeld aan madebyjudith.nl.
 
-Foto: domeinkiezen
+Foto: Hier kozen we onze eigen domein naam
 
 <img src="./assets/images-readme/Domeinnaamkiezen.png" alt="Hier kozen we onze eigen domein naam" />
 
@@ -913,6 +961,6 @@ Foto: domeinkiezen
    Mijn werkwijze is:
    Aanpassen → testen met Go Live → opslaan → committen → pushen naar GitHub → online publiceren via GitHub Pages
 
-Foto: eerste versie van mijn website.
+Foto: Dit is het begin wat we gekregen hadden om onze website te maken.
 
 <img src="./assets/images-readme/Blancoversiewebsite.png" alt="Dit is het begin wat we gekregen hadden om onze website te maken." />
