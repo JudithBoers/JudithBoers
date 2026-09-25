@@ -8,6 +8,127 @@ tekst + foto's
 
 # Sprint 2:
 
+## Woensdag 23 september
+
+### Gast spreker
+
+De les begon met een gastspreker over privacy. Ik heb tijdens de presentatie aantekeningen gemaakt. Het onderwerp sloot goed aan op ons onderzoek naar cookies: als bezoeker geef je soms gegevens door zonder dat je precies weet welke gegevens dat zijn of wat ermee gebeurt. Ik vond het interessant om daar bewuster over na te denken, omdat ik zelf ook een website maak.
+<img src="./assets/images-readme/aantekeningen-gastspreker-23-9.png" alt="Aantekening over de gastspreker" />
+Foto: Aantekeningen van de gast spreker.
+
+### Wire-frames
+
+Na de gastspreker kregen we uitleg over het maken van een wireframe. Een wireframe is een eenvoudige schets van de indeling en werking van een pagina. Je hoeft nog niet alle kleuren, afbeeldingen en details uit te werken. Eerst kijk je welke informatie en knoppen nodig zijn, waar ze komen te staan en wat er gebeurt als iemand erop klikt. Dat vond ik een handige manier om mijn idee uit te proberen voordat ik het in code maak.
+
+Daarna moesten we zelf een dark pattern op een bestaande website zoeken en de werking ervan schetsen. Ik onderzocht een voorbeeld op Eneba waarbij extra kosten pas later in het bestelproces zichtbaar worden. Ik tekende hoe de bezoeker eerst een prijs ziet en daarna bij het doorgaan een hoger totaalbedrag tegenkomt. Door de opeenvolgende schermen te schetsen, kon ik duidelijker laten zien wanneer die kosten verschijnen en waarom een bezoeker ze in het begin gemakkelijk kan missen. Deze wireframe voeg ik hieronder toe.
+<img src="./assets/images-readme/wireframe-23-9.png" alt="Uit werking van de wireframe opdracht" />
+Foto: Uitwerkingen van de wire frame opdracht
+
+### Welke data wordt er opgeslagen an mijn bezoekers?
+
+Vervolgens moesten we onderzoeken welke informatie we zelf aan bezoekers van onze website moeten uitleggen. Mijn website staat op GitHub Pages. Daarom heb ik de informatie van GitHub bekeken en ChatGPT gebruikt om de uitleg beter te begrijpen. Ik maakte aantekeningen over gegevens die bij een bezoek aan een website een rol kunnen spelen, zoals een IP-adres, gegevens over de browser en het apparaat, en informatie over welke pagina wordt opgevraagd. Ik wil daarbij precies blijven onderscheiden wat GitHub verwerkt en wat mijn eigen website eventueel zelf zou verzamelen. De foto van mijn onderzoeksaantekeningen voeg ik hieronder toe.
+
+Met die informatie heb ik eerste ideeën geschetst voor hoe ik bezoekers hierover wil informeren en een keuze wil laten maken. Ik heb twee schetsen gemaakt waarin een getekend koekje verandert afhankelijk van de keuze van de bezoeker. Bij accepteren blijft het koekje heel; bij afwijzen verandert de afbeelding. Ik wilde daarmee de keuze zichtbaar en passend bij de sfeer van mijn website maken. Tegelijkertijd moet ik in een volgende versie goed opletten dat de tekening de bezoeker niet ongemerkt richting ‘accepteren’ stuurt. Beide keuzes moeten even duidelijk blijven en de tekst moet uitleggen wat ze werkelijk betekenen. Foto’s van deze eerste schetsen voeg ik hieronder toe.
+
+### Wat neem ik mee?
+
+Ik neem uit deze les mee dat ik bij een cookiemelding niet meteen met de vormgeving moet beginnen. Eerst moet ik weten welke informatie klopt, wat een bezoeker moet begrijpen en welke keuzes ik daadwerkelijk kan aanbieden. De wireframes hielpen mij om het verschil tussen een idee en de werking ervan te zien. In een volgende stap wil ik mijn schetsen verder uitwerken en controleren of de uitleg en de keuzes eerlijk en begrijpelijk zijn.
+
+## voorbereiding woensdag 23 september
+
+### Opdracht afmaken
+
+Als voorbereiding op woensdag heb ik de codeeroefening van Justus van maandag thuis afgemaakt. Tijdens de les ging het live coderen voor mij te snel om alles meteen goed te volgen. Thuis kon ik de code op mijn eigen tempo opnieuw bekijken en de onderdelen die nog niet af waren verder uitwerken.
+
+Ik heb ook extra uitleg voor mezelf bij de code gezet. Ik wilde niet alleen een werkende uitwerking hebben, maar later ook kunnen begrijpen waarom iets op die manier is geschreven. Als ik een vergelijkbaar onderdeel in mijn eigen website wil gebruiken, kan ik mijn uitleg erbij pakken en het zelf opnieuw toepassen. Dat hielp mij meer dan de code alleen overnemen.
+<img src="./assets/images-readme/opdracht-justus.png" alt="Uitwerkingen opdracht van Justud." />
+Foto: Uitwerkingen van de opdracht van Justus
+
+### Onderzoek naar dark patterns
+
+Daarnaast heb ik ter voorbereiding twee video’s bekeken en een artikel van UX Design Institute gelezen over dark patterns. Daarbij ging het over ontwerpkeuzes die bezoekers in een bepaalde richting sturen, bijvoorbeeld bij het delen van gegevens of het maken van een keuze. Ik ben hierdoor bewuster gaan letten op de woorden bij knoppen, de uitleg die een website geeft en hoe makkelijk verschillende keuzes te vinden zijn. Dat sluit ook aan bij de cookiepop-ups die we maandag hebben onderzocht.
+
+Tijdens het lezen en kijken heb ik aantekeningen gemaakt. Foto’s van deze aantekeningen voeg ik hieronder toe. Zo kan ik later terugvinden wat ik uit de bronnen heb gehaald en welke punten ik wil onthouden wanneer ik zelf interactieve onderdelen ontwerp.
+<img src="./assets/images-readme/Aantekeningen-huiswerk21-9.png" alt="Aantekeningen van het huiswerk voor woensdag 23-9" />
+Foto: Aantekeningen van het huiswerk voor woensdag 23-9
+
+## maandag 21 september
+
+### live coderen
+
+Aan het begin van sprint 2 ging Justus live coderen. We konden meekijken hoe hij een voorbeeld stap voor stap opbouwde, maar het tempo lag voor mij erg hoog. Ik probeerde tegelijk te begrijpen wat hij deed, aantekeningen te maken en zelf mee te werken. Daardoor lukte het mij niet om de hele opdracht tijdens de les af te ronden. Ik heb opgeschreven wat ik kon volgen en ben er later thuis rustig mee verdergegaan.
+
+In de code van deze opdracht werkte ik onder andere met de opbouw van een HTML-pagina en een cookiemelding in een dialog-element. Ik vond het leerzaam om te zien hoe HTML-onderdelen samen een werkend geheel moeten vormen. Thuis kon ik de stappen opnieuw bekijken en in mijn eigen tempo uitproberen. Daardoor had ik meer ruimte om te begrijpen wat de code deed en om de opdracht af te maken. Mijn aantekeningen en de code van deze oefening voeg ik hieronder toe.
+<img src="./assets/images-readme/aantekening-justus-livecode.jpg" alt="Aantekeningen van het live coderen van Justus." />
+Foto: Aantekingen van het live coderen.
+
+### cookiepop-ups onderzoeken
+
+Daarna kregen we een opdracht over cookie consent. Ik heb deze samen met Massimo en Eva gemaakt. We onderzochten cookiebanners van de Volkskrant en Paradiso. Op het werkblad keken we niet alleen naar de knoppen, maar ook naar de uitleg: wat gebeurt er met je gegevens, wie kunnen die gegevens krijgen en kun je je keuze later nog veranderen? Ook bekeken we of ‘accepteren’ en ‘weigeren’ even duidelijk en makkelijk waren, en welke keuze de websites het liefst lijken te willen.
+
+Tijdens het vergelijken viel ons op dat er verschil zit tussen een keuze aanbieden en iemand helpen een goed geïnformeerde keuze te maken. Een cookiebanner kan meerdere knoppen hebben, terwijl je toch moet zoeken naar wat die keuzes precies betekenen. Bij de Volkskrant zagen we bijvoorbeeld een uitgebreidere uitleg, maar ook veel informatie over partijen die gegevens kunnen ontvangen. Bij Paradiso keken we onder meer naar de verschillende keuzeopties en hoe duidelijk de gevolgen daarvan werden uitgelegd. De foto van ons ingevulde werkblad voeg ik hieronder toe en ook de bronnen van de websites.
+
+<img src="./assets/images-readme/groepsopdracht 21-9.jpg" alt="Uitwerking van de opdracht over cookie onderzoek.." />
+Foto: groeps opdracht over het onderzoek naar cookies.
+
+Bronnen:
+[Paradiso](https://www.paradiso.nl)
+[Volkskrant](https://www.volkskrant.nl)
+
+### Wat neem ik mee uit de les
+
+Ik neem uit deze les mee dat ik bij interactieve onderdelen niet alleen moet nadenken over hoe ze eruitzien en of ze technisch werken. De woorden op een knop, de uitleg eromheen en hoe makkelijk je een keuze kunt maken, bepalen ook hoe eerlijk en duidelijk de ervaring voor een bezoeker is. De live-codeeroefening liet mij zien dat ik soms meer tijd nodig heb om code te begrijpen. De groepsopdracht hielp mij om kritischer te kijken naar de keuzes die een website aan bezoekers voorlegt.
+
+## Check-out maandag 21 september
+
+Ik heb deze samen met Eva geaakt.
+
+1. Wat zijn HTML landmark role elements?
+HTML landmark role elements zijn elementen die een webpagina verdelen in duidelijke onderdelen. Ze geven aan welke functie een bepaald gedeelte van de pagina heeft. Hierdoor kunnen mensen, zoekmachines en hulpmiddelen zoals screenreaders de structuur van een website beter begrijpen.
+Voorbeelden zijn:
+<header>: de bovenkant van een pagina, vaak met een titel of logo.
+<nav>: het gedeelte met de navigatie en links.
+<main>: de belangrijkste inhoud van de pagina.
+<aside>: extra informatie die naast de hoofdinhoud staat.
+<footer>: de onderkant van de pagina, bijvoorbeeld met contactgegevens.
+<section>: een onderdeel van de pagina met een eigen onderwerp.
+<form>: een gedeelte waarin een formulier staat.
+Door deze elementen te gebruiken, wordt een website overzichtelijker en toegankelijker. Een gebruiker met een screenreader kan bijvoorbeeld direct naar de navigatie of de hoofdinhoud springen.
+
+2. Wat zijn heading-elementen en hoe horen deze ‘genest’ te worden?
+Heading-elementen zijn de koppen en tussenkoppen van een webpagina. In HTML gebruik je hiervoor <h1> tot en met <h6>.
+De <h1> is de belangrijkste titel van de pagina. Een <h2> gebruik je voor de belangrijkste onderdelen onder deze titel. Wanneer een onderdeel binnen een <h2> weer een eigen tussenkop heeft, gebruik je een <h3>. Daarna kun je verdergaan met <h4>, <h5> en <h6>.
+De koppen moeten in een logische volgorde worden gebruikt. Je hoort dus niet zomaar van een <h1> naar een <h4> te springen.
+Bijvoorbeeld:
+<h1>Mijn creatieve website</h1>
+
+<h2>Haken</h2>
+<h3>Mijn haakprojecten</h3>
+<h3>Mijn haakpatronen</h3>
+
+<h2>Binder art</h2>
+<h3>Pokémon binder art</h3>
+In dit voorbeeld is “Mijn creatieve website” het hoofdonderwerp. “Haken” en “Binder art” zijn onderwerpen binnen de website. De projecten en patronen zijn weer kleinere onderwerpen binnen deze onderdelen.
+De heading-elementen hoeven niet letterlijk in elkaar geplaatst te worden. Met ‘nesten’ wordt hier vooral bedoeld dat de koppen inhoudelijk onder elkaar vallen en samen een duidelijke hiërarchie vormen.
+
+3. Hoe ga jij met cookies om? Beschrijf jouw beweegredenen en of die zijn veranderd na het volgen van dit college.
+   Voor het volgen van dit college accepteerde ik cookies meestal zonder goed te lezen waarvoor ze werden gebruikt. Ik klikte vaak op “alles accepteren”, omdat dit de snelste manier was om verder te gaan naar de website. Ik dacht toen niet veel na over welke informatie een website verzamelde en met welke partijen deze informatie gedeeld kon worden.
+   Na dit college ben ik mij bewuster geworden van de verschillende soorten cookies. Noodzakelijke cookies zijn bijvoorbeeld nodig om een website goed te laten werken. Voorkeurscookies onthouden bepaalde instellingen. Analytische cookies verzamelen informatie over het gebruik van een website. Marketingcookies kunnen mijn gedrag op verschillende websites volgen om persoonlijke advertenties te laten zien.
+   Mijn gedrag is hierdoor veranderd. Ik kijk nu beter naar de mogelijkheden in de cookiemelding. Wanneer het mogelijk is, accepteer ik alleen de noodzakelijke cookies en wijs ik marketing- en trackingcookies af. Soms accepteer ik analytische cookies wanneer deze alleen worden gebruikt om de website te verbeteren.
+   Mijn belangrijkste beweegreden is mijn privacy. Ik wil meer controle hebben over welke gegevens van mij worden verzameld. Het college heeft mij laten zien dat cookies niet alleen handig zijn, maar ook gebruikt kunnen worden om mijn online gedrag te volgen. Daarom maak ik nu bewustere keuzes voordat ik cookies accepteer.
+
+## Voorbereiding maandag 21 september
+
+### verder werken aan mijn website
+
+Voor de les van maandag hoefden we geen aparte voorbereidende opdracht te maken. Ik heb die tijd gebruikt om verder te coderen aan mijn eigen website. Na de inlevering van sprint 1 zag ik nog onderdelen die ik wilde aanvullen en verbeteren. Daarom ben ik verdergegaan met de uitwerking, zodat ik met een actuelere versie van mijn website aan sprint 2 kon beginnen.
+
+Tijdens het coderen keek ik steeds wat er al werkte en wat nog aandacht nodig had. Ik maakte aanpassingen in mijn HTML en CSS en bekeek het resultaat in de browser. Zo kon ik zien of de veranderingen deden wat ik verwachtte. Als iets niet meteen goed stond, moest ik opnieuw naar mijn code kijken en een andere oplossing proberen.
+
+Ik heb een paar foto’s gemaakt van de website terwijl ik eraan werkte. Die voeg ik hieronder toe, zodat zichtbaar is hoe mijn website er op dit moment uitzag en waar ik mee bezig was. Deze voorbereiding bestond dus vooral uit zelf verder bouwen en mijn werk stap voor stap verbeteren.
+<img src="./assets/images-readme/21-9.png" alt=" Meerdere HTML's aangemaakt." />
+Foto: Verder gewerkt aan mijn website.
+
 # Sprint 1:
 
 ## Vrijdag 18 september (eerste DEADLINE!)
@@ -43,6 +164,123 @@ Terwijl we aan de retrospectief werkten, werden we één voor één naar een and
 Ik heb een positieve beoordeling en feedback gekregen. Dit was een formatieve beoordeling, dus ik kreeg geen eindcijfer. Het gesprek gaf mij wel een beter beeld van waar ik nu sta en of ik met mijn website op de goede weg ben. Dat stelde me gerust, zeker omdat ik zelf nog veel onderdelen zie die ik wil verbeteren.
 
 Wat ik uit deze dag meeneem, is dat ik naast de dingen die nog niet af zijn ook mag kijken naar wat ik al heb bereikt. De retrospectief hielp mij om de afgelopen sprint als geheel te bekijken. Het voortgangsgesprek hielp mij om mijn werk door de ogen van een docent te zien. Met de feedback kan ik gerichter kiezen wat ik in de volgende sprint verder wil uitwerken en verbeteren.
+
+## check-out vrijdag 18 september:
+
+### Oriënteren en begrijpen
+
+#### Waarom geven de docenten deze opdracht?
+
+Volgens mij willen de docenten dat ik leer hoe ik een eigen idee omzet in een werkende website. Ik leer daarbij niet alleen HTML en CSS gebruiken, maar ook nadenken over mijn inhoud, ontwerpkeuzes en de mensen die mijn website bezoeken. Doordat de website over mijn eigen interesse gaat, moet ik zelf keuzes maken en kunnen uitleggen waarom ik die maak.
+
+#### Welke technieken gebruik ik?
+
+Ik gebruik HTML om mijn pagina’s en inhoud op te bouwen en CSS om de website vorm te geven. In CSS heb ik onder andere gewerkt met kleuren, lettertypes, afstanden en een lichte en donkere weergave. Door die technieken op mijn eigen website toe te passen, begrijp ik beter wat ze doen dan wanneer ik alleen voorbeelden uit een les overneem.
+
+#### Wat zijn de randvoorwaarden?
+
+Ik moet een werkende website inleveren en mijn proces en bronnen inzichtelijk maken. Ook moet ik rekening houden met wat we binnen de opdracht wel en niet mogen gebruiken. Mijn beschikbare tijd en mijn huidige kennis zijn voor mij ook randvoorwaarden: doordat ik ziek ben geweest en er privéomstandigheden waren, moest ik bepalen welke onderdelen ik eerst zou uitwerken. Daarbij wil ik blijven controleren of mijn website duidelijk en toegankelijk is.
+
+#### Waar gebruik je HTML/CSS voor?
+
+Met HTML geef ik betekenis en structuur aan de inhoud, bijvoorbeeld door titels, paragrafen, afbeeldingen en links op de juiste plek te zetten. Met CSS bepaal ik hoe die inhoud eruitziet en op het scherm wordt geplaatst. Ik merk dat ik beide nodig heb: een mooi ontwerp helpt weinig als de inhoud onduidelijk is, en goede inhoud wordt lastiger te gebruiken als de vormgeving niet helpt.
+
+#### Wat kan er allemaal met CSS?
+
+Ik ontdek steeds meer mogelijkheden van CSS. Ik kan er niet alleen kleuren en lettertypes mee aanpassen, maar ook onderdelen plaatsen, ruimte maken en verschillende weergaven ontwerpen. De light- en dark-mode-deep dive liet mij zien dat ik met CSS ook kan reageren op een gekozen thema. Tijdens het bouwen ontdek ik welke mogelijkheden ik voor mijn eigen website wil leren gebruiken. Ik vind het ook leuk dat je elke keer wat nieuws leert.
+
+### Verbeelden en conceptualiseren
+
+#### Lukt het om verschillende ideeën te bedenken?
+
+Ja, ik heb tijdens mijn ontwerpproces meerdere ideeën voor de inhoud en vormgeving onderzocht. Ik heb bijvoorbeeld nagedacht over hoe ik mijn creatieve interesse kan laten zien en hoe bezoekers door de website kunnen gaan. Niet elk idee is uiteindelijk in de ingeleverde versie terechtgekomen. Het vergelijken van ideeën hielp mij wel om een richting te kiezen.
+
+#### Lukt het om je ideeën te schetsen?
+
+Schetsen helpt mij om ideeën die in mijn hoofd zitten zichtbaar te maken. Tijdens het schetsen zie ik sneller of een indeling logisch is en welke onderdelen nog ontbreken. Ik heb ook geleerd dat een schets niet netjes of definitief hoeft te zijn. Het is juist een manier om te denken, iets uit te proberen en daarna een andere versie te maken.
+
+#### Wat doet deze CSS-property?
+
+Bij het coderen probeer ik steeds beter te begrijpen wat een CSS-regel verandert. Soms zie ik meteen het verwachte resultaat, maar soms beïnvloedt een regel ook een ander onderdeel van de pagina. Dan kijk ik opnieuw naar mijn code en probeer ik stap voor stap te achterhalen waardoor dat gebeurt. Op die manier leer ik niet alleen welke waarde werkt, maar ook waarom.
+
+#### Welke content, en welke HTML heb ik nodig?
+
+Ik wil dat bezoekers begrijpen waar mijn website over gaat en dat ze verder kunnen klikken naar de inhoud die hen interesseert. Daarom heb ik nagedacht over welke teksten, afbeeldingen, navigatie en pagina’s daarvoor nodig zijn. Vlak voor de deadline wilde ik graag meerdere HTML-pagina’s hebben, zodat mijn idee duidelijker werd dan op één losse pagina. Tijdens het maken merk ik ook dat de inhoud invloed heeft op hoe ik de HTML moet indelen.
+
+#### Hoe kan ik dit soort content vormgeven?
+
+Ik onderzoek hoe ik tekst en beelden zo kan plaatsen dat de website duidelijk blijft en tegelijk bij mijn onderwerp past. Daarbij let ik op verschillen tussen een grote titel, een kopje en een paragraaf. Ook denk ik na over kleur en ruimte tussen onderdelen. Ik wil dat bezoekers eerst de belangrijkste informatie zien en daarna makkelijk verder kunnen lezen of klikken.
+
+#### Wat als ik hier nu eens 1000 invul?
+
+Deze vraag herinnert mij eraan dat ik tijdens het ontwerpen soms best een extreme waarde mag proberen. Als ik een formaat of afstand veel groter maak, zie ik duidelijker welk effect die keuze heeft. Ik hoef die extreme versie niet te houden, maar het experiment kan mij helpen om een betere keuze te maken dan wanneer ik steeds maar een heel klein beetje verander.
+
+### Prototypen en uitwerken
+
+#### Begrijpen bezoekers de site?
+
+Ik kan zelf bedenken hoe iemand mijn website zou gebruiken, maar ik weet pas meer wanneer iemand anders hem probeert. Mijn zussen hebben mijn website getest. Tijdens dat testen zag ik een foutje dat ik zelf nog niet had opgemerkt en dat heb ik meteen opgelost. Dat liet mij zien hoe waardevol het is om anderen naar een werkende versie te laten kijken. Ik maak zelf ook altijd vaak gebruik van gebruikers testen op andere onderdelen bijv. op mijn schetsen dan vraag ik in mijn omgeving welke ze het makkelijkste vinden. Ik heb het ook gedaan bij mijn typografie, ik had verschillende fontsen ze laten zien en als eerste gevraagd welke hun het beste vonden qua duidelijkheid en leesbaarheid daarna had ik ze uitgelegd wat mijn doel was voor het lettertype. Het grappige hieraan is dat je dan ziet dat ze heel anders gaan kijken naar de lettertypes en dan geven ze soms hele andere feedback dan als ik niet die tweede vraag heb gevraagd.
+
+#### Wat vindt de opdrachtgever ervan?
+
+Bij deze opdracht geven de docenten feedback op mijn werk en mijn voortgang. Tijdens mijn gesprek met Diederik kreeg ik terug dat hij het knap vond hoeveel ik had gedaan, gezien ik ziek ben geweest en mijn privéomstandigheden. De beoordeling gaf mij het gevoel dat ik op de goede weg ben. Ik zie de feedback als informatie waarmee ik kan bepalen wat in een volgende versie nog aandacht nodig heeft.
+
+#### Werkt dit wel?
+
+Tijdens het bouwen merk ik soms pas of een idee in mijn website werkt. Een voorbeeld is de automatische stand die ik eerst naast light en dark mode had toegevoegd. Die gaf soms een probleem in combinatie met mijn gifje. Daarom heb ik de automatische stand weggehaald en gekozen voor een lichte en een donkere stand. Door het echt te bouwen, kon ik die keuze maken op basis van wat er gebeurde.
+
+#### Oooooh, kan dit óók?!
+
+Tijdens het toepassen van de light- en dark-mode-deep dive ontdekte ik dat ik dezelfde onderdelen met verschillende kleuren kan laten werken. Ik moest daardoor verder kijken dan alleen de achtergrond: ook tekst en knoppen moesten in beide standen kloppen. Dat vond ik interessant aan coderen. Een techniek die ik eerst als één kleine toevoeging zag, had invloed op mijn hele ontwerp.
+
+### Evalueren
+
+#### Wat wilde ik weten of bereiken?
+
+Ik wilde een website maken waarop mijn idee en mijn creatieve interesse (haken) herkenbaar zijn. Voor de deadline wilde ik vooral dat er genoeg werkte om de bedoeling van de website te laten zien. Daarom vond ik het belangrijk om verder te komen dan één HTML-pagina en om mijn gekozen vormgeving ook echt in de code te verwerken.
+
+#### Wat heb ik gedaan?
+
+Ik heb ideeën geschetst, informatie gelezen, aantekeningen gemaakt en mijn website gebouwd met HTML en CSS. Ik heb de deep dive over light en dark mode toegepast en problemen die ik tijdens het coderen tegenkwam aangepakt. Ook heb ik mijn zussen de website laten testen (en andere mensen in mijn omgeveing hebben kleine onderdelen bekeken en getest of mening over gegeven) en mijn voortgang met Diederik besproken. In mijn learning log leg ik die stappen en mijn keuzes vast.
+
+#### Wat was het resultaat?
+
+Voor de deadline heb ik een versie van mijn website op tijd kunnen inleveren. Daarin was meer van mijn idee te zien doordat ik ook aan meerdere pagina’s had gewerkt. De lichte en donkere stand waren onderdeel van mijn website geworden. Tegelijkertijd was nog niet alles zoals ik het uiteindelijk wil hebben en was mijn README nog niet up-to-date. Dat laatste heb ik als notitie bij het inleveren gemeld.
+
+#### Wat weet je nu wel en nog niet?
+
+Ik begrijp beter hoe ik HTML gebruik voor de opbouw van mijn pagina’s en CSS voor de vormgeving. Ook heb ik geleerd dat testen een fout zichtbaar kan maken die ik zelf niet meer zie. Ik wil nog beter worden in het zelfstandig oplossen van CSS-problemen en in het controleren van mijn hele website op verschillende schermen en manieren van bedienen.
+
+#### Wat vond je wel en niet leuk?
+
+Ik vind het leuk om te zien hoe een idee langzaam verandert in een werkende website. Vooral het moment waarop iets dat ik heb bedacht ook echt in de browser verschijnt, motiveert mij. Het is minder leuk wanneer de code anders reageert dan ik verwacht of wanneer ik door tijdgebrek niet alles kan afmaken. Toch leer ik juist op die momenten om keuzes te maken en problemen stap voor stap te onderzoeken.
+En heel eerlijk haal ik niet zo veel plezier uit het coderen zelf. Maar ik probeer er wel zo veel mogelijk van te leren en er uit te halen. Want ik heb zware dyslexie en daardoor is het voor mij echt heel lastig om goed te coderen. ALs ik een letter mis of een m=punt verkeerd heb staan dan zie ik dat gewoon niet alleen mijn code doet het dan natuurlijk ook niet.
+
+#### Voldoet het nog aan de eisen?
+
+Ik heb tijdens het werken naar de beoordelingspunten gekeken. Ik heb bijvoorbeeld gewerkt aan mijn procesdocumentatie, mijn ontwerpkeuzes en de lichte en donkere weergave. Ik weet ook dat er nog punten zijn om na te lopen. Mijn README was bij de deadline niet bijgewerkt; dat heb ik bij mijn inlevering aangegeven. Voor een volgende versie wil ik de eisen opnieuw naast mijn website leggen en per onderdeel controleren wat al klopt en wat nog werk vraagt.
+
+#### Is mijn HTML nog valide?
+
+Ik wil mijn HTML opnieuw controleren met een validator. Daarmee kan ik fouten vinden die ik niet meteen in de browser zie. Ik wil daarbij ook kijken of ik de juiste HTML-elementen gebruik en of de volgorde van mijn koppen logisch is. Een pagina die er goed uitziet, hoeft in de code namelijk nog niet helemaal goed opgebouwd te zijn.
+
+#### Is mijn website toegankelijk?
+
+Ik wil controleren of ik mijn website ook met een toetsenbord kan bedienen en of afbeeldingen passende alt-teksten hebben. Daarnaast wil ik het contrast van tekst en achtergrond in zowel de lichte als de donkere stand nakijken. Ik heb hier al over geleerd, maar ik wil niet doen alsof één snelle blik genoeg is om te weten dat de hele website toegankelijk is.
+
+#### Is mijn website nog adaptief?
+
+Ik heb een lichte en een donkere stand toegevoegd, maar ik wil nog controleren of alle onderdelen in beide standen goed zichtbaar blijven. Ook wil ik mijn pagina’s op verschillende schermgroottes bekijken. Omdat ik een gifje gebruik, wil ik verder onderzoeken wat er gebeurt als iemand minder beweging op het scherm heeft ingesteld.
+
+#### Voldoet mijn website nog aan de wet?
+
+Ik wil goed nagaan welke afbeeldingen en andere materialen ik op mijn website gebruik en of ik die mag gebruiken en correct vermeld. Ook wil ik nadenken over privacy als ik later onderdelen toevoeg die gegevens van bezoekers verwerken. Dit is voor mij nog een controlepunt; ik wil geen conclusie trekken zonder eerst mijn website en de gebruikte bronnen goed na te lopen. Ik weet dat we volgende sprint hier dieper op in duiken.
+
+#### Zie ik mezelf nog terug in wat ik doe?
+
+Ja! Mijn website gaat over een onderwerp dat bij mij past en ik maak zelf keuzes in de sfeer, beelden en vormgeving. Daardoor voelt het als mijn eigen project, ook wanneer nog niet alles af is. Ik wil bij volgende aanpassingen blijven kijken of ze mijn idee duidelijker maken, in plaats van iets toe te voegen alleen omdat het technisch mogelijk is.
+Het gaat namelijk ook echt over mijn haak beestjes, het enige jammere is dat ik mijn afbeeldingen mooier en beter laat maken oor AI. Ik heb er over na gedacht om alles zelf te tekenen maar dan krijgen ze niet de uitstraling die ik ze wil geven. De beste oplossing is alles nog een keer zelf haken en dan mooie foto's maken alleen daar heb ik helaas de tijd niet voor. Ik zou dit zeker wel doen als het echt mijn eigen eigen website is buiten school om zodat ik te tijd heb om echt alles zelf te maken en mooi te fotograferen.
+Alleen voor dit blok leek het mij de beste oplossing om de foto's te laten bijwerken door AI. Ik zet ook netjes op de foto aan AI teken zodat iedereen kan zien dat het AI gegenereerd is.
 
 ## voorbereiding vrijdag 18 september
 
