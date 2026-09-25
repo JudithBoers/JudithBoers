@@ -43,8 +43,6 @@ Terwijl we aan de retrospectief werkten, werden we één voor één naar een and
 Ik heb een positieve beoordeling en feedback gekregen. Dit was een formatieve beoordeling, dus ik kreeg geen eindcijfer. Het gesprek gaf mij wel een beter beeld van waar ik nu sta en of ik met mijn website op de goede weg ben. Dat stelde me gerust, zeker omdat ik zelf nog veel onderdelen zie die ik wil verbeteren.
 
 Wat ik uit deze dag meeneem, is dat ik naast de dingen die nog niet af zijn ook mag kijken naar wat ik al heb bereikt. De retrospectief hielp mij om de afgelopen sprint als geheel te bekijken. Het voortgangsgesprek hielp mij om mijn werk door de ogen van een docent te zien. Met de feedback kan ik gerichter kiezen wat ik in de volgende sprint verder wil uitwerken en verbeteren.
-<img src="./assets/images-readme/feedback-sprint1.pdf" alt="De beoordling van mijn ingeleverde wer van sprint 1" />
-Foto: mijn beoordling op mijn ingeleverde werk.
 
 ## voorbereiding vrijdag 18 september
 
