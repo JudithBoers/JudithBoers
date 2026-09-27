@@ -53,10 +53,10 @@ Hierna vroeg chat nog wat extra informatie over mijn code voor eventuele externe
 
 <img src="./assets/images-readme/chatgpt-2.png" alt="" />
 Foto's: Het antwoord wat Chat GPT mij gegeven heeft.
-
+--------------------------------------------------
 <img src="./assets/images-readme/variatiecookie-1.png" alt="" />
 Foto: Variantie 1: een haak patroon van een cookie die goed is gegaan als je hem acceptert en fout gaat als je hem hebt afgewezen
-
+--------------------------------------------------
 <img src="./assets/images-readme/variantie2-cookie.jpg" alt="" />
 Foto: variantie 2: een cookie dat lekker gaat haken als hem accepteerd en stuk gaat als je hem hebt afgewezen.
 
