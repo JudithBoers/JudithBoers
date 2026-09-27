@@ -1,14 +1,119 @@
 # Model
 
-Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door studenten worden gemaakt.
-
-tekst + foto's
-
 ## Learning Log
 
 # Sprint 2:
 
+## Vrijdag 25 september
+
+Door privé omstandigheiden kon ik helaas niet bij de les zijn.
+
+Wel heb ik deze tijd gebruikt om mijn README aan te vullen (want daar liet ik erg bij achter) en verder te gaan met het bedenken hoe ik mijn cookie wil vormgeven.
+
+Ook heb ik gekeken naar de checkout vragen en. heb ik bekeken welke ik kan beantwoorden.
+
+### Ideeën voor de vormgeving van mijn privacyinformatie
+
+Nadat ik had onderzocht welke gegevens er bij een bezoek aan mijn website worden verwerkt, ben ik gaan nadenken over de vormgeving van de privacyinformatie. Mijn eerste schetsen waren gebaseerd op een cookiemelding met knoppen voor ‘Accepteren’ en ‘Afwijzen’. Uit mijn onderzoek bleek dat die knoppen op mijn website geen echte keuze zouden bieden. Daarom wilde ik mijn ideeën aanpassen: de bezoeker moet de informatie gemakkelijk kunnen vinden en lezen, zonder eerst ergens mee te hoeven instemmen.
+
+Ik heb zes mogelijke vormen bedacht die passen bij het haakthema van mijn website. Het eerste idee is een bolletje wol met een draadje. Wat het zelfde is als het bolletje wol die uit de tittel komt, maar het draadje leidt nu naar de privacyuitleg. Bij het tweede idee staat er een gehaakt koekje op de pagina. Als je erop klikt, verschijnt de uitleg naast het koekje. Daarmee kan ik het koekje idee uit mijn eerdere ontwerp behouden, terwijl het geen toestemmingsknop meer is.
+
+Mijn derde idee is een haakpatroonkaartje dat openvouwt wanneer je erop klikt. Dit past bij de haakpatronen op mijn website en maakt het openen van informatie visueel herkenbaar. Bij het vierde idee hangt een koekje aan een draadje aan de rand van de pagina. Na een klik verschijnt de uitleg onder het koekje, alsof het draadje het informatiekaartje tevoorschijn haalt. Het vijfde idee is een garenlabel dat openklapt. Op zo’n label staat normaal informatie over wol; daarom leek het mij een passende plek voor informatie over de website. Tot slot bedacht ik een ontwerp met een rij haaksteken, waarbij een opvallende steek de ingang naar de privacyuitleg is. De steken passen bij elkaar, net zoals de verschillende onderdelen van de website met elkaar samenhangen.
+
+Om de ideeën beter te kunnen vergelijken, heb ik digitaal zwart-witte wireframes gemaakt. In elk wireframe is te zien hoe het onderdeel eruitziet voor en na een klik. Deze schetsen gebruik ik als hulpmiddel om te bepalen welke vorm het duidelijkst werkt. Mijn eigen aantekeningen met de zes schetsen voeg ik hieronder ook toe.
+
+### Ideeën kiezen en feedback vragen
+
+Na het bekijken van de zes wireframes spraken drie ideeën mij het meest aan: het bolletje wol met draadje, het gehaakte koekje en het koekje aan een draadje. Het bolletje wol vind ik leuk omdat het aansluit op mijn tittel gif, maar nu een andere functie heeft. Het draadje kan de bezoeker op een natuurlijke manier naar de privacyuitleg leiden. Bij het gehaakte koekje vind ik vooral leuk dat ik een herkenbaar onderdeel uit mijn eerdere ontwerp kan behouden en het is een knipoog naar een cookie. Het koekje aan een draadje spreekt mij aan vanwege de manier waarop het informatiekaartje tevoorschijn kan komen.
+
+Ik wilde mijn keuze niet alleen baseren op wat ik zelf mooi vind. Daarom heb ik de ideeën ook aan mensen in mijn omgeving laten zien en gevraagd welke variant zij het beste vinden. Daarbij wilde ik niet alleen weten welk ontwerp ze het leukst vonden, maar ook of ze begrepen dat ze erop konden klikken voor privacyinformatie. Hun reacties kan ik gebruiken om een ontwerp te kiezen en het waar nodig duidelijker te maken.
+
 ## voorbereinding voor vrijdag 25 september
+
+### Dieper onderzoek naar gegevens van bezoekers
+
+Mijn website wordt gehost met GitHub Pages. Hierover had ik al informatie van GitHub opgezocht over wat er gebeurt wanneer iemand een GitHub Pages-website bezoekt. Ik vond de uitleg moeilijk om helemaal zelfstandig te begrijpen, omdat er veel tekst en technische termen in stonden. Hierdoor wilde ik toch wat meer onderzoek doen naar alle data dat wordt opgeslagen.
+Hiervoor heb ik ChatGPT gebruikt om die informatie in begrijpelijkere taal uit te leggen en om mij te helpen onderscheid te maken tussen wat GitHub doet en wat ik eventueel zelf aan mijn website toevoeg. Daarna kon ik de uitleg weer naast de informatie van GitHub leggen.
+
+Ik wil nog controleren of mijn eigen website daarnaast iets toevoegt, zoals externe inhoud, scripts of niet-noodzakelijke cookies. Pas wanneer ik weet wat mijn eigen website daadwerkelijk doet, kan ik bepalen of er een toestemmingsvraag nodig is en waarover die dan moet gaan. Ook wil ik duidelijk kunnen uitleggen welke informatie bij GitHub Pages hoort en welke keuzes de bezoeker wel of niet heeft.
+
+#### De prompt die ik heb gebruikt voor Chatgpt:
+
+Mijn website staat op GitHub Pages. Ik wil voor mijn learning log onderzoeken welke gegevens van bezoekers worden verwerkt wanneer zij mijn website openen, en of ik daarvoor een cookiemelding met knoppen voor accepteren en afwijzen nodig heb.
+
+Gebruik eerst de officiële documentatie en privacyverklaring van GitHub. Maak daarna in eenvoudig Nederlands onderscheid tussen:
+
+1. gegevens die GitHub Pages automatisch verwerkt om de website aan te bieden of te beveiligen;
+
+2. cookies of gegevens die pas een rol spelen als ik zelf extra scripts, externe inhoud of diensten aan mijn website toevoeg;
+
+3. wat een bezoeker daadwerkelijk kan accepteren of afwijzen via een knop op mijn eigen website.
+
+Leg moeilijke termen uit, vermeld bij iedere conclusie de exacte bronlink en zeg duidelijk wat je zonder mijn volledige websitecode niet kunt vaststellen. Controleer ook of mijn idee eerlijk is: bij afwijzen wil ik nu een zwart scherm tonen met de tekst dat de website niet beschikbaar is. Leg uit of dat technisch klopt en wat een duidelijker alternatief zou zijn.
+
+Hierna vroeg chat nog wat extra informatie over mijn code voor eventuele externe links. Hier kwam hij de link van Justus tegen dus hier heb ik aan Chat uitgelegd dat die link van mijn docent is en dat mijn docent de informatie niet opslaat.
+Bron: [Chatgpt](https://chatgpt.com)
+
+Antwoord van ChatGPT:
+<img src="./assets/images-readme/chapgpt-1.png" alt="" />
+
+<img src="./assets/images-readme/chatgpt-2.png" alt="" />
+Foto's: Het antwoord wat Chat GPT mij gegeven heeft.
+
+### Effect van mijn diepere onderzoek naar de data
+
+Voor de opdracht over human consent had ik twee schetsen gemaakt rondom het thema haken. In de ene schets lag er een bolletje wol met een haakpatroon van een cookie in de hoek van de website. In de andere schets stond een gehaakt koekje met een spandoek waarop ‘cookies’ stond. Bij beide ideeën kon de bezoeker kiezen tussen accepteren en afwijzen. Als iemand zou afwijzen, wilde ik een zwart scherm laten zien met de boodschap dat de website niet beschikbaar was.
+
+Nadat ik mijn onderzoek met behulp van ChatGPT verder had onderzocht, ben ik anders naar deze schetsen gaan kijken. Ik had eerst vooral nagedacht over hoe ik een originele cookiemelding kon ontwerpen. Door het onderzoek besefte ik dat ik eerst moest weten waar de bezoeker eigenlijk toestemming voor zou geven. Mijn website staat op GitHub Pages. GitHub geeft aan dat bij een bezoek aan een GitHub Pages-website het IP-adres van de bezoeker voor beveiliging wordt vastgelegd. Dat gebeurt al wanneer de pagina wordt opgevraagd. Een knop op mijn website kan die verwerking dus niet aan- of uitzetten.
+
+Ook moest ik beter onderscheid maken tussen de algemene privacyverklaring van GitHub en wat er op mijn eigen website gebeurt. In de algemene verklaring staan verschillende gegevens en cookies genoemd, maar dat betekent niet automatisch dat mijn website al die cookies gebruikt. De Google Fonts die ik gebruik, heb ik zelf gedownload en in mijn assets-map gezet. Voor die lettertypen hoeft de browser dus geen verbinding met Google Fonts te maken. Op mijn homepage staat daarnaast een onderdeel van Digitaal Tuintje waarvoor de browser wel verbinding maakt met een andere website. Daarover wil ik duidelijk zijn tegenover mijn bezoekers. Ookal weet ik dat hier geen data bij wordt opgeslagen.
+
+Op basis van de onderdelen die ik heb onderzocht, heb ik geen optionele cookies of analysetool gevonden waarvoor ik bezoekers op dit moment een keuze tussen accepteren en afwijzen moet geven. Mijn oorspronkelijke knoppen zouden daardoor een keuze suggereren die er niet echt is. Ook het zwarte scherm na ‘Afwijzen’ past niet meer bij wat ik nu weet: de website kan gewoon worden getoond, terwijl GitHub het IP-adres dan al heeft verwerkt. Ik wil bezoekers niet het gevoel geven dat ze ergens mee moeten instemmen om mijn website te kunnen bekijken. Voor uitsluitend strikt noodzakelijke cookies hoeft volgens de [Autoriteit Persoonsgegevens](https://www.autoriteitpersoonsgegevens.nl) geen toestemming te worden gevraagd.
+
+Daarom ga ik mijn twee schetsen niet in hun oorspronkelijke vorm gebruiken. Ik wil het haakthema wel behouden omdat dat goed past bij mijn website, maar de functie veranderen. In plaats van een koekje dat om toestemming vraagt, kan bijvoorbeeld het bolletje wol verwijzen naar een korte privacyuitleg. Bezoekers kunnen die informatie lezen zonder eerst op ‘Accepteren’ of ‘Afwijzen’ te moeten klikken. Zo blijft het ontwerp bij mijn website passen en geef ik tegelijk een eerlijker beeld van wat er met gegevens gebeurt. Als ik later nieuwe externe diensten of optionele cookies toevoeg, moet ik opnieuw onderzoeken of een toestemmingskeuze nodig is.
+
+### Welke informatie ik op mijn website wil laten zien.
+
+Ik wil een korte, begrijpelijke privacyuitleg op mijn website zetten, met de mogelijkheid om meer informatie te lezen. Daarin wil ik vertellen dat mijn website via GitHub Pages wordt gepubliceerd en dat GitHub bij een bezoek het IP-adres vastlegt voor beveiliging. Ik wil er ook bij uitleggen dat mijn eigen knoppen die verwerking niet kunnen uitschakelen.
+
+Daarnaast wil ik benoemen dat de lettertypen lokaal vanaf mijn website worden geladen en dat op de homepage een onderdeel van Digitaal Tuintje staat waarvoor een verbinding met digitaaltuintje.nl wordt gemaakt. ALs we Justus moeten geloven worden hierbij geen gegevens opgeslagen of gebruikt voor andere doeleindes.
+
+Tot slot wil ik duidelijk maken dat ik in de onderzochte onderdelen van mijn website geen optionele cookies of analysetool heb gevonden waarvoor ik nu toestemming vraag. Ik voeg een link toe naar de uitleg van GitHub Pages over gegevensverzameling. Zo kan een bezoeker zelf verder lezen en is de informatie op mijn website concreter dan een algemene melding over ‘cookies’.
+
+Ik heb aan Chatgpt voor de zekerheid gevraagd of ik een externe link kan toevoegen zonder dat daarna meet data verwerkt wordt.
+
+#### De prompt die ik heb gebruikt voor Chatgpt:
+
+als ik een externe link naar GitHub er inzet heb ik dan niet gezeur met eventueel meer data die GitHub verzameld?
+
+Antwoord van ChatGPT:
+<img src="./assets/images-readme/chatgpt-3.png" alt="Antwoord van Chatgpt" />
+Foto: Antwoord van Chatgpt over extra data met een externe link.
+
+### Eerste opzet van de cookie tekst
+
+#### Korte tekst op de cookie pop-up zelf:
+
+Hoe zit het met mijn gegevens?
+
+Deze website staat op GitHub Pages. Bij een bezoek legt GitHub uw IP-adres vast voor beveiliging. Op deze website vraag ik u niet om toestemming voor optionele cookies.
+
+Met twee knoppen: meer informatie en begrepen.
+
+#### De tekste bij het klikken op meer infomatie:
+
+Privacy op deze website
+
+Wat gebeurt er als u mijn website bezoekt?
+Mijn website wordt gepubliceerd via GitHub Pages. GitHub legt het IP-adres van bezoekers vast voor beveiliging, ook als u geen GitHub-account hebt. Een IP-adres is een nummer waarmee uw apparaat verbinding maakt met internet.
+
+Gebruikt deze website andere diensten?
+De lettertypen staan als bestanden op mijn eigen website. Uw browser hoeft daarvoor geen verbinding met Google Fonts te maken. Op de homepage staat ook een onderdeel van Digitaal Tuintje Om dat te tonen, maakt uw browser verbinding met digitaaltuintje.nl. Hierbij wordt geen data opgeslagen.
+
+Waarom zie ik geen knop ‘Accepteren’ of ‘Afwijzen’?
+In de onderdelen die ik heb onderzocht, gebruik ik geen optionele cookies of analysetool waarvoor ik u nu om toestemming vraag. De verwerking door GitHub Pages kan ik niet met zo’n knop aan- of uitzetten. Daarom geef ik u uitleg in plaats van een keuze die niets zou veranderen.
+
+Wilt u meer weten over de hosting? Lees dan [GitHubs uitleg over gegevensverzameling bij GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
 
 ## Woensdag 23 september
 
@@ -30,35 +135,22 @@ Foto: Uitwerkingen van de wire frame opdracht
 
 ### Welke data wordt er opgeslagen an mijn bezoekers?
 
-Vervolgens moesten we onderzoeken welke informatie we zelf aan bezoekers van onze website moeten uitleggen. Mijn website staat op GitHub Pages. Daarom heb ik de informatie van GitHub bekeken en ChatGPT gebruikt om de uitleg beter te begrijpen. Ik maakte aantekeningen over gegevens die bij een bezoek aan een website een rol kunnen spelen, zoals een IP-adres, gegevens over de browser en het apparaat, en informatie over welke pagina wordt opgevraagd. Ik wil daarbij precies blijven onderscheiden wat GitHub verwerkt en wat mijn eigen website eventueel zelf zou verzamelen. De foto van mijn onderzoeksaantekeningen voeg ik hieronder toe.
+Vervolgens moesten we onderzoeken welke informatie we zelf aan bezoekers van onze website moeten uitleggen. Mijn website staat op GitHub Pages. Daarom heb ik de informatie van GitHub bekeken. Ik maakte aantekeningen over gegevens die bij een bezoek aan een website een rol kunnen spelen, zoals een IP-adres, gegevens over de browser en het apparaat, en informatie over welke pagina wordt opgevraagd. Ik wil daarbij precies blijven onderscheiden wat GitHub verwerkt en wat mijn eigen website eventueel zelf zou verzamelen. De foto van mijn onderzoeksaantekeningen voeg ik hieronder toe.
 
-Met die informatie heb ik eerste ideeën geschetst voor hoe ik bezoekers hierover wil informeren en een keuze wil laten maken. Ik heb twee schetsen gemaakt waarin een getekend koekje verandert afhankelijk van de keuze van de bezoeker. Bij accepteren blijft het koekje heel; bij afwijzen verandert de afbeelding. Ik wilde daarmee de keuze zichtbaar en passend bij de sfeer van mijn website maken. Tegelijkertijd moet ik in een volgende versie goed opletten dat de tekening de bezoeker niet ongemerkt richting ‘accepteren’ stuurt. Beide keuzes moeten even duidelijk blijven en de tekst moet uitleggen wat ze werkelijk betekenen. Foto’s van deze eerste schetsen voeg ik hieronder toe.
+Met die informatie heb ik eerste ideeën geschetst voor hoe ik bezoekers hierover wil informeren en een keuze wil laten maken. Ik heb twee schetsen gemaakt waarin bij 1 schets een gehaakt koekje verandert afhankelijk van de keuze van de bezoeker. Bij accepteren blijft het koekje heel en bij afwijzen verandert de afbeelding in een gebroken koekje die op een zwart scherm staat met daarop de teskt excuus deze website is niet beschikbaar.
 
-Chat-GPT Prompt:
-Mijn website staat op GitHub Pages. Ik wil voor mijn learning log onderzoeken welke gegevens van bezoekers worden verwerkt wanneer zij mijn website openen, en of ik daarvoor een cookiemelding met knoppen voor accepteren en afwijzen nodig heb.
+Ik wilde daarmee de keuze zichtbaar en passend bij de sfeer van mijn website maken. Tegelijkertijd moet ik in een volgende versie goed opletten dat de tekening de bezoeker niet ongemerkt richting ‘accepteren’ stuurt. Beide keuzes moeten even duidelijk blijven en de tekst moet uitleggen wat ze werkelijk betekenen. Foto’s van deze eerste schetsen voeg ik hieronder toe.
 
-Gebruik eerst de officiële documentatie en privacyverklaring van GitHub. Maak daarna in eenvoudig Nederlands onderscheid tussen:
-
-1. gegevens die GitHub Pages automatisch verwerkt om de website aan te bieden of te beveiligen;
-
-2. cookies of gegevens die pas een rol spelen als ik zelf extra scripts, externe inhoud of diensten aan mijn website toevoeg;
-
-3. wat een bezoeker daadwerkelijk kan accepteren of afwijzen via een knop op mijn eigen website.
-
-Leg moeilijke termen uit, vermeld bij iedere conclusie de exacte bronlink en zeg duidelijk wat je zonder mijn volledige websitecode niet kunt vaststellen. Controleer ook of mijn idee eerlijk is: bij afwijzen wil ik nu een zwart scherm tonen met de tekst dat de website niet beschikbaar is. Leg uit of dat technisch klopt en wat een duidelijker alternatief zou zijn.
-
-Hierna vroeg chat nog wat extra informatie over mijn code voor eventuele externe links. Hier kwam hij de link van Justus tegen dus hier heb ik aan Chat uitgelegd dat die link van mijn docent is en dat mijn docent de informatie niet opslaat.
-
-<img src="./assets/images-readme/chapgpt-1.png" alt="" />
-
-<img src="./assets/images-readme/chatgpt-2.png" alt="" />
-Foto's: Het antwoord wat Chat GPT mij gegeven heeft.
---------------------------------------------------
 <img src="./assets/images-readme/variatiecookie-1.png" alt="" />
-Foto: Variantie 1: een haak patroon van een cookie die goed is gegaan als je hem acceptert en fout gaat als je hem hebt afgewezen
---------------------------------------------------
+Foto: Variantie 1: een haak patroon van een cookie die goed is gegaan als je hem acceptert en fout gaat als je hem hebt afgewezen die op een zwart scherm staat met daarop de teskt excuus deze website is niet beschikbaar.
+
 <img src="./assets/images-readme/variantie2-cookie.jpg" alt="" />
-Foto: variantie 2: een cookie dat lekker gaat haken als hem accepteerd en stuk gaat als je hem hebt afgewezen.
+Foto: variantie 2: een cookie dat lekker gaat haken als hem accepteerd en stuk gaat als je hem hebt afgewezen die op een zwart scherm staat met daarop de teskt excuus deze website is niet beschikbaar.
+
+---
+
+<img src="./assets/images-readme/informatie-github.jpg" alt="Aantekeningen van mijn onderzoek naar github" />
+Foto: mijn aantekeningen naar mijn onderzoek naar Github.
 
 ### Wat neem ik mee?
 
@@ -605,7 +697,7 @@ Voor het kiezen van een Pokémonkaart maakte ik twee varianten:
 - Een verticale indeling waarin de kaarten onder elkaar staan. De gebruiker kan door de kaarten scrollen.
 
 Voor mijn haakpatronen maakte ik ook twee galerij-indelingen. In de eerste schets staan grote afbeeldingen onder elkaar. In de tweede schets wisselen afbeeldingen en korte teksten elkaar af. Rond de afbeeldingen tekende ik zachte en wollige vormen om de sfeer van het haken terug te laten komen.
-Bij de mobiele schetsen hield ik rekening met: \*een indeling in één kolom;
+Bij de mobiele schetsen hield ik rekening met: een indeling in één kolom;
 
 - de belangrijkste informatie bovenaan;
 - grote klikvlakken;
@@ -667,10 +759,10 @@ Uiteindelijk koos ik een lettertype uit Google Fonts. Bij de verdere uitwerking 
 Foto" Lettertypes die ik intressant vond.
 
 Bronnen:
-[Twisted rope font](https://www.creativefabrica.com/product/twisted-rope/?utm_source=chatgpt.com)
-[Abode fonts](https://fonts.adobe.com/fonts/giddyup?utm_source=chatgpt.com)
-[Envato](https://elements.envato.com/ropelia-display-font-NS6VFNC?utm_source=chatgpt.com)
-[Creative kitting font](https://www.creativefabrica.com/product/creative-knitting/?utm_source=chatgpt.com)
+[Twisted rope font](https://www.creativefabrica.com/product/twisted-rope)
+[Abode fonts](https://fonts.adobe.com)
+[Envato](https://elements.envato.com)
+[Creative kitting font](https://www.creativefabrica.com/product/creative-knitting)
 [Google fonts](https://fonts.google.com)
 
 #### Kleurenpaletten maken
@@ -693,6 +785,28 @@ Door meerdere kleurenpaletten naast elkaar te zetten, kon ik beter vergelijken w
 
 Bron: Adobe color
 [Adobe color website](https://color.adobe.com/create/color-wheel)
+
+#### Gebruik van AI voor mijn afbeeldingen
+
+Voor de afbeeldingen op mijn website heb ik mijn eigen foto’s van de gehaakte dieren gebruikt. Wanneer ik zelf nog geen goede foto had, gebruikte ik de voorbeeldfoto van het dier uit het bijbehorende haakpatroon.
+
+Ik heb deze foto’s aan ChatGPT gegeven en gevraagd om er een mooier en duidelijker beeld van te maken. Het was belangrijk dat de gehaakte dieren realistisch bleven en herkenbaar waren als hetzelfde dier. De kleuren, vorm, het gebruikte garen en de verschillende onderdelen moesten daarom hetzelfde blijven.
+
+Daarnaast wilde ik dat alle afbeeldingen op mijn website dezelfde uitstraling kregen. Daarom heb ik bij iedere afbeelding gevraagd om een warme en gezellige omgeving, zachte belichting en natuurlijke materialen. Hierdoor vormen de afbeeldingen samen één geheel en passen ze beter bij de stijl van mijn website.
+
+Voor de procesfoto’s heb ik de prompt aangepast door te beschrijven welke stap zichtbaar moest zijn. Ik vroeg bijvoorbeeld om een foto waarop een onderdeel werd gehaakt, alle losse onderdelen klaar lagen of het dier in elkaar werd gezet.
+
+Na het maken van de afbeeldingen heb ik gecontroleerd of het dier nog overeenkwam met mijn eigen foto of de originele voorbeeldfoto. Wanneer onderdelen, kleuren of vormen niet klopten, heb ik de prompt aangepast en een nieuwe afbeelding laten maken.
+
+##### De prompt's die ik heb gebruikt voor Chatgpt:
+
+Gebruik de bijgevoegde foto van mijn gehaakte dier of de voorbeeldfoto uit het haakpatroon als basis. Maak hiervan een mooie en realistische foto. Het gehaakte dier moet hetzelfde blijven: behoud de vorm, kleuren, verhoudingen, het soort garen en alle herkenbare onderdelen. Plaats het dier in een warme en gezellige omgeving met zachte stoffen en natuurlijk daglicht. Gebruik rustige zand- en bruintinten, zodat de afbeelding past bij de andere foto’s op mijn website. Zorg voor een scherpe en professionele foto, maar laat het beeld wel natuurlijk en handgemaakt aanvoelen. Voeg geen tekst, logo of watermerk toe.
+
+Aanvulling voor procesfoto’s:
+Laat zien dat het gehaakte dier nog wordt gemaakt. Toon handen die bezig zijn met haken, vullen of het vastnaaien van een onderdeel. Zorg dat alleen de onderdelen zichtbaar zijn die op dat moment al af horen te zijn. Gebruik dezelfde warme, realistische stijl als bij de andere afbeeldingen.
+
+ <img src="./assets/images-readme/voorenna.png" alt="Voor en na foto's" />
+ Foto: het verschil tussen de foto's voor en na chat.
 
 #### Wat heb ik geleerd?
 
