@@ -8,11 +8,14 @@ tekst + foto's
 
 # Sprint 2:
 
+## voorbereinding voor vrijdag 25 september
+
 ## Woensdag 23 september
 
 ### Gast spreker
 
 De les begon met een gastspreker over privacy. Ik heb tijdens de presentatie aantekeningen gemaakt. Het onderwerp sloot goed aan op ons onderzoek naar cookies: als bezoeker geef je soms gegevens door zonder dat je precies weet welke gegevens dat zijn of wat ermee gebeurt. Ik vond het interessant om daar bewuster over na te denken, omdat ik zelf ook een website maak.
+
 <img src="./assets/images-readme/aantekeningen-gastspreker-23-9.png" alt="Aantekening over de gastspreker" />
 Foto: Aantekeningen van de gast spreker.
 
@@ -21,6 +24,7 @@ Foto: Aantekeningen van de gast spreker.
 Na de gastspreker kregen we uitleg over het maken van een wireframe. Een wireframe is een eenvoudige schets van de indeling en werking van een pagina. Je hoeft nog niet alle kleuren, afbeeldingen en details uit te werken. Eerst kijk je welke informatie en knoppen nodig zijn, waar ze komen te staan en wat er gebeurt als iemand erop klikt. Dat vond ik een handige manier om mijn idee uit te proberen voordat ik het in code maak.
 
 Daarna moesten we zelf een dark pattern op een bestaande website zoeken en de werking ervan schetsen. Ik onderzocht een voorbeeld op Eneba waarbij extra kosten pas later in het bestelproces zichtbaar worden. Ik tekende hoe de bezoeker eerst een prijs ziet en daarna bij het doorgaan een hoger totaalbedrag tegenkomt. Door de opeenvolgende schermen te schetsen, kon ik duidelijker laten zien wanneer die kosten verschijnen en waarom een bezoeker ze in het begin gemakkelijk kan missen. Deze wireframe voeg ik hieronder toe.
+
 <img src="./assets/images-readme/wireframe-23-9.png" alt="Uit werking van de wireframe opdracht" />
 Foto: Uitwerkingen van de wire frame opdracht
 
@@ -30,9 +34,56 @@ Vervolgens moesten we onderzoeken welke informatie we zelf aan bezoekers van onz
 
 Met die informatie heb ik eerste ideeën geschetst voor hoe ik bezoekers hierover wil informeren en een keuze wil laten maken. Ik heb twee schetsen gemaakt waarin een getekend koekje verandert afhankelijk van de keuze van de bezoeker. Bij accepteren blijft het koekje heel; bij afwijzen verandert de afbeelding. Ik wilde daarmee de keuze zichtbaar en passend bij de sfeer van mijn website maken. Tegelijkertijd moet ik in een volgende versie goed opletten dat de tekening de bezoeker niet ongemerkt richting ‘accepteren’ stuurt. Beide keuzes moeten even duidelijk blijven en de tekst moet uitleggen wat ze werkelijk betekenen. Foto’s van deze eerste schetsen voeg ik hieronder toe.
 
+Chat-GPT Prompt:
+Mijn website staat op GitHub Pages. Ik wil voor mijn learning log onderzoeken welke gegevens van bezoekers worden verwerkt wanneer zij mijn website openen, en of ik daarvoor een cookiemelding met knoppen voor accepteren en afwijzen nodig heb.
+
+Gebruik eerst de officiële documentatie en privacyverklaring van GitHub. Maak daarna in eenvoudig Nederlands onderscheid tussen:
+
+1. gegevens die GitHub Pages automatisch verwerkt om de website aan te bieden of te beveiligen;
+
+2. cookies of gegevens die pas een rol spelen als ik zelf extra scripts, externe inhoud of diensten aan mijn website toevoeg;
+
+3. wat een bezoeker daadwerkelijk kan accepteren of afwijzen via een knop op mijn eigen website.
+
+Leg moeilijke termen uit, vermeld bij iedere conclusie de exacte bronlink en zeg duidelijk wat je zonder mijn volledige websitecode niet kunt vaststellen. Controleer ook of mijn idee eerlijk is: bij afwijzen wil ik nu een zwart scherm tonen met de tekst dat de website niet beschikbaar is. Leg uit of dat technisch klopt en wat een duidelijker alternatief zou zijn.
+
+Hierna vroeg chat nog wat extra informatie over mijn code voor eventuele externe links. Hier kwam hij de link van Justus tegen dus hier heb ik aan Chat uitgelegd dat die link van mijn docent is en dat mijn docent de informatie niet opslaat.
+
+<img src="./assets/images-readme/chapgpt-1.png" alt="" />
+
+<img src="./assets/images-readme/chatgpt-2.png" alt="" />
+Foto's: Het antwoord wat Chat GPT mij gegeven heeft.
+
+<img src="./assets/images-readme/variatiecookie-1.png" alt="" />
+Foto: Variantie 1: een haak patroon van een cookie die goed is gegaan als je hem acceptert en fout gaat als je hem hebt afgewezen
+
+<img src="./assets/images-readme/variantie2-cookie.jpg" alt="" />
+Foto: variantie 2: een cookie dat lekker gaat haken als hem accepteerd en stuk gaat als je hem hebt afgewezen.
+
 ### Wat neem ik mee?
 
 Ik neem uit deze les mee dat ik bij een cookiemelding niet meteen met de vormgeving moet beginnen. Eerst moet ik weten welke informatie klopt, wat een bezoeker moet begrijpen en welke keuzes ik daadwerkelijk kan aanbieden. De wireframes hielpen mij om het verschil tussen een idee en de werking ervan te zien. In een volgende stap wil ik mijn schetsen verder uitwerken en controleren of de uitleg en de keuzes eerlijk en begrijpelijk zijn.
+
+## Chech-out woensdag 23 september
+
+1. Wat is een wireflow en wat heb je eraan?
+
+Een wireflow combineert eenvoudige schetsen van schermen met pijlen die laten zien hoe iemand van het ene scherm naar het andere gaat. Je ziet dus zowel wat de bezoeker ziet als wat er na een klik gebeurt. Dat is handig om een interactie uit te denken voordat je gaat coderen. Ik kan er bijvoorbeeld mee laten zien wat er op mijn website verandert wanneer iemand cookies accepteert of afwijst. media.nngroup.com
+
+2. Wat zijn dark UX patterns? Geef drie voorbeelden.
+
+Dark UX patterns zijn ontwerpkeuzes die bezoekers sturen naar iets wat ze misschien niet zelf zouden kiezen. De website kan er voordeel van hebben, terwijl de bezoeker belangrijke informatie mist of onder druk wordt gezet. Drie voorbeelden zijn:
+
+1. Verborgen kosten: je ziet eerst een lage prijs, maar pas later in het bestelproces verschijnen extra kosten. Dit heb ik ook onderzocht in mijn schets van Eneba.
+2. Confirmshaming: de tekst bij ‘nee’ geeft je een vervelend gevoel, bijvoorbeeld: “Nee, ik wil geen voordeel.” Daardoor wordt weigeren minder aantrekkelijk.
+3. Nagging: een website blijft je onderbreken met hetzelfde verzoek, ook nadat je het hebt weggeklikt.
+
+Ik wil bij mijn eigen ontwerp opletten dat de bezoeker de gevolgen van een keuze begrijpt en zich vrij voelt om die keuze te maken.
+
+3. Waar moet je als ontwerper rekening mee houden bij het maken van een human consent component?
+
+Een human consent component is voor mij een toestemmingsvraag die rekening houdt met de persoon die de keuze moet maken. Ik moet eerst onderzoeken waarvoor ik daadwerkelijk toestemming vraag en daarna in gewone taal uitleggen welke gegevens worden gebruikt, met welk doel en wat de keuzes betekenen. Accepteren en afwijzen moeten allebei duidelijk te vinden zijn. Ook mag ik iemand niet met een opvallende knop, schuldgevoel of een misleidende afbeelding naar één antwoord duwen.
+Bij mijn schets verandert een koekje na het accepteren of afwijzen. Dat maakt de reactie zichtbaar, maar ik moet goed opletten dat het koekje bij afwijzen geen straf of schuldgevoel uitbeeldt. Beide keuzes moeten eerlijk blijven en de uitleg moet belangrijker zijn dan het grapje in de afbeelding.
 
 ## voorbereiding woensdag 23 september
 
@@ -41,6 +92,9 @@ Ik neem uit deze les mee dat ik bij een cookiemelding niet meteen met de vormgev
 Als voorbereiding op woensdag heb ik de codeeroefening van Justus van maandag thuis afgemaakt. Tijdens de les ging het live coderen voor mij te snel om alles meteen goed te volgen. Thuis kon ik de code op mijn eigen tempo opnieuw bekijken en de onderdelen die nog niet af waren verder uitwerken.
 
 Ik heb ook extra uitleg voor mezelf bij de code gezet. Ik wilde niet alleen een werkende uitwerking hebben, maar later ook kunnen begrijpen waarom iets op die manier is geschreven. Als ik een vergelijkbaar onderdeel in mijn eigen website wil gebruiken, kan ik mijn uitleg erbij pakken en het zelf opnieuw toepassen. Dat hielp mij meer dan de code alleen overnemen.
+
+Omdat het niet echt lukt met mijn inhoud heb ik de inhoud van Justus gekopieerd en geplakt zodta ik echt alles goed kon mee doen.
+
 <img src="./assets/images-readme/opdracht-justus.png" alt="Uitwerkingen opdracht van Justud." />
 Foto: Uitwerkingen van de opdracht van Justus
 
