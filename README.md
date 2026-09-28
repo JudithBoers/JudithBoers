@@ -4,6 +4,138 @@
 
 # Sprint 2:
 
+## i.v.m. een slecht geplande verassings stedentrip ben ik afwezig van 1 tot 5 oktober.
+
+## Na de les van maandag 28 september
+
+### Van feedback naar nieuwe ontwerpvarianten
+
+Op maandag heb ik de feedback op mijn ideeën voor de privacyinformatie verwerkt. Ik heb de suggesties van Lars en Isabeau gecombineerd: een gehaakt koekje dat na een klik een hapje mist, met een informatiekaartje dat via draadjes aan het koekje vastzit. Het losse hapje komt in sommige varianten terug op het kaartje.
+
+Ik heb dit idee eerst in zes globale varianten verkend. Daarna heb ik dezelfde varianten uitgebreider uitwerken, zodat ik beter kon vergelijken waar het kaartje verschijnt en hoe de verbinding met het koekje werkt. Tot slot heb ik ze in kleur gevisualiseren via canva pro.
+
+Ik wil de zes varianten nu aan mensen in mijn omgeving laten zien. Ik vraag welke zij het duidelijkst en het leukst vinden, of ze begrijpen dat het koekje een knop is en of het kaartje logisch uit het koekje lijkt te komen. De reacties en mijn uiteindelijke keuze beschrijf ik in een volgend onderdeel.
+
+<img src="./assets/images-readme/schetsencookie2.png" alt="" />
+Foto: de schetsen van mijn variaties van de cookies na de feedback
+
+## Maandag 28 september
+
+### Bi-weekly Geek 2 – Het web en de wet
+
+Vandaag begonnen we met de Bi-weekly Geek. Ik werkte samen met Massimo, Eva, Isabeau en Joy aan de vragen: 'Kan een machine onderscheid maken tussen informatie, prpagagana en desinformatie?' en ‘Kun je vrijheid van informatie hebben zonder bescherming tegen desinformatie?’ De opdracht was verdeeld over twee teams. Het andere team bedacht eerst deelvragen die nodig zijn om de hoofdvraag te kunnen beantwoorden. Daarna bekeek een ander team welke onderzoeksmethoden bij die deelvragen passen.
+
+We kwamen op verschillende manieren om informatie te verzamelen, zoals literatuuronderzoek, interviews met experts, een focusgroep en een enquête. Ook dachten we aan het vergelijken van bestaande regels en voorbeelden. Ik merkte hierdoor dat je niet meteen een antwoord op een grote vraag hoeft te geven. Door de vraag eerst op te delen, kun je gerichter onderzoeken wat begrippen als vrijheid van informatie en desinformatie betekenen en welke gevolgen bescherming daartegen kan hebben.
+
+Hieronder voeg ik de foto’s van onze ingevulde opdrachtbladen toe.
+
+<img src="./assets/images-readme/weeklygeek2.png" alt="" />
+Foto: De ingevulde opdracht bladen van de weekly geek 2.
+
+### Toegankelijkheid testen met het toetsenbord en VoiceOver
+
+#### Waarom hebben we dit gedaan?
+
+Vandaag hebben we onderzocht hoe je een website gebruikt zonder muis of trackpad. Een website moet ook te bedienen zijn voor mensen die bijvoorbeeld minder goed zien of moeite hebben met fijne motoriek. Daarom hebben we geoefend met twee manieren van navigeren: alleen met het toetsenbord en met VoiceOver, de screenreader op een Mac.
+
+Het doel van de opdracht was om op NS.nl een reis naar Maastricht te plannen. Daarbij moesten we vertrekken vanaf onze huidige locatie, de reis voor morgen instellen, om 12.00 uur vertrekken en een overstaptijd van minimaal tien minuten kiezen. We deden de opdracht twee keer: één keer met alleen het toetsenbord en één keer met VoiceOver.
+
+#### Het POUR-principe
+
+Tijdens de les hebben we het gehad over het POUR-principe. De vier letters beschrijven wat een toegankelijke website nodig heeft:
+
+- Waarneembaar: bezoekers moeten de informatie kunnen zien, horen of op een andere manier meekrijgen. Een screenreader moet bijvoorbeeld kunnen vertellen wat een belangrijke afbeelding betekent.
+
+- Bedienbaar: bezoekers moeten alle functies kunnen gebruiken, ook zonder muis. Je moet bijvoorbeeld met het toetsenbord bij knoppen en invulvelden kunnen komen.
+
+- Begrijpelijk: de tekst en de bediening moeten duidelijk zijn. Bij een formulier moet je begrijpen wat je moet invullen en wat er gebeurt als je op een knop drukt.
+
+- Robuust: de website moet goed werken met verschillende browsers en hulpmiddelen, zoals een screenreader.
+
+Ik begrijp nu beter dat toegankelijkheid uit meerdere onderdelen bestaat. Een knop kan er duidelijk uitzien, maar alsnog lastig te gebruiken zijn als je er niet met het toetsenbord bij kunt komen of als VoiceOver niet vertelt wat de knop doet.
+
+#### De niveaus A, AA en AAA
+
+De niveaus A, AA en AAA
+
+We hebben ook de WCAG-niveaus besproken. Dit zijn niveaus waarmee je kunt beoordelen aan welke toegankelijkheidseisen een website voldoet:
+
+- A is het eerste niveau met belangrijke basiseisen.
+
+- AA bevat de eisen van A en aanvullende eisen. Dit is het niveau waaraan onze website voor de opdracht moet voldoen.
+
+- AAA bevat ook de eisen van A en AA, met nog strengere eisen. Waar het bij mijn website mogelijk is, wil ik ook aan zulke extra eisen denken.
+
+Een voorbeeld is het contrast tussen tekst en achtergrond. Als kleuren te weinig van elkaar verschillen, wordt tekst moeilijker leesbaar. Ook een zichtbare focus is belangrijk: wanneer iemand op Tab drukt, moet duidelijk zijn welk onderdeel op dat moment geselecteerd is.
+
+#### Test 1: NS.nl met alleen het toetsenbord
+
+Voor de eerste test gebruikten we (deed deze opdracht met Jesse) geen muis of trackpad. Ik navigeerde met Tab langs de onderdelen van de pagina en met Shift + Tab terug. Met Enter of Spatie kon ik een onderdeel activeren. Zo probeerde ik de reis stap voor stap in te vullen.
+
+Tijdens het testen lette ik niet alleen op de vraag of ik de reis kon plannen. Ik keek ook of ik kon zien waar ik op de pagina was en of ik zonder muis verder kon wanneer er bijvoorbeeld een keuzelijst verscheen. Hierdoor merkte ik hoe belangrijk de zichtbare focus en een duidelijke volgorde van invulvelden zijn.
+
+Het lukte niet in 1 keer omdat ik op safari zat en daar deed niet alles het goed. ik ben daarna over gegaan op Chrome en daar deed alles het wel.
+
+<img src="./assets/images-readme/alleentoetenbord.png" alt="" />
+Foto: Ik testte of ik op NS.nl een reis kon plannen zonder mijn muis of trackpad te gebruiken.
+---
+<img src="./assets/images-readme/spiekbriefje-toetsenbord.png" alt="" />
+Foto: Spiekbriefje 1: alleen het toetsenbord
+
+#### Test 2: NS.nl met VoiceOver
+
+Daarna voerde we de opdracht opnieuw uit met VoiceOver. VoiceOver leest onderdelen van de website voor en vertelt bijvoorbeeld of iets een kop, link, knop of invulveld is. Daardoor kon ik op een andere manier door dezelfde reisplanner navigeren.
+
+Bij deze test lette ik op de informatie die werd voorgelezen. Begrijp je wat een invulveld vraagt? Is de naam van een knop duidelijk? En kun je horen waar je in het proces bent? De test maakte voor mij duidelijk dat een visueel ontwerp niet genoeg informatie geeft over hoe een website werkt voor iemand die een screenreader gebruikt.
+
+<img src="./assets/images-readme/voiceover.png" alt="" />
+Foto: Ik gebruikte VoiceOver om de reisplanner van NS.nl met een screenreader te testen.
+
+<img src="./assets/images-readme/spiekbriefje-voice.png" alt="" />
+Foto: Spiekbriefje 2: VoiceOver op de Mac
+
+#### Wat neem ik mee voor mijn eigen website?
+
+Door deze opdracht kijk ik anders naar mijn eigen website. Bij het maken en aanpassen van de site wil ik controleren of ik alle links, knoppen en menu’s met alleen het toetsenbord kan gebruiken. Ik wil ook testen of de focus goed zichtbaar is en of de volgorde waarin ik door de pagina ga logisch is.
+
+Met VoiceOver wil ik nagaan of de koppen een duidelijke structuur vormen, of links en knoppen begrijpelijke namen hebben en of belangrijke afbeeldingen goed worden beschreven. Ik kan de spiekbriefjes bij mijn voortgangsgesprek gebruiken om te laten zien hoe ik dit test. De foto’s hierboven laten zien dat ik beide manieren van bedienen tijdens de les zelf heb uitgeprobeerd.
+
+## Check-out maandag 28 september
+
+Na het testen van NS.nl besprak ik samen met Lars drie vragen over semantiek, beperkingen en screenreaders. We gebruikten daarbij wat we tijdens de opdracht met het toetsenbord en VoiceOver hadden geleerd.
+
+1. Wat bedoelt Vasilis met de uitspraak: “Semantiek doet mij niet zo veel, ik ben liever bezig met de UX van HTML”?
+
+Volgens ons bedoelt hij dat hij minder bezig is met wat een HTML-woord letterlijk betekent en vooral kijkt naar wat je met het element kunt doen. Hij vindt het belangrijk hoe iemand de website in de praktijk ervaart en bedient.
+
+Door de opdracht begrijp ik wel dat die twee dingen met elkaar te maken hebben. Als je bijvoorbeeld een echte HTML-knop gebruikt, kunnen bezoekers die meestal met het toetsenbord bedienen en herkent een screenreader dat het een knop is. De keuze van een HTML-element heeft dus invloed op de gebruikservaring.
+
+2. Wat voor type beperkingen hebben invloed op het gebruiken van websites?
+
+We bespraken vier soorten beperkingen:
+
+- Visuele beperkingen: iemand ziet de website minder goed of niet en kan bijvoorbeeld een screenreader gebruiken.
+
+- Auditieve beperkingen: iemand hoort geluid of gesproken informatie minder goed of niet.
+
+- Motorische beperkingen: iemand kan moeite hebben met een muis of kleine klikvlakken en gebruikt bijvoorbeeld het toetsenbord.
+
+- Cognitieve beperkingen: iemand kan moeite hebben met ingewikkelde teksten, veel informatie tegelijk of een onduidelijke indeling.
+
+Daarom is het belangrijk om een website op verschillende manieren te testen. Als iets voor mij met een muis werkt, betekent dat nog niet dat iedereen het kan gebruiken.
+
+3. Noem drie manieren om door een website te navigeren met jouw screenreader.
+
+Op mijn Mac gebruik ik VoiceOver. Daarmee kan ik op verschillende manieren door een website gaan:
+
+1. Onderdeel voor onderdeel: met Control + Option + <- of Control + Option + -> ga ik naar het vorige of volgende onderdeel.
+
+2. Via de koppen: met de VoiceOver-rotor kan ik een lijst met koppen openen en naar een bepaald gedeelte van de pagina springen.
+
+3. Via links of formuliervelden: in dezelfde rotor kan ik ook een lijst met links of formuliervelden kiezen. Dat is handig als ik snel iets wil vinden of een formulier wil invullen.
+
+Door dit samen met Lars te bespreken, kon ik beter uitleggen waarom de opbouw van HTML belangrijk is. Duidelijke koppen, links, knoppen en invulvelden helpen bezoekers om hun weg te vinden, vooral wanneer ze een screenreader gebruiken.
+
 ## voorbereiding maandag 28 september
 
 ### Verantwoordelijkheid van digitale platforms en AI
@@ -18,6 +150,24 @@ Deze bronnen waren nuttig voor mijn eigen ontwerpwerk. Ze lieten mij zien dat ik
 
 <img src="./assets/images-readme/aantekeningen28-9.png" alt="" />
 Foto: Mijn aantekeningen van de artikelen en de video
+
+### Feedback over mijn ideeen voor de privacyinformatie.
+
+Na mijn eerdere voorbereiding heb ik de zes ideeën voor de vormgeving van mijn privacyinformatie aan mensen in mijn omgeving laten zien. Ik vroeg welk idee hen het meest aansprak en waarom. Ik schreef hun reacties op, zodat ik mijn keuze niet alleen op mijn eigen voorkeur zou baseren.
+
+Bij het bolletje wol met draadje viel op dat het goed aansluit bij de titel en de sfeer van mijn website. Alleen René zei ook dat het juist verwarrend kan zijn als ik daar de zelfde vormgeving voor gebruik. Het gehaakte koekje werd gekozen omdat mensen het meteen met cookies associëren. Het garenlabel vond Annet passend omdat er op mijn website ook haakpatronen staan en op een garenlabel staan ook altijd alle informatie over dat garen. De rest van de varianten vielen niet zo erg in de smaak waardoor ik de keuze heb genomen om met deze varianten niet verder te gaan.
+
+Ik kreeg ook feedback op hoe ik ideeën kon combineren. Lars stelde voor om het bolletje wol en het gehaakte koekje samen te gebruiken: het koekje blijft het herkenbare beeld en de tekst van het bericht wordt met een draadje aan het koekje verbonden. Isabeau bedacht daar een speelse reactie op. Wanneer je op het koekje klikt, lijkt er een hapje uit te verdwijnen. Dat losse stukje komt aan het informatiebericht te zitten.
+
+Die twee reacties wil ik samenbrengen in één ontwerp. Eerst ziet de bezoeker een gehaakt koekje met het woord ‘Privacy’ erbij. Na een klik verschijnt een kort informatiekaartje dat met touwtjes aan het koekje vastzit. Het koekje mist dan een hapje en dat stukje zit aan de bovenkant van het kaartje. Zo horen het koekje en de uitleg zichtbaar bij elkaar. Op het kaartje komen de korte uitleg, ‘Meer informatie’ en ‘Sluiten’. Sluiten betekent alleen dat het kaartje verdwijnt; het koekje blijft staan zodat de informatie later opnieuw te openen is.
+En ik ben nog aan het twijfelen of ik een knop erbij voeg met 'begrepen'. Maar hiervoor zal ik later een user test deoen om te kijken welke stijl van de pop-up de voorkeur heeft van gebruikers.
+
+Ik vind deze combinatie leuk omdat de feedback mijn ideeën verder heeft gebracht dan de losse wireframes. Het koekje is herkenbaar, terwijl het draadje en het gehaakte uiterlijk bij mijn website passen. In een volgende schets wil ik kijken of het kaartje en het hapje ook op een klein scherm duidelijk blijven. Daarbij moet meteen zichtbaar zijn dat het om privacyinformatie gaat en niet om een vraag om cookies te accepteren.
+
+Ik ga na de les nieuwe varianten maken op mijn gecombineerde cookie en deze weer testen mt mijn omgeving.
+
+<img src="./assets/images-readme/feedback-cookie-1.png" alt="" />
+Foto: de feedback die ik heb gekregen om mijn wireframes.
 
 ## Vrijdag 25 september
 
@@ -36,6 +186,8 @@ Ik heb zes mogelijke vormen bedacht die passen bij het haakthema van mijn websit
 Mijn derde idee is een haakpatroonkaartje dat openvouwt wanneer je erop klikt. Dit past bij de haakpatronen op mijn website en maakt het openen van informatie visueel herkenbaar. Bij het vierde idee hangt een koekje aan een draadje aan de rand van de pagina. Na een klik verschijnt de uitleg onder het koekje, alsof het draadje het informatiekaartje tevoorschijn haalt. Het vijfde idee is een garenlabel dat openklapt. Op zo’n label staat normaal informatie over wol; daarom leek het mij een passende plek voor informatie over de website. Tot slot bedacht ik een ontwerp met een rij haaksteken, waarbij een opvallende steek de ingang naar de privacyuitleg is. De steken passen bij elkaar, net zoals de verschillende onderdelen van de website met elkaar samenhangen.
 
 Om de ideeën beter te kunnen vergelijken, heb ik digitaal zwart-witte wireframes gemaakt. In elk wireframe is te zien hoe het onderdeel eruitziet voor en na een klik. Deze schetsen gebruik ik als hulpmiddel om te bepalen welke vorm het duidelijkst werkt. Mijn eigen aantekeningen met de zes schetsen voeg ik hieronder ook toe.
+<img src="./assets/images-readme/wireframes-cookie.png" alt="" />
+Foto: mijn korte wireframes over de cookie vromgeving.
 
 ### Ideeën kiezen en feedback vragen
 
