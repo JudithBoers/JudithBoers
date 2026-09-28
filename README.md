@@ -4,6 +4,8 @@
 
 # Sprint 2:
 
+## voorbereiding maandag 28 september
+
 ## Vrijdag 25 september
 
 Door privé omstandigheiden kon ik helaas niet bij de les zijn.
@@ -27,6 +29,31 @@ Om de ideeën beter te kunnen vergelijken, heb ik digitaal zwart-witte wireframe
 Na het bekijken van de zes wireframes spraken drie ideeën mij het meest aan: het bolletje wol met draadje, het gehaakte koekje en het koekje aan een draadje. Het bolletje wol vind ik leuk omdat het aansluit op mijn tittel gif, maar nu een andere functie heeft. Het draadje kan de bezoeker op een natuurlijke manier naar de privacyuitleg leiden. Bij het gehaakte koekje vind ik vooral leuk dat ik een herkenbaar onderdeel uit mijn eerdere ontwerp kan behouden en het is een knipoog naar een cookie. Het koekje aan een draadje spreekt mij aan vanwege de manier waarop het informatiekaartje tevoorschijn kan komen.
 
 Ik wilde mijn keuze niet alleen baseren op wat ik zelf mooi vind. Daarom heb ik de ideeën ook aan mensen in mijn omgeving laten zien en gevraagd welke variant zij het beste vinden. Daarbij wilde ik niet alleen weten welk ontwerp ze het leukst vonden, maar ook of ze begrepen dat ze erop konden klikken voor privacyinformatie. Hun reacties kan ik gebruiken om een ontwerp te kiezen en het waar nodig duidelijker te maken.
+
+## Check-out van vrijdag 25 september
+
+Omdat ik tijdens deze les niet aanwezig was, ben ik niet aan iemand gekoppeld en heb ik gekeken of ik het zelf kon opzoeken
+
+1. Wat is HTML-validatie, waarom is het belangrijk en hoe heb je dat vandaag uitgevoerd?
+
+HTML-validatie is het controleren van de HTML-code op fouten en waarschuwingen. Hiermee kun je bijvoorbeeld ontdekken of elementen verkeerd zijn geplaatst, niet goed zijn afgesloten of op een verkeerde manier zijn gebruikt.
+
+Dit is belangrijk omdat correcte HTML ervoor zorgt dat een website goed werkt in verschillende browsers. Ook maakt het de website beter begrijpelijk voor zoekmachines en hulpmiddelen zoals screenreaders.
+
+Ik heb zelfstandig onderzocht hoe HTML-validatie werkt.
+Bron: [HTML-validatie](https://frontend.webontwerp.ucll.be/HTML_validatie/)
+
+2. Welke dingen vielen je op?
+
+Ik heb het niet uitgevoerd dus ik ga de vraag wat aanpassen naar: Welke dingen kunnen opvallen wanneer je HTML-validatie uitvoert?
+
+Wanneer je HTML-validatie uitvoert, kan opvallen dat een validator heel precies naar de code kijkt. De validator kan bijvoorbeeld aangeven dat een element niet goed is afgesloten, op de verkeerde plek staat of dat een verplicht onderdeel ontbreekt.
+
+Ook kan een website er in de browser goed uitzien, terwijl er toch fouten of waarschuwingen in de HTML staan. Bij iedere melding laat de validator meestal zien om welke regel en welk onderdeel het gaat. Hierdoor kun je de fouten makkelijker terugvinden en stap voor stap verbeteren.
+
+3. Welke feedback heb je ontvangen tijdens het gesprek met je docenten?
+
+Omdat ik tijdens deze les niet aanwezig was, heb ik geen gesprek met de docenten gehad en daarom ook geen persoonlijke feedback ontvangen. Ik ben niet aan iemand gekoppeld, maar heb de opdracht vooral zelfstandig bekeken en onderzocht. Hierdoor heb ik zelf onderzocht wat HTML-validatie is en wat je zou kunnen opvallen na zo' contole.
 
 ## voorbereinding voor vrijdag 25 september
 
