@@ -56,8 +56,6 @@ Ik begrijp nu beter dat toegankelijkheid uit meerdere onderdelen bestaat. Een kn
 
 #### De niveaus A, AA en AAA
 
-De niveaus A, AA en AAA
-
 We hebben ook de WCAG-niveaus besproken. Dit zijn niveaus waarmee je kunt beoordelen aan welke toegankelijkheidseisen een website voldoet:
 
 - A is het eerste niveau met belangrijke basiseisen.
