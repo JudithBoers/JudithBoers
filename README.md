@@ -6,6 +6,19 @@
 
 ## voorbereiding maandag 28 september
 
+### Verantwoordelijkheid van digitale platforms en AI
+
+Ik heb drie artikelen gelezen en een video bekeken over de verantwoordelijkheid van digitale platforms. In het NOS-artikel las ik over een rechtszaak tegen Meta. Amerikaanse staten stellen dat functies zoals automatisch afspelende video’s, stories en likes jongeren lang op Instagram en Facebook houden. Meta spreekt die beschuldigingen tegen. Het artikel liet mij nadenken over de invloed die kleine ontwerpkeuzes kunnen hebben op het gedrag van gebruikers.
+
+Het artikel van Euronews ging over een onderzoek naar AI-chatbots die soms Russische propaganda als bron gebruikten. Ik leerde hiervan dat een antwoord betrouwbaar kan lijken, zelfs wanneer er een bron bij staat. Het blijft belangrijk om te controleren waar informatie vandaan komt en of die bron geloofwaardig is.
+
+In het artikel van de Financial Times las ik dat ChatGPT volgens de Europese Commissie onder strengere regels van de Digital Services Act (DSA) gaat vallen. Grote online diensten krijgen extra verplichtingen, bijvoorbeeld rond illegale inhoud en de bescherming van minderjarigen. De video van de Europese Commissie hielp mij om de DSA beter te begrijpen. Daarin werd uitgelegd dat platforms duidelijker moeten zijn over hun aanbevelingen, jongeren beter moeten beschermen en meer verantwoordelijkheid moeten nemen voor verkopers op hun platform. Ook dark patterns kwamen aan bod: ontwerpen die mensen ongemerkt naar een bepaalde keuze sturen.
+
+Deze bronnen waren nuttig voor mijn eigen ontwerpwerk. Ze lieten mij zien dat ik niet alleen moet nadenken over hoe een website eruitziet en werkt, maar ook over de gevolgen voor de bezoeker. Ik wil duidelijke informatie geven, bezoekers zelf keuzes laten maken en kritisch blijven op de bronnen die ik gebruik. Onder deze tekst voeg ik foto’s van mijn handgeschreven aantekeningen toe als bewijs van wat ik heb gelezen en bekeken. Omdat die foto’s niet overal goed leesbaar zijn, heb ik de belangrijkste inzichten en wat ik eraan had hierboven ook in tekst beschreven.
+
+<img src="./assets/images-readme/aantekeningen28-9.png" alt="" />
+Foto: Mijn aantekeningen van de artikelen en de video
+
 ## Vrijdag 25 september
 
 Door privé omstandigheiden kon ik helaas niet bij de les zijn.
