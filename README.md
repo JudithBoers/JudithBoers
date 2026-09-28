@@ -6,6 +6,21 @@
 
 ## i.v.m. een slecht geplande verassings stedentrip ben ik afwezig van 1 tot 5 oktober.
 
+## Voorbereiding voor woensdg 30 september
+
+### Laatste feedback en mijn keuze
+
+Ik heb de drie nieuwe varianten opnieuw aan mensen in mijn omgeving laten zien. Ik vroeg welke zij het beste vonden en waarom. Zo kon ik zien of de combinatie van het koekje, het hapje en het informatiebericht duidelijker was geworden.
+
+Lars koos variant 2, omdat de andere twee hem minder aanspraken. De vijf anderen kozen allemaal variant 3, de zachte tekstvorm. Desirée vond dat het koekje en het bericht daarin één geheel vormen. René vond het de mooiste combinatie en zei dat het bericht er vloeiend uitkomt. Annet vond deze variant het leukst en duidelijk. Irene zei dat het echt lijkt alsof het bericht uit het koekje komt. Laura vond vooral sterk dat alles als één geheel oogt.
+
+Die reacties sluiten aan bij wat ik met het ontwerp wilde bereiken. Ik wilde dat het informatiebericht niet als een los kaartje naast het koekje staat, maar er zichtbaar uit voortkomt. Daarom kies ik variant 3 om verder uit te werken. De vorm loopt door van het gehaakte koekje naar het bericht, terwijl het losse hapje boven op het bericht terugkomt.
+
+Deze feedback helpt mij bij mijn keuze voor de vormgeving. Bij de verdere uitwerking wil ik ook controleren of bezoekers zonder uitleg begrijpen dat ze op het koekje kunnen klikken om privacyinformatie te openen. De foto van mijn feedbackaantekeningen voeg ik hieronder toe.
+
+<img src="./assets/images-readme/feedback-cookie3.jpg" alt="" />
+Foto: de feedback die ik heb gekregen over de 3 laatste variaties.
+
 ## Na de les van maandag 28 september
 
 ### Van feedback naar nieuwe ontwerpvarianten
@@ -18,6 +33,21 @@ Ik wil de zes varianten nu aan mensen in mijn omgeving laten zien. Ik vraag welk
 
 <img src="./assets/images-readme/schetsencookie2.png" alt="" />
 Foto: de schetsen van mijn variaties van de cookies na de feedback
+
+### Feedback verwerken en drie nieuwe varianten maken
+
+Ik heb de zes varianten van het gehaakte koekje opnieuw aan mensen in mijn omgeving laten zien. Ik wilde weten welk ontwerp zij het duidelijkst en het mooist vonden. De reacties liepen uiteen. Het hangende koekje sprak sommige mensen aan, maar zelf vind ik dat minder goed passen bij de vormgeving van mijn website. Bij de andere varianten werd vooral positief gereageerd op de manier waarop het kaartje en het koekje samen één geheel vormen. Ook het idee van een tekstballon viel op, omdat het bericht daardoor op een speelse manier uit het koekje lijkt te komen.
+
+Met die feedback ben ik verdergegaan met variant 2, 4 en 6. Ik heb de sterke punten daarvan gecombineerd in drie nieuwe ontwerpen. In alle drie verschijnt het informatiekaartje direct naast het koekje, zonder dat het los hangt. Wanneer iemand op het koekje klikt, verdwijnt er een hapje. Dat stukje komt terug boven op het bericht. Zo is te zien dat het bericht bij het koekje hoort.
+
+De drie ontwerpen laten elk een andere beweging zien. Bij de eerste variant vouwt het kaartje uit het koekje. Bij de tweede lijkt het kaartje door de opening naar buiten te schuiven. Bij de derde loopt de vorm van het koekje door in een zachte tekstvorm. Door deze verschillen naast elkaar te zetten, kan ik beter beoordelen welke interactie het duidelijkst is en het beste bij mijn website past.
+
+Ik wil deze drie varianten nog één keer laten testen in mijn omgeving. Daarbij vraag ik of mensen begrijpen dat ze op het koekje kunnen klikken, of het bericht echt uit het koekje lijkt te komen en welke variant zij het prettigst vinden. Met die laatste feedback kan ik een onderbouwde keuze maken voor het ontwerp dat ik op mijn website ga uitwerken. De uitkomst van die test beschrijf ik in een volgend onderdeel.
+
+Voor de nieuwe varianten heb ik weer eerst een schets gemaakt en daarna weer met canva kleur gegeven. Aangezien ik al de juiste vormgeving hasd voor het koekje ging dit een stuk makkelijker en sneller.
+
+<img src="./assets/images-readme/cookievariatie2.png" alt="" />
+Foto: De nieuwe varianten na de feedback.
 
 ## Maandag 28 september
 
@@ -76,6 +106,7 @@ Het lukte niet in 1 keer omdat ik op safari zat en daar deed niet alles het goed
 
 <img src="./assets/images-readme/alleentoetenbord.png" alt="" />
 Foto: Ik testte of ik op NS.nl een reis kon plannen zonder mijn muis of trackpad te gebruiken.
+Bron: [NS.nl](https://www.ns.nl)
 ---
 <img src="./assets/images-readme/spiekbriefje-toetsenbord.png" alt="" />
 Foto: Spiekbriefje 1: alleen het toetsenbord
@@ -88,6 +119,7 @@ Bij deze test lette ik op de informatie die werd voorgelezen. Begrijp je wat een
 
 <img src="./assets/images-readme/voiceover.png" alt="" />
 Foto: Ik gebruikte VoiceOver om de reisplanner van NS.nl met een screenreader te testen.
+Bron: [NS.nl](https://www.ns.nl)
 
 <img src="./assets/images-readme/spiekbriefje-voice.png" alt="" />
 Foto: Spiekbriefje 2: VoiceOver op de Mac
