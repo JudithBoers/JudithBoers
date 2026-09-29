@@ -8,6 +8,19 @@
 
 ## Voorbereiding voor woensdg 30 september
 
+### Mijn website testen zonder muis
+
+Na de Deep Dive over buttons en states wilde ik controleren of mijn website ook zonder muis te gebruiken is. Daarom heb ik in mijn CSS een :focus-visible-regel toegevoegd aan mijn links. Deze regel geeft een duidelijke rand aan de link die op dat moment met het toetsenbord is geselecteerd. Zo kan een bezoeker zien waar die zich op de pagina bevindt.
+
+Daarna heb ik mijn website getest door mijn muis weg te leggen en met het toetsenbord door de pagina te gaan. In Chrome kon ik met Tab langs de links navigeren en met Enter een pagina openen. Ook heb ik gecontroleerd of ik met Shift + Tab weer terug kon gaan.
+
+In Safari dacht ik eerst dat het niet werkte, omdat ik met alleen Tab niet langs de links ging. Toen ontdekte ik dat ik daar Option + Tab moest gebruiken. Daarna kon ik ook in Safari de links selecteren en de focusrand zien. Bij mijn keuze tussen licht en donker ontdekte ik nog iets nieuws: omdat dit radioknoppen in één groep zijn, wissel je daartussen met de pijltjestoetsen. Met Tab ga je daarna verder naar het volgende onderdeel.
+
+Door dit te testen heb ik geleerd dat het toevoegen van een focusstijl pas de eerste stap is. Ik moet ook zelf controleren of alle onderdelen bereikbaar zijn, of ik steeds kan zien waar de focus staat en of de bediening in verschillende browsers werkt.
+
+<img src="./assets/images-readme/testzondermuis.mov" alt="" />
+Video: Een video die laat zien dat ik het aan het testen ben.
+
 ### Mijn knoppen en links verbeteren
 
 Ik had het gevoel dat mijn code voor de knoppen op mijn website niet helemaal goed was. Daarom ben ik eerst begonnen met de Deep Dive Buttons, states en selectors. Ik hoopte daarin een antwoord te vinden op mijn vraag. De Deep Dive ging vooral over de verschillende toestanden van interactieve elementen, maar hielp mij ook om beter na te denken over het verschil tussen een button en een link.
