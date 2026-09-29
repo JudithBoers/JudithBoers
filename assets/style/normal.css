@@ -104,10 +104,8 @@ a:hover {
 }
 
 a:focus-visible {
-  outline: 0.2em solid currentColor;
+  outline: 0.2em solid var(--text-color);
   outline-offset: 0.2em;
-  background-color: var(--hover-button);
-  color: var(--button-hover-text);
 }
 
 a:active {
@@ -185,13 +183,6 @@ header nav {
   justify-content: center;
   gap: 1em;
   padding: 1em;
-}
-
-/* 4. ACTIVE: je drukt de link op dit moment in */
-header nav a:active {
-  background-color: var(--basis-button);
-  color: var(--button-text);
-  transform: scale(0.5);
 }
 
 /**************************
