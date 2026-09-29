@@ -32,7 +32,7 @@ html {
   --hover-button: light-dark(#dbc4b3, #5c3a1b);
   --button-text: light-dark(#f0e4cc, #2b1504);
   --button-hover-text: light-dark(#2b1504, #f0e4cc);
-  --whitespace: 1em: ; /* Originele waarde behouden; de extra dubbele punt is een tikfout. */
+  --whitespace: 1em: ;
 }
 
 /**************************
@@ -151,16 +151,14 @@ header img {
   filter: none;
 }
 
-/* Tweede gifje/afbeelding in de header: Flappie. */
+/* Tweede gifje/afbeelding in de header: bijv. Flappie. */
 header img:nth-of-type(2) {
   position: static;
   float: right;
   width: 15em;
   max-width: 40%;
   height: auto;
-  margin:
-    -2em 2ee,
-    1em 4em; /* Originele waarde behouden; 2ee en de komma maken deze margin ongeldig. */
+  margin: -2em 2em 1em 4em;
 }
 
 /**************************
