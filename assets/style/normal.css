@@ -81,10 +81,10 @@ p {
 }
 
 /**************************
-* MARK: Knoppen
+* MARK: Links als knoppen
 **************************/
 
-button {
+a {
   background: var(--basis-button);
   color: var(--button-text);
   padding: 0.5em 1em;
@@ -96,7 +96,7 @@ button {
   font-family: "Edu SA", sans-serif;
 }
 
-button:hover {
+a:hover {
   background: var(--hover-button);
   color: var(--button-hover-text);
 }
