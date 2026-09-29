@@ -85,6 +85,7 @@ p {
 **************************/
 
 a {
+  display: inline-block;
   background: var(--basis-button);
   color: var(--button-text);
   padding: 0.5em 1em;
@@ -94,11 +95,25 @@ a {
   font-size: 1.5em;
   cursor: pointer;
   font-family: "Edu SA", sans-serif;
+  text-decoration: none;
 }
 
 a:hover {
   background: var(--hover-button);
   color: var(--button-hover-text);
+}
+
+a:focus-visible {
+  outline: 0.2em solid currentColor;
+  outline-offset: 0.2em;
+  background-color: var(--hover-button);
+  color: var(--button-hover-text);
+}
+
+a:active {
+  background-color: var(--basis-button);
+  color: var(--button-text);
+  transform: scale(0.5);
 }
 
 /**************************
@@ -172,19 +187,11 @@ header nav {
   padding: 1em;
 }
 
-header nav a {
+/* 4. ACTIVE: je drukt de link op dit moment in */
+header nav a:active {
   background-color: var(--basis-button);
   color: var(--button-text);
-  padding: 0.5em 1em;
-  border-radius: 1em;
-  font-family: "Edu SA", sans-serif;
-  font-size: 1.2em;
-  text-decoration: none;
-}
-
-header nav a:hover {
-  background-color: var(--hover-button);
-  color: var(--button-hover-text);
+  transform: scale(0.5);
 }
 
 /**************************

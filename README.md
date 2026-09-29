@@ -8,6 +8,11 @@
 
 ## Voorbereiding voor woensdg 30 september
 
+Omdat ik het gevoel had dat mijn code voor mijn knoppen niet goed was heb ik als eerst even de Deep Dive: Buttons, states en selectors gedaan.
+Maar hier merkte ik al snel dat ik hier niet mijn antwoord in kon vinden maar wel andere goede informatie die ik ook kon gebruiken voor mijn website.
+Voor mijn knoppen zag ik dat ik bij de navigatie een andere manier had om het te schrijven en ik heb dat toen toegepast bij elke knop om te kijken of die hierdoor nog steeds werkt. want iets in mij zei dat dat ik geen 'button' in een 'a' mocht zetten en dat een 'a' van zichzelf ook al een knop is.  
+Hieronder laat ik ook wat foto's zien hoe het er uit zag en hoe het er nu uit ziet.
+
 ### Laatste feedback en mijn keuze
 
 Ik heb de drie nieuwe varianten opnieuw aan mensen in mijn omgeving laten zien. Ik vroeg welke zij het beste vonden en waarom. Zo kon ik zien of de combinatie van het koekje, het hapje en het informatiebericht duidelijker was geworden.
