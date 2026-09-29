@@ -8,10 +8,38 @@
 
 ## Voorbereiding voor woensdg 30 september
 
-Omdat ik het gevoel had dat mijn code voor mijn knoppen niet goed was heb ik als eerst even de Deep Dive: Buttons, states en selectors gedaan.
-Maar hier merkte ik al snel dat ik hier niet mijn antwoord in kon vinden maar wel andere goede informatie die ik ook kon gebruiken voor mijn website.
-Voor mijn knoppen zag ik dat ik bij de navigatie een andere manier had om het te schrijven en ik heb dat toen toegepast bij elke knop om te kijken of die hierdoor nog steeds werkt. want iets in mij zei dat dat ik geen 'button' in een 'a' mocht zetten en dat een 'a' van zichzelf ook al een knop is.  
-Hieronder laat ik ook wat foto's zien hoe het er uit zag en hoe het er nu uit ziet.
+### Mijn knoppen en links verbeteren
+
+Ik had het gevoel dat mijn code voor de knoppen op mijn website niet helemaal goed was. Daarom ben ik eerst begonnen met de Deep Dive Buttons, states en selectors. Ik hoopte daarin een antwoord te vinden op mijn vraag. De Deep Dive ging vooral over de verschillende toestanden van interactieve elementen, maar hielp mij ook om beter na te denken over het verschil tussen een button en een link.
+
+Bij het bekijken van mijn eigen code zag ik dat ik voor de teruglink een 'button' binnen een 'a' had gezet. Dat voelde voor mij al niet logisch: de link zorgt er namelijk voor dat je naar een andere pagina gaat, terwijl een button bedoeld is om een handeling uit te voeren. Ik heb de button daarom uit de HTML gehaald en alleen de link laten staan.
+
+Toen ik dat voor het eerst deed, zag de teruglink er ineens anders uit. Op de eerste screenshot is te zien hoe de oude code een klein wit knopje binnen een grotere bruine vorm liet zien. Nadat ik de 'button' weghaalde, moest ik ook mijn CSS aanpassen. De vormgeving stond namelijk nog bij button en werd daardoor niet meer op de link toegepast. Ik heb de selector veranderd naar a, waarna de link er weer uitzag zoals ik wilde en nog steeds werkte.
+
+Daarna heb ik ook mijn andere navigatielinks bekeken om te controleren of ik daar het juiste HTML-element gebruikte. Hierdoor begrijp ik nu beter dat ik eerst moet bepalen wat een element doet en daarna pas met CSS bepaal hoe het eruitziet.
+
+<img src="./assets/images-readme/oudecode-29-9.png" alt="" />
+Foto: mijn oude HTML code.
+---
+
+<img src="./assets/images-readme/knopnabuttonweg.png" alt="" />
+Foto: het uiterlijk vóór de aanpassing in de css
+
+### Deep Dive: Buttons, states en selectors
+
+Tijdens deze Deep Dive heb ik geleerd dat je met CSS ook de interactie van een website vormgeeft. Een link of knop kan er anders uitzien wanneer iemand er met de muis overheen gaat, er met het toetsenbord naartoe navigeert of hem indrukt. Zo krijgt de bezoeker feedback op wat die doet.
+
+Ik leerde eerst het verschil tussen een link en een button. Een link brengt je naar een andere pagina of bron, terwijl een button een handeling uitvoert. Mijn navigatie met Home, Flappie, Vonkje en Simba bestaat uit links, omdat je daarmee naar andere pagina’s gaat. Ik heb de vier states uit de Deep Dive daarom op deze navigatielinks uitgeprobeerd.
+
+De normale vormgeving heet de default state. Met :hover verander ik de vormgeving als de muis boven een link staat. Met :focus-visible laat ik duidelijk zien welke link iemand met de Tab-toets heeft geselecteerd. Dat vind ik belangrijk, omdat de navigatie ook zonder muis te gebruiken moet zijn. Met :active geef ik feedback op het moment dat iemand een link indrukt.
+
+Ik heb de verschillende states getest met mijn muis en toetsenbord. Vooral het effect van :active vind ik leuk: de link wordt tijdens het indrukken heel even kleiner, alsof je hem echt indrukt. Dit effect wil ik ook toepassen in mijn eigen website, omdat het de interactie duidelijker en leuker maakt.
+
+In het tweede deel van de Deep Dive heb ik geleerd hoe 'details' en 'summary' werken. Daarmee kun je informatie laten uitklappen zonder JavaScript. Ook een summary kan een normale, focus-, hover- en active-toestand krijgen. Met details:open kun je daarnaast de vormgeving veranderen zodra de informatie is uitgeklapt. Dit kan ik later gebruiken om extra uitleg overzichtelijk aan te bieden, zonder meteen een lange lap tekst te tonen.
+Dit wil ik toepassen in mijn cookie over privacy.
+
+<img src="./assets/images-readme/4states.png" alt="" />
+Foto: mijn code met de 4 states.
 
 ### Laatste feedback en mijn keuze
 
