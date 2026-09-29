@@ -1,21 +1,28 @@
-/* HIER KOMT JOUW CSS */
+/**************************
+* MARK: Lettertypes
+**************************/
 
-/* lettertypes */
-/* het idee van het draadje */
+/* Het idee van het draadje. */
 @font-face {
   font-family: "Miss Fajardose";
   src: url(../type/MissFajardose-Regular.ttf);
   font-weight: 400;
   font-style: normal;
 }
-/* lettertype voor de kopjes */
+
+/* Lettertype voor de kopjes. */
 @font-face {
   font-family: "Edu SA";
   src: url(../type/EduSA.ttf);
   font-weight: 400;
   font-style: normal;
 }
-/* met behulp van de Deepdive er in gezet */
+
+/**************************
+* MARK: Kleuren en variabelen
+**************************/
+
+/* Met behulp van de Deep Dive erin gezet. */
 html {
   color-scheme: light dark;
 
@@ -25,24 +32,57 @@ html {
   --hover-button: light-dark(#dbc4b3, #5c3a1b);
   --button-text: light-dark(#f0e4cc, #2b1504);
   --button-hover-text: light-dark(#2b1504, #f0e4cc);
-  --whitespace: 1em: ;
+  --whitespace: 1em: ; /* Originele waarde behouden; de extra dubbele punt is een tikfout. */
 }
 
-html:has([value="light"]:checked) {
-  color-scheme: light;
+/**************************
+* MARK: Algemene pagina en afbeeldingen
+**************************/
+
+body {
+  background-color: var(--background);
+  color: var(--text-color);
 }
 
-html:has([value="dark"]:checked) {
-  color-scheme: dark;
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-block: var(--whitespace-s);
+  margin-top: 2.5em;
+  margin-bottom: 1.5em;
 }
 
-html:has([value="light"]:checked) header img {
-  filter: none;
+/**************************
+* MARK: Typografie
+**************************/
+
+h1 {
+  font-family: "Miss Fajardose", sans-serif;
+  font-weight: 120;
+  font-size: 5em;
 }
 
-html:has([value="dark"]:checked) header img {
-  filter: invert(100%);
+h2 {
+  font-family: "Edu SA", sans-serif;
+  font-weight: 100;
+  font-size: 2.5em;
 }
+
+h3 {
+  font-family: "Edu SA", sans-serif;
+  font-weight: 100;
+  font-size: 1.8em;
+}
+
+p {
+  font-weight: 32;
+  font-size: 1.1em;
+}
+
+/**************************
+* MARK: Knoppen
+**************************/
 
 button {
   background: var(--basis-button);
@@ -60,14 +100,11 @@ button:hover {
   background: var(--hover-button);
   color: var(--button-hover-text);
 }
-/* algemene pagina */
 
-body {
-  background-color: var(--background);
-  color: var(--text-color);
-}
+/**************************
+* MARK: Header en keuzemenu
+**************************/
 
-/* header en keuze menu */
 header {
   margin: 2em;
 }
@@ -84,18 +121,6 @@ header form {
   z-index: 2;
 }
 
-footer {
-  margin-left: 2em;
-}
-/* grid en intro */
-main {
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-  gap: 3em;
-  margin: 3em;
-}
-
 header p {
   grid-column: 1 / -1;
   font-size: 1.25em;
@@ -103,13 +128,15 @@ header p {
   width: calc(66.666% - 1em);
   line-height: 1.5;
 }
-/* met behulp van de Deepdive er in gezet */
+
+/* Met behulp van de Deep Dive erin gezet. */
 @media (max-width: 43.75em) {
   header p {
     width: 100%;
   }
 }
-/* gifje */
+
+/* Eerste gifje/afbeelding in de header. */
 header img {
   position: absolute;
   width: 10em;
@@ -124,7 +151,7 @@ header img {
   filter: none;
 }
 
-/* Tweede gifje/afbeelding in de header: Flappie */
+/* Tweede gifje/afbeelding in de header: Flappie. */
 header img:nth-of-type(2) {
   position: static;
   float: right;
@@ -133,25 +160,13 @@ header img:nth-of-type(2) {
   height: auto;
   margin:
     -2em 2ee,
-    1em 4em;
+    1em 4em; /* Originele waarde behouden; 2ee en de komma maken deze margin ongeldig. */
 }
 
-/* met behulp van de DeepDive er in gezet*/
-html:has([value="dark"]:checked) header img:nth-of-type(2) {
-  filter: invert(0%);
-}
+/**************************
+* MARK: Navigatie
+**************************/
 
-/* afbeeldingen */
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin-block: var(--whitespace-s);
-  margin-top: 2.5em;
-  margin-bottom: 1.5em;
-}
-
-/* navigatie */
 header nav {
   display: flex;
   justify-content: center;
@@ -174,25 +189,47 @@ header nav a:hover {
   color: var(--button-hover-text);
 }
 
-/* typografie */
-h1 {
-  font-family: "Miss Fajardose", sans-serif;
-  font-weight: 120;
-  font-size: 5em;
+/**************************
+* MARK: Hoofdinhoud en grid
+**************************/
+
+main {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  gap: 3em;
+  margin: 3em;
 }
 
-h2 {
-  font-family: "Edu SA", sans-serif;
-  font-weight: 100;
-  font-size: 2.5em;
-}
-h3 {
-  font-family: "Edu SA", sans-serif;
-  font-weight: 100;
-  font-size: 1.8em;
+/**************************
+* MARK: Footer
+**************************/
+
+footer {
+  margin-left: 2em;
 }
 
-p {
-  font-weight: 32;
-  font-size: 1.1em;
+/**************************
+* MARK: Licht en donker kiezen
+**************************/
+
+html:has([value="light"]:checked) {
+  color-scheme: light;
+}
+
+html:has([value="dark"]:checked) {
+  color-scheme: dark;
+}
+
+html:has([value="light"]:checked) header img {
+  filter: none;
+}
+
+html:has([value="dark"]:checked) header img {
+  filter: invert(100%);
+}
+
+/* Met behulp van de Deep Dive erin gezet. */
+html:has([value="dark"]:checked) header img:nth-of-type(2) {
+  filter: invert(0%);
 }

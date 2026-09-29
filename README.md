@@ -107,7 +107,9 @@ Het lukte niet in 1 keer omdat ik op safari zat en daar deed niet alles het goed
 <img src="./assets/images-readme/alleentoetenbord.png" alt="" />
 Foto: Ik testte of ik op NS.nl een reis kon plannen zonder mijn muis of trackpad te gebruiken.
 Bron: [NS.nl](https://www.ns.nl)
+
 ---
+
 <img src="./assets/images-readme/spiekbriefje-toetsenbord.png" alt="" />
 Foto: Spiekbriefje 1: alleen het toetsenbord
 
