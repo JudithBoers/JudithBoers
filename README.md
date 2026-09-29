@@ -18,8 +18,8 @@ In Safari dacht ik eerst dat het niet werkte, omdat ik met alleen Tab niet langs
 
 Door dit te testen heb ik geleerd dat het toevoegen van een focusstijl pas de eerste stap is. Ik moet ook zelf controleren of alle onderdelen bereikbaar zijn, of ik steeds kan zien waar de focus staat en of de bediening in verschillende browsers werkt.
 
-<img src="./assets/images-readme/testzondermuis.mov" alt="" />
-Video: Een video die laat zien dat ik het aan het testen ben.
+<img src="./assets/images-readme/zondermuistest.png" alt="" />
+Foto: van mijn test dat het bruikbaar is zonder muis.
 
 ### Mijn knoppen en links verbeteren
 
