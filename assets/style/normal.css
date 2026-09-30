@@ -285,3 +285,26 @@ body > aside[aria-label="Privacyinformatie"] summary:focus-visible {
   outline: 0.2em solid var(--privacy-rand);
   outline-offset: 0.2em;
 }
+
+/* Verberg het koekje met het hapje wanneer het bericht dicht is */
+body > aside[aria-label="Privacyinformatie"] summary img:nth-of-type(2) {
+  display: none;
+}
+
+/* Verberg het hele koekje wanneer het bericht openstaat */
+body
+  > aside[aria-label="Privacyinformatie"]
+  details[open]
+  summary
+  img:first-of-type {
+  display: none;
+}
+
+/* Toon het koekje met het hapje wanneer het bericht openstaat */
+body
+  > aside[aria-label="Privacyinformatie"]
+  details[open]
+  summary
+  img:nth-of-type(2) {
+  display: block;
+}

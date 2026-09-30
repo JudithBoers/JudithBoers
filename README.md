@@ -8,11 +8,20 @@
 
 ## Woensdag 30 september
 
-Omdat ik mijn werk woensdag al moet inleveren omdat ik daarna weg ben, redde ik het niet om naar de les te gaan en heb ik er voor gekozen om thuis verder te werken aan alle opdrachten.
-
-Ik wil eerst kijken of ik mijn website zo kan maken dat je hem kan gebruiken met een Voiceover. Daarna wil ik kijken of ik mijn pop-up kan maken over prvaicy.
-
 ### Pop-up vorm geven
+
+#### Zelf experimenteren met wisselende afbeeldingen
+
+Ik wilde zelf uitzoeken hoe ik twee afbeeldingen kon gebruiken, terwijl er steeds maar één zichtbaar is. Mijn idee was om een heel koekje te tonen wanneer de privacyinformatie gesloten is en een koekje met een hapje eruit wanneer deze openstaat.
+
+Daarvoor heb ik een tweede afbeelding toegevoegd aan mijn HTML. Vervolgens heb ik in CSS geprobeerd deze apart te selecteren met img:nth-of-type(2). Met display: none heb ik de tweede afbeelding standaard verborgen. Wanneer het details-element openstaat, verberg ik de eerste afbeelding met img:first-of-type en laat ik de tweede juist zien.
+
+Voor het zichtbaar maken heb ik zelf display: block geprobeerd. Ik dacht dat dit misschien zou werken als tegenhanger van display: none, en tijdens het testen bleek dat inderdaad te werken. Bij het openen verschijnt nu het koekje met het hapje; bij het sluiten komt het hele koekje weer terug.
+
+Ik wist vooraf niet zeker of mijn aanpak zou werken. Door kleine aanpassingen te doen en steeds het resultaat in de browser te bekijken, heb ik zelf een werkende oplossing gevonden. Ik weet niet of dit de juiste manier is maar het werkt.
+
+<img src="./assets/images-readme/test2cookies.png" alt="" />
+Foto: De test of ik 2 afbeeldingen er in kon zetten.
 
 #### afbeedling toeveoegen
 
@@ -107,6 +116,12 @@ Foto: van de website.
 
 <img src="./assets/images-readme/aria-current.png" alt="" />
 Foto: van mijn code die ik heb aangepast aan de hand van de nieuwe informatie.
+
+### niet aanwezig bij de les
+
+Omdat ik mijn werk woensdag al moet inleveren omdat ik daarna weg ben, redde ik het niet om naar de les te gaan en heb ik er voor gekozen om thuis verder te werken aan alle opdrachten.
+
+Ik wil eerst kijken of ik mijn website zo kan maken dat je hem kan gebruiken met een Voiceover. Daarna wil ik kijken of ik mijn pop-up kan maken over prvaicy.
 
 ## Voorbereiding voor woensdg 30 september
 
