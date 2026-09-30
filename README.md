@@ -6,6 +6,26 @@
 
 ## i.v.m. een slecht geplande verassings stedentrip ben ik afwezig van 1 tot 5 oktober.
 
+## Woensdag 30 september
+
+Omdat ik mijn werk woensdag al moet inleveren omdat ik daarna weg ben, redde ik het niet om naar de les te gaan en heb ik er voor gekozen om thuis verder te werken aan alle opdrachten.
+
+Ik wil eerst kijken of ik mijn website zo kan maken dat je hem kan gebruiken met een Voiceover. Daarna wil ik kijken of ik mijn pop-up kan maken over prvaicy.
+
+### Afbeeldingsbeschrijvingen toevoegen en testen met Voiceover.
+
+Om mijn website toegankelijker te maken, heb ik eerst per afbeelding gekeken of deze informatie toevoegt of vooral bedoeld is als decoratie. Het rollende bolletje wol en de GIF’s van de diertjes zorgen voor sfeer, maar voegen op die plek geen belangrijke informatie toe. Daarom heb ik hiervoor bewust een lege alt-tekst gebruikt: alt="". Zo hoeft een schermlezer deze afbeeldingen niet apart voor te lezen.
+
+Voor de andere afbeeldingen heb ik zo duidelijk mogelijk beschreven wat erop te zien is. Bij de foto’s heb ik bijvoorbeeld de herkenbare kenmerken van de diertjes genoemd. Bij de afbeeldingen in de haakpatronen heb ik beschreven welke onderdelen klaarliggen of welke handeling wordt uitgevoerd. Daarbij heb ik geprobeerd de beschrijvingen kort te houden en vooral informatie te geven die bij het patroon past.
+
+Daarna heb ik mijn website op mijn laptop getest met VoiceOver. Ik heb geluisterd hoe de teksten, links en afbeeldingen werden voorgelezen. Tijdens het testen hoorde ik mijn toegevoegde afbeeldingsbeschrijvingen terug. Hierdoor kon ik controleren of de beschrijvingen begrijpelijk waren zonder naar de foto te kijken.
+
+Het navigeren met VoiceOver vond ik soms nog lastig. Vooral het verdergaan binnen de pagina en het verplaatsen van de banner naar de hoofdinhoud kostte moeite.
+
+Door deze test heb ik geleerd dat toegankelijkheid niet alleen gaat over hoe mijn website eruitziet, maar ook over hoe iemand de inhoud kan begrijpen en bedienen zonder die te zien. Hieronder voeg ik screenshots van mijn VoiceOver-test toe als bewijs.
+<img src="./assets/images-readme/voiceovertest.png" alt="" />
+Foto: van mijn test dat ik mijn website laat voor lezen met behulp van de Voiceover.
+
 ## Voorbereiding voor woensdg 30 september
 
 ### Mijn website testen zonder muis
