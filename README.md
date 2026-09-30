@@ -6,11 +6,71 @@
 
 ## i.v.m. een slecht geplande verassings stedentrip ben ik afwezig van 1 tot 5 oktober.
 
+## wat neem ik mee naar de volgende sprint
+
+In de volgende sprint wil ik vooral zorgen dat mijn website goed werkt en eruitziet op een telefoonscherm. Ik merk dat nog niet alle onderdelen goed passen op een klein scherm. Doordat ik de teksten van mijn links langer en duidelijker heb gemaakt, vallen sommige gifjes eronder weg. Ik wil onderzoeken hoe ik dit kan oplossen.
+
+Daarnaast wil ik het lettertype van mijn alinea’s aanpassen. Dit ben ik deze sprint vergeten, maar ik wil hier alsnog naar kijken om de tekst prettiger leesbaar te maken.
+
+Ook wil ik met JavaScript de keuze voor de lichte of donkere weergave bewaren. Zo hoeven bezoekers hun voorkeur niet opnieuw in te stellen wanneer ze naar een andere pagina gaan.
+
+Verder wil ik mijn website blijven uitbreiden en de vormgeving verbeteren. Ik wil ook onderzoeken hoe ik meer persoonlijke elementen kan toevoegen, zodat de website nog beter bij mij past. Hoe ik dat precies ga doen, weet ik nog niet. Daarmee wil ik in de volgende sprint experimenteren.
+
 ## Woensdag 30 september
 
-### De vormgeving verder verbeteren
+### Mijn privacyonderdeel laten testen
 
-Ik ben nu tevreden met de informatie op mijn privacypagina. De onderwerpen staan erop en bezoekers kunnen zelf kiezen welke uitleg ze willen openen. Daarom ga ik nu verder kijken naar de vormgeving.
+Mijn website is nog niet perfect, maar vanwege tijdsdruk heb ik besloten de vormgeving voorlopig zo te laten. Ik wilde wel controleren of anderen mijn privacyonderdeel konden vinden en gebruiken. Daarom heb ik mensen in mijn omgeving gevraagd mijn website te testen, met extra aandacht voor de pop-up.
+
+Ik heb iedereen drie vragen gesteld:
+
+1. Kun je vinden wat er met jouw gegevens gebeurt?
+
+2. Kun je meer informatie vinden over Digitaal Tuintje?
+
+3. Kun je terugkeren naar de hoofdpagina?
+
+Daarnaast heb ik gevraagd of de informatie en de bediening duidelijk waren. Gelukkig kon iedereen de drie taken zonder moeite uitvoeren. Dit geeft mij vertrouwen dat de privacyinformatie vindbaar is en dat bezoekers hun weg terug kunnen vinden.
+
+Er zijn nog dingen die ik aan de vormgeving wil verbeteren, maar ik ben blij dat dit onderdeel tijdens deze test goed te gebruiken was.
+
+#### De vormgeving aanpassen aan kleinere schermen
+
+Toen ik mijn website op mijn telefoon bekeek, ontdekte ik dat het gifje over de tekst heen viel. Hierdoor was de tekst minder goed leesbaar. Ik heb daarom gekeken of ik hetzelfde principe kon gebruiken als bij het aanpassen van mijn kolommen aan de schermgrootte.
+
+Dit is gelukt: op een klein scherm wordt het gifje nu verborgen. Wanneer er genoeg ruimte is, verschijnt het naast de inhoud. Zo blijft de tekst op mijn telefoon goed leesbaar en is het gifje op grotere schermen wel zichtbaar.
+
+Hetzelfde principe heb ik toegepast op mijn navigatie. Op kleinere schermen is de ruimte tussen de links kleiner, zodat de navigatie beter op het scherm past.
+
+<img src="./assets/images-readme/verschilgenkscherm.png" alt="" />
+Foto: aanpassingen voor een groot en klein scherm
+
+#### Experimenteren met een koekje dat wordt opgegeten
+
+Ik wilde onderzoeken of het leuk was om een gifje toe te voegen waarin een koekje langzaam wordt opgegeten. Dit leek mij een speelse toevoeging die bij het privacyonderdeel van mijn website past.
+
+Tijdens het uitwerken liep ik tegen een vraag aan: hoe kon ik met CSS alleen dit gifje aanpassen, zonder dat de andere gifjes op mijn website ook veranderden? Ik had zelf al bedacht welke vormgeving ik wilde en welke code ik daarvoor wilde gebruiken. Alleen het selecteren van deze specifieke afbeelding lukte mij nog niet.
+
+Vanwege tijdsdruk heb ik ChatGPT om hulp gevraagd. Ik heb mijn code en mijn gewenste resultaat meegestuurd en gevraagd hoe ik de CSS alleen op dit gifje kon laten toepassen. Mijn hulpvraag ging dus specifiek over de selector waarmee ik de afbeelding kon bereiken.
+
+Chatgpt prompt:
+Ik heb op mijn privacypagina een GIF van een gehaakt koekje staan. Ik wil dit GIFje kleiner maken en rechtsonder in beeld plaatsen. Het moet op deze plek blijven staan wanneer iemand door de pagina scrolt.
+
+De andere afbeeldingen en gifjes op mijn website en in mijn andere HTML-bestanden mogen niet veranderen.
+
+Gebruik geen class of id.
+
+position: fixed;
+right: 1em;
+bottom: 1em;
+width: 10em;
+height: auto;
+margin: 0;
+
+Dit is de code die ik al gemaakt heb.
+Ik moet alleen kijken hoe ik het kan koppelen aan alleen dit ene gifje.
+
+Antwoord: main > img[src*="koekje-wordt-opgegeten"]
 
 #### De koekjesafbeeldingen aanpassen
 
@@ -24,6 +84,10 @@ Hieronder laat ik de oude afbeeldingen en de verschillende nieuwe versies zien a
 
 <img src="./assets/images-readme/oudennieuw.png" alt="" />
 Foto: oude afbeeldingen en nieuwe afbeeldingen
+
+### De vormgeving verder verbeteren
+
+Ik ben nu tevreden met de informatie op mijn privacypagina. De onderwerpen staan erop en bezoekers kunnen zelf kiezen welke uitleg ze willen openen. Daarom ga ik nu verder kijken naar de vormgeving.
 
 ### Meer informatie toeveogen
 
