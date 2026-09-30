@@ -237,61 +237,52 @@ html:has([value="dark"]:checked) header img:nth-of-type(2) {
 * MARK: Privacyinformatie
 **************************/
 
+/* Zet het koekje rechtsonder, boven de pagina-inhoud */
 body > aside[aria-label="Privacyinformatie"] {
   position: fixed;
   right: 1em;
   bottom: 1em;
-  z-index: 10; /* zorgt ervoor dat het over alles heen gaat */
+  z-index: 10;
 }
 
-/* Vormgeving wanneer de privacyinformatie openstaat */
-body > aside[aria-label="Privacyinformatie"] details[open] {
+/* Alleen de section krijgt straks een gekleurde achtergrond */
+body > aside[aria-label="Privacyinformatie"] > details {
+  background: transparent;
+  border: none;
+}
+
+/* Breedte van het geopende bericht */
+body > aside[aria-label="Privacyinformatie"] > details[open] {
   width: 20em;
   max-width: calc(100vw - 2em);
-  box-sizing: border-box;
-  padding: 1em;
-
-  background-color: var(--privacy-achtergrond);
-  color: var(--privacy-tekst);
-
-  border: 0.15em solid var(--privacy-rand);
-  border-radius: 1em;
 }
 
-/* Laat zien dat je op Privacy kunt klikken + koekje en tekst bij elkaar.*/
+/* Zet het koekje en de knoptekst onder elkaar */
 body > aside[aria-label="Privacyinformatie"] summary {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.25em;
   cursor: pointer;
 }
 
-/* Maak de titel kleiner en geef het ruimte */
-body > aside[aria-label="Privacyinformatie"] h2 {
-  font-size: 1.9em;
-  margin-block: 0.75em;
+/* Verberg het standaard driehoekje in Safari */
+body > aside[aria-label="Privacyinformatie"] summary::-webkit-details-marker {
+  display: none;
 }
 
-/* De grootte van het kleine koekje */
+/* Grootte van het gesloten koekje */
 body > aside[aria-label="Privacyinformatie"] summary img {
   display: block;
   width: 6em;
   height: auto;
 }
 
-/* Laat zien wanneer de knop met het toetsenbord is geselecteerd */
-body > aside[aria-label="Privacyinformatie"] summary:focus-visible {
-  outline: 0.2em solid var(--privacy-rand);
-  outline-offset: 0.2em;
-}
-
-/* Verberg het koekje met het hapje wanneer het bericht dicht is */
+/* Verberg het koekje met het hapje als het bericht dicht is */
 body > aside[aria-label="Privacyinformatie"] summary img:nth-of-type(2) {
   display: none;
 }
 
-/* Verberg het hele koekje wanneer het bericht openstaat */
+/* Verberg het hele koekje als het bericht open is */
 body
   > aside[aria-label="Privacyinformatie"]
   details[open]
@@ -300,11 +291,37 @@ body
   display: none;
 }
 
-/* Toon het koekje met het hapje wanneer het bericht openstaat */
+/* Toon het grotere koekje met het hapje als het bericht open is */
 body
   > aside[aria-label="Privacyinformatie"]
   details[open]
   summary
   img:nth-of-type(2) {
   display: block;
+  width: 8em;
+}
+
+/* Kleur, rand en afgeronde hoeken van het tekstvlak */
+body > aside[aria-label="Privacyinformatie"] details > section {
+  background-color: var(--privacy-achtergrond);
+  color: var(--privacy-tekst);
+  border: 0.15em solid var(--privacy-rand);
+  border-radius: 2em;
+}
+
+/* Grootte, kleur en ruimte rondom de titel */
+body > aside[aria-label="Privacyinformatie"] h2 {
+  font-size: 1.9em;
+  color: var(--privacy-tekst);
+}
+
+/* Ruimte rondom de alinea’s en tussen de tekstregels */
+body > aside[aria-label="Privacyinformatie"] p {
+  line-height: 1.5;
+}
+
+/* Zichtbare selectierand bij bediening met het toetsenbord */
+body > aside[aria-label="Privacyinformatie"] summary:focus-visible {
+  outline: 0.2em solid var(--privacy-rand);
+  outline-offset: 0.2em;
 }
