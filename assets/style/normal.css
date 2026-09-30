@@ -169,20 +169,16 @@ header img {
 }
 /* Tweede gifje/afbeelding in de header: bijv. Flappie. */
 /* Op telefoons is het gifje niet zichtbaar */
-header img:nth-of-type(2) {
-  display: none;
-}
 
 /* Vanaf iPad-formaat wordt het gifje zichtbaar */
-@media (min-width: 48em) {
-  header img:nth-of-type(2) {
-    position: static;
-    float: right;
-    width: 15em;
-    max-width: 40%;
-    height: auto;
-    margin: -2em 2em 1em 4em;
-  }
+
+header img:nth-of-type(2) {
+  position: static;
+  float: right;
+  width: 15em;
+  max-width: 40%;
+  height: auto;
+  margin: -2em 2em 1em 4em;
 }
 
 /**************************

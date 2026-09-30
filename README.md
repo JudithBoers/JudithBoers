@@ -12,6 +12,19 @@
 
 Ik ben nu tevreden met de informatie op mijn privacypagina. De onderwerpen staan erop en bezoekers kunnen zelf kiezen welke uitleg ze willen openen. Daarom ga ik nu verder kijken naar de vormgeving.
 
+#### De koekjesafbeeldingen aanpassen
+
+Ik ben begonnen met het aanpassen van mijn oude koekjesafbeeldingen. Ik wilde het woord ‘Privacy’ in het koekje verwerken, alsof het erop gehaakt is. Zo past de tekst beter bij de uitstraling van mijn haakwebsite en wordt duidelijk waarvoor het koekje bedoeld is.
+
+Daarna heb ik het koekje met het hapje een paar keer aangepast. Deze afbeelding verschijnt wanneer de privacyinformatie geopend is. Ik wilde hier ook een kruisje aan toevoegen, om duidelijker aan te geven dat bezoekers via het koekje de informatie weer kunnen sluiten.
+
+Ik heb verschillende versies gemaakt om te kijken hoe ik het kruisje mooi en herkenbaar in de afbeelding kon verwerken. Hierbij wilde ik de gehaakte uitstraling behouden, terwijl de functie van het koekje duidelijker werd.
+
+Hieronder laat ik de oude afbeeldingen en de verschillende nieuwe versies zien als bewijs van mijn proces.
+
+<img src="./assets/images-readme/oudennieuw.png" alt="" />
+Foto: oude afbeeldingen en nieuwe afbeeldingen
+
 ### Meer informatie toeveogen
 
 #### Een aparte privacypagina maken
