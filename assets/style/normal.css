@@ -143,6 +143,7 @@ header p {
   margin-top: 0em;
   width: calc(66.666% - 1em);
   line-height: 1.5;
+  z-index: 10;
 }
 
 /* Met behulp van de Deep Dive erin gezet. */
