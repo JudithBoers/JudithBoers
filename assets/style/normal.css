@@ -273,7 +273,7 @@ body > aside[aria-label="Privacyinformatie"] summary::-webkit-details-marker {
 /* Grootte van het gesloten koekje */
 body > aside[aria-label="Privacyinformatie"] summary img {
   display: block;
-  width: 6em;
+  width: 8em;
   height: auto;
 }
 
@@ -343,4 +343,15 @@ main details summary {
 main details summary:focus-visible {
   outline: 0.2em solid var(--text-color);
   outline-offset: 0.2em;
+}
+
+/* Alleen het koekjes-gifje op de privacypagina  ik heb dit wel aan chat gevraagd omdat ik niet konden vinden hoe ik het alleen voor dit gifje kon doen.*/
+main > img[src*="koekje-wordt-opgegeten"] {
+  position: fixed;
+  right: 1em;
+  bottom: 1em;
+
+  width: 10em;
+  height: auto;
+  margin: 0;
 }

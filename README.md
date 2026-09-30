@@ -8,6 +8,10 @@
 
 ## Woensdag 30 september
 
+### De vormgeving verder verbeteren
+
+Ik ben nu tevreden met de informatie op mijn privacypagina. De onderwerpen staan erop en bezoekers kunnen zelf kiezen welke uitleg ze willen openen. Daarom ga ik nu verder kijken naar de vormgeving.
+
 ### Meer informatie toeveogen
 
 #### Een aparte privacypagina maken
