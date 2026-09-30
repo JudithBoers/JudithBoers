@@ -258,9 +258,26 @@ body > aside[aria-label="Privacyinformatie"] details[open] {
   border-radius: 1em;
 }
 
-/* Laat zien dat je op Privacy kunt klikken */
+/* Laat zien dat je op Privacy kunt klikken + koekje en tekst bij elkaar.*/
 body > aside[aria-label="Privacyinformatie"] summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25em;
   cursor: pointer;
+}
+
+/* Maak de titel kleiner en geef het ruimte */
+body > aside[aria-label="Privacyinformatie"] h2 {
+  font-size: 1.9em;
+  margin-block: 0.75em;
+}
+
+/* De grootte van het kleine koekje */
+body > aside[aria-label="Privacyinformatie"] summary img {
+  display: block;
+  width: 6em;
+  height: auto;
 }
 
 /* Laat zien wanneer de knop met het toetsenbord is geselecteerd */

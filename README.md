@@ -12,6 +12,23 @@ Omdat ik mijn werk woensdag al moet inleveren omdat ik daarna weg ben, redde ik 
 
 Ik wil eerst kijken of ik mijn website zo kan maken dat je hem kan gebruiken met een Voiceover. Daarna wil ik kijken of ik mijn pop-up kan maken over prvaicy.
 
+### Pop-up vorm geven
+
+#### afbeedling toeveoegen
+
+Ik ben begonnen met het toevoegen van een afbeelding van een gehaakt koekje aan mijn privacyonderdeel. Dit past bij de stijl en het haakthema van mijn website. Toen ik de afbeelding voor het eerst toevoegde, was deze alleen veel te groot en bedekte het koekje een groot deel van de pagina.
+
+Daarna heb ik in CSS verschillende afmetingen uitgeprobeerd. Ik heb steeds in de browser gekeken hoe het koekje eruitzag, zowel wanneer de privacyinformatie gesloten was als wanneer deze openstond. Uiteindelijk heb ik gekozen voor een breedte van 6em, met height: auto, zodat de afbeelding haar oorspronkelijke verhoudingen behoudt.
+
+Ook heb ik de plaatsing van het koekje en de tekst ‘Privacy’ aangepast. Deze staan nu gecentreerd onder elkaar. Daarnaast heb ik de titel in het geopende informatievak kleiner gemaakt en de ruimte eromheen aangepast. Zo heb ik stap voor stap gezocht naar een formaat en indeling die bij mijn website passen.
+
+Bij de verschillende stukjes CSS zet ik opmerkingen voor mezelf. Daarin schrijf ik kort waarvoor de code bedoeld is. Hierdoor kan ik later makkelijker terugvinden wat ik moet aanpassen en begrijp ik beter wat iedere regel doet.
+
+Tot slot heb ik met de Tab-toets gekeken hoe het privacyonderdeel eruitziet wanneer het toetsenbordfocus krijgt. Er verschijnt dan een rand om het aanklikbare onderdeel. Daardoor kan ik zien waar ik ben op de pagina, ook zonder mijn muis te gebruiken.
+
+<img src="./assets/images-readme/eersteopzetafbeelding.png" alt="" />
+Foto: De eerste aanpassingen van mijn afbeelding
+
 ### Begin maken aan de pop-up in HTML
 
 #### Kleurvarianten vergelijken en feedback verzamelen
