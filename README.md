@@ -10,6 +10,19 @@
 
 ### Pop-up vorm geven
 
+#### CSS ordenen en de vormgeving verder aanpassen
+
+I heb mijn CSS voor het privacyonderdeel opnieuw georganiseerd. Alle bijbehorende code staat nu bij elkaar onder MARK: Privacyinformatie. Bij ieder stukje heb ik een korte opmerking gezet, zodat ik later makkelijker kan terugvinden waarvoor de code bedoeld is.
+
+Daarna heb ik de vormgeving verder aangepast. Het koekje blijft rechtsonder in beeld staan, terwijl alleen het tekstvlak een gekleurde achtergrond, rand en afgeronde hoeken krijgt. Hierdoor staat de afbeelding los van het informatievak.
+
+Verder heb ik het standaard driehoekje van 'summary' in Safari verborgen en het koekje en de knoptekst onder elkaar gecentreerd. Voor het geopende bericht heb ik een breedte en een maximale breedte ingesteld. Daarnaast heb ik de titelgrootte en de regelafstand van de alinea’s aangepast.
+
+Door mijn CSS zo te ordenen, krijg ik meer overzicht en begrijp ik beter welke regels de plaatsing, vormgeving en verschillende toestanden bepalen. Hieronder voeg ik een screenshot toe van deze tussenstap. De uitwerking is nog niet perfect maar het is een begin.
+
+<img src="./assets/images-readme/tussenstand.png" alt="" />
+Foto: Nette css en begin aan een mooie vormgeving van de pop-up.
+
 #### Zelf experimenteren met wisselende afbeeldingen
 
 Ik wilde zelf uitzoeken hoe ik twee afbeeldingen kon gebruiken, terwijl er steeds maar één zichtbaar is. Mijn idee was om een heel koekje te tonen wanneer de privacyinformatie gesloten is en een koekje met een hapje eruit wanneer deze openstaat.
