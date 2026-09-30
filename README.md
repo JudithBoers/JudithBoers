@@ -14,6 +14,22 @@ Ik wil eerst kijken of ik mijn website zo kan maken dat je hem kan gebruiken met
 
 ### Begin maken aan de pop-up in HTML
 
+#### Kleurvarianten vergelijken en feedback verzamelen
+
+Ik heb verder gewerkt aan de vormgeving van mijn privacy-pop-up. Eerst gebruikte ik een donkere achtergrond voor de pop-up op de donkere pagina en een lichte achtergrond op de lichte pagina. Dit paste bij de website, maar ik vond dat de pop-up daardoor te weinig opviel.
+
+Daarom heb ik de kleuren omgedraaid: een lichte pop-up op de donkere pagina en een donkere pop-up op de lichte pagina. Hierdoor onderscheidt het privacyonderdeel zich duidelijker van de rest van de website.
+
+Om mijn keuze te onderzoeken, heb ik twee mensen uit mijn omgeving de varianten op de donkere pagina laten vergelijken. Irene vond dat de lichte pop-up het meest opviel en dat de donkere variant meer wegviel in de achtergrond. Laura vond de donkere variant mooier en rustiger voor haar ogen, maar gaf ook aan dat ze voor de lichte variant zou kiezen als het onderdeel moest opvallen.
+
+Deze feedback liet mij zien dat een rustige uitstraling en zichtbaarheid niet altijd tot dezelfde voorkeur leiden. Omdat ik wil dat bezoekers de privacyinformatie makkelijk kunnen vinden, heb ik de omgedraaide kleuren gehouden.
+
+<img src="./assets/images-readme/usertestkleurenpopup.png" alt="" />
+Foto: de user test
+
+<img src="./assets/images-readme/gekozenkleuren.png" alt="" />
+Foto: de gekozen kleuren.
+
 #### Privacyinformatie toevoegen aan mijn website
 
 k heb een eerste versie van mijn privacyonderdeel gemaakt met HTML en CSS. Hiervoor heb ik een 'aside gebruikt met daarin 'details' en 'summary'. De bezoeker ziet eerst alleen de tekst ‘Privacy’ en kan deze aanklikken om de uitleg over gegevensverwerking te openen. Zo blijft de informatie beschikbaar zonder dat deze meteen helemaal in beeld staat.
