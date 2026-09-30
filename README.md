@@ -28,15 +28,14 @@ Bronnen:
 [html5doctor](https://html5doctor.com/element-index/#aside)
 [NL Design System](https://nldesignsystem.nl/wcag/4.1.2/?utm)
 
----
-
 <img src="./assets/images-readme/nlds2.png" alt="" />
+--- 
 <img src="./assets/images-readme/html5doctor.png" alt="" />
 Foto's: van de websites
---- 
+
 <img src="./assets/images-readme/aria-label.png" alt="" />
-Foto: van mijn code die ik heb aangepast met de nieuwe informatie. 
---- 
+Foto: van mijn code die ik heb aangepast met de nieuwe informatie.
+
 <img src="./assets/images-readme/privacysticky.png" alt="" />
 Foto: verschillende foto's waarbij zichtbaar is dat die blijft plakken op de website.
 
