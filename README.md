@@ -12,6 +12,34 @@ Omdat ik mijn werk woensdag al moet inleveren omdat ik daarna weg ben, redde ik 
 
 Ik wil eerst kijken of ik mijn website zo kan maken dat je hem kan gebruiken met een Voiceover. Daarna wil ik kijken of ik mijn pop-up kan maken over prvaicy.
 
+### Begin maken aan de pop-up in HTML
+
+#### Privacyinformatie toevoegen aan mijn website
+
+k heb een eerste versie van mijn privacyonderdeel gemaakt met HTML en CSS. Hiervoor heb ik een 'aside gebruikt met daarin 'details' en 'summary'. De bezoeker ziet eerst alleen de tekst ‘Privacy’ en kan deze aanklikken om de uitleg over gegevensverwerking te openen. Zo blijft de informatie beschikbaar zonder dat deze meteen helemaal in beeld staat.
+
+Met CSS heb ik dit onderdeel rechtsonder in het scherm geplaatst. Door position: fixed blijft het op dezelfde plek staan tijdens het scrollen. Met right en bottom heb ik ruimte tot de schermrand ingesteld. De z-index zorgt ervoor dat het onderdeel boven elementen met een lagere stapelvolgorde kan verschijnen.
+
+Daarnaast heb ik onderzocht hoe ik het privacyonderdeel een herkenbare naam kan geven voor een schermlezer. Hiervoor heb ik de uitleg van NL Design System over naam, rol en waarde gebruikt. Bij het 'aside' heb ik aria-label="Privacyinformatie" toegevoegd. Hiermee krijgt dit aanvullende onderdeel een naam voor gebruikers van een schermlezer. De 'summary' heeft al de zichtbare tekst ‘Privacy’ als naam en heeft daarom geen extra aria-label nodig.
+
+Voor het benoemen van een 'aside' heb ik ook het voorbeeld van html5doctor over aanvullende paginaonderdelen geraadpleegd. Door deze bronnen begrijp ik beter hoe HTML-elementen en toegankelijke namen samenwerken.
+
+Bronnen:
+[html5doctor](https://html5doctor.com/element-index/#aside)
+[NL Design System](https://nldesignsystem.nl/wcag/4.1.2/?utm)
+
+---
+
+<img src="./assets/images-readme/nlds2.png" alt="" />
+<img src="./assets/images-readme/html5doctor.png" alt="" />
+Foto's: van de websites
+--- 
+<img src="./assets/images-readme/aria-label.png" alt="" />
+Foto: van mijn code die ik heb aangepast met de nieuwe informatie. 
+--- 
+<img src="./assets/images-readme/privacysticky.png" alt="" />
+Foto: verschillende foto's waarbij zichtbaar is dat die blijft plakken op de website.
+
 ### Afbeeldingsbeschrijvingen toevoegen en testen met Voiceover.
 
 Om mijn website toegankelijker te maken, heb ik eerst per afbeelding gekeken of deze informatie toevoegt of vooral bedoeld is als decoratie. Het rollende bolletje wol en de GIF’s van de diertjes zorgen voor sfeer, maar voegen op die plek geen belangrijke informatie toe. Daarom heb ik hiervoor bewust een lege alt-tekst gebruikt: alt="". Zo hoeft een schermlezer deze afbeeldingen niet apart voor te lezen.
@@ -23,8 +51,30 @@ Daarna heb ik mijn website op mijn laptop getest met VoiceOver. Ik heb geluister
 Het navigeren met VoiceOver vond ik soms nog lastig. Vooral het verdergaan binnen de pagina en het verplaatsen van de banner naar de hoofdinhoud kostte moeite.
 
 Door deze test heb ik geleerd dat toegankelijkheid niet alleen gaat over hoe mijn website eruitziet, maar ook over hoe iemand de inhoud kan begrijpen en bedienen zonder die te zien. Hieronder voeg ik screenshots van mijn VoiceOver-test toe als bewijs.
+
 <img src="./assets/images-readme/voiceovertest.png" alt="" />
 Foto: van mijn test dat ik mijn website laat voor lezen met behulp van de Voiceover.
+
+### De taal en navigatie toegankelijker maken
+
+Als eerste heb ik gekeken welke onderdelen van mijn code ik kon verbeteren. Ik heb de taal van mijn pagina’s aangepast van lang="en" naar lang="nl", omdat mijn website in het Nederlands geschreven is. Daarmee geef ik aan welke taal de inhoud heeft, zodat een screenreader de juiste uitspraak kan gebruiken.
+
+Ook heb ik de omschrijving van de links aangepast. Bijv. 'terug' ben ik veranderd naar 'terug naar de home pagina'. en 'patroon' heb ik aangepast naar 'bekijk het haakpatroon van Flappie'
+
+Tijdens mijn onderzoek kwam ik bij de uitleg van NL Design System over naam, rol en waarde. Daar las ik dat je met aria-current="page" in de navigatie kunt aangeven op welke pagina de bezoeker zich bevindt. Een screenreader kan die informatie bij de link voorlezen.
+
+Ik heb dit toegevoegd aan de navigatielink van de huidige pagina. Op de homepage hoort het bijvoorbeeld bij ‘Home’. Op een andere pagina staat het bij de link naar die pagina. Zo krijgt de bezoeker meer informatie over waar die zich op mijn website bevindt.
+
+Dit was een aanvulling op wat we in de les hebben behandeld. Door verder te onderzoeken, heb ik geleerd dat kleine aanpassingen in HTML kunnen helpen om mijn website begrijpelijker te maken voor mensen die een screenreader gebruiken.
+
+Bron: [NL Design System](https://nldesignsystem.nl/wcag/4.1.2/?utm)
+
+<img src="./assets/images-readme/nlds.png" alt="" />
+Foto: van de website.
+---
+
+<img src="./assets/images-readme/aria-current.png" alt="" />
+Foto: van mijn code die ik heb aangepast aan de hand van de nieuwe informatie.
 
 ## Voorbereiding voor woensdg 30 september
 
