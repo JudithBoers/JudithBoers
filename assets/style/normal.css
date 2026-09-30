@@ -346,13 +346,20 @@ main details summary:focus-visible {
   outline-offset: 0.2em;
 }
 
-/* Alleen het koekjes-gifje op de privacypagina  ik heb dit wel aan chat gevraagd omdat ik niet konden vinden hoe ik het alleen voor dit gifje kon doen.*/
+/* Op telefoons is het gifje niet zichtbaar */
 main > img[src*="koekje-wordt-opgegeten"] {
-  position: fixed;
-  right: 1em;
-  bottom: 1em;
+  display: none;
+}
 
-  width: 10em;
-  height: auto;
-  margin: 0;
+/* Vanaf iPad-formaat wordt het gifje zichtbaar */
+@media (min-width: 48em) {
+  main > img[src*="koekje-wordt-opgegeten"] {
+    display: block;
+    position: fixed;
+    right: 1em;
+    bottom: 1em;
+    width: 10em;
+    height: auto;
+    margin: 0;
+  }
 }
