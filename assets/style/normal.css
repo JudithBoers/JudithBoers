@@ -303,6 +303,8 @@ body
 
 /* Kleur, rand en afgeronde hoeken van het tekstvlak */
 body > aside[aria-label="Privacyinformatie"] details > section {
+  display: grid;
+  gap: 0.5em;
   background-color: var(--privacy-achtergrond);
   color: var(--privacy-tekst);
   border: 0.15em solid var(--privacy-rand);
@@ -313,15 +315,32 @@ body > aside[aria-label="Privacyinformatie"] details > section {
 body > aside[aria-label="Privacyinformatie"] h2 {
   font-size: 1.9em;
   color: var(--privacy-tekst);
+  margin: 0.75em;
 }
 
 /* Ruimte rondom de alinea’s en tussen de tekstregels */
 body > aside[aria-label="Privacyinformatie"] p {
+  margin: 1em;
   line-height: 1.5;
 }
 
 /* Zichtbare selectierand bij bediening met het toetsenbord */
 body > aside[aria-label="Privacyinformatie"] summary:focus-visible {
   outline: 0.2em solid var(--privacy-rand);
+  outline-offset: 0.2em;
+}
+
+/**************************
+* MARK: Uitklapbare uitleg
+**************************/
+
+/* Laat met de muis zien dat het onderwerp aanklikbaar is */
+main details summary {
+  cursor: pointer;
+}
+
+/* Toon welk onderwerp met het toetsenbord is geselecteerd */
+main details summary:focus-visible {
+  outline: 0.2em solid var(--text-color);
   outline-offset: 0.2em;
 }

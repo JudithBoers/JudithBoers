@@ -8,7 +8,38 @@
 
 ## Woensdag 30 september
 
-### Pop-up vorm geven
+### Meer informatie toeveogen
+
+#### Een aparte privacypagina maken
+
+Ik heb mijn privacyonderdeel uitgebreid met een link naar een nieuwe pagina: privacy.html. In de pop-up staat nu ‘Meer informatie’, zodat bezoekers zelf kunnen kiezen of ze de uitgebreidere uitleg willen lezen.
+
+Op de nieuwe pagina heb ik de informatie verdeeld over uitklapbare onderwerpen. Hiervoor gebruik ik 'details' en 'summary', zoals behandeld in de deep dive. De vraag blijft zichtbaar en de uitleg verschijnt pas wanneer je het onderwerp opent. Zo krijgt de bezoeker niet meteen een lange lap tekst te zien.
+
+Ik ben begonnen met ‘Wat zijn cookies?’ en heb daarna uitleg toegevoegd over het privacykoekje, het laden van mijn lettertypes en de gegevensverwerking door GitHub Pages. Bij GitHub Pages heb ik ook een link naar de officiële uitleg geplaatst, zodat bezoekers de bron kunnen bekijken.
+
+De pagina gebruikt dezelfde vormgeving als de rest van mijn website, inclusief de keuze voor licht en donker. Daarnaast heb ik een link ‘Terug naar de hoofdpagina’ toegevoegd, zodat bezoekers makkelijk terug kunnen gaan.
+
+Tijdens het uitwerken heb ik ook met het toetsenbord getest. Met Tab heb ik de uitklapbare onderdelen geselecteerd en gekeken hoe ze geopend en gesloten worden. De zichtbare focusrand laat zien welk onderdeel op dat moment geselecteerd is.
+
+<img src="./assets/images-readme/meerinfo.png" alt="" />
+Foto: Het verloop van het toevoegen van meer informatie
+
+<img src="./assets/images-readme/tabmeerinfo.png" alt="" />
+Foto: testen of je met tab open en dicht kon klappen
+
+#### Meer ademruimte
+
+Ik ben verdergegaan met de indeling van het tekstvlak in mijn pop-up. De tekst stond eerst dicht tegen de rand, waardoor het geheel nog niet prettig leesbaar was. Met display: grid heb ik de titel en alinea’s onder elkaar gezet. Met gap heb ik ruimte tussen deze onderdelen toegevoegd.
+
+Daarna heb ik verschillende waarden voor de margin rondom de titel uitgeprobeerd: 3em, 1.5em en 0.75em. Bij 3em ontstond veel lege ruimte en werd de titel over meer regels verdeeld. Door de margin steeds kleiner te maken, kon ik goed vergelijken wat dit met de vormgeving deed. Uiteindelijk heb ik gekozen voor 0.75em rondom de titel en 1em rondom de alinea’s.
+
+Hierbij gebruik ik margin om de tekst ademruimte te geven, niet om het koekje of de pop-up op een bepaalde plek te positioneren. Ook heb ik met line-height: 1.5 meer ruimte tussen de tekstregels gemaakt.
+
+Door de waarden aan te passen en het resultaat telkens in de browser te bekijken, begrijp ik beter hoe de ruimte rondom tekst invloed heeft op de leesbaarheid en de grootte van mijn pop-up.
+
+<img src="./assets/images-readme/testenmetmaat.png" alt="" />
+Foto: Testen welke waardes ik het beste vond
 
 #### CSS ordenen en de vormgeving verder aanpassen
 
