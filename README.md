@@ -2,9 +2,93 @@
 
 ## Learning Log
 
+# Sprint 3:
+
+### Check-out
+
+1. Waarom is het goed om een grid in je ontwerp toe te passen? Noem een reden voor de ontwerper en een voor de bezoeker.
+2. Noem drie manieren om chaos in je ontwerp te voorkomen.
+3. Hoeveel gekkigheid moet er in je werk zitten?
+
+## woensdag 7 oktober
+
+### Weer aansluiten bij de lessen
+
+Tijdens de les merkte ik dat ik door mijn afwezigheid best veel had gemist. Daardoor moest ik weer even uitzoeken waar we mee bezig waren en wat er van mij werd verwacht voor deze sprint.
+
+Ik ga kijken welke uitleg en opdrachten ik nog moet inhalen. Zo kan ik beter bepalen waar ik moet beginnen en stap voor stap weer bij komen. Mijn aantekeningen kan ik hierbij gebruiken om de uitleg rustig terug te lezen.
+
+### retrospectief afmaken
+
+Aan het begin van de les kregen we eerst tijd om rustig zelfstandig te werken. Dit moment heb ik gebruikt om mijn retrospectief verder af te maken. Ik had hier in het vliegtuig al aan gewerkt en heb tijdens de les de laatste onderdelen afgerond.
+Na een klein halfuurtje begon de les echt.
+
+Foto: mijn retrospectief af gemaakt.
+
+### Uitleg van Diederik over typografie
+
+Als eerste heb ik geluisterd naar de uitleg van Diederik over typografie. Tijdens zijn uitleg heb ik aantekeningen gemaakt. Het ging niet alleen over het kiezen van een lettertype, maar ook over hoe je tekst vormgeeft met grootte, dikte, afstand en plaatsing.
+
+Onderwerpen die aan bod kwamen waren visuele hiërarchie, ritme, contrast en samenhang. Met hiërarchie kun je duidelijk maken welke informatie het belangrijkste is. Met herhaling kun je ritme creëren en met contrast kun je bepaalde woorden of onderdelen laten opvallen.
+
+Ook ging de uitleg over het gebruik van een grid. Een grid geeft structuur en helpt om tekst en andere onderdelen uit te lijnen. Binnen die structuur kun je vervolgens experimenteren, bijvoorbeeld door woorden te draaien of onderdelen anders te plaatsen. Wat ik hiervan meeneem, is dat een duidelijke basis juist ruimte kan geven om met het ontwerp te spelen.
+
+### Een liedje kiezen: YMCA
+
+Na de uitleg heb ik het liedje YMCA gekozen voor mijn opdracht. Vanuit dit liedje ben ik begonnen met het bedenken van ideeën voor een typografisch ontwerp.
+
+Bij deze opdracht kijk ik naar hoe ik een zin visueel kan vormgeven. Het gaat dus niet alleen om de tekst zelf, maar ook om wat de vormgeving eraan toevoegt. Door letters anders te plaatsen, groter te maken of een andere richting te geven, kan dezelfde zin steeds anders overkomen.
+
+### Een nieuwe projectmap aanmaken
+
+Voor deze opdracht heb ik een nieuw mapje aangemaakt met de bestanden voor mijn HTML, CSS en het lettertype. Daarmee heb ik een begin gemaakt aan de technische basis van mijn project.
+
+In de HTML komt de inhoud en structuur van de pagina. In de CSS kan ik vervolgens werken aan de vormgeving, zoals de tekstgroottes, afstanden en plaatsing. Het lettertype hebben we gekregen en alleen deze mogen we gebruiken dus hiermee moet ik goed gaan experimenteren
+
+### Tien schetsen met verschillende ideeën
+
+Daarna heb ik tien schetsen gemaakt met ideeën om één zin uit het liedje vorm te geven. Ik heb eerst verschillende mogelijkheden onderzocht, zodat ik meerdere richtingen had om uit te kiezen.
+
+In de schetsen heb ik gekeken naar de plaatsing, grootte en richting van de letters. Hiermee kon ik onderzoeken wat er gebeurt als ik de tekst op verschillende manieren indeel.
+
+Het schetsen hielp mij om mijn ideeën zichtbaar te maken zonder meteen alles in code te hoeven bouwen. Zo kan ik eerst de ontwerpen vergelijken en daarna bepalen welke ideeën ik verder wil uitwerken.
+
+Foto: Mijn 10 schetsen voor de vormgeveing voor Y.M.C.A.
+
+### Live coderen met Justus
+
+Na het schetsen ging Justus live coderen. Tijdens zijn uitleg heb ik opnieuw aantekeningen gemaakt. Zo kan ik later rustig terugkijken welke code hij gebruikte en hoe de verschillende onderdelen samenwerken.
+
+Bij het voorbeeld ging het onder andere over het plaatsen van tekst met CSS Grid en het draaien of vervormen van onderdelen met transforms. Ook heb ik aantekeningen gemaakt over CSS-variabelen en het instellen van een lettertype.
+
+De uitleg liet zien hoe je met HTML en CSS een typografische compositie kunt opbouwen. Mijn aantekeningen kunnen mij helpen wanneer ik mijn eigen schetsen ga vertalen naar een ontwerp in de browser.
+
+Foto: Aantekeningen van het live coderen.
+
+### Wat ik meeneem en mijn volgende stap
+
+Wat ik uit deze les meeneem, is dat typografie meer is dan alleen een mooi lettertype kiezen. Ook de grootte, plaatsing en ruimte rondom tekst hebben invloed op hoe een ontwerp overkomt.
+
+Daarnaast heb ik gezien dat structuur en experimenteren samen kunnen gaan. Een grid kan houvast geven, terwijl je binnen het ontwerp toch speelse keuzes maakt.
+
+Mijn volgende stap is om mijn schetsen te bekijken en te kiezen welke ideeën ik verder wil uitwerken. Daarna wil ik onderzoeken hoe ik die met HTML en CSS kan bouwen. Tegelijkertijd ga ik kijken wat ik nog heb gemist, zodat ik gericht kan werken aan het inhalen van de uitleg en opdrachten.
+
+## voorbereiding voor woensdag 7 oktober
+
+Van 1 tot en met 6 oktober was ik afwezig vanwege een geplande verrassingsstedentrip. Omdat ik laat thuiskwam, heb ik minder tijd gehad om de les van woensdag voor te bereiden.
+
+Wel heb ik in het vliegtuig gewerkt aan mijn retrospectief voor vrijdag. Ik had de bladen hiervoor in het hotel laten printen, zodat ik onderweg verder kon werken. Tijdens de les heb ik de laatste onderdelen afgemaakt.
+
+<img src="./assets/images-readme/retrospectief.png" alt="" />
+Foto: Mijn retro spectief.
+
+## Werk inhalen
+
+Deze week wil ik zoveel mogelijk werk inhalen, zodat ik weer bij ben. Daardoor kunnen sommige onderdelen in mijn learning log bij een andere dag staan dan de dag waarop de opdracht oorspronkelijk gepland was.
+
 # Sprint 2:
 
-## i.v.m. een slecht geplande verassings stedentrip ben ik afwezig van 1 tot 5 oktober.
+## i.v.m. een geplande verassings stedentrip ben ik afwezig van 1 tot 6 oktober.
 
 ## wat neem ik mee naar de volgende sprint
 
@@ -1372,8 +1456,6 @@ Ik lette erop dat:
 - de visuele hiërarchie hetzelfde blijft;
 - hover- en focus-states mogelijk zijn;
 - mobiel en desktop herkenbaar bij elkaar horen.
-
-# foto toevoegen!!
 
 ## woensdag 9 september (online les NS-staking)
 
