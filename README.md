@@ -4,11 +4,76 @@
 
 # Sprint 3:
 
-### Check-out
+## Donderdag 8 oktober
 
-1. Waarom is het goed om een grid in je ontwerp toe te passen? Noem een reden voor de ontwerper en een voor de bezoeker.
-2. Noem drie manieren om chaos in je ontwerp te voorkomen.
-3. Hoeveel gekkigheid moet er in je werk zitten?
+### Van muziek naar typografie
+
+### Luisteren naar nadruk in het liedje
+
+Ik heb Y.M.C.A. opnieuw geluisterd (eigenlijk wel een paar keer😅) en gelet op welke woorden en zinnen de meeste nadruk krijgen. Daarbij heb ik gekeken naar herhaling en naar woorden die tijdens het zingen extra opvallen. Deze nadruk wil ik ook terug laten komen in de vormgeving van mijn tekst.
+
+### De liedtekst verdelen in HTML
+
+Daarna heb ik mijn liedtekst verdeeld in verschillende onderdelen. De coupletten en de twee delen van het refrein staan ieder in een eigen 'article'. Zo kan ik straks per onderdeel onderzoeken welke plaatsing en vormgeving het beste passen.
+
+Woorden die ik wil benadrukken, heb ik tussen 'span'-elementen gezet. Dit zijn bijvoorbeeld ‘Young man’, ‘down’, ‘fun’ en ‘Y.M.C.A.’. Hiermee kan ik deze stukjes tekst apart vormgeven met CSS.
+
+Ook heb ik in de titel de letters Y, M, C en A ieder in een eigen 'span' gezet. Daardoor kan ik met elke letter afzonderlijk spelen, zoals in mijn schetsen.
+
+### Experimenteren met CSS
+
+Nu de structuur staat, wil ik met CSS gaan experimenteren met de typografie. Ik wil onderzoeken wat verschillende groottes, diktes, afstanden en gedraaide woorden met de tekst doen.
+
+Daarbij wil ik de vormgeving laten aansluiten bij de nadruk en het gevoel van het liedje. De woorden die tijdens het luisteren opvallen, kunnen ook op de pagina meer aandacht krijgen. Zo gebruik ik de muziek als uitgangspunt voor mijn ontwerp en kan ik stap voor stap kijken welke ideeën uit mijn schetsen goed werken in de browser.
+
+## Na de les
+
+### learning log en nieuwe schetsen
+
+#### Learning log aanvullen
+
+Na de les kon ik helaas niet bij de deep dive aanwezig zijn, omdat ik om 15.00 uur een gesprek met Walter had. De tijd tussen de les en het gesprek heb ik wel goed gebruikt om mijn learning log aan te vullen. Ik heb opgeschreven wat ik tijdens de les had gedaan en waar ik aan had gewerkt.
+
+#### Aantekeningen opnieuw bekijken
+
+Thuis heb ik mijn aantekeningen van vandaag nog een keer rustig bekeken. Met de uitleg over typografie in mijn achterhoofd keek ik opnieuw naar mijn eerste ideeën. Ik dacht dat ik het ook anders kon aanpakken en wilde onderzoeken of ik ontwerpen kon bedenken die beter bij de opdracht passen.
+
+#### Zes nieuwe schetsen en wireframes
+
+Daarom heb ik zes nieuwe schetsen en wireframes gemaakt. Hierbij heb ik het woord Y.M.C.A. als uitgangspunt genomen, omdat ik met deze letters wil spelen in mijn typografie.
+
+Met deze nieuwe schetsen onderzoek ik verschillende manieren om de letters vorm te geven en te plaatsen. Ik wil kijken hoe ik van het woord een interessante compositie kan maken en hoe de vormgeving kan aansluiten bij het liedje.
+
+#### Verder onderzoeken
+
+De nieuwe schetsen zijn een aanvulling op mijn eerste tien ideeën. Door na de uitleg opnieuw te schetsen, kan ik verschillende mogelijkheden vergelijken en bewuster kiezen wat ik verder wil uitwerken. Mijn volgende stap is om te bekijken welk idee het beste bij de opdracht past en hoe ik dit kan vertalen naar HTML en CSS.
+Ook wil ik een paar user testen doen om te kijken welke de mensen om mij heen het leukste vinden.
+
+# foto toevoegen
+
+Foto: Mijn 6 nieuwe schetsen voor de vormgeveing van Y.M.C.A.
+
+### Feedback op mijn schetsen
+
+#### Favorieten en het Y.M.C.A.-gevoel
+
+Ik heb mijn zes schetsen laten bekijken en feedback verzameld, waaronder feedback van ChatGPT. De meeste reacties wijzen naar ontwerp 2, groot en klein. Dit ontwerp geeft volgens de testers het sterkste Y.M.C.A.-gevoel. Doordat steeds een andere letter groter wordt, lijkt het alsof de letters één voor één worden uitgebeeld, net zoals bij het bekende dansje.
+
+Ook ontwerp 3, de dansende letters, wordt positief ontvangen. De verschillende richtingen en bewegingen geven de letters een vrolijke uitstraling die goed aansluit bij muziek en dans. Daarnaast wordt de draaiende tekst als favoriet genoemd, omdat dit een speels effect geeft.
+
+#### Sterke punten en aandachtspunten
+
+Uit de feedback blijkt dat het verschil tussen grote en kleine letters bij ontwerp 2 een duidelijk aandachtspunt creëert. Het woord blijft herkenbaar, terwijl steeds een andere letter de aandacht krijgt.
+
+Bij de dansende en draaiende letters spreekt vooral de beweging aan. Een aandachtspunt is wel dat het woord leesbaar moet blijven. Als alle letters tegelijk veel bewegen of draaien, kan het ontwerp druk worden. Ook moet er genoeg ruimte zijn om letters groter te maken zonder dat ze elkaar bedekken.
+
+#### Wat ik met de feedback wil doen
+
+Op basis van de reacties wil ik ontwerp 2 als uitgangspunt nemen. De vergelijking met het uitbeelden van de letters tijdens het dansje vind ik een sterke onderbouwing voor deze keuze.
+
+Daarnaast wil ik onderzoeken of ik iets van de dansende of draaiende letters kan toevoegen. Ik wil eerst uitproberen of deze combinatie het ontwerp versterkt en of het woord goed herkenbaar blijft.
+
+Zodra ik een werkende versie heb, wil ik opnieuw testen. Met de schetsen heb ik vooral reacties op het idee verzameld. In de browser kan ik ook testen hoe de daadwerkelijke beweging overkomt en of het tempo prettig is.
 
 ## woensdag 7 oktober
 
@@ -22,6 +87,8 @@ Ik ga kijken welke uitleg en opdrachten ik nog moet inhalen. Zo kan ik beter bep
 
 Aan het begin van de les kregen we eerst tijd om rustig zelfstandig te werken. Dit moment heb ik gebruikt om mijn retrospectief verder af te maken. Ik had hier in het vliegtuig al aan gewerkt en heb tijdens de les de laatste onderdelen afgerond.
 Na een klein halfuurtje begon de les echt.
+
+# foto toevoegen
 
 Foto: mijn retrospectief af gemaakt.
 
@@ -53,6 +120,8 @@ In de schetsen heb ik gekeken naar de plaatsing, grootte en richting van de lett
 
 Het schetsen hielp mij om mijn ideeën zichtbaar te maken zonder meteen alles in code te hoeven bouwen. Zo kan ik eerst de ontwerpen vergelijken en daarna bepalen welke ideeën ik verder wil uitwerken.
 
+# foto toevoegen
+
 Foto: Mijn 10 schetsen voor de vormgeveing voor Y.M.C.A.
 
 ### Live coderen met Justus
@@ -63,6 +132,8 @@ Bij het voorbeeld ging het onder andere over het plaatsen van tekst met CSS Grid
 
 De uitleg liet zien hoe je met HTML en CSS een typografische compositie kunt opbouwen. Mijn aantekeningen kunnen mij helpen wanneer ik mijn eigen schetsen ga vertalen naar een ontwerp in de browser.
 
+# foto toevoegen
+
 Foto: Aantekeningen van het live coderen.
 
 ### Wat ik meeneem en mijn volgende stap
@@ -72,6 +143,26 @@ Wat ik uit deze les meeneem, is dat typografie meer is dan alleen een mooi lette
 Daarnaast heb ik gezien dat structuur en experimenteren samen kunnen gaan. Een grid kan houvast geven, terwijl je binnen het ontwerp toch speelse keuzes maakt.
 
 Mijn volgende stap is om mijn schetsen te bekijken en te kiezen welke ideeën ik verder wil uitwerken. Daarna wil ik onderzoeken hoe ik die met HTML en CSS kan bouwen. Tegelijkertijd ga ik kijken wat ik nog heb gemist, zodat ik gericht kan werken aan het inhalen van de uitleg en opdrachten.
+
+### Check-out
+
+1. Waarom is het goed om een grid in je ontwerp toe te passen? Noem een reden voor de ontwerper en een voor de bezoeker.
+
+Voor de ontwerper geeft een grid houvast bij het plaatsen en uitlijnen van tekst en afbeeldingen. Hierdoor kan ik makkelijker een samenhangende indeling maken.
+
+Voor de bezoeker zorgt een grid voor overzicht. Informatie staat op herkenbare plekken, waardoor de bezoeker makkelijker door de pagina kan kijken en informatie kan vinden.
+
+2. Noem drie manieren om chaos in je ontwerp te voorkomen.
+
+Een grid gebruiken, zodat onderdelen goed uitgelijnd zijn.
+
+Een duidelijke visuele hiërarchie maken met bijvoorbeeld grotere koppen en kleinere tekst. Zo is duidelijk wat het belangrijkste is.
+
+Rust en samenhang creëren door voldoende witruimte te gebruiken en kleuren, lettertypes en stijlen consequent toe te passen.
+
+3. Hoeveel gekkigheid moet er in je werk zitten?
+
+Ik vind het leuk als mijn werk iets speels en onverwachts heeft, zodat het persoonlijk en herkenbaar wordt. Hoeveel gekkigheid past, hangt af van het doel en de doelgroep. Het mag de aandacht trekken, maar de tekst moet leesbaar blijven en de bezoeker moet begrijpen hoe het ontwerp werkt. Ik wil dus ruimte houden om te experimenteren, terwijl de basis duidelijk blijft.
 
 ## voorbereiding voor woensdag 7 oktober
 
