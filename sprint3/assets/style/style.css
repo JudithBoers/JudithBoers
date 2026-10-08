@@ -1,10 +1,171 @@
-/* MARK: fonts */
+/********/
+/* FONT */
+/********/
+
 @font-face {
   font-family: "Seraphs";
   src: url("../type/SeraphsVF.woff2") format("woff2");
 }
 
-/* MARK: items */
+/*********/
+/* BASIS */
+/*********/
+
+* {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0;
+  padding: 2em 5%;
+
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2em;
+
+  background-color: white;
+  color: black;
+
   font-family: "Seraphs", sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+/****************/
+/* GROTE TITEL */
+/****************/
+
+header h1 {
+  margin: 0;
+  font-size: clamp(2.5em, 9vw, 6em);
+  line-height: 1;
+}
+
+/**************/
+/* SONGTEKST */
+/**************/
+
+main {
+  min-width: 0;
+
+  display: grid;
+  gap: 2em;
+}
+
+main article p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* Voor het later vormgeven van losse woorden */
+main article span {
+  display: inline-block;
+}
+
+/********************/
+/* DRAAIENDE LETTERS */
+/********************/
+
+aside {
+  font-size: clamp(0.75em, 1.5vw, 1em);
+  width: 18em;
+  height: 18em;
+
+  display: grid;
+  place-items: center;
+  justify-self: end;
+}
+
+aside > p {
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+
+aside > p > span {
+  grid-area: 1 / 1;
+  font-size: 2em;
+
+  animation: rondje 12s infinite linear;
+
+  /* Verdeel de letters gelijk over de cirkel */
+  animation-delay: calc((sibling-index() - 1) * -12s / sibling-count());
+}
+
+@keyframes rondje {
+  from {
+    transform: rotate(0deg) translateY(-3.5em);
+  }
+
+  to {
+    transform: rotate(360deg) translateY(-3.5em);
+  }
+}
+/**********/
+/* FOOTER */
+/**********/
+
+footer {
+  font-size: 0.85em;
+  line-height: 1.5;
+}
+
+/*******************/
+/* BREDE SCHERMEN */
+/*******************/
+
+@media (width > 50em) {
+  body {
+    grid-template-columns: auto minmax(0, 1fr);
+    column-gap: 4em;
+    align-items: start;
+  }
+
+  /* Titel links, naast tekst en rondje */
+  header {
+    grid-column: 1;
+    grid-row: 1 / 3;
+
+    writing-mode: sideways-lr;
+
+    position: sticky;
+    top: 0.5em;
+    align-self: start;
+  }
+
+  header h1 {
+    font-size: clamp(3em, 10vh, 7em);
+    white-space: nowrap;
+  }
+
+  /* Songtekst rechts van de titel */
+  main {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  /* Rondje onder de songtekst, rechts uitgelijnd */
+  aside {
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: end;
+  }
+
+  footer {
+    grid-column: 1 / -1;
+    grid-row: 3;
+  }
+}
+
+/********************/
+/* MINDER BEWEGING */
+/********************/
+
+@media (prefers-reduced-motion: reduce) {
+  aside > p {
+    animation: none;
+    transform: translateY(-2.5em);
+  }
 }

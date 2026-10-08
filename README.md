@@ -6,6 +6,126 @@
 
 ## Donderdag 8 oktober
 
+### Aan mijn Y.M.C.A. ontwerp beginnen
+
+#### Van voorbereiding naar mijn eigen ontwerp
+
+Na de deep dives ben ik begonnen met het uitwerken van mijn eigen Y.M.C.A.-pagina. Ik wilde de technieken uit de uitleg toepassen op mijn ontwerp en onderzoeken hoe ik met de plaatsing en beweging van tekst een speels resultaat kon maken.
+
+Ik heb mijn pagina steeds lokaal geopend in Safari, terwijl ik daarnaast in Visual Studio Code werkte. Hierdoor kon ik na een aanpassing meteen bekijken wat er veranderde. Van de verschillende stappen heb ik screenshots gemaakt. Daarop is niet alleen het resultaat te zien, maar ook hoe mijn ontwerp zich tijdens het werken ontwikkelde.
+
+#### Het lokale lettertype toepassen
+
+Als basis heb ik het lettertype Seraphs gekoppeld met @font-face. Het fontbestand staat in mijn eigen projectmap, in assets/type. Vanuit mijn CSS-bestand verwijs ik naar dit bestand.
+
+Daarna heb ik het lettertype op de body toegepast, met sans-serif als fallback. Zo kreeg de pagina een gezamenlijke typografische basis. In deze eerste uitwerking heb ik vooral gewerkt aan de layout en de draaiende tekst. Het verder aanpassen van de eigenschappen van het variabele font kan ik daarna onderzoeken.
+
+#### De eerste indeling met Grid
+
+Ik ben begonnen met een indeling waarbij de titel, liedtekst en footer onder elkaar staan. Hiervoor heb ik op de body display: grid gebruikt en met gap: 2em ruimte tussen de onderdelen gemaakt.
+
+Daarna heb ik een mediaquery toegevoegd voor schermen breder dan 50em. Binnen deze mediaquery krijgt de pagina twee kolommen. De eerste kolom is voor de titel en de tweede voor de liedtekst.
+
+Met grid-column en grid-row heb ik de header en de hoofdinhoud een plek gegeven. De header staat in de eerste kolom en de main in de tweede kolom, allebei in dezelfde rij. De footer heb ik met grid-column: 1 / -1 over de volledige breedte van het grid geplaatst.
+
+Hiermee heb ik een basis gemaakt die reageert op de beschikbare schermruimte. Op een smaller scherm staan de onderdelen onder elkaar. Op een breder scherm komt er ruimte om de titel naast de tekst te zetten.
+
+#### De titel aan de linkerkant zetten
+
+Vervolgens heb ik op brede schermen writing-mode: sideways-lr aan de header toegevoegd. Hierdoor loopt de titel aan de linkerkant van beneden naar boven.
+
+Dit veranderde de compositie van mijn pagina. De titel stond nu naast de liedtekst en werd een afzonderlijk onderdeel van de indeling. Door het browservenster smaller en breder te maken, heb ik bekeken wanneer deze vormgeving werd toegepast.
+
+Op de screenshots is het verschil zichtbaar: in het smallere venster staat de header bovenaan, terwijl in het brede venster de titel langs de linkerkant loopt. Zo kon ik controleren wat mijn mediaquery deed.
+
+#### De titel en artiest uit elkaar halen
+
+In mijn eerste versie stonden Y.M.C.A. en Village People samen in de hoofdkop. Daarna heb ik deze uit elkaar gehaald. Y.M.C.A. bleef in de h1 staan en de artiestennaam kreeg een eigen p binnen de header.
+
+Hierdoor kon ik de titel en artiestennaam afzonderlijk vormgeven. In het resultaat is Y.M.C.A. groter dan Village People, waardoor de titel duidelijk meer nadruk krijgt.
+
+Deze stap hielp mij om de hiërarchie te verbeteren. De bezoeker ziet eerst de naam van het liedje en daarna de artiest. Op het smallere scherm staan deze onderdelen boven elkaar; op het bredere scherm staan ze naast elkaar binnen de verticale header.
+
+#### Het voorbeeld van Sanne als basis gebruiken
+
+Tijdens de les op woensdag had mijn docent Sanne een animatie van draaiende letters gemaakt voor Jip, die tegenover mij zat. Sanne heeft dit voorbeeld op CodePen gezet onder de naam ‘rondje voor jip’.
+
+Ik heb zijn voorbeeld gebruikt als basis voor het rondje in mijn eigen ontwerp. In de code heb ik bekeken hoe hij met Grid de letters hetzelfde middelpunt geeft en hoe hij met rotate(), translateY() en verschillende animation-delay-waarden de letters in een cirkel laat bewegen.
+
+Vanuit deze basis heb ik het voorbeeld aangepast naar de tekst Y.M.C.A. Village People. Daarna heb ik geëxperimenteerd met de afstand tot het middelpunt en de animatieduur om te onderzoeken welke grootte en snelheid bij mijn pagina passen.
+
+Bron: Sanne, rondje voor jip, CodePen — voorbeeld gemaakt tijdens de les op woensdag 7 oktober 2026.
+
+[Codepen Sanne](https://codepen.io/editor/shooft/pen/01a11591-95f0-72eb-97b9-0c4f621666e0)
+
+#### Eerst het hele woord laten draaien
+
+Ik heb eerst geëxperimenteerd met een versie waarbij een volledig woord als één geheel ronddraait. Hiervoor heb ik een aside toegevoegd als apart onderdeel naast de liedtekst.
+
+Binnen dit onderdeel heb ik gewerkt met een centraal geplaatste tekst en een tekst die daaromheen beweegt. Met Grid kon ik beide onderdelen hetzelfde middelpunt geven. De animatie combineerde een draaiing van 0deg naar 360deg met een verplaatsing via translateY().
+
+#### De letters afzonderlijk plaatsen
+
+Daarna heb ik geprobeerd om Y, M, C en A afzonderlijk te laten bewegen. In een tussenstap zette ik ze in losse p-elementen. In het resultaat kwamen de tekens nog op dezelfde plek terecht, waardoor ze elkaar bedekten.
+
+Vervolgens heb ik de tekst Y.M.C.A. Village People in één p gezet, met ieder teken in een eigen span. Ook de punten en spaties kregen een eigen span. Voor de spaties gebruikte ik &nbsp;, zodat er een apart teken tussen de woorden bleef staan.
+
+Met deze structuur kon ik ieder teken dezelfde basisvormgeving geven en vervolgens per teken de positie in de animatie laten verschillen.
+
+Bij het draaiende onderdeel heb ik een aria-label toegevoegd met de volledige tekst. De losse, visuele tekens staan binnen een paragraaf met aria-hidden="true". Hiermee wilde ik voorkomen dat de decoratieve herhaling als een reeks losse letters wordt voorgelezen. Dit moet ik nog met een screenreader controleren.
+
+#### De animatie op de losse spans toepassen
+
+Na het aanpassen van de HTML heb ik de animatie op de afzonderlijke spans gezet. Hiervoor gebruikte ik de selector aside > p > span. Zo richtte ik de CSS op de tekens van het draaiende onderdeel.
+
+De paragraaf kreeg display: grid en place-items: center. Alle spans kregen grid-area: 1 / 1, zodat ze hetzelfde startpunt hadden.
+
+Op dat moment stonden de letters nog boven op elkaar. Omdat ze allemaal dezelfde animatie op hetzelfde moment uitvoerden, bleven ze ook tijdens het draaien samenvallen. In de browser zag ik daardoor een klein donker groepje tekens in plaats van een leesbare cirkel.
+
+Deze tussenstap maakte duidelijk waarom alleen losse spans niet genoeg zijn. Ik moest ook zorgen dat iedere span op een andere plek in de animatie begon.
+
+#### De letters over de cirkel verdelen
+
+Daarna heb ik een animation-delay toegevoegd met een berekening waarin sibling-index() voorkomt. Hiermee kan ieder teken een andere vertraging krijgen op basis van zijn volgorde binnen de paragraaf.
+
+Ik gebruikte negatieve vertragingen. Daardoor wachten de letters niet eerst voordat ze beginnen, maar starten ze alsof hun animatie al een stukje bezig is. Elke letter komt zo op een andere positie in de draaiing terecht.
+
+Na deze aanpassing ontstond er een cirkelvorm. De letters stonden niet meer allemaal op dezelfde plek. In de eerste versie was de cirkel nog klein en zaten sommige tekens dicht op elkaar. Daarom ben ik verder gaan experimenteren met de grootte en het tempo.
+
+#### De grootte van de cirkel onderzoeken
+
+Om de cirkel groter te maken, heb ik de waarde van translateY() aangepast. Deze waarde bepaalt in mijn animatie hoe ver de letters van het gezamenlijke middelpunt worden geplaatst.
+
+Ik heb verschillende afstanden uitgeprobeerd:
+
+- Bij 1.5em was de cirkel klein en stonden de letters dicht bij elkaar.
+
+- Bij 2.5em kwam er meer ruimte tussen de tekens.
+
+- Bij 3.5em werd de cirkel groter en duidelijker zichtbaar.
+
+- Bij 5em kreeg het onderdeel veel meer ruimte, maar kwam een deel in het smallere browservenster buiten beeld.
+
+Door deze waarden stap voor stap te veranderen, kon ik het effect van de afstand goed vergelijken. Een grotere cirkel geeft meer ruimte aan de letters, maar moet ook passen binnen de pagina.
+
+Hierbij merkte ik dat de zichtbare animatie groter kan worden dan het vak dat ik ervoor heb gereserveerd. Het aanpassen van de beweging betekent dus niet automatisch dat de omliggende layout ook meer ruimte krijgt.
+
+#### Het tempo aanpassen
+
+Naast de grootte heb ik ook de duur van de animatie aangepast. In mijn tussenversies heb ik onder andere 2, 5 en 10 seconden geprobeerd. In de laatste screenshot staat de animatie op 12 seconden.
+
+Met een langere duur draaien de letters langzamer rond. Dat geeft meer tijd om de tekst te herkennen. Met linear blijft de draaisnelheid gelijk en met infinite blijft de animatie zich herhalen.
+
+In de laatste versie is de tekst duidelijker over de cirkel verdeeld. Bij het aanpassen van het tempo moet ik ook rekening houden met de berekening van de delays. De duur en de onderlinge vertragingen bepalen samen hoe de letters over de cirkel staan.
+
+#### Wat ik tijdens het uitwerken heb geleerd
+
+Tijdens deze uitwerking heb ik geleerd dat een kleine wijziging in CSS veel invloed kan hebben op het resultaat. Het aanpassen van de schrijfrichting veranderde de compositie van de pagina. Het aanpassen van translateY() veranderde de grootte van de cirkel en het aanpassen van de animatieduur veranderde het tempo.
+
+Ook heb ik het verschil onderzocht tussen een heel woord animeren en afzonderlijke letters animeren. Bij een heel woord beweegt de tekst als één blok. Bij losse spans kan ik ieder teken een andere positie geven, maar moet ik ook nadenken over de verdeling en onderlinge ruimte.
+
+De versies waarin de letters overlapten, waren daarom ook nuttig. Door telkens één onderdeel aan te passen en het resultaat in de browser te bekijken, kon ik beter begrijpen waardoor het effect ontstond.
+
 ### Deep dive variabele fonts
 
 #### De opdrachten uitwerken
