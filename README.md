@@ -6,6 +6,38 @@
 
 ## Donderdag 8 oktober
 
+### deep dive interessante layouts
+
+#### De deep dive zelfstandig inhalen
+
+Omdat ik dinsdag niet bij de deep dive aanwezig kon zijn door citytrip, heb ik deze zelfstandig ingehaald. Ik heb de uitleg over interessante layouts doorgenomen en aantekeningen gemaakt. Hierbij heb ik gekeken hoe ik de technieken kan gebruiken voor mijn Y.M.C.A.-pagina.
+
+#### Meeschalende tekst
+
+Een onderdeel van de deep dive ging over tekst die zich aanpast aan de beschikbare ruimte. Met vw kan ik de lettergrootte laten reageren op de schermbreedte. Met clamp() kan ik daar een minimale en maximale grootte aan toevoegen.
+
+Ook heb ik gekeken naar cqi. Hiermee reageert de tekst op de grootte van een container. Dat kan handig zijn wanneer een tekstvak smaller is dan het scherm, bijvoorbeeld als mijn coupletten naast de titel staan.
+
+#### Spelen met de indeling
+
+Daarnaast heb ik gekeken hoe ik met Grid en mediaqueries de indeling kan aanpassen aan verschillende schermgroottes. Op een breed scherm kan ik de titel naast de liedtekst plaatsen, terwijl deze op een telefoon boven de tekst kan staan.
+Ik had dt ookal gebruikt in mijn website.
+
+Met writing-mode kan ik de titel op zijn kant zetten. Dit geeft een andere compositie en biedt een nieuwe mogelijkheid om met mijn typografie te experimenteren. Ook kwam position: sticky aan bod, waarmee de titel tijdens het scrollen tijdelijk op dezelfde plek kan blijven staan.
+
+#### Wat ik meeneem voor mijn ontwerp
+
+Deze deep dive heeft mij meer mogelijkheden gegeven om mijn pagina vorm te geven. Ik wil vooral onderzoeken hoe ik een grote, meeschalende titel kan combineren met een interessante indeling van de coupletten.
+
+Daarbij wil ik blijven controleren of de tekst leesbaar is en de layout ook op een kleiner scherm goed werkt. De technieken uit de deep dive kan ik gebruiken om mijn schetsen verder uit te werken en verschillende composities in de browser te vergelijken.
+
+<img src="./assets/images-readme/aanekeningen-layouts.png" alt="" />
+
+Foto: mijn aantekeningen over de Deep Dive.
+
+<img src="./assets/images-readme/experimenten-layouts.png" alt="" />
+Foto: Van mijn experimenten tijdens de Deep Dive.
+
 ### Van muziek naar typografie
 
 ### Luisteren naar nadruk in het liedje
@@ -49,13 +81,12 @@ Met deze nieuwe schetsen onderzoek ik verschillende manieren om de letters vorm 
 De nieuwe schetsen zijn een aanvulling op mijn eerste tien ideeën. Door na de uitleg opnieuw te schetsen, kan ik verschillende mogelijkheden vergelijken en bewuster kiezen wat ik verder wil uitwerken. Mijn volgende stap is om te bekijken welk idee het beste bij de opdracht past en hoe ik dit kan vertalen naar HTML en CSS.
 Ook wil ik een paar user testen doen om te kijken welke de mensen om mij heen het leukste vinden.
 
-# foto toevoegen
-
+<img src="./assets/images-readme/6-ymca.jpg" alt="" />
 Foto: Mijn 6 nieuwe schetsen voor de vormgeveing van Y.M.C.A.
 
 ### Feedback op mijn schetsen
 
-#### Favorieten en het Y.M.C.A.-gevoel
+#### Favorieten en het Y.M.C.A. gevoel
 
 Ik heb mijn zes schetsen laten bekijken en feedback verzameld, waaronder feedback van ChatGPT. De meeste reacties wijzen naar ontwerp 2, groot en klein. Dit ontwerp geeft volgens de testers het sterkste Y.M.C.A.-gevoel. Doordat steeds een andere letter groter wordt, lijkt het alsof de letters één voor één worden uitgebeeld, net zoals bij het bekende dansje.
 
@@ -88,7 +119,7 @@ Ik ga kijken welke uitleg en opdrachten ik nog moet inhalen. Zo kan ik beter bep
 Aan het begin van de les kregen we eerst tijd om rustig zelfstandig te werken. Dit moment heb ik gebruikt om mijn retrospectief verder af te maken. Ik had hier in het vliegtuig al aan gewerkt en heb tijdens de les de laatste onderdelen afgerond.
 Na een klein halfuurtje begon de les echt.
 
-# foto toevoegen
+<img src="./assets/images-readme/retroaf.jpg" alt="" />
 
 Foto: mijn retrospectief af gemaakt.
 
@@ -99,6 +130,9 @@ Als eerste heb ik geluisterd naar de uitleg van Diederik over typografie. Tijden
 Onderwerpen die aan bod kwamen waren visuele hiërarchie, ritme, contrast en samenhang. Met hiërarchie kun je duidelijk maken welke informatie het belangrijkste is. Met herhaling kun je ritme creëren en met contrast kun je bepaalde woorden of onderdelen laten opvallen.
 
 Ook ging de uitleg over het gebruik van een grid. Een grid geeft structuur en helpt om tekst en andere onderdelen uit te lijnen. Binnen die structuur kun je vervolgens experimenteren, bijvoorbeeld door woorden te draaien of onderdelen anders te plaatsen. Wat ik hiervan meeneem, is dat een duidelijke basis juist ruimte kan geven om met het ontwerp te spelen.
+
+<img src="./assets/images-readme/typografie-diederik.png" alt="" />
+Foto: aantekeningen over de uitleg van Diederik.
 
 ### Een liedje kiezen: YMCA
 
@@ -120,8 +154,7 @@ In de schetsen heb ik gekeken naar de plaatsing, grootte en richting van de lett
 
 Het schetsen hielp mij om mijn ideeën zichtbaar te maken zonder meteen alles in code te hoeven bouwen. Zo kan ik eerst de ontwerpen vergelijken en daarna bepalen welke ideeën ik verder wil uitwerken.
 
-# foto toevoegen
-
+<img src="./assets/images-readme/10schetsenYMCA.jpg" alt="" />
 Foto: Mijn 10 schetsen voor de vormgeveing voor Y.M.C.A.
 
 ### Live coderen met Justus
@@ -131,10 +164,6 @@ Na het schetsen ging Justus live coderen. Tijdens zijn uitleg heb ik opnieuw aan
 Bij het voorbeeld ging het onder andere over het plaatsen van tekst met CSS Grid en het draaien of vervormen van onderdelen met transforms. Ook heb ik aantekeningen gemaakt over CSS-variabelen en het instellen van een lettertype.
 
 De uitleg liet zien hoe je met HTML en CSS een typografische compositie kunt opbouwen. Mijn aantekeningen kunnen mij helpen wanneer ik mijn eigen schetsen ga vertalen naar een ontwerp in de browser.
-
-# foto toevoegen
-
-Foto: Aantekeningen van het live coderen.
 
 ### Wat ik meeneem en mijn volgende stap
 
