@@ -6,6 +6,72 @@
 
 ## Donderdag 8 oktober
 
+### Deep dive variabele fonts
+
+#### De opdrachten uitwerken
+
+Na de voorbereiding heb ik de opdrachten van de deep dive gemaakt. Hierbij heb ik verschillende variabele fonts lokaal gekoppeld met @font-face en met CSS hun eigenschappen aangepast. Door de waarden zelf in te vullen, kon ik oefenen met de mogelijkheden van de verschillende lettertypes.
+
+#### Opdracht 1: eigenschappen en kleurpaletten
+
+In de eerste opdracht heb ik gewerkt met Dyna Puff, Honk en Rocher Color. Bij Dyna Puff heb ik verschillende waarden voor het gewicht en de breedte ingesteld. Bij Honk heb ik met custom assen gewerkt om de lettervorm te veranderen.
+
+Bij Rocher Color heb ik daarnaast verschillende kleurpaletten ingesteld met @font-palette-values en font-palette. Deze opdracht liet mij zien dat je bij sommige fonts ook kleuren en effecten binnen het lettertype kunt aanpassen.
+
+<img src="./assets/images-readme/opdracht1-deepdivef.png" alt="" />
+Foto: Opdracht 1 van de Deep dive
+
+#### Opdracht 2: vloeiende veranderingen
+
+Daarna heb ik geoefend met transitions bij Saira Stencil, Kablammo, Plastic en Cheeeze. Ik heb een beginstand en een andere stand bij :hover ingesteld. Met een transition kan de verandering tussen deze standen vloeiend verlopen.
+
+Hierbij heb ik gewerkt met lettergewicht, breedte en custom assen. Zo heb ik onderzocht hoe tekst kan veranderen wanneer je er met de muis overheen gaat.
+
+<img src="./assets/images-readme/opdracht2-deepdivef.png" alt="" />
+Foto: Opdracht 2 van de Deep dive
+
+#### Extra theorie lezen
+
+Naast de opdrachten heb ik theorie gelezen over transitions, staggered transitions en animaties. Ik heb geleerd hoe je met @keyframes verschillende stappen van een animatie beschrijft en hoe je deze aan een element koppelt.
+
+Ook heb ik gelezen dat je variabele fonts met JavaScript dynamisch kunt aanpassen. Dit onderdeel heb ik nog niet zelf uitgewerkt. Mijn aandacht lag eerst bij het begrijpen en toepassen van de CSS.
+
+<img src="./assets/images-readme/extratheorie.ddf.jpg" alt="" />
+Foto: Aantekeningen van de extra theorie.
+
+#### Een spiekbrief laten maken met ChatGPT
+
+Ik heb ChatGPT een spiekbrief laten maken die ik tijdens het coderen erbij kan houden. In mijn prompt heb ik aangegeven welke onderwerpen ik erin wilde hebben. Ook heb ik mijn mapjes met de opdrachten meegestuurd, zodat ChatGPT kon kijken of er nog onderdelen ontbraken.
+
+Ik heb gevraagd om per onderdeel uit te leggen hoe ik de code moet opschrijven en wat die code doet. Zo kan ik niet alleen een voorbeeld terugvinden, maar ook begrijpen waarvoor ik het gebruik als ik het even niet meer zeker weet.
+
+#### Wat ik meeneem naar mijn project
+
+Door de opdrachten heb ik meer mogelijkheden ontdekt om met typografie te spelen. Vooral het afzonderlijk laten veranderen van letters sluit aan bij mijn ideeën voor Y.M.C.A.
+
+Ik wil nu onderzoeken hoe ik deze technieken kan gebruiken om steeds een andere letter nadruk te geven. Daarbij wil ik blijven letten op de leesbaarheid en het tempo van de beweging.
+
+### Deep dive variabele fonts: voorbereiding
+
+#### Zelfstandig inhalen
+
+Omdat ik vanwege mijn gesprek met Walter niet bij de deep dive aanwezig kon zijn, haal ik deze zelfstandig in. Ik heb eerst de voorbereiding doorgenomen en aantekeningen gemaakt. Hierna ga ik aan de slag met de opdrachten om de uitleg zelf toe te passen.
+
+#### Wat ik heb geleerd
+
+Tijdens de voorbereiding heb ik geleerd dat een variabel font meerdere varianten in één bestand kan bevatten. Je kunt bijvoorbeeld het lettergewicht aanpassen en ook waarden tussen dun en dik gebruiken, zolang het font die ondersteunt.
+
+Ook heb ik gekeken naar de verschillende assen van een lettertype. Daarmee kun je eigenschappen aanpassen, zoals gewicht, breedte of cursief. Sommige fonts hebben daarnaast speciale assen waarmee je bijvoorbeeld de lettervorm of een 3D-effect kunt veranderen. Niet ieder font heeft dezelfde mogelijkheden.
+
+#### Een font koppelen en onderzoeken
+
+Ik heb doorgenomen hoe ik een variabel font lokaal kan koppelen met @font-face. Daarbij geef ik aan welk bestand ik gebruik en welk gewichtsbereik het ondersteunt. Ook heb ik geleerd dat een cursieve variant soms een apart bestand nodig heeft.
+
+Met Wakamai Fondue kan ik onderzoeken welke assen een font heeft en welke waarden daarbij horen. Zo kan ik eerst bekijken wat mogelijk is voordat ik ermee ga experimenteren in mijn CSS.
+
+<img src="./assets/images-readme/aantekeningen-varfonts.png" alt="" />
+Foto: Mijn aantekeningen voor de voorbereiding van de deepdive.
+
 ### deep dive interessante layouts
 
 #### De deep dive zelfstandig inhalen
