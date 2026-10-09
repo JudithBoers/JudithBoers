@@ -6,6 +6,94 @@
 
 ## Vrijdag 9 oktober
 
+### De titel bovenaan de pagina platsen
+
+#### De eerdere indeling aanpassen
+
+Om mijn idee met de lampjes verder uit te werken, heb ik eerst de plaatsing van mijn titel aangepast. In mijn vorige versie stond Y.M.C.A. op grote schermen verticaal aan de linkerkant van de liedtekst. Ik heb de CSS die voor deze plaatsing en schrijfrichting zorgde weggehaald.
+
+Ik heb ervoor gekozen om de titel nu horizontaal bovenaan de pagina te zetten. Hierdoor krijgt de titel een centrale plek en kan ik de vier letters naast elkaar vormgeven, zoals in mijn schets. Dit vormt het uitgangspunt voor mijn verdere experiment met de lampjes.
+
+#### Een dikker en eenvoudiger lettertype
+
+Daarna heb ik de vormgeving van de letters aangepast. Ik heb gekozen voor een zo eenvoudig mogelijk lettertype en de letters dikker gemaakt. Ik wil eerst een duidelijke basis hebben waarin de vorm van Y, M, C en A goed herkenbaar is.
+
+De dikke letters passen bij mijn schets, waarin de titel uit brede letters met kleine lampjes bestaat. Door de lettervorm eenvoudig te houden, kan ik straks onderzoeken hoe de lampjes binnen de letters passen en welk effect ze op de leesbaarheid hebben.
+
+#### De grootte aanpassen aan het scherm
+
+Ook heb ik de titelgrootte afgestemd op de beschikbare schermruimte. Op een klein scherm is de titel kleiner, zodat hij beter binnen de pagina past. Op een groot scherm worden de letters groter en krijgt de titel meer nadruk.
+
+Ik heb de verschillende weergaven bekeken door mijn browservenster smaller en breder te maken. Zo kon ik vergelijken hoe de titel eruitziet bij verschillende schermgroottes.
+
+Met deze aanpassingen heb ik een nieuwe basis gemaakt: een horizontale titel bovenaan de pagina, met dikke, eenvoudige letters die in grootte reageren op het scherm. Vanuit deze basis wil ik verder werken aan het plaatsen en laten oplichten van de lampjes.
+
+### Mijn eerste experiment met een lampje in de letter Y
+
+# foto toevoegen
+
+#### Iedere letter als eigen onderdeel
+
+Voor mijn idee met de lampjes wil ik iedere letter als een afzonderlijk onderdeel kunnen vormgeven. Daarom heb ik de letters van Y.M.C.A. ieder in een eigen span gezet. Zo kan iedere letter de basis worden waarbinnen ik kleine lampjes plaats.
+
+Ik ben begonnen met één vierkantje in de Y. Eerst wilde ik onderzoeken of ik een extra span binnen de span van de letter kon zetten en deze vervolgens met CSS zichtbaar kon maken. Ik wist niet zeker of die opbouw mogelijk was en of het mag, maar door het uit te proberen zag ik dat het werkt.
+
+#### Een vierkantje maken met CSS
+
+De binnenste span heb ik met CSS vormgegeven als een klein wit vierkantje. Hiervoor heb ik de breedte en hoogte allebei op 0.05em gezet en een witte achtergrond toegevoegd.
+
+Omdat ik em gebruik, wordt de grootte van het vierkantje bepaald door de lettergrootte die het erft. Hierdoor kan het vierkantje meeschalen wanneer de titel groter of kleiner wordt. Dit past bij mijn titel, die zich ook aanpast aan de schermbreedte.
+
+Dit vierkantje is mijn eerste proef voor een lampje. Ik heb dus nog niet meteen alle letters gevuld, maar ben begonnen met één onderdeel om te begrijpen hoe ik het kan opbouwen.
+
+#### Vanuit één lampje verder bouwen
+
+Deze stap geeft mij een basis om mijn schets verder uit te werken. Ik wil hierna onderzoeken hoe ik meerdere lampjes over de letters kan verdelen. Iedere letter heeft een andere vorm, dus ik moet per letter bekijken waar de lampjes het beste passen.
+
+Daarna wil ik kijken of ik de lampjes van kleur kan laten veranderen, zodat het lijkt alsof ze één voor één aangaan. Voor nu heb ik eerst getest of de opbouw met een span binnen een span werkt en hoe ik het eerste lampje op de juiste plek kan zetten.
+
+### Meerdere lampjes toevoegen en de vorm vergelijken
+
+# foto toevoegen
+
+### De lampjes over de Y verdelen
+
+Nadat het eerste vierkantje op de letter Y stond, heb ik meerdere spans toegevoegd binnen diezelfde letter. Vervolgens heb ik de vierkantjes op verschillende hoogtes geplaatst. Zo ontstond er een rij van drie witte vierkantjes in het onderste, rechte gedeelte van de Y.
+
+Hierbij heb ik gekeken naar de afstand tussen de vierkantjes en of ze netjes binnen de zwarte letter bleven. Door eerst een klein gedeelte van de Y uit te werken, kon ik rustig onderzoeken hoe ik meerdere lampjes kon plaatsen voordat ik de rest van de titel zou vullen.
+
+#### Van vierkantjes naar rondjes
+
+Daarna wilde ik vergelijken of ronde lampjes beter bij mijn idee zouden passen. Ik heb de vormgeving aangepast, waardoor de witte vierkantjes veranderden in rondjes. De plaatsing bleef hetzelfde, zodat ik het verschil tussen de twee vormen goed kon bekijken.
+
+De ronde vorm sluit meer aan bij de lampjes uit mijn oorspronkelijke schets. Op de screenshots is deze stap duidelijk te zien: eerst staan er drie witte vierkantjes in de Y en daarna drie witte rondjes.
+
+# foto toevoegen
+
+### Mijn oude schets opnieuw gebruiken voor de titel
+
+#### Nieuwe titel
+
+Na het werken aan het draaiende rondje wil ik nu kijken hoe ik de titel van mijn Y.M.C.A.-pagina verder kan vormgeven. Nu ik ook kleur mag gebruiken, zie ik nieuwe mogelijkheden om de titel opvallender te maken en het feestelijke gevoel van het liedje terug te laten komen.
+
+Daarom heb ik een van mijn eerdere schetsen er opnieuw bij gepakt. Ik wil onderzoeken of ik dit idee met HTML en CSS kan uitwerken en hoe het past bij de rest van mijn pagina.
+
+#### Grote letters met kleine lampjes
+
+In deze schets heb ik Y.M.C.A. getekend met grote, brede letters. In de letters zitten kleine rondjes die lampjes voorstellen. Dit doet mij denken aan een verlicht bord bij een theater of een podium. Die uitstraling vind ik passen bij de muziek, het optreden en de vrolijke sfeer van Y.M.C.A.
+
+Met kleur wil ik het idee van de lampjes duidelijker maken. Ik wil onderzoeken of ik ze één voor één kan laten oplichten, zodat het lijkt alsof de verlichting wordt aangezet. Daarmee krijgt de titel niet alleen een opvallende vorm, maar ook beweging.
+
+#### Onderzoeken hoe ik de schets kan coderen
+
+Mijn volgende stap is om te bekijken hoe ik dit ontwerp kan opbouwen in mijn code. Eerst wil ik zorgen dat de letters de juiste vorm, grootte en plaatsing krijgen. Daarna wil ik onderzoeken hoe ik de lampjes binnen de letters kan plaatsen en afzonderlijk kan laten veranderen.
+
+Ik wil dit stap voor stap aanpakken, zodat ik begrijp wat iedere aanpassing doet en mijn proces goed kan vastleggen. Het is nu nog een idee dat ik wil uitproberen. Tijdens het coderen moet ik bekijken of het technisch lukt, of de titel leesbaar blijft en of de beweging goed samengaat met het draaiende rondje.
+
+Door mijn oude schets opnieuw te gebruiken, bouw ik verder op mijn eerdere voorbereiding. Nu ik meer heb geoefend met CSS en animaties, kan ik onderzoeken hoe ik dat getekende idee kan vertalen naar een werkend ontwerp.
+
+# foto toevoegen
+
 ### Verder werken aan mijn typografische ontwerp van Y.M.C.A.
 
 #### Na de feedback verder met mijn songtekst
