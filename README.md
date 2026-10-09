@@ -4,6 +4,131 @@
 
 # Sprint 3:
 
+## Vrijdag 9 oktober
+
+### Verder werken aan mijn typografische ontwerp van Y.M.C.A.
+
+#### Na de feedback verder met mijn songtekst
+
+Na de feedbackmomenten met Diederik en Sanne ben ik verdergegaan met mijn songtekst. Ik had woensdag en donderdag vooral gewerkt aan mijn voorbereiding, zoals de schetsen, de deepdives en de user tests. Vandaag wilde ik die voorbereiding verder vertalen naar mijn eigen ontwerp in HTML en CSS.
+
+Ik ben verdergegaan met het draaiende rondje met de tekst ‘Y.M.C.A. – Village People’. De basis hiervan had ik eerder gemaakt met behulp van het voorbeeld van Sanne op CodePen. Vandaag heb ik vooral geëxperimenteerd met de onderdelen binnen dat rondje: de verdeling van de letters, muzieknoten, extra beweging en de snelheid van de animatie.
+
+Mijn doel was om het vrolijke en dansbare gevoel van het liedje zichtbaar te maken. Tegelijkertijd wilde ik dat de tekst nog goed te lezen bleef. Daarom heb ik verschillende versies geprobeerd en tussendoor feedback gevraagd.
+
+#### De letters afzonderlijk kunnen aanpassen
+
+In mijn HTML staat iedere letter van het rondje in een eigen span. Ook de tussenruimtes en de tekens tussen de woorden zijn aparte onderdelen. Hierdoor kan ik met CSS niet alleen het hele rondje vormgeven, maar ook afzonderlijke onderdelen selecteren.
+
+Dit was handig toen ik extra accenten wilde toevoegen. De letters konden hun bestaande beweging behouden, terwijl ik bepaalde tekens een andere vormgeving of een extra animatie gaf.
+
+#### Muzieknoten toevoegen aan het rondje
+
+Om de verbinding met het liedje duidelijker te maken, heb ik muzieknoten toegevoegd tussen de tekst. Hiermee wilde ik het rondje meer het gevoel geven van muziek en beweging.
+
+De muzieknoten staan, net als de letters, in afzonderlijke spans. Daardoor kon ik ze apart selecteren met `:nth-of-type()`. Deze selector kijkt naar de positie van een element tussen elementen van hetzelfde type.
+
+Tijdens het aanpassen heb ik verschillende posities geprobeerd. Ik moest goed controleren welke span daadwerkelijk de muzieknoot bevatte. Wanneer ik in de HTML een extra span toevoegde, bijvoorbeeld voor een tussenruimte, veranderde de telling. Daardoor kon mijn CSS ineens een ander onderdeel selecteren dan ik bedoelde.
+
+Hierdoor merkte ik hoe belangrijk het is om mijn HTML en CSS samen te bekijken. De selector kan technisch goed geschreven zijn, maar moet ook overeenkomen met de opbouw van mijn HTML.
+
+Bron: Ik heb op
+[Toptal](https://www.toptal.com/designers/htmlarrows/symbols/) een element gezocht die ik kan toevoegen voor de muzieknootjes.
+
+#### De muzieknoten laten meebewegen
+
+Daarna heb ik de muzieknoten een extra animatie gegeven. Ze bewegen mee in het rondje en worden daarnaast afwisselend groter en kleiner. Hierdoor krijgen ze een soort pulserende beweging.
+
+Ik heb hiervoor een aparte animatie gemaakt met @keyframes. Bij het begin en het einde van de animatie hebben de muzieknoten dezelfde schaal. Halverwege worden ze groter. Doordat de animatie zich blijft herhalen, ontstaat een doorgaande beweging.
+
+In mijn eerste versie veranderde de schaal van 1 naar 1.3 en weer terug. Deze animatie duurde drie seconden. Vervolgens heb ik ook een rustigere variant geprobeerd: van 0.` naar 1.2, met een duur van vijf seconden.
+
+Door die waarden aan te passen kon ik vergelijken hoe nadrukkelijk de muzieknoten aanwezig waren. Een groter verschil in schaal maakt de beweging opvallender. Een langere duur laat de verandering rustiger verlopen.
+
+Ik wilde hiermee onderzoeken hoe ik een extra accent kon toevoegen zonder dat het de draaiende tekst te veel zou afleiden.
+
+#### Twee animaties op hetzelfde onderdeel gebruiken
+
+Bij de muzieknoten gebruikte ik twee animaties tegelijk: de animatie voor het draaien in het rondje en de animatie voor het groter en kleiner worden.
+Dit ging alleen niet zoals ik wilde. Dus na een aantal keer proberen om het mooi te krijgen heb ik er voor gekozen om de tweede weg te halen en het alleen bij 1 muziek nootje per plek te houden.
+
+#### Een kleurenpalet zoeken dat bij Village People past
+
+Naast de beweging heb ik gekeken naar kleuren die bij mijn ontwerp zouden kunnen passen. Hiervoor heb ik een foto van Village People gebruikt als uitgangspunt. Uit die foto heb ik een kleurenpalet gehaald.
+In het palet zitten lichtblauw, een zandkleur, bijna zwart, rood en donkerbruin.
+
+Zo heb ik een uitgangspunt voor mijn kleurkeuzes dat verbonden is aan de artiesten. Ik kan hiermee verder onderzoeken welke kleuren goed werken voor de tekst, de achtergrond en de accenten.
+
+Bron:
+[Adobe color](https://color.adobe.com/create/color-wheel?tab=image) hier mee heb ik het kleuren pallet gemaakt.
+
+#### Feedback vragen op de snelheid en leesbaarheid
+
+Om te controleren hoe anderen de animatie ervaren, heb ik filmpjes van mijn ontwerp doorgestuurd. Ik vroeg onder andere wat zij van de snelheid vonden, of de tekst goed te lezen was en of een andere draairichting misschien beter zou werken.
+
+Ik vond het belangrijk om dit te vragen, omdat ik zelf al lang naar mijn ontwerp had gekeken. Ik weet welke tekst er staat en kan die daardoor makkelijker herkennen. Iemand die de animatie voor het eerst ziet, kijkt daar anders naar.
+
+Meerdere reacties waren positief. Een tester vond de beweging niet te langzaam, maar ook niet zo snel dat je er duizelig van wordt. Laura gaf aan dat zij de tekst kon lezen. Een andere tester vond de snelheid prima.
+
+Ook kreeg ik de reactie dat ik het rondje niet sneller moest maken, omdat de tekst dan moeilijker leesbaar zou worden. Dat was voor mij een belangrijk punt: de beweging moet bijdragen aan het ontwerp, maar de woorden moeten herkenbaar blijven.
+
+### Feedback en mijn ontwerpkeuzes onderbouwen
+
+#### Feedback van Diederik en Sanne
+
+Vandaag hebben we in een groepje feedback gekregen van Diederik en Sanne. Tijdens dit moment hebben we gekeken naar de voortgang van mijn songtekst. Ik was met de uitwerking in code nog niet heel ver, omdat ik door mijn trip naar Londen wat achterliep.
+
+Ik heb uitgelegd dat ik woensdag en donderdag vooral bezig ben geweest met mijn schetsen, het inhalen van de deep dives en het verzamelen van feedback via gebruikerstesten. Daarmee heb ik eerst gewerkt aan mijn ideeën en de kennis die ik nodig heb om deze uit te werken.
+
+Diederik en Sanne vonden dit een goede aanpak. Ook vonden ze het positief dat ik zelf duidelijk kon aangeven wat ik al had gedaan en wat er nog moest gebeuren. Hoewel mijn ontwerp nog niet ver was uitgewerkt, kon ik wel uitleggen waar ik stond en hoe ik verder wilde.
+
+#### Een individueel feedbackgesprek met Diederik
+
+Daarna had ik een één op ééngesprek met Diederik, omdat ik het feedbackmoment van vorige week vrijdag had gemist. Tijdens dit gesprek hebben we vooral naar mijn persoonlijke website gekeken.
+
+We hebben gesproken over mijn privacyinformatie, de rustige uitstraling van mijn website en mijn learning log. Hierdoor kon ik mijn keuzes verder toelichten en kreeg ik feedback op zowel mijn ontwerp als de manier waarop ik mijn proces beschrijf.
+
+#### Mijn keuze voor privacyinformatie uitleggen
+
+Diederik wilde meer weten over het koekje op mijn website. Hij vroeg waarom bezoekers daar niet kunnen kiezen om te accepteren of af te wijzen.
+
+Ik heb uitgelegd dat ik het koekje gebruik om informatie te geven over privacy. Op mijn website gebruik ik geen optionele cookies waarvoor ik een keuze tussen accepteren en afwijzen aanbied. Daarom heb ik gekozen voor een informatief bericht.
+
+Ook heb ik toegelicht dat de hosting bij het opvragen van de website al servergegevens kan vastleggen, zoals een IP-adres. Een afwijsknop op mijn pagina zou die registratie niet ongedaan maken. Met het bericht wil ik daarom duidelijk uitleggen wat er gebeurt, zodat de bezoeker hierover informatie kan vinden.
+
+#### Waarom mijn website rustig en clean is
+
+Diederik vroeg ook waarom mijn website zo netjes en clean is en of ik er meer persoonlijke dingen in wil verwerken. Ik heb uitgelegd dat deze rustige uitstraling juist bij mij past.
+
+Omdat de opdracht gaat over het maken van een persoonlijke website, vind ik het belangrijk dat het ontwerp laat zien wie ik ben. Voor mij hoeft een persoonlijke website niet per se druk te zijn. De rustige indeling en verzorgde uitstraling zijn ook persoonlijke keuzes.
+
+Ik heb daarom bewust gekozen om mijn website overzichtelijk en clean te houden. Ik wil mijn ontwerpkeuzes kunnen koppelen aan mijn eigen voorkeuren, zodat ik kan uitleggen waarom de website er zo uitziet.
+
+#### Experimenteren binnen mijn songtekst
+
+Tijdens het gesprek heb ik aangegeven dat ik wel graag wil spelen en experimenteren met typografie. Dat wil ik vooral laten zien in mijn songtekstproject.
+
+Binnen de Y.M.C.A. pagina kan ik onderzoeken wat er gebeurt wanneer ik letters laat bewegen, draaien of van grootte laat veranderen. Dit geeft mij ruimte om andere dingen uit te proberen en mijn vaardigheden verder te ontwikkelen.
+
+Diederik vond dit een goede uitleg. Ik kon onderbouwen waarom ik bepaalde experimenten niet in mijn persoonlijke website verwerk, maar ze wel binnen mijn songtekst wil onderzoeken. Zo maak ik een bewuste keuze over welke vormgeving bij welk onderdeel past.
+
+#### Feedback op mijn learning log
+
+We hebben ook kort naar mijn learning log gekeken. Diederik gaf aan dat deze erg lang is en daardoor veel leeswerk vraagt. Tegelijkertijd vond hij het mooi om te zien dat ik mijn proces duidelijk beschrijf en mijn keuzes goed uitleg en onderbouw.
+Deze feedback laat mij zien dat mijn uitgebreide uitleg helpt om mijn werk te begrijpen.
+
+#### Wat ik uit de gesprekken meeneem
+
+Uit de feedback neem ik mee dat ik goed kan aangeven waar ik sta en wat mijn volgende stappen zijn. Ook kon ik mijn keuzes voor de privacyinformatie en de uitstraling van mijn website toelichten.
+
+Ik wil nu verder werken aan de uitwerking van mijn songtekst. Daarbij kan ik de voorbereiding, schetsen en reacties van de testers gebruiken om bewuste keuzes te maken. Daarnaast wil ik mijn learning log duidelijk blijven bijhouden, met aandacht voor de hoeveelheid tekst en de leesbaarheid.
+
+<img src="./assets/images-readme/verder-YMCA.png" alt="" />
+Foto: Verschillende foto's van mijn YMCA
+
+<img src="./assets/images-readme/kleurenpallet-YMCA.png" alt="" />
+Foto: Mijn kleuren pallet voor YMCA
+
 ## Donderdag 8 oktober
 
 ### Aan mijn Y.M.C.A. ontwerp beginnen
@@ -125,6 +250,9 @@ Tijdens deze uitwerking heb ik geleerd dat een kleine wijziging in CSS veel invl
 Ook heb ik het verschil onderzocht tussen een heel woord animeren en afzonderlijke letters animeren. Bij een heel woord beweegt de tekst als één blok. Bij losse spans kan ik ieder teken een andere positie geven, maar moet ik ook nadenken over de verdeling en onderlinge ruimte.
 
 De versies waarin de letters overlapten, waren daarom ook nuttig. Door telkens één onderdeel aan te passen en het resultaat in de browser te bekijken, kon ik beter begrijpen waardoor het effect ontstond.
+
+<img src="./assets/images-readme/beginvan-YMCA.png" alt="" />
+Foto: Verschillende foto's van mijn begin van YMCA
 
 ### Deep dive variabele fonts
 

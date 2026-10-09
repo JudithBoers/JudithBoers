@@ -91,28 +91,79 @@ aside > p > span {
   grid-area: 1 / 1;
   font-size: 2em;
 
-  animation: rondje 12s infinite linear;
+  animation: rondje 15s infinite linear;
 
   /* Verdeel de letters gelijk over de cirkel */
-  animation-delay: calc((sibling-index() - 1) * -12s / sibling-count());
+  animation-delay: calc((sibling-index() - 1) * -15s / sibling-count());
 }
 
 @keyframes rondje {
-  from {
+  0% {
     transform: rotate(0deg) translateY(-3.5em);
+    color: #9cadcc;
   }
 
-  to {
+  20% {
+    color: #a99371;
+  }
+
+  40% {
+    color: #0f0e0f;
+  }
+
+  60% {
+    color: #d93030;
+  }
+
+  80% {
+    color: #602111;
+  }
+
+  100% {
     transform: rotate(360deg) translateY(-3.5em);
+    color: #9cadcc;
   }
 }
+
+aside > p > span:nth-of-type(1),
+aside > p > span:nth-of-type(3),
+aside > p > span:nth-of-type(5),
+aside > p > span:nth-of-type(7) {
+  font-variation-settings:
+    "wght" 200,
+    "SRFS" 28;
+}
+
+/********************/
+/* Muziek nootjes */
+/********************/
+
+aside > p > span:nth-of-type(10),
+aside > p > span:nth-of-type(27) {
+  animation:
+    rondje 15s linear infinite,
+    --muzieknootjes 3s ease-in-out infinite;
+
+  animation-delay: calc((sibling-index() - 1) * -15s / 28), 0s;
+}
+
+@keyframes --muzieknootjes {
+  0%,
+  100% {
+    scale: 0.9;
+  }
+
+  50% {
+    scale: 1.2;
+  }
+}
+
 /**********/
 /* FOOTER */
 /**********/
 
 footer {
   font-size: 0.85em;
-  line-height: 1.5;
 }
 
 /*******************/
