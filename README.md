@@ -274,7 +274,7 @@ Foto: Mijn 6 nieuwe schetsen voor de vormgeveing van Y.M.C.A.
 
 #### Favorieten en het Y.M.C.A. gevoel
 
-Ik heb mijn zes schetsen laten bekijken en feedback verzameld, waaronder feedback van ChatGPT. De meeste reacties wijzen naar ontwerp 2, groot en klein. Dit ontwerp geeft volgens de testers het sterkste Y.M.C.A.-gevoel. Doordat steeds een andere letter groter wordt, lijkt het alsof de letters één voor één worden uitgebeeld, net zoals bij het bekende dansje.
+Ik heb mijn zes schetsen laten bekijken en feedback verzameld. De meeste reacties wijzen naar ontwerp 2, groot en klein. Dit ontwerp geeft volgens de testers het sterkste Y.M.C.A.gevoel. Doordat steeds een andere letter groter wordt, lijkt het alsof de letters één voor één worden uitgebeeld, net zoals bij het bekende dansje.
 
 Ook ontwerp 3, de dansende letters, wordt positief ontvangen. De verschillende richtingen en bewegingen geven de letters een vrolijke uitstraling die goed aansluit bij muziek en dans. Daarnaast wordt de draaiende tekst als favoriet genoemd, omdat dit een speels effect geeft.
 
@@ -448,14 +448,14 @@ Ik heb op mijn privacypagina een GIF van een gehaakt koekje staan. Ik wil dit GI
 
 De andere afbeeldingen en gifjes op mijn website en in mijn andere HTML-bestanden mogen niet veranderen.
 
-Gebruik geen class of id.
-
 position: fixed;
 right: 1em;
 bottom: 1em;
 width: 10em;
 height: auto;
 margin: 0;
+
+Voor deze opdracht mag ik geen class gebruiken waardoor ik nu even niet weet hoe ik dit kan doen.
 
 Dit is de code die ik al gemaakt heb.
 Ik moet alleen kijken hoe ik het kan koppelen aan alleen dit ene gifje.
