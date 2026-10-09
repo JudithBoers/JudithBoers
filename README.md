@@ -159,12 +159,6 @@ Ook heb ik gelezen dat je variabele fonts met JavaScript dynamisch kunt aanpasse
 <img src="./assets/images-readme/extratheorie.ddf.jpg" alt="" />
 Foto: Aantekeningen van de extra theorie.
 
-#### Een spiekbrief laten maken met ChatGPT
-
-Ik heb ChatGPT een spiekbrief laten maken die ik tijdens het coderen erbij kan houden. In mijn prompt heb ik aangegeven welke onderwerpen ik erin wilde hebben. Ook heb ik mijn mapjes met de opdrachten meegestuurd, zodat ChatGPT kon kijken of er nog onderdelen ontbraken.
-
-Ik heb gevraagd om per onderdeel uit te leggen hoe ik de code moet opschrijven en wat die code doet. Zo kan ik niet alleen een voorbeeld terugvinden, maar ook begrijpen waarvoor ik het gebruik als ik het even niet meer zeker weet.
-
 #### Wat ik meeneem naar mijn project
 
 Door de opdrachten heb ik meer mogelijkheden ontdekt om met typografie te spelen. Vooral het afzonderlijk laten veranderen van letters sluit aan bij mijn ideeën voor Y.M.C.A.
