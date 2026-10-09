@@ -41,6 +41,9 @@ header h1 {
   margin: 0;
   font-size: clamp(2.5em, 9vw, 6em);
   line-height: 1;
+  font-variation-settings:
+    "wght" 113,
+    "SRFS" 37;
 }
 
 /**************/

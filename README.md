@@ -1442,6 +1442,9 @@ Samen bedachten we de volgende deelvragen:
 
 Deze deelvragen bekijken de hoofdvraag vanuit verschillende kanten. We moeten eerst begrijpen wat kritieke internetdiensten zijn en welke bedrijven ze beheren. Daarna kunnen we onderzoeken welke gegevens deze diensten verwerken en wat de mogelijke voordelen en risico’s van commercieel beheer zijn.
 
+ <img src="./assets/images-readme/bi-weekly1.jpg" alt="" />
+ Foto: Ons werkblad van de opdracht.
+
 #### Werkblad uitwisselen
 
 Nadat iedere groep deelvragen had bedacht, wisselden we onze werkbladen uit. Iedere groep kreeg daardoor het blad van een andere groep.
