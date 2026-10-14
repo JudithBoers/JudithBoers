@@ -62,76 +62,380 @@ header h1 > span > span {
 
   width: 0.05em;
   height: 0.05em;
-  background-color: white;
   border: 0.01em solid black;
   border-radius: 50%;
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation: lampje-aan 0.4s ease forwards;
+  animation: lampjes-knipperen 6s step-end infinite;
 }
 
 /* Y */
 header h1 > span:nth-of-type(1) {
-  color: #d93030;
+  color: #ab2121;
 }
+
 /* Eerste lampje */
 header h1 > span > span:nth-of-type(1) {
   top: 47%;
-  animation-delay: 0.6s;
 }
 
 /* Tweede lampje */
 header h1 > span > span:nth-of-type(2) {
   top: 59%;
-  animation-delay: 0.3s;
 }
 
 /* Derde lampje */
 header h1 > span > span:nth-of-type(3) {
   top: 70%;
-  animation-delay: 0s;
 }
 
 /* Linkerarm: bovenste lampje */
 header h1 > span:first-of-type > span:nth-of-type(4) {
   top: 20%;
   left: 20%;
-  animation-delay: 1.2s;
 }
 
 /* Linkerarm: richting het midden */
 header h1 > span:first-of-type > span:nth-of-type(5) {
   top: 35%;
   left: 35%;
-  animation-delay: 0.9s;
 }
 
 /* Rechterarm: bovenste lampje */
 header h1 > span:first-of-type > span:nth-of-type(6) {
   top: 20%;
   left: 80%;
-  animation-delay: 1.2s;
 }
 
 /* Rechterarm: richting het midden */
 header h1 > span:first-of-type > span:nth-of-type(7) {
   top: 35%;
   left: 65%;
-  animation-delay: 0.9s;
 }
 
-@keyframes lampje-aan {
-  from {
-    background-color: white;
-    box-shadow: 0 0 0 transparent;
-  }
+/* M */
+header h1 > span:nth-of-type(2) {
+  color: rgb(5, 5, 158);
+}
+/* M: linker steel */
+header h1 > span:nth-of-type(2) > span:nth-of-type(1) {
+  top: 20%;
+  left: 23%;
+}
 
-  to {
+header h1 > span:nth-of-type(2) > span:nth-of-type(2) {
+  top: 45%;
+  left: 16%;
+}
+
+header h1 > span:nth-of-type(2) > span:nth-of-type(3) {
+  top: 70%;
+  left: 15%;
+}
+
+/* M: schuine lijnen in het midden */
+header h1 > span:nth-of-type(2) > span:nth-of-type(4) {
+  top: 35%;
+  left: 33%;
+}
+
+header h1 > span:nth-of-type(2) > span:nth-of-type(5) {
+  top: 62%;
+  left: 47%;
+}
+
+header h1 > span:nth-of-type(2) > span:nth-of-type(6) {
+  top: 35%;
+  left: 63%;
+}
+
+/* M: rechter steel */
+header h1 > span:nth-of-type(2) > span:nth-of-type(7) {
+  top: 20%;
+  left: 75%;
+}
+
+header h1 > span:nth-of-type(2) > span:nth-of-type(8) {
+  top: 45%;
+  left: 79%;
+}
+
+header h1 > span:nth-of-type(2) > span:nth-of-type(9) {
+  top: 70%;
+  left: 81%;
+}
+
+/* C*/
+header h1 > span:nth-of-type(3) {
+  color: rgb(5, 158, 110);
+}
+
+/* C: onderste rij */
+header h1 > span:nth-of-type(3) > span:nth-of-type(1) {
+  top: 70%;
+  left: 50%;
+}
+
+header h1 > span:nth-of-type(3) > span:nth-of-type(2) {
+  top: 70%;
+  left: 75%;
+}
+
+/* C: tweede rij van onder */
+header h1 > span:nth-of-type(3) > span:nth-of-type(3) {
+  top: 60%;
+  left: 25%;
+}
+
+/* C: middelste rij */
+header h1 > span:nth-of-type(3) > span:nth-of-type(4) {
+  top: 45%;
+  left: 18%;
+}
+
+/* C: tweede rij van boven */
+header h1 > span:nth-of-type(3) > span:nth-of-type(5) {
+  top: 30%;
+  left: 25%;
+}
+
+header h1 > span:nth-of-type(3) > {
+  top: 30%;
+  left: 80%;
+}
+
+/* C: bovenste rij */
+header h1 > span:nth-of-type(3) > span:nth-of-type(7) {
+  top: 20%;
+  left: 40%;
+}
+
+header h1 > span:nth-of-type(3) > span:nth-of-type(8) {
+  top: 18%;
+  left: 60%;
+}
+
+header h1 > span:nth-of-type(3) > span:nth-of-type(9) {
+  top: 20%;
+  left: 80%;
+}
+
+/* Zesde lampje van de C verbergen */
+header h1 > span:nth-of-type(3) > span:nth-of-type(6) {
+  display: none;
+}
+
+/* A */
+header h1 > span:nth-of-type(4) {
+  color: rgb(158, 5, 140);
+}
+
+/* A: bovenste lampje */
+header h1 > span:nth-of-type(4) > span:nth-of-type(1) {
+  top: 25%;
+  left: 47%;
+}
+
+/* A: tweede rij */
+header h1 > span:nth-of-type(4) > span:nth-of-type(2) {
+  top: 36%;
+  left: 33%;
+}
+
+header h1 > span:nth-of-type(4) > span:nth-of-type(3) {
+  top: 36%;
+  left: 60%;
+}
+
+/* A: derde rij, inclusief de dwarsbalk */
+header h1 > span:nth-of-type(4) > span:nth-of-type(4) {
+  top: 48%;
+  left: 27%;
+}
+
+header h1 > span:nth-of-type(4) > span:nth-of-type(5) {
+  top: 58%;
+  left: 47%;
+}
+
+header h1 > span:nth-of-type(4) > span:nth-of-type(6) {
+  top: 48%;
+  left: 70%;
+}
+
+/* A: vierde rij */
+header h1 > span:nth-of-type(4) > span:nth-of-type(7) {
+  top: 58%;
+  left: 20%;
+}
+
+header h1 > span:nth-of-type(4) > span:nth-of-type(8) {
+  top: 58%;
+  left: 75%;
+}
+
+/* A: onderste rij */
+header h1 > span:nth-of-type(4) > span:nth-of-type(9) {
+  top: 70%;
+  left: 14%;
+}
+
+header h1 > span:nth-of-type(4) > span:nth-of-type(10) {
+  top: 70%;
+  left: 80%;
+}
+
+/* alle lampjes Y-M-C-A */
+header h1 > span:nth-of-type(1) > span {
+  animation-name: lampjes-y;
+  animation-delay: 0s;
+}
+
+header h1 > span:nth-of-type(2) > span {
+  animation-name: lampjes-m;
+  animation-delay: 0s;
+}
+
+header h1 > span:nth-of-type(3) > span {
+  animation-name: lampjes-c;
+  animation-delay: 0s;
+}
+
+header h1 > span:nth-of-type(4) > span {
+  animation-name: lampjes-a;
+  animation-delay: 0s;
+}
+
+@keyframes lampjes-y {
+  0%,
+  70%,
+  80% {
     background-color: #ffd54a;
     box-shadow:
       0 0 0.03em #ffd54a,
       0 0 0.08em #ffd54a;
+  }
+
+  16.67%,
+  75%,
+  85%,
+  100% {
+    background-color: white;
+    box-shadow: none;
+  }
+}
+
+@keyframes lampjes-m {
+  0%,
+  33.33%,
+  75%,
+  85%,
+  100% {
+    background-color: white;
+    box-shadow: none;
+  }
+
+  16.67%,
+  70%,
+  80% {
+    background-color: #ffd54a;
+    box-shadow:
+      0 0 0.03em #ffd54a,
+      0 0 0.08em #ffd54a;
+  }
+}
+
+@keyframes lampjes-c {
+  0%,
+  50%,
+  75%,
+  85%,
+  100% {
+    background-color: white;
+    box-shadow: none;
+  }
+
+  33.33%,
+  70%,
+  80% {
+    background-color: #ffd54a;
+    box-shadow:
+      0 0 0.03em #ffd54a,
+      0 0 0.08em #ffd54a;
+  }
+}
+
+@keyframes lampjes-a {
+  0%,
+  66.67%,
+  75%,
+  85%,
+  100% {
+    background-color: white;
+    box-shadow: none;
+  }
+
+  50%,
+  70%,
+  80% {
+    background-color: #ffd54a;
+    box-shadow:
+      0 0 0.03em #ffd54a,
+      0 0 0.08em #ffd54a;
+  }
+}
+
+/**************/
+/* Muzieknootjes tittel */
+/**************/
+
+header h1 > i {
+  display: inline-block;
+  font-style: normal;
+  animation: nootje-dansen 2s ease-in-out infinite;
+}
+
+header h1 > i:nth-of-type(1) {
+  animation-duration: 2s;
+  animation-delay: 0s;
+  font-size: 0.2em;
+}
+
+header h1 > i:nth-of-type(2) {
+  animation-duration: 2.3s;
+  animation-delay: -0.7s;
+  font-size: 0.2em;
+}
+
+header h1 > i:nth-of-type(3) {
+  animation-duration: 1.8s;
+  animation-delay: -1.3s;
+  font-size: 0.2em;
+}
+
+header h1 > i:nth-of-type(4) {
+  animation-duration: 2.6s;
+  animation-delay: -0.4s;
+  font-size: 0.3em;
+}
+
+@keyframes nootje-dansen {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  25% {
+    transform: translateY(-0.2em) rotate(-15deg);
+  }
+
+  50% {
+    transform: translateY(0) rotate(15deg);
+  }
+
+  75% {
+    transform: translateY(-0.1em) rotate(-10deg);
   }
 }
 
@@ -154,6 +458,117 @@ main article p {
 /* Voor het later vormgeven van losse woorden */
 main article span {
   display: inline-block;
+}
+
+/**************/
+/* SPOTLIGHTS */
+/**************/
+
+header > img {
+  position: absolute;
+  top: -3vh;
+
+  width: 22vw;
+  height: 35vh;
+  object-fit: fill;
+
+  pointer-events: none;
+  opacity: 0;
+
+  animation-duration: 6s;
+  animation-timing-function: step-end;
+  animation-iteration-count: infinite;
+}
+
+/* Eerste afbeelding: Y */
+header > img:nth-of-type(1) {
+  left: 23%;
+  animation-name: spotlight-y;
+}
+
+/* Tweede afbeelding: M */
+header > img:nth-of-type(2) {
+  left: 33.2%;
+  animation-name: spotlight-m;
+}
+
+/* Derde afbeelding: C */
+header > img:nth-of-type(3) {
+  left: 44.2%;
+  animation-name: spotlight-c;
+}
+
+/* Vierde afbeelding: A */
+header > img:nth-of-type(4) {
+  left: 53%;
+  animation-name: spotlight-a;
+}
+
+/**********************/
+/* SPOTLIGHTANIMATIES */
+/**********************/
+
+@keyframes spotlight-y {
+  0%,
+  70%,
+  80% {
+    opacity: 0.6;
+  }
+
+  16.67%,
+  75%,
+  85%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes spotlight-m {
+  0%,
+  33.33%,
+  75%,
+  85%,
+  100% {
+    opacity: 0;
+  }
+
+  16.67%,
+  70%,
+  80% {
+    opacity: 0.6;
+  }
+}
+
+@keyframes spotlight-c {
+  0%,
+  50%,
+  75%,
+  85%,
+  100% {
+    opacity: 0;
+  }
+
+  33.33%,
+  70%,
+  80% {
+    opacity: 0.6;
+  }
+}
+
+@keyframes spotlight-a {
+  0%,
+  66.67%,
+  75%,
+  85%,
+  100% {
+    opacity: 0;
+  }
+
+  50%,
+  70%,
+  80% {
+    opacity: 0.6;
+  }
 }
 
 /********************/
@@ -245,6 +660,20 @@ aside > p > span:nth-of-type(27) {
   50% {
     scale: 1.2;
   }
+}
+
+/**********/
+/* Couplet 1 */
+/**********/
+
+main article:first-of-type p > span:nth-of-type(1),
+main article:first-of-type p > span:nth-of-type(3),
+main article:first-of-type p > span:nth-of-type(6) {
+  font-size: 1.8em;
+
+  font-variation-settings:
+    "wght" 200,
+    "SRFS" 0;
 }
 
 /**********/

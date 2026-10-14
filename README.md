@@ -4,33 +4,309 @@
 
 # Sprint 3:
 
+## Woensdag 14 oktober
+
+### Het eerste couplet onderzoeken en opnieuw naar de titel kijken
+
+#### Opnieuw luisteren naar het liedje
+
+Nadat ik helaas een dag niet aan mijn ontwerp had kunnen werken, heb ik opnieuw nagedacht over wat ik met de liedtekst wilde doen. Ik heb Y.M.C.A. nog een keer geluisterd en bewust gelet op welke woorden opvallen, waar de nadruk ligt en hoe de woorden worden gezongen.
+
+Ik wilde deze keer vanuit de muziek bepalen welke vormgeving passend zou zijn. Daarom heb ik het eerste couplet in mijn aantekeningenboekje uitgeschreven en de woorden onderstreept waarmee ik wilde experimenteren.
+
+#### Ideeën voor de nadruk en beweging
+
+Bij ‘Young man’ hoorde ik een duidelijke, krachtige nadruk. Ik heb erbij geschreven dat het bijna schreeuwerig klinkt en dat ik dit misschien met dikkere letters kan uitbeelden.
+
+Daarnaast heb ik ideeën opgeschreven voor andere woorden. Bij ‘down’ dacht ik aan een beweging naar beneden, bijvoorbeeld door het woord te laten zakken tijdens het scrollen. Bij ‘ground’ wilde ik onderzoeken of het woord juist een opstaande beweging kon krijgen. Voor ‘need to be’ dacht ik aan een animatie die het ritme van de melodie volgt. ‘Unhappy’ wilde ik mogelijk groter maken.
+
+#### Een eerste aanpassing aan ‘Young man’
+
+Daarna heb ik een eerste aanpassing gedaan aan het couplet. Ik heb de drie keer dat ‘Young man’ voorkomt geselecteerd en groter weergegeven. In mijn CSS heb ik hiervoor font-size: 1.8em gebruikt en de instellingen van het variabele lettertype aangepast.
+
+In de browser kregen deze woorden daardoor duidelijk meer nadruk dan de rest van de zin. Hiermee heb ik een eerste stap gezet om de nadruk die ik in het liedje hoor ook zichtbaar te maken in mijn typografie. De bewegingen voor de andere woorden heb ik op dit moment nog niet uitgewerkt.
+
+#### Toch weer terug naar de titel
+
+Tijdens het werken aan het couplet bleef de titel mij bezighouden. Hoewel ik de letters, lampjes en muzieknootjes al had uitgewerkt, had ik nog steeds het gevoel dat er iets niet helemaal klopte.
+
+Ik heb dus wel een begin gemaakt met het eerste couplet, maar wil eerst verder onderzoeken wat de titel nog nodig heeft. De ideeën voor de liedtekst heb ik vastgelegd, zodat ik daar daarna op kan voortbouwen.
+
+<img src="./assets/images-readme/couplet1.png" alt="" />
+Foto: Nogmaals onderzoek gedaan naar couplet 1 en een begin gemaakt aan 1 woord.
+
+### De lampjes per letter laten knipperen
+
+#### Een ander ritme voor de titel
+
+Ik heb de animatie van mijn lampjes aangepast. Eerst gingen de lampjes afzonderlijk aan, maar ik wilde onderzoeken hoe het eruitzag als alle lampjes binnen één letter tegelijk knipperden. Daarna zou de volgende letter aan de beurt komen: eerst de Y, dan de M, de C en de A.
+
+Deze variant vind ik een stuk leuker. De letters krijgen om de beurt aandacht en het knipperen geeft de titel meer het gevoel van een verlicht bord bij een optreden.
+
+#### Eerst de vertraging op de verkeerde plek
+
+Het was even uitvogelen hoe ik dit kon aanpassen. Ik had eerst de afzonderlijke delays bij de lampjes weggehaald en een delay toegevoegd aan de span van de Y. Bij de M probeerde ik vervolgens een vertraging van vijf seconden. Dit gaf niet het resultaat dat ik verwachtte. Ik moest de vertraging dus instellen op de lampjes zelf.
+
+#### Alle lampjes binnen een letter selecteren
+
+Daarna heb ik aparte CSS-regels gemaakt waarmee ik alle lampjes binnen één letter selecteerde. Voor de Y gebruikte ik bijvoorbeeld:
+
+header h1 > span:nth-of-type(1) > span {
+animation-delay: 0s;
+}
+
+Deze selector kiest de eerste span binnen mijn titel en vervolgens de spans die daar direct in staan. Dat zijn de lampjes van de Y. Hierdoor krijgen ze allemaal dezelfde vertraging en beginnen ze tegelijk.
+
+Hetzelfde heb ik gedaan voor de andere letters. In deze tussenversie kreeg de M een delay van één seconde, de C van twee seconden en de A van drie seconden. Daarmee kon ik de letters na elkaar laten oplichten, terwijl de lampjes op hun bestaande plekken bleven staan.
+
+#### Het aan- en uitgaan vormgeven
+
+Ook heb ik de animatie verder aangepast met @keyframes. Heb de lampjes verder niet aangepast. Wanneer ze aanstaan, zijn ze geel en hebben ze een gele gloed. Wanneer ze uitstaan, worden ze wit en verdwijnt de schaduw. Dus dit is nog steeds het zelfde gebleven.
+
+Door de momenten van aan- en uitgaan en de vertragingen te veranderen, heb ik gezocht naar een verloop dat ik mooi vond. Ik heb steeds iets aangepast en daarna in de browser bekeken wat het effect was. Zo kwam ik uiteindelijk tot een versie waarbij het knipperen naar mijn idee goed over de letters verloopt.
+
+#### Leren door te proberen
+
+Tijdens het experimenteren wist ik niet bij iedere aanpassing precies waarom iets werkte. Ik heb veel geprobeerd en op het zicht beoordeeld of het resultaat bij mijn idee paste. Toen de animatie eruitzag zoals ik wilde, dacht ik: ja, dit wordt het!
+Alleen ik heb geen idee of dit is hoe het moet, maar het werkt.
+
+<img src="./assets/images-readme/perletter2.png" alt="" />
+Foto: De lampjes per letter laten gaan in plaats van per lampje.
+
+### De titel rustiger maken met feedback van mijn moeder
+
+#### Opnieuw naar het geheel kijken
+
+Na het aanpassen van de knipperende lampjes heb ik mijn moeder om feedback gevraagd. Zij gaf aan dat de titel nu behoorlijk druk was. Naast de gekleurde letters en de bewegende lampjes gebruikte ik namelijk ook verschillende soorten muzieknootjes.
+
+Eerder vond ik die afwisseling juist leuk, maar door haar reactie ben ik opnieuw naar het geheel gaan kijken. De verschillende onderdelen waren afzonderlijk speels, maar samen vroegen ze veel aandacht.
+
+#### Verschillende versies vergelijken
+
+Ik heb eerst de dubbele muzieknoten weggehaald en vervangen door enkele muzieknoten maar wel 2 verschillende. Daarna heb ik deze versie weer aan mijn moeder laten zien. Zij vond dat de titel hierdoor al een stuk rustiger werd.
+
+Vervolgens heb ik nog een versie gemaakt waarin ik overal hetzelfde muzieknootje gebruikte. Ook deze heb ik aan haar voorgelegd. Ze vond deze variant nog rustiger, omdat er meer herhaling en minder verschil tussen de tekens zat.
+
+Door na iedere aanpassing opnieuw feedback te vragen, kon ik de versies stap voor stap vergelijken en gerichter bepalen welke verandering hielp.
+
+#### Mijn uiteindelijke keuze
+
+Ik heb ervoor gekozen om de laatste versie te houden: één soort muzieknootje tussen de letters. Zo blijft de verbinding met muziek zichtbaar, terwijl de titel meer samenhang krijgt. De gekleurde letters en de knipperende lampjes zorgen al voor veel afwisseling.
+
+Deze feedback heeft mij geholpen om verder te kijken dan mijn voorkeur voor losse details. Ik vond de verschillende muzieknootjes leuk, maar in combinatie met de rest werkte een eenvoudiger keuze beter. Door iets weg te halen, kreeg de titel juist meer rust.
+
+<img src="./assets/images-readme/perletter.png" alt="" />
+Foto: Het verschil van 2 soorten muziek nootjes en 1 soort.
+
+### Spotlights toevoegen aan mijn titel
+
+#### Mijn eerdere idee alsnog uitproberen
+
+Ik bedacht mij ineens dat we na de tweede week ook kleur en beeld mochten gebruiken. Daardoor kon ik mijn eerdere idee met de spotlights opnieuw oppakken. Dit stond al in mijn schetsen en was ook genoemd tijdens de feedback uit mijn omgeving.
+
+Ik wilde onderzoeken of de spotlights het podiumgevoel van mijn titel konden versterken. Mijn idee was om iedere letter te belichten op het moment dat de lampjes in die letter aangaan.
+
+#### De afbeeldingen maken in Canva
+
+Ik heb in Canva verschillende gekleurde spotlights gemaakt en deze als afbeeldingen aan mijn pagina toegevoegd. De lichtbundels hebben zachte randen, waardoor ze geleidelijk overlopen in de achtergrond.
+
+Bij het eerste bekijken was een spotlight nog veel te groot: de afbeelding nam bijna het hele scherm in beslag. Ik moest dus eerst met CSS de grootte en plaatsing aanpassen voordat de lichtbundels onderdeel van mijn titel konden worden.
+
+<img src="./assets/images-readme/spotlights.png" alt="" />
+Foto: De spotslights die ik heb gemaakt via Canva
+
+Bron: [Canva](https://www.canva.com/nl_nl/)
+
+#### De spotlights boven de letters plaatsen
+
+Met de selector header > img heb ik de afbeeldingen een gezamenlijke basisvormgeving gegeven. Daarna heb ik met :nth-of-type() iedere spotlight afzonderlijk geselecteerd en boven de bijbehorende letter geplaatst.
+
+Ik gebruikte position: fixed en top: -3vh, zodat de lichtbundels vanaf de bovenrand van het browservenster lijken te komen. Ze staan daarmee binnen de webpagina, maar geven het gevoel dat het licht van boven het scherm op de titel valt.
+
+Voor de grootte gebruikte ik vw en vh. Vervolgens heb ik de horizontale positie per afbeelding aangepast met left. Dit was vooral uitproberen: een waarde veranderen, in de browser kijken en daarna weer bijstellen. Op de screenshots is te zien dat ik ook kleine aanpassingen heb gedaan om de bundels beter boven de letters te krijgen.
+
+#### De timing afstemmen op de lampjes
+
+Daarna heb ik de timing van de spotlights afgestemd op de knipperende lampjes. Ik gebruikte dezelfde volgorde en probeerde dezelfde vertragingen toe te passen, zodat de spotlight en de lampjes van een letter samen aangaan.
+
+In de verdere uitwerking kreeg iedere spotlight een eigen animatie. Met opacity kan de afbeelding zichtbaar en onzichtbaar worden. De animaties hebben een duur van zes seconden en blijven zich herhalen. Met step-end schakelt de zichtbaarheid op de ingestelde momenten, waardoor het effect meer op aan- en uitgaan lijkt.
+
+Zo wilde ik de verlichting als één geheel laten werken: eerst krijgt de Y aandacht, daarna de M, de C en de A.
+
+<img src="./assets/images-readme/spotlightaanpassen.png" alt="" />
+Foto: De spotslights op de juist plek zetten met de letters.
+
+### De spotlights testen en verder met de songtekst
+
+#### Feedback op het discogevoel
+
+Nadat ik de spotlights had toegevoegd, heb ik mijn ontwerp laten bekijken. Ik kreeg vooral enthousiaste reacties: de combinatie van de gekleurde letters, knipperende lampjes en spotlights deed mensen echt aan disco denken.
+
+Dat is precies de sfeer die ik wil overbrengen met Y.M.C.A. Deze reacties bevestigden voor mij dat de verlichting iets toevoegt aan de titel en helpt om het feestelijke gevoel van het liedje zichtbaar te maken.
+
+#### Een probleem tijdens het scrollen oplossen
+
+Tijdens het testen ontdekte ik ook iets wat niet werkte zoals ik wilde. Wanneer ik naar beneden scrolde, bleven de spotlights bovenaan het scherm hangen, terwijl de titel wel uit beeld verdween. Daardoor stonden de lichtbundels niet meer bij de letters waarvoor ze bedoeld waren.
+
+Ik heb de positionering in mijn CSS aangepast, zodat de spotlights nu met de titel mee uit beeld scrollen. Hiermee blijft de verlichting onderdeel van de titel en komt deze tijdens het scrollen niet over de rest van de songtekst te staan.
+
+Deze test liet mij zien dat ik niet alleen naar het eerste beeld van mijn pagina moet kijken. Ook tijdens het scrollen moeten de onderdelen blijven werken zoals ik ze heb bedacht.
+
+<img src="./assets/images-readme/scrolprobleem.png" alt="" />
+Foto: Het probleem met het scrollen oplossen. waardoor het niet mee scrolt.
+
+#### De melodie als idee voor later
+
+Ik wil nog onderzoeken of ik het oplichten van de letters kan laten aansluiten op de manier waarop ‘Y.M.C.A.’ in het liedje wordt gezongen. Daarmee zou de animatie nog sterker verbonden zijn met de muziek.
+
+Dit idee parkeer ik voorlopig. Als ik later tijd over heb, kan ik ermee experimenteren. Voor nu wil ik mijn aandacht richten op de rest van de songtekst, zodat ook de coupletten en het refrein verder worden uitgewerkt. De titel heeft inmiddels de discosfeer die ik zocht; mijn volgende stap is om de nadruk en het ritme van het liedje ook in de overige tekst zichtbaar te maken.
+
+## Maandag 12 oktober
+
+### De titel afmaken en feedback verzamelen
+
+#### Ook de C en A uitwerken
+
+Na de Y en M heb ik ook de letters C en A afgemaakt. Ik heb de lampjes over deze letters verdeeld en de plaatsing aangepast aan hun vorm. Daarmee zijn nu alle vier de letters van mijn titel uitgewerkt met lampjes.
+
+#### Past de titel bij het liedje?
+
+Daarna heb ik mensen in mijn omgeving gevraagd wat zij van de titel vonden en of ze deze bij Y.M.C.A. vonden passen. Ik wilde weten of de uitstraling die ik voor ogen had ook bij anderen overkwam.
+
+De feedback was dat het ontwerp heel goed bij het liedje paste. Ze vonden het eruitzien als iets ouds en een tikkeltje ‘cringe’. Dat is eigenlijk precies de sfeer die ik wilde bereiken: een beetje overdreven, vrolijk en met het gevoel van een ouderwets optreden. Voor mij bevestigde deze feedback dat de titel de bedoelde uitstraling begint te krijgen.
+
+#### Het idee van een spotlight
+
+Ook kreeg ik de suggestie om de letters echt in een spotlight te zetten. Ik heb uitgelegd dat ik dit zelf ook graag wilde en dat het idee al in mijn schetsen stond. Het zou het podiumgevoel van de titel verder kunnen versterken.
+
+Omdat ik voor deze opdracht geen beeldmateriaal mag gebruiken, kan ik dit niet met een afbeelding toevoegen zoals ik eerst voor ogen had. Een lichteffect met CSS zou nog een mogelijkheid zijn om te onderzoeken. Voor nu heb ik eerst de letters en de lampjes afgemaakt en feedback verzameld op deze versie.
+Natuurlijk ga ik leter kijken of ik het op een manier nog kan toevoegen en kan onderzoeken wat het effect er van is.
+
+### De punten vervangen door muzieknootjes
+
+#### Een speelser detail in de titel
+
+Na het uitwerken van de letters en de lampjes heb ik gekeken hoe ik de punten tussen Y, M, C en A speelser kon maken. Ik wilde onderzoeken of ik deze kon vervangen door muzieknootjes. Daarmee krijgt ook dit kleine onderdeel van de titel een duidelijke verbinding met het liedje.
+
+#### Verschillende muzieknootjes uitproberen
+
+Eerst heb ik één soort muzieknoot gebruikt. Zo kon ik bekijken hoe het eruitzag wanneer hetzelfde teken tussen de letters terugkwam. Dit gaf herhaling en samenhang, maar ik wilde ook een versie met meer afwisseling proberen.
+
+Daarom heb ik vervolgens verschillende soorten muzieknootjes toegevoegd. Deze variant vond ik leuker, omdat de afwisseling de titel een speelsere uitstraling geeft. De tekens horen nog steeds bij elkaar doordat het allemaal muzieknoten zijn, maar ze zijn niet precies hetzelfde.
+
+#### Een kleine verandering met effect
+
+Met deze aanpassing heb ik verder onderzocht hoe ik het muzikale en vrolijke gevoel van Y.M.C.A. in mijn typografie kan verwerken. Niet alleen de grote letters en de lampjes bepalen de uitstraling; ook de tekens ertussen hebben daar invloed op.
+
+Voor deze versie heb ik gekozen voor meerdere soorten muzieknootjes. Die afwisseling past beter bij het speelse gevoel dat ik met mijn titel wil bereiken.
+
+<img src="./assets/images-readme/vanpuntnaarmuziek.png" alt="" />
+Foto: De punten tussen de letters vervangen door muziek npotjes.
+
+## Herfstvakantie van 12 okt tot 18 okt
+
+Helaas verdrietig nieuws gekregen in mijn privé omgeving waardoor niet mij zelf kan inzetten zoals ik dat wil.
+
 ## Vrijdag 9 oktober
 
-### De titel bovenaan de pagina platsen
+### De lampjes in de armen van de Y plaatsen
 
-#### De eerdere indeling aanpassen
+#### Uitzoeken waarom de plaatsing niet werkte
 
-Om mijn idee met de lampjes verder uit te werken, heb ik eerst de plaatsing van mijn titel aangepast. In mijn vorige versie stond Y.M.C.A. op grote schermen verticaal aan de linkerkant van de liedtekst. Ik heb de CSS die voor deze plaatsing en schrijfrichting zorgde weggehaald.
+Na het plaatsen van de lampjes in het rechte gedeelte van de Y ben ik verdergegaan met de schuine armen. Dit bleek lastiger dan ik had verwacht. Ik heb lang geprobeerd om de lampjes op de juiste plek te krijgen door de posities aan te passen, maar ik kreeg niet het resultaat dat ik wilde.
 
-Ik heb ervoor gekozen om de titel nu horizontaal bovenaan de pagina te zetten. Hierdoor krijgt de titel een centrale plek en kan ik de vier letters naast elkaar vormgeven, zoals in mijn schets. Dit vormt het uitgangspunt voor mijn verdere experiment met de lampjes.
+Daarom heb ik ChatGPT om hulp gevraagd. Ik wilde begrijpen waarom mijn code niet werkte, zodat ik daarna zelf verder kon met het indelen van de lampjes.
 
-#### Een dikker en eenvoudiger lettertype
+#### De juiste span selecteren
 
-Daarna heb ik de vormgeving van de letters aangepast. Ik heb gekozen voor een zo eenvoudig mogelijk lettertype en de letters dikker gemaakt. Ik wil eerst een duidelijke basis hebben waarin de vorm van Y, M, C en A goed herkenbaar is.
+Ik gebruikte eerst deze selector:
 
-De dikke letters passen bij mijn schets, waarin de titel uit brede letters met kleine lampjes bestaat. Door de lettervorm eenvoudig te houden, kan ik straks onderzoeken hoe de lampjes binnen de letters passen en welk effect ze op de leesbaarheid hebben.
+header h1 > span:nth-of-type(4) {
+top: 20%;
+left: 20%;
+}
 
-#### De grootte aanpassen aan het scherm
+Hiermee selecteerde ik de vierde span die direct binnen mijn h1 staat. Dat was niet het vierde lampje binnen de Y. Mijn lampjes staan namelijk een niveau dieper: binnen de span van de letter.
 
-Ook heb ik de titelgrootte afgestemd op de beschikbare schermruimte. Op een klein scherm is de titel kleiner, zodat hij beter binnen de pagina past. Op een groot scherm worden de letters groter en krijgt de titel meer nadruk.
+ChatGPT stelde daarom deze selector voor:
 
-Ik heb de verschillende weergaven bekeken door mijn browservenster smaller en breder te maken. Zo kon ik vergelijken hoe de titel eruitziet bij verschillende schermgroottes.
+header h1 > span:first-of-type > span:nth-of-type(4) {
+top: 20%;
+left: 20%;
+}
 
-Met deze aanpassingen heb ik een nieuwe basis gemaakt: een horizontale titel bovenaan de pagina, met dikke, eenvoudige letters die in grootte reageren op het scherm. Vanuit deze basis wil ik verder werken aan het plaatsen en laten oplichten van de lampjes.
+Deze selector kiest eerst de eerste span binnen de titel, waarin mijn Y staat. Vervolgens selecteert hij de vierde span binnen die letter. Zo worden de waarden voor top en left toegepast op het bedoelde lampje.
+
+#### Verder met de verdeling
+
+Ik heb deze aanpassing geprobeerd en toen werkte het! Hierdoor kon ik verder met het plaatsen van de overige lampjes in de Y.
+
+Dit hielp mij om beter te begrijpen hoe mijn HTML-opbouw samenhangt met mijn CSS-selectors. Het probleem zat niet alleen in de positie die ik had ingesteld, maar vooral in welk onderdeel ik selecteerde. Bij spans binnen andere spans moet ik dus goed aangeven op welk niveau ik een aanpassing wil doen.
+
+### De lampjes verder uitwerken en laten oplichten
+
+#### De hele Y vullen met lampjes
+
+Voor ieder lampje heb ik de positie afzonderlijk ingesteld. Daarbij heb ik steeds gekeken of het rondje binnen de letter bleef en of de afstand tot de andere lampjes goed was.
+
+Hierdoor begon de titel steeds meer op mijn oorspronkelijke schets te lijken. De lampjes waren nu verspreid over de letter, waardoor het idee van een verlichte podiumletter duidelijker werd.
+
+#### Kleur toevoegen aan de titel
+
+Daarna heb ik de Y rood gemaakt en de lampjes geel laten worden. De overige letters waren op dat moment nog zwart. Zo kon ik eerst op één letter onderzoeken hoe de kleuren en de lampjes samen werkten.
+
+De rode letter met gele lampjes geeft de titel een vrolijkere uitstraling. Dit past bij het feestelijke gevoel dat ik met mijn Y.M.C.A. ontwerp wil overbrengen. Door eerst alleen de Y uit te werken, kon ik deze vormgeving beoordelen voordat ik ermee verderging bij de andere letters.
+
+#### De lampjes laten aangaan
+
+Vervolgens heb ik een animatie toegevoegd waarmee de lampjes van wit naar geel veranderen. Door de lampjes op verschillende momenten te laten veranderen, ontstaat het effect dat ze na elkaar aangaan.
+
+Dit sluit aan bij mijn idee van een verlicht bord. De rondjes zijn daardoor meer dan alleen versiering: de verandering van kleur laat ze op lampjes lijken die worden ingeschakeld.
+
+#### De lampjes duidelijker zichtbaar maken
+
+In de eerste gekleurde versie waren de lampjes nog vrij eenvoudige gele rondjes. Daarna heb ik ze verder vormgegeven met een zwart randje en een gele gloed.
+
+Het zwarte randje maakt de omtrek van ieder lampje duidelijker zichtbaar op de rode letter. De gloed eromheen versterkt het idee dat het lampje licht geeft. Hierdoor lijken de rondjes meer op echte verlichting.
+
+Ik heb het resultaat ook van dichtbij bekeken. Zo kon ik beter zien hoe de rand en de gloed eruitzagen en of de lampjes nog netjes binnen de letter stonden. Daarna heb ik een opname gemaakt om deze vormgeving samen met de animatie te bekijken.
+
+#### Verdergaan met de letter M
+
+Toen de Y verder was uitgewerkt, ben ik begonnen met de lampjes in de M. Hiervoor gebruikte ik dezelfde opbouw: de letter staat in een eigen span en de lampjes staan daarbinnen in afzonderlijke spans.
+
+De M heeft een andere vorm dan de Y. Daarom kon ik de posities niet zomaar overnemen. Ik heb de lampjes verdeeld over de linkerzijde, de schuine lijnen in het midden en de rechterzijde.
+
+Met selectors zoals header h1 > span:nth-of-type(2) > span:nth-of-type(3) kon ik een specifiek lampje binnen de tweede letter selecteren. Vervolgens bepaalde ik met top en left waar dat lampje moest komen.
+
+In deze tussenversie bleef de M zwart. Daardoor kon ik ook zien hoe dezelfde gele lampjes met hun gloed eruitzagen op een andere achtergrondkleur.
+
+#### Wat ik tijdens deze stap heb geleerd
+
+Tijdens deze uitwerking heb ik geleerd dat de plaatsing, kleur en afwerking samen bepalen hoe overtuigend het lampjeseffect is. Met alleen witte rondjes had ik een eerste basis. Door geel, een rand en een gloed toe te voegen, werd het idee van verlichting veel duidelijker.
+
+Ook merkte ik dat iedere letter een eigen verdeling nodig heeft. De basisvormgeving van de lampjes kan ik opnieuw gebruiken, maar hun posities moet ik aanpassen aan de lettervorm.
+
+Mijn titel is hiermee weer een stap verder uitgewerkt. De Y heeft nu een eerste werkende lichtanimatie en ik ben begonnen met het toepassen van de lampjes op de M. Vanuit deze basis kan ik verder werken aan de overige letters en het geheel blijven vergelijken met mijn schets.
+
+### Meerdere lampjes toevoegen en de vorm vergelijken
+
+### De lampjes over de Y verdelen
+
+Nadat het eerste vierkantje op de letter Y stond, heb ik meerdere spans toegevoegd binnen diezelfde letter. Vervolgens heb ik de vierkantjes op verschillende hoogtes geplaatst. Zo ontstond er een rij van drie witte vierkantjes in het onderste, rechte gedeelte van de Y.
+
+Hierbij heb ik gekeken naar de afstand tussen de vierkantjes en of ze netjes binnen de zwarte letter bleven. Door eerst een klein gedeelte van de Y uit te werken, kon ik rustig onderzoeken hoe ik meerdere lampjes kon plaatsen voordat ik de rest van de titel zou vullen.
+
+#### Van vierkantjes naar rondjes
+
+Daarna wilde ik vergelijken of ronde lampjes beter bij mijn idee zouden passen. Ik heb de vormgeving aangepast, waardoor de witte vierkantjes veranderden in rondjes. De plaatsing bleef hetzelfde, zodat ik het verschil tussen de twee vormen goed kon bekijken.
+
+De ronde vorm sluit meer aan bij de lampjes uit mijn oorspronkelijke schets. Op de screenshots is deze stap duidelijk te zien: eerst staan er drie witte vierkantjes in de Y en daarna drie witte rondjes.
+
+<img src="./assets/images-readme/vierkantnaarrondje.png" alt="" />
+Foto: Heb het lampje van een vierkantje naar een rondje veranderd.
 
 ### Mijn eerste experiment met een lampje in de letter Y
-
-# foto toevoegen
 
 #### Iedere letter als eigen onderdeel
 
@@ -52,23 +328,33 @@ Deze stap geeft mij een basis om mijn schets verder uit te werken. Ik wil hierna
 
 Daarna wil ik kijken of ik de lampjes van kleur kan laten veranderen, zodat het lijkt alsof ze één voor één aangaan. Voor nu heb ik eerst getest of de opbouw met een span binnen een span werkt en hoe ik het eerste lampje op de juiste plek kan zetten.
 
-### Meerdere lampjes toevoegen en de vorm vergelijken
+<img src="./assets/images-readme/grootenkleinscehrm.png" alt="" />
+Foto: Het eerste rondje in de Y gezet
 
-# foto toevoegen
+### De titel bovenaan de pagina platsen
 
-### De lampjes over de Y verdelen
+#### De eerdere indeling aanpassen
 
-Nadat het eerste vierkantje op de letter Y stond, heb ik meerdere spans toegevoegd binnen diezelfde letter. Vervolgens heb ik de vierkantjes op verschillende hoogtes geplaatst. Zo ontstond er een rij van drie witte vierkantjes in het onderste, rechte gedeelte van de Y.
+Om mijn idee met de lampjes verder uit te werken, heb ik eerst de plaatsing van mijn titel aangepast. In mijn vorige versie stond Y.M.C.A. op grote schermen verticaal aan de linkerkant van de liedtekst. Ik heb de CSS die voor deze plaatsing en schrijfrichting zorgde weggehaald.
 
-Hierbij heb ik gekeken naar de afstand tussen de vierkantjes en of ze netjes binnen de zwarte letter bleven. Door eerst een klein gedeelte van de Y uit te werken, kon ik rustig onderzoeken hoe ik meerdere lampjes kon plaatsen voordat ik de rest van de titel zou vullen.
+Ik heb ervoor gekozen om de titel nu horizontaal bovenaan de pagina te zetten. Hierdoor krijgt de titel een centrale plek en kan ik de vier letters naast elkaar vormgeven, zoals in mijn schets. Dit vormt het uitgangspunt voor mijn verdere experiment met de lampjes.
 
-#### Van vierkantjes naar rondjes
+#### Een dikker en eenvoudiger lettertype
 
-Daarna wilde ik vergelijken of ronde lampjes beter bij mijn idee zouden passen. Ik heb de vormgeving aangepast, waardoor de witte vierkantjes veranderden in rondjes. De plaatsing bleef hetzelfde, zodat ik het verschil tussen de twee vormen goed kon bekijken.
+Daarna heb ik de vormgeving van de letters aangepast. Ik heb gekozen voor een zo eenvoudig mogelijk lettertype en de letters dikker gemaakt. Ik wil eerst een duidelijke basis hebben waarin de vorm van Y, M, C en A goed herkenbaar is.
 
-De ronde vorm sluit meer aan bij de lampjes uit mijn oorspronkelijke schets. Op de screenshots is deze stap duidelijk te zien: eerst staan er drie witte vierkantjes in de Y en daarna drie witte rondjes.
+De dikke letters passen bij mijn schets, waarin de titel uit brede letters met kleine lampjes bestaat. Door de lettervorm eenvoudig te houden, kan ik straks onderzoeken hoe de lampjes binnen de letters passen en welk effect ze op de leesbaarheid hebben.
 
-# foto toevoegen
+<img src="./assets/images-readme/tittelzijkantnaarboven.png" alt="" />
+Foto: De titel veranderen van de zijkant naar het midden van de bovenkant.
+
+#### De grootte aanpassen aan het scherm
+
+Ook heb ik de titelgrootte afgestemd op de beschikbare schermruimte. Op een klein scherm is de titel kleiner, zodat hij beter binnen de pagina past. Op een groot scherm worden de letters groter en krijgt de titel meer nadruk.
+
+Ik heb de verschillende weergaven bekeken door mijn browservenster smaller en breder te maken. Zo kon ik vergelijken hoe de titel eruitziet bij verschillende schermgroottes.
+
+Met deze aanpassingen heb ik een nieuwe basis gemaakt: een horizontale titel bovenaan de pagina, met dikke, eenvoudige letters die in grootte reageren op het scherm. Vanuit deze basis wil ik verder werken aan het plaatsen en laten oplichten van de lampjes.
 
 ### Mijn oude schets opnieuw gebruiken voor de titel
 
@@ -84,6 +370,9 @@ In deze schets heb ik Y.M.C.A. getekend met grote, brede letters. In de letters 
 
 Met kleur wil ik het idee van de lampjes duidelijker maken. Ik wil onderzoeken of ik ze één voor één kan laten oplichten, zodat het lijkt alsof de verlichting wordt aangezet. Daarmee krijgt de titel niet alleen een opvallende vorm, maar ook beweging.
 
+<img src="./assets/images-readme/oudeschets.png" alt="" />
+Foto: Miijn eerdere schets waar ik nu weer op terug gevallen ben.
+
 #### Onderzoeken hoe ik de schets kan coderen
 
 Mijn volgende stap is om te bekijken hoe ik dit ontwerp kan opbouwen in mijn code. Eerst wil ik zorgen dat de letters de juiste vorm, grootte en plaatsing krijgen. Daarna wil ik onderzoeken hoe ik de lampjes binnen de letters kan plaatsen en afzonderlijk kan laten veranderen.
@@ -92,7 +381,7 @@ Ik wil dit stap voor stap aanpakken, zodat ik begrijp wat iedere aanpassing doet
 
 Door mijn oude schets opnieuw te gebruiken, bouw ik verder op mijn eerdere voorbereiding. Nu ik meer heb geoefend met CSS en animaties, kan ik onderzoeken hoe ik dat getekende idee kan vertalen naar een werkend ontwerp.
 
-# foto toevoegen
+## Les van vrijdag 9 oktober
 
 ### Verder werken aan mijn typografische ontwerp van Y.M.C.A.
 
