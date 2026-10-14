@@ -161,6 +161,37 @@ Ik wil nog onderzoeken of ik het oplichten van de letters kan laten aansluiten o
 
 Dit idee parkeer ik voorlopig. Als ik later tijd over heb, kan ik ermee experimenteren. Voor nu wil ik mijn aandacht richten op de rest van de songtekst, zodat ook de coupletten en het refrein verder worden uitgewerkt. De titel heeft inmiddels de discosfeer die ik zocht; mijn volgende stap is om de nadruk en het ritme van het liedje ook in de overige tekst zichtbaar te maken.
 
+### Experimenteren met ‘YOUNG MAN’
+
+#### De nadruk uit het liedje vertalen
+
+Na de titel ben ik verdergegaan met de eerste ‘Young man’ van het eerste couplet. In het liedje klinkt dit alsof iemand je rechtstreeks aanspreekt en je aandacht probeert te trekken. Dat wilde ik zichtbaar maken door de woorden in hoofdletters te zetten en met een animatie groter en kleiner te laten worden.
+
+### Overlap en verschuivende tekst oplossen
+
+Tijdens het uitproberen kwamen de vergrote woorden over de rest van de zin heen te staan. Ik verving transform: scale() eerst door een animatie met font-size. Dat hielp tegen de overlap, maar zorgde ervoor dat de omliggende tekst steeds meeschoof.
+
+Daarom ben ik teruggegaan naar scale() en heb ik de span een vaste breedte gegeven. Ik probeerde verschillende breedtes om voldoende ruimte voor de grootste versie van de woorden te reserveren. Ook paste ik de regelhoogte aan. Hierdoor kon ‘YOUNG MAN’ bewegen zonder dat de rest van de tekst telkens van plek veranderde.
+
+<img src="./assets/images-readme/overlap.png.png" alt="" />
+Foto: Young man valt over de rest van de tekst heen.
+
+<img src="./assets/images-readme/testoverlap.png" alt="" />
+Foto: Heb gekeken of ik de overlap kon tegen gaan met mer ruimte.
+
+### Grootte, transparantie en snelheid uitproberen
+
+Ik heb veel verschillende versies geprobeerd. Daarbij experimenteerde ik met de grootte, transparantie en snelheid van de animatie. Ik wilde bekijken hoe het overkomt als de woorden eerst wat transparanter zijn en tijdens het groter worden steeds duidelijker zichtbaar worden. Ook heb ik gespeeld met rustmomenten, zodat de woorden niet voortdurend bewegen.
+
+Na iedere aanpassing bekeek ik het resultaat in de browser. Zo kon ik vergelijken welke combinatie het beste paste bij het gevoel dat ik wilde overbrengen.
+
+<img src="./assets/images-readme/YMtrans.png" alt="" />
+Foto: Verschillende dingen geprobeerd om Young man zo goed mogelijk te laten overkomen.
+
+### Wat ik hiervan heb geleerd
+
+Dit was vooral een proces van proberen, vergelijken en bijstellen. Ik merkte dat kleine veranderingen in grootte, transparantie en timing veel invloed hebben op de uitstraling. Daarnaast leerde ik dat ik bij een animatie ook rekening moet houden met de ruimte eromheen. Ik wil dat ‘YOUNG MAN’ aandacht trekt, terwijl de volledige zin prettig leesbaar blijft.
+
 ## Maandag 12 oktober
 
 ### De titel afmaken en feedback verzamelen
