@@ -666,20 +666,26 @@ aside > p > span:nth-of-type(27) {
 /* Couplet 1 */
 /**********/
 
+/* Alle tekst van het eerste couplet centreren */
+main article:first-of-type p {
+  text-align: center;
+  font-size: 2em;
+}
+
 /* Alleen de eerste Young man van het eerste couplet */
 main article:first-of-type p > span:nth-of-type(1):hover {
   color: #9cadcc;
 }
 
 main article:first-of-type p > span:nth-of-type(1) {
-  display: inline-block;
-  font-size: 1em;
+  display: block;
+  width: auto;
 
-  width: 17ch;
+  margin-block: 2em 3em;
+  text-align: center;
   line-height: 2.5;
-  transform-origin: left center;
-
-  animation: aandacht 20s ease-in-out infinite;
+  transform-origin: center;
+  animation: aandacht 25s ease-in-out infinite;
 }
 
 @keyframes aandacht {
@@ -698,6 +704,102 @@ main article:first-of-type p > span:nth-of-type(1) {
     transform: scale(2);
     opacity: 1;
   }
+}
+
+/* Alleen DOWN van het eerste couplet */
+main article:first-of-type p > span:nth-of-type(2) {
+  display: block;
+  width: fit-content;
+  margin: 1em auto 8em;
+  color: #d93030;
+
+  font-size: 2em;
+
+  animation: wegzakken linear both;
+  animation-timeline: view();
+  animation-range: entry 100% exit 0%;
+}
+
+@keyframes wegzakken {
+  0%,
+  20% {
+    translate: 0 0;
+    opacity: 1;
+    color: #d93030;
+  }
+
+  80% {
+    opacity: 1;
+    color: #d93030;
+  }
+
+  100% {
+    translate: 0 5em;
+    opacity: 0;
+    color: black;
+  }
+}
+
+main article:first-of-type p > span:nth-of-type(2):hover {
+  animation:
+    wegzakken auto linear both,
+    sprongetje 0.6s ease-out;
+
+  animation-timeline: view(), auto;
+  animation-range:
+    entry 100% exit 0%,
+    normal;
+}
+
+@keyframes sprongetje {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(0.8em);
+  }
+
+  70% {
+    transform: translateY(-0.1em);
+  }
+}
+
+/* Tweede Young man: alsof iemand je roept */
+main article:first-of-type p > span:nth-of-type(3) {
+  display: inline-block;
+  transform-origin: center;
+
+  margin-inline: 0.5em;
+  animation: roepen 5s ease-in-out infinite;
+}
+
+@keyframes roepen {
+  0%,
+  35%,
+  100% {
+    transform: scale(2) rotate(0deg);
+  }
+
+  10% {
+    transform: scale(1.15) rotate(-3deg);
+    color: #a99371;
+  }
+
+  20% {
+    transform: scale(1.08) rotate(2deg);
+    color: #ab2121;
+  }
+}
+
+/* Het gifje in het eerste couplet */
+article[aria-label="Verse 1"] > p > img {
+  display: block;
+  width: 16em;
+  max-width: 100%;
+  height: auto;
+  margin: -5em auto;
 }
 
 /**********/
