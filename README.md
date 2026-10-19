@@ -4,6 +4,8 @@
 
 # Sprint 3:
 
+## Maandag 19 oktober
+
 ## Zaterdag 17 oktober
 
 ### Het gif toevoegen aan mijn songtekst
@@ -12,17 +14,16 @@
 
 De volgende dag ben ik verdergegaan met het plaatsen van mijn gif in het eerste couplet. Onder ‘I said’ en de bewegende ‘YOUNG MAN’ heb ik de animatie van het opstaande poppetje gezet. De zin ‘pick yourself off the ground’ staat onder de animatie, zodat beeld en tekst elkaar ondersteunen.
 
-Voor de vormgeving heb ik een CSS-selector gebruikt die specifiek de afbeelding binnen het eerste couplet selecteert. Zo kon ik dit gif aanpassen zonder andere afbeeldingen op mijn pagina te veranderen.
-
 ### De grootte en ruimte aanpassen
 
-Ik heb het gif met `display: block` en automatische zijmarges in het midden geplaatst. Eerst probeerde ik een breedte van `12em`, maar daarna heb ik deze vergroot naar `16em`. Hierdoor werden het poppetje, de achtergrond en de tekst duidelijker zichtbaar.
-
-Met `max-width: 100%` heb ik ingesteld dat de afbeelding niet breder wordt dan de beschikbare ruimte. Daarnaast zorgt `height: auto` ervoor dat de verhoudingen behouden blijven.
+Ik heb het gif met 'display: block' en automatische zijmarges in het midden geplaatst. Eerst probeerde ik een breedte van '12em', maar daarna heb ik deze vergroot naar '16em'. Hierdoor werden het poppetje, de achtergrond en de tekst duidelijker zichtbaar.
 
 Er zat eerst nog veel witruimte tussen ‘YOUNG MAN’, het gif en de volgende regels. Daarom heb ik verschillende marges uitgeprobeerd, waaronder negatieve marges om de onderdelen dichter naar elkaar toe te brengen. Na iedere aanpassing heb ik in de browser bekeken hoe het geheel eruitzag.
 
 Op deze manier heb ik stap voor stap gezocht naar een passende grootte en plaatsing. Het gif krijgt nu een duidelijke plek binnen het couplet, waarna de rest van de songtekst eronder verdergaat.
+
+<img src="./assets/images-readme/gifjegeplaats.png" alt="" />
+Foto: Hoe ik het gijfje in de songtekdt heb geplaats.
 
 ## Vrijdag 16 oktober
 
