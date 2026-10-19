@@ -4,6 +4,145 @@
 
 # Sprint 3:
 
+## Zaterdag 17 oktober
+
+### Het gif toevoegen aan mijn songtekst
+
+#### De animatie op de pagina plaatsen
+
+De volgende dag ben ik verdergegaan met het plaatsen van mijn gif in het eerste couplet. Onder ‘I said’ en de bewegende ‘YOUNG MAN’ heb ik de animatie van het opstaande poppetje gezet. De zin ‘pick yourself off the ground’ staat onder de animatie, zodat beeld en tekst elkaar ondersteunen.
+
+Voor de vormgeving heb ik een CSS-selector gebruikt die specifiek de afbeelding binnen het eerste couplet selecteert. Zo kon ik dit gif aanpassen zonder andere afbeeldingen op mijn pagina te veranderen.
+
+### De grootte en ruimte aanpassen
+
+Ik heb het gif met `display: block` en automatische zijmarges in het midden geplaatst. Eerst probeerde ik een breedte van `12em`, maar daarna heb ik deze vergroot naar `16em`. Hierdoor werden het poppetje, de achtergrond en de tekst duidelijker zichtbaar.
+
+Met `max-width: 100%` heb ik ingesteld dat de afbeelding niet breder wordt dan de beschikbare ruimte. Daarnaast zorgt `height: auto` ervoor dat de verhoudingen behouden blijven.
+
+Er zat eerst nog veel witruimte tussen ‘YOUNG MAN’, het gif en de volgende regels. Daarom heb ik verschillende marges uitgeprobeerd, waaronder negatieve marges om de onderdelen dichter naar elkaar toe te brengen. Na iedere aanpassing heb ik in de browser bekeken hoe het geheel eruitzag.
+
+Op deze manier heb ik stap voor stap gezocht naar een passende grootte en plaatsing. Het gif krijgt nu een duidelijke plek binnen het couplet, waarna de rest van de songtekst eronder verdergaat.
+
+## Vrijdag 16 oktober
+
+Door gesprekken in mijn thuissituatie heb ik helaas niet veel aan school kunnen doen.
+
+### ‘Pick yourself off the ground’ uitwerken als gif
+
+#### Van idee naar beweging
+
+Na de feedback op mijn schetsen ben ik gaan onderzoeken hoe ik mijn idee kon uitwerken in een gif. In mijn eerste poging werd het poppetje toch weer door iemand anders geholpen. Daarmee maakte ik opnieuw dezelfde vergissing: de zin gaat juist over jezelf overeind helpen. Ik merk dat ik de laatste tijd door mijn privésituatie minder goed met mijn hoofd bij school ben, waardoor ik dit soort dingen sneller over het hoofd zie.
+
+Ik wilde het idee wel behouden. Daarom heb ik de beweging aangepast, zodat het poppetje zelfstandig van de grond opstaat. Zo kon ik verderwerken vanuit mijn bestaande idee en de handeling beter laten aansluiten op de betekenis van de songtekst.
+
+### Een achtergrond toevoegen
+
+Vervolgens heb ik gekeken hoe ik met een achtergrond duidelijker kon maken dat het poppetje op de grond ligt. Ik wilde de beweging meer context geven, zodat het opstaan beter te herkennen is. Hiervoor heb ik verschillende versies uitgeprobeerd en gekeken hoe de achtergrond en het poppetje samen overkomen.
+
+### De begrijpelijkheid testen
+
+Daarna heb ik mensen uit mijn omgeving gevraagd of zij begrepen wat ik wilde uitbeelden. In combinatie met de songtekst vonden zij de betekenis duidelijk. Dat gaf mij meer vertrouwen in de uitwerking, al was ik er zelf nog niet helemaal van overtuigd dat het beeld zonder uitleg duidelijk genoeg was.
+
+Daarom heb ik ervoor gekozen om ‘pick yourself off the ground’ onder de animatie te zetten. Vanuit de eerdere feedback wilde ik eerst onderzoeken of alleen beeld voldoende zou zijn. Na het uitwerken heb ik toch gekozen voor een combinatie van beeld en tekst, zodat de bezoeker de beweging direct aan de juiste zin kan koppelen.
+
+<img src="./assets/images-readme/beginvormgeving.png" alt="" />
+Foto: Mijn eerste opzetjes voor het
+
+<img src="./assets/images-readme/gifje.png" alt="" />
+Foto: Hoe het gifje er uiteindelijk is geworden.
+
+## Donderdag 15 oktober
+
+### Meer ruimte en beweging in het eerste couplet
+
+#### ‘YOUNG MAN’ als opener in het midden
+
+Ik ben verder aan het experimenteren met de indeling van het eerste couplet. Hiervoor heb ik ‘YOUNG MAN’ uit de doorlopende tekst gehaald en op een eigen regel in het midden geplaatst. Zo wordt het meer een opener die je aandacht trekt voordat je de rest van de zin leest.
+
+Met display: block, centrering en extra witruimte boven en onder de woorden heb ik deze plek gemaakt. Ook heb ik het vertrekpunt van de schaalanimatie naar het midden verplaatst, zodat de woorden vanuit hun nieuwe positie groter worden.
+
+De animatie heeft nu een cyclus van 25 seconden. De woorden verschijnen, worden groter en blijven een tijd duidelijk zichtbaar voordat ze weer verdwijnen. Hierdoor ontstaat meer rust tussen de herhalingen. Daarnaast heb ik een hover toegevoegd waarmee ‘YOUNG MAN’ lichtblauw wordt wanneer je er met de muis overheen gaat.
+
+#### ‘Down’ letterlijk naar beneden laten vallen
+
+Daarna ben ik begonnen met het woord ‘down’. Ik wil de betekenis hiervan zichtbaar maken door het woord naar beneden te laten vallen en te laten verdwijnen.
+
+Ik heb ‘down’ daarom ook op een eigen regel gezet, groter gemaakt en in het midden geplaatst. Met extra witruimte eronder maak ik ruimte voor de beweging. In de animatie combineer ik translateY() met opacity: het woord verschijnt eerst, blijft even staan en zakt vervolgens naar beneden terwijl het vervaagt. Daarna begint de animatie opnieuw. Deze cyclus duurt vijf seconden.
+
+#### De compositie verder onderzoeken
+
+Tot slot heb ik ook de overige tekst van het eerste couplet gecentreerd. Hierdoor sluit deze beter aan bij de losse woorden in het midden. Ik probeer hiermee de tekst minder als één vast tekstblok te presenteren en meer met plaatsing, witruimte en nadruk te spelen.
+
+Dit is nog in ontwikkeling. Ik ben aan het bekijken hoeveel ruimte de onderdelen nodig hebben en hoe de animaties samenwerken. Mijn doel is dat de vormgeving de betekenis en nadruk van de woorden ondersteunt, terwijl de volgorde van de songtekst duidelijk blijft.
+
+<img src="./assets/images-readme/15okt.png" alt="" />
+Foto: het begin van mijn eerste couplet.
+
+### ‘Down’ laten wegzakken tijdens het scrollen
+
+#### Van automatisch vallen naar reageren op scrollen
+
+Daarna heb ik de animatie van ‘down’ verder aangepast. Eerst viel het woord automatisch naar beneden en begon de beweging steeds opnieuw. Ik wilde onderzoeken hoe het zou werken als het woord pas wegzakt wanneer je verder scrolt. Zo heeft de bezoeker zelf invloed op de beweging.
+
+#### Beweging, kleur en transparantie combineren
+
+Ik heb ‘down’ rood gemaakt, zodat het extra opvalt tussen de zwarte tekst. Aan het begin blijft het woord even op zijn plek staan. Wanneer je verder scrolt, verplaatst het zich naar beneden en wordt het uiteindelijk transparant.
+
+Ik heb verschillende scrollposities bekeken om te vergelijken hoe het woord zichtbaar blijft en vervolgens verdwijnt. Hiermee probeer ik de betekenis van ‘down’ letterlijk in de beweging terug te laten komen.
+
+#### Een extra reactie bij hover
+
+Vervolgens heb ik een korte hoveranimatie toegevoegd. Wanneer je met de muis over ‘down’ gaat, maakt het woord een kleine verende beweging: eerst iets naar beneden, daarna een stukje omhoog en weer terug.
+
+### De tweede ‘Young man’ uitwerken
+
+#### Het gevoel van roepen uitbeelden
+
+Na mijn experiment met ‘down’ ben ik verdergegaan met de tweede ‘Young man’ in het eerste couplet. Omdat hiervoor ‘I said’ staat, wilde ik de woorden laten overkomen alsof iemand je echt roept.
+
+Ik heb hiervoor een animatie met de naam roepen gemaakt. Daarin combineer ik groter en kleiner worden met een kleine draaiing naar links en rechts. Tijdens een deel van de beweging krijgt de tekst ook een rode kleur. De animatie duurt vijf seconden en blijft zich herhalen.
+
+#### Verschillende versies vergelijken
+
+Ik heb verschillende groottes en plaatsingen geprobeerd. Ook heb ik tekens rondom ‘Young man’ gezet om het roepen extra te benadrukken. Daarna heb ik weer een versie zonder deze tekens bekeken.
+
+Tijdens het uitproberen overlapten de woorden soms met ‘I said’. Daarom heb ik de indeling aangepast en met regelovergangen ‘I said’, ‘Young man’ en de volgende zin onder elkaar geplaatst. Hierdoor kreeg de bewegende tekst meer ruimte en werd ‘Young man’ een duidelijk afzonderlijk onderdeel.
+
+<img src="./assets/images-readme/15okt2.png" alt="" />
+Foto: het begin van mijn eerste couplet.
+
+### Ideeën voor ‘Pick yourself off the ground’ onderzoeken
+
+#### Schetsen
+
+Voor de zin ‘pick yourself off the ground’ heb ik verschillende ideeën bedacht en geschetst. Ik wilde onderzoeken hoe ik de betekenis van deze woorden visueel kon uitbeelden en hoe ik daarbij met typografie en beweging kon spelen.
+
+Ik heb nagedacht over hoe ik het opstaan van de grond kon vertalen naar mijn ontwerp. Moest de tekst zelf bewegen, of kon ik de woorden combineren met een beeld dat de handeling laat zien? Door verschillende mogelijkheden op papier te zetten, kon ik deze eerst vergelijken voordat ik ze in code ging uitwerken.
+
+Met deze schetsen wilde ik ontdekken welke uitwerking het beste bij de zin én bij de speelse sfeer van mijn Y.M.C.A.-pagina past. Ze vormen een vertrekpunt om verder te experimenteren met de plaatsing en beweging van de woorden..
+
+<img src="./assets/images-readme/schets-ground.png.jpeg" alt="" />
+
+#### Feedback vragen op mijn schetsen
+
+Toen ik feedback wilde vragen op mijn schetsen voor ‘pick yourself off the ground’, ontdekte ik dat ik iets over het hoofd had gezien. In bijna al mijn ideeën werd het poppetje door iemand anders geholpen, terwijl de zin juist gaat over jezelf overeind helpen. Daardoor sloten mijn schetsen inhoudelijk nog niet helemaal aan op de songtekst.
+
+Dat vond ik frustrerend. Door mijn privésituatie merk ik dat ik mijn aandacht op dit moment minder goed bij school kan houden. Dit was voor mij een moment waarop dat duidelijk naar voren kwam. Toch wilde ik onderzoeken welke onderdelen van mijn ideeën ik nog kon gebruiken.
+
+#### De manier van uitbeelden vergelijken
+
+Ik heb daarom mijn feedbackvraag aangepast. In plaats van te vragen of de schetsen de zin goed uitbeelden, heb ik gevraagd welke manier van weergeven het meest aanspreekt. Bijvoorbeeld: het woord ‘ground’ laten veranderen in een poppetje, een poppetje rondom de woorden laten bewegen of de hele handeling zonder tekst uitbeelden.
+
+Hiervoor heb ik mensen uit mijn omgeving gevraagd die zelf ook creatief bezig zijn. Ik verwachtte dat zij goed konden meedenken over de visuele mogelijkheden, ook als de inhoud van de schets nog aangepast moest worden.
+
+#### Wat ik met de feedback ga doen
+
+Uit de reacties kwam naar voren dat het volledig uitbeelden van de handeling, zonder tekst, het leukste werd gevonden. Als ik het poppetje zo aanpas dat het zelfstandig opstaat, vonden de testers dat de betekenis voldoende voor zichzelf zou spreken.
+Deze feedback geeft mij een richting om verder te werken. Ik kan mijn idee behouden, maar moet de handeling aanpassen zodat het poppetje zichzelf overeind helpt. Zo heeft het feedbackmoment mij toch geholpen om een keuze te maken voor de verdere uitwerking
+
+Ik ga morgen kijken hoe ik dit kan proberen uit te werken.
+
 ## Woensdag 14 oktober
 
 ### Het eerste couplet onderzoeken en opnieuw naar de titel kijken
