@@ -18,6 +18,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Lato-Light";
+  src: url(../type/Lato-Light.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
 /**************************
 * MARK: Kleuren en variabelen
 **************************/
@@ -75,12 +82,21 @@ h2 {
 h3 {
   font-family: "Edu SA", sans-serif;
   font-weight: 100;
-  font-size: 1.8em;
+  font-size: 1.9em;
 }
 
 p {
+  font-family: "Lato-Light", sans-serif;
   font-weight: 32;
-  font-size: 1.1em;
+  font-size: 1.3em;
+  line-height: 1.5;
+}
+
+ul {
+  font-family: "Lato-Light", sans-serif;
+  font-weight: 32;
+  font-size: 1.2em;
+  line-height: 1.5;
 }
 
 /**************************

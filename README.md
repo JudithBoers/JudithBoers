@@ -122,6 +122,36 @@ Ik ga nu beginnen aan de aparte pagina met zijn haakpatroon. Hiervoor gebruik ik
 <img src="./assets/images-readme/infobert.png" alt="" />
 Foto: informatie pagina over Bert af.
 
+### Het haakpatroon van Bert uitwerken
+
+Na de introductiepagina heb ik de aparte pagina met het haakpatroon van Bert de krab opgebouwd. Ik ben begonnen met een korte introductie en een overzicht van de gebruikte afkortingen. Zo kunnen bezoekers vooraf opzoeken wat de termen in het patroon betekenen.
+
+Daarna heb ik de instructies per onderdeel toegevoegd, zoals het lijf, de oogkassen, scharen en poten. In de HTML heb ik deze onderdelen verdeeld over aparte article elementen met tussenkopjes. De haakrondes staan ieder in een eigen alinea, zodat de stappen tijdens het haken makkelijk terug te vinden zijn.
+
+### De pagina afronden
+
+Aan het einde heb ik uitleg toegevoegd over het in elkaar zetten van Bert en het afwerken van de losse draden. Ook heb ik een knop geplaatst waarmee bezoekers terug kunnen naar de introductiepagina.
+
+Tijdens het uitwerken heb ik de pagina steeds in de browser bekeken, hier in de donkere modus. Daarnaast heb ik met de zoekfunctie gecontroleerd of de oude naam nog in mijn code stond. Met deze pagina staat naast de kennismaking met Bert nu ook het patroon op mijn website.
+
+<img src="./assets/images-readme/patroonkrab.png" alt="" />
+Foto: De pagina over het patroon van de krab af.
+
+#### Lange tekstblokken opsplitsen
+
+Toen de patroonpagina van Bert af was, merkte ik dat sommige tekstblokken erg lang waren. Daarom heb ik de langere artikelen opgesplitst in twee aparte article elementen.
+
+Hierdoor wordt de informatie in kleinere stukken aangeboden en ontstaat er meer overzicht op de pagina. Zo kunnen bezoekers tijdens het haken makkelijker hun plek terugvinden en de stappen volgen.
+
+<img src="./assets/images-readme/opsplitsing.png" alt="" />
+Foto: Voor en na, na het opsplitsen van de artikelen.
+
+### Het lettertype en de leesbaarheid verbeteren
+
+Ik heb nu ook het lettertype van mijn alinea’s (p) aangepast. Dit wilde ik al langer doen en heb ik nu meegenomen in het verbeteren van mijn website.
+
+Daarnaast heb ik meer witruimte tussen de tekstregels gemaakt, zodat de tekst minder dicht op elkaar staat. Hiermee wil ik de pagina’s rustiger en prettiger leesbaar maken, vooral bij de langere uitleg en haakpatronen.
+
 ## Dinsdag 20 oktober
 
 ### Hulp van een collega bij mijn code
