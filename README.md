@@ -6,6 +6,61 @@
 
 ## woensdag 21 oktober
 
+### Meer discosfeer met een achtergrond
+
+Daarna heb ik onderzocht hoe ik de achtergrond kon gebruiken om mijn songtekst meer discosfeer te geven. Hiervoor heb ik een afbeelding van een kleurrijke discovloer gemaakt. De verlichte tegels passen bij het feestelijke gevoel dat ik met mijn Y.M.C.A.-ontwerp wil overbrengen.
+
+Vervolgens heb ik de zwarte delen van de afbeelding transparant gemaakt. Hierdoor blijven de gekleurde tegels zichtbaar en kan de achtergrondkleur van mijn pagina ertussendoor komen. Zo sluit de afbeelding beter aan op de rest van mijn ontwerp.
+
+Ik heb deze versie als achtergrond toegevoegd aan mijn songtekstpagina. Hiermee wilde ik de verschillende onderdelen meer met elkaar verbinden en ook tussen de teksten en animaties het discogevoel laten terugkomen. Daarbij wil ik blijven letten op de leesbaarheid, zodat de achtergrond de songtekst ondersteunt.
+
+<img src="./assets/images-readme/zwart:wit.png" alt="" />
+Foto: Mijn eerste ontwerpen voor de dansvloer.
+
+#### De discovloer meer tot leven brengen
+
+Ik had het gevoel dat er nog iets miste aan de achtergrond. Daarom heb ik de basis van de discovloer op 15% dekking gehouden en verschillende tegels een dekking tussen de 20% en 50% gegeven.
+
+Hierdoor vallen sommige tegels meer op dan andere en krijgt de vloer meer afwisseling. Zo probeer ik het effect van een verlichte dansvloer sterker over te brengen, terwijl de achtergrond licht genoeg blijft om de songtekst goed te kunnen lezen.
+
+<img src="./assets/images-readme/discovloer.png" alt="" />
+Foto: van de dansvloer met verschillende tegels
+
+#### Meer samenhang in het eerste couplet
+
+Daarna heb ik verschillende kleine aanpassingen gedaan om het eerste couplet meer één geheel te maken. Ik heb de vormgeving van de eerste ‘Young man’ beter laten aansluiten op de tweede en derde. Door deze herhaling ontstaat er meer samenhang tussen de momenten waarop je als bezoeker wordt aangesproken.
+
+Ook heb ik de kleur van ‘down’ veranderd naar roze, zodat deze beter aansluit op de rest van mijn ontwerp. Bij zowel ‘down’ als ‘unhappy’ heb ik daarnaast de instellingen van het variabele lettertype aangepast. Hiermee heb ik verder gespeeld met de lettervormen en de uitstraling van deze woorden.
+
+#### Het couplet afsluiten
+
+Om het eerste couplet visueel af te sluiten, heb ik een gifje gemaakt en toegevoegd. Hiermee wilde ik het dansgevoel nog even terug laten komen voordat de bezoeker verdergaat naar het volgende couplet.
+
+Als laatste heb ik de achtergrondkleur weggehaald. Met deze aanpassingen heb ik geprobeerd de typografie, kleuren, achtergrond en beweging beter op elkaar af te stemmen.
+
+<img src="./assets/images-readme/ideegif.png" alt="" />
+Foto: De eerste opzet voor het gifje
+
+<img src="./assets/images-readme/disco.png" alt="" />
+Foto: Alle aanpassingen.
+
+### Mijn prioriteiten aanpassen
+
+Vanwege de tijdsdruk heb ik besloten om mijn songtekstpagina voorlopig te beperken tot het eerste couplet. Ik heb de overige coupletten en refreinen weggehaald, zodat de pagina zich richt op het gedeelte dat ik al heb uitgewerkt.
+
+Ik ga nu eerst verder met mijn persoonlijke website. Daar wil ik bekijken welke onderdelen nog ontbreken en wat ik kan aanvullen of verbeteren. Mijn checklist helpt mij om overzicht te houden en te bepalen wat als eerste aandacht nodig heeft.
+
+Als ik daarna nog tijd over heb, wil ik verderwerken aan de songtekst. Voor nu kies ik ervoor om mijn aandacht te richten op het afronden en verbeteren van mijn website.
+
+<img src="./assets/images-readme/alleen1.png" alt="" />
+Foto: voor nu alleen couplet 1.
+
+#### De haakpatronen verder uitwerken
+
+Als eerste wil ik kijken of ik voor alle haakpatronen op mijn website een eigen pagina kan maken. Op deze pagina’s wil ik ook het volledige haakpatroon plaatsen, zodat bezoekers het zelf kunnen volgen en het figuurtje kunnen namaken.
+
+Ik wil daarbij letten op een duidelijke opbouw met de benodigde materialen, gebruikte afkortingen en de stappen van het patroon. Zo wil ik mijn website verder aanvullen en de patronen overzichtelijk en bruikbaar maken voor bezoekers.
+
 ## Dinsdag 20 oktober
 
 ### Hulp van een collega bij mijn code
