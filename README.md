@@ -61,6 +61,67 @@ Als eerste wil ik kijken of ik voor alle haakpatronen op mijn website een eigen 
 
 Ik wil daarbij letten op een duidelijke opbouw met de benodigde materialen, gebruikte afkortingen en de stappen van het patroon. Zo wil ik mijn website verder aanvullen en de patronen overzichtelijk en bruikbaar maken voor bezoekers.
 
+### Misty de poes
+
+#### De pagina’s voor Misty maken
+
+Daarna ben ik begonnen met de pagina’s voor Misty. Ik heb eerst een introductiepagina over Misty gemaakt en vervolgens een aparte pagina met het haakpatroon. Hiervoor heb ik dezelfde opbouw gebruikt als bij de andere patronen, zodat de pagina’s bij elkaar passen en bezoekers de indeling herkennen.
+
+Tijdens het maken ben ik helaas vergeten om tussendoor screenshots te nemen. Daardoor kan ik de tussenstappen niet laten zien. De werkwijze was wel hetzelfde als bij mijn eerdere pagina’s: de bestaande structuur als basis gebruiken en de inhoud aanpassen aan Misty.
+
+#### Een snelle toegang toevoegen
+
+Bovenaan heb ik ook een knop toegevoegd als snelkoppeling, zodat bezoekers sneller bij het patroon kunnen komen. Voor nu heb ik eerst de functie toegevoegd. Later wil ik de navigatie veranderen omdat het te veel wordt.
+
+<img src="./assets/images-readme/poesmisty.png" alt="" />
+Foto: De pagina's over Misty
+
+### Bert de krab
+
+#### Beeldmateriaal voor Rachele de krab
+
+Als eerste heb ik afbeeldingen en een gifje gemaakt die ik wil gebruiken op mijn pagina over Rachele de krab. Hiermee bereid ik het beeldmateriaal voor voordat ik de pagina zelf verder opbouw.
+
+Ik wil de afbeeldingen gebruiken om Rachele te laten zien en de pagina visueel aan te laten sluiten op mijn andere haakpatronen. Met het gifje wil ik ook wat beweging en een speels karakter toevoegen. De volgende stap is om dit beeldmateriaal een plek te geven op de introductiepagina en de pagina met het haakpatroon.
+
+<img src="./assets/images-readme/Rachelle.png" alt="" />
+Foto: De foto's voor Rachelle de krab
+
+#### De naam veranderen naar Bert de krab
+
+Toen ik mijn vriend liet zien wat ik tot nu toe had gemaakt, vond hij de naam ‘Rachele’ niet zo goed bij het krabbetje passen. Hij stelde voor om hem Bert de krab te noemen.
+
+Ik vond dit zelf ook een leuke naam en heb besloten zijn suggestie over te nemen. Daarom ga ik de naam aanpassen.
+
+#### De achtergrond van het gif aanpassen
+
+Ik kwam erachter dat mijn gifje nog een achtergrond had. Daarom heb ik deze transparant gemaakt, zodat Bert beter aansluit op de achtergrond van mijn website.
+
+<img src="./assets/images-readme/rachelle:bert.png" alt="" />
+Foto: Begin van de pagina
+
+#### De introductiepagina van Bert opbouwen
+
+Daarna ben ik verdergegaan met de introductiepagina van Bert de krab. Ik heb dezelfde opbouw en vormgeving gebruikt als bij mijn andere haakfiguurtjes, zodat de pagina aansluit op de rest van mijn website.
+
+Bovenaan heb ik Bert toegevoegd aan de navigatie en het gifje naast de introductietekst geplaatst. In de tekst vertel ik hoe Bert eruitziet en hoe het krabbetje wordt opgebouwd tijdens het haken.
+
+#### Informatie voor de bezoeker toevoegen
+
+Vervolgens heb ik de pagina aangevuld met aparte onderdelen voor ‘Over Bert’, projectinformatie, benodigdheden, technieken, handige tips en veiligheid. Met tussenkopjes en opsommingen heb ik geprobeerd de informatie overzichtelijk te verdelen. Zo kan een bezoeker vooraf bekijken wat nodig is en wat het project inhoudt.
+
+<img src="./assets/images-readme/startbert.png" alt="" />
+Foto: Het begin van de pagina voor Bert.
+
+#### De introductiepagina van Bert afronden
+
+De pagina over Bert de krab is nu af. Hier kunnen bezoekers kennismaken met Bert en informatie vinden over het project en de benodigdheden.
+
+Ik ga nu beginnen aan de aparte pagina met zijn haakpatroon. Hiervoor gebruik ik dezelfde opbouw als bij mijn andere patroonpagina’s, zodat de website één geheel blijft.
+
+<img src="./assets/images-readme/infobert.png" alt="" />
+Foto: informatie pagina over Bert af.
+
 ## Dinsdag 20 oktober
 
 ### Hulp van een collega bij mijn code
