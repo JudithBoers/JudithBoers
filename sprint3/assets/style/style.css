@@ -800,8 +800,178 @@ article[aria-label="Verse 1"] > p > img {
   max-width: 100%;
   height: auto;
   margin: -5em auto;
+  margin-bottom: -2em;
 }
 
+/* Derde Young man: alsof iemand je roept */
+main article:first-of-type p > span:nth-of-type(4) {
+  display: inline-block;
+  transform-origin: center;
+
+  margin-inline: 0.5em;
+  animation: roepen 5s ease-in-out infinite;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+@keyframes roepen {
+  0%,
+  35%,
+  100% {
+    transform: scale(2) rotate(0deg);
+  }
+
+  10% {
+    transform: scale(1.15) rotate(-3deg);
+    color: #a99371;
+  }
+
+  20% {
+    transform: scale(1.08) rotate(2deg);
+    color: #ab2121;
+  }
+}
+
+/* Alleen de afbeelding van town */
+main article:first-of-type p > span:has(> img) {
+  display: block;
+  margin: 1em auto 2em;
+  max-width: 100%;
+}
+
+main article:first-of-type p > span > img {
+  display: block;
+  width: 20em;
+  max-width: 100%;
+  height: auto;
+  margin-inline: auto;
+
+  animation: dorp-verschijnt linear both;
+  animation-timeline: view();
+  animation-range: entry 50% cover 50%;
+}
+
+@keyframes dorp-verschijnt {
+  from {
+    opacity: 0;
+    transform: translateY(3em) scale(0.5);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* There is no need to beunhappy */
+/* De losse woorden */
+main article:first-of-type p > span > strong {
+  display: inline-block;
+  font-weight: inherit;
+
+  animation: woord-nadruk 4s ease-in-out infinite;
+}
+
+/* Elk woord begint iets later */
+main article:first-of-type p > span > strong:nth-of-type(1) {
+  animation-delay: 0s;
+}
+
+main article:first-of-type p > span > strong:nth-of-type(2) {
+  animation-delay: 0.4s;
+}
+
+main article:first-of-type p > span > strong:nth-of-type(3) {
+  animation-delay: 0.8s;
+}
+
+main article:first-of-type p > span > strong:nth-of-type(4) {
+  animation-delay: 1.2s;
+}
+
+main article:first-of-type p > span > strong:nth-of-type(5) {
+  animation-delay: 1.6s;
+}
+
+@keyframes woord-nadruk {
+  0%,
+  20%,
+  100% {
+    transform: translateY(0);
+    color: inherit;
+  }
+
+  10% {
+    transform: translateY(-0.2em);
+    color: #ab2121;
+  }
+}
+
+/* Een collega van mijn werk heeft mij hier mee geholpen. */
+/* Het hele woord */
+main article:first-of-type p > span > strong:last-of-type {
+  display: inline-block;
+  view-timeline-name: --unhappy;
+}
+
+/* Letters naast elkaar */
+main article:first-of-type p > span > strong:last-of-type > span {
+  display: inline-flex;
+}
+
+/* Letters buigen mee tijdens het scrollen */
+main article:first-of-type p > span > strong:last-of-type > span > span {
+  display: inline-block;
+
+  animation: sippe-boog linear both;
+  animation-timeline: --unhappy;
+  animation-range: cover 40% cover 70%;
+
+  &:nth-child(1) {
+    --zakken: 0.6em;
+    --draai: -35deg;
+  }
+
+  &:nth-child(2) {
+    --zakken: 0.3em;
+    --draai: -25deg;
+  }
+
+  &:nth-child(3) {
+    --zakken: 0.08em;
+    --draai: -12deg;
+  }
+
+  &:nth-child(4) {
+    --zakken: 0em;
+    --draai: 0deg;
+  }
+
+  &:nth-child(5) {
+    --zakken: 0.08em;
+    --draai: 12deg;
+  }
+
+  &:nth-child(6) {
+    --zakken: 0.3em;
+    --draai: 25deg;
+  }
+
+  &:nth-child(7) {
+    --zakken: 0.6em;
+    --draai: 35deg;
+  }
+}
+
+@keyframes sippe-boog {
+  from {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  to {
+    transform: translateY(var(--zakken)) rotate(var(--draai));
+  }
+}
 /**********/
 /* FOOTER */
 /**********/

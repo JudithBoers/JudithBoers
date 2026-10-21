@@ -4,7 +4,81 @@
 
 # Sprint 3:
 
+## Dinsdag 20 oktober
+
+### Hulp van een collega bij mijn code
+
+Dinsdag moest ik werken en had ik voortgangsgesprekken met enkele medewerkers. Tijdens deze gesprekken vraag ik altijd hoe het gaat met school of studie en hoe het thuis gaat. Een medewerker met wie ik het goed kan vinden, vraagt dit ook altijd aan mij.
+
+Omdat ik wist dat hij een opleiding in de richting van programmeren had gevolgd, vertelde ik over mijn huidige schoolopdrachten. Ik legde uit dat ik mijn eigen website maak en daarnaast bezig ben met een typografische uitwerking van een songtekst. Na zijn voortgangsgesprek wilde hij graag even meekijken naar mijn code.
+
+Hij vond het opvallend dat ik voor de opdracht geen classes mocht gebruiken. Tegelijkertijd vond hij het ook wel interessant dat deze beperking mij dwingt om op een andere manier met mijn HTML en CSS te werken.
+
+#### De gekozen modus onthouden
+
+Hij vroeg of ik ergens tegenaan liep waarbij hij kon helpen. Ik vertelde dat ik graag wilde dat mijn website onthoudt of een bezoeker voor de lichte of donkere modus heeft gekozen. Die keuze moest ook behouden blijven wanneer iemand naar een andere pagina gaat, zodat de bezoeker dit niet steeds opnieuw hoeft in te stellen.
+
+Hij heeft mij geholpen om dit met JavaScript uit te werken en in mijn website te verwerken. Dit was een verbetering die ik al langer wilde toevoegen, dus ik was blij dat ik hier samen met hem naar kon kijken.
+
+<img src="./assets/images-readme/hulpjava.png" alt="" />
+Foto: De code die ik samen met zijn hulp in mijn javascript heb gezet.
+
+#### ‘Unhappy’ laten veranderen tijdens het scrollen
+
+Daarna hebben we mijn songtekst bekeken, omdat hij nieuwsgierig was naar wat ik daarmee aan het maken was. Ik vertelde over mijn idee om het woord ‘unhappy’ tijdens het scrollen te laten veranderen in de vorm van een verdrietig mondje.
+
+Ik vroeg of dit mogelijk was en hoe ik dat kon aanpakken. Hij heeft mij uitgelegd hoe ik dit effect kon opbouwen en geholpen om het in mijn code te zetten. Hierdoor kon ik verder met een idee waarvan ik zelf nog niet goed wist hoe ik het moest uitvoeren.
+
+<img src="./assets/images-readme/unhappy.png" alt="" />
+Foto: hoe ik de unhappy naar een zielig gezichtje kan zetten.
+
+#### Terugkijken op de hulp
+
+Daarna moest ik weer verder met de gesprekken, maar ik was heel blij met zijn hulp. Het was fijn om mijn ideeën te kunnen bespreken met iemand die ervaring heeft met programmeren en samen naar mijn code te kijken. Zijn uitleg hielp mij om verder te komen met zowel mijn persoonlijke website als mijn songtekst. Deze onderdelen heb ik dus met zijn begeleiding uitgewerkt.
+
 ## Maandag 19 oktober
+
+### Een rustigere werkplek zoeken
+
+Vandaag heb ik mijn best gedaan om in de les te blijven en mee te doen. Toch merkte ik dat ik de uitleg niet goed opnam en er met mijn gedachten niet bij was. Ik raakte snel geïrriteerd door alles om mij heen. Met drie klassen in één lokaal waren er op dat moment te veel prikkels om mij goed te kunnen concentreren.
+
+Daarom heb ik besloten om weg te gaan en op een andere plek verder te werken. Ik ben in een restaurant gaan zitten met mijn oortjes in, zodat ik mij wat meer kon afzonderen. Ik hoopte daar meer rust te vinden en mijn aandacht beter op mijn schoolwerk te kunnen richten.
+
+Thuis werken voelde voor mij ook niet als een goede oplossing, omdat mijn gedachten daar steeds naar de thuissituatie gaan. Door een andere werkplek te zoeken, heb ik geprobeerd rekening te houden met wat ik op dat moment nodig had om toch verder te kunnen werken.
+
+### Mijn website zelf beoordelen
+
+Toen ik merkte dat het in de les niet meer ging en ik op een andere plek ben gaan werken, heb ik het werkblad zelf ingevuld voor mijn website. Dit hielp mij om gericht naar mijn ontwerp te kijken en stil te staan bij wat al goed werkt en wat nog aandacht nodig heeft.
+
+Vanuit deze beoordeling heb ik een checklist voor mezelf gemaakt met de punten die mij opvielen. Zo heb ik een overzicht van wat ik nog wil controleren en aanpassen, en kan ik deze punten stap voor stap afwerken.
+
+### Het testmoment alsnog organiseren
+
+Ik besef dat ik door mijn vertrek het testmoment met een klasgenoot heb gemist. Mijn eigen beoordeling geeft mij aanknopingspunten, maar ik wil ook ontdekken hoe iemand anders mijn website ervaart.
+
+Daarom ga ik mensen uit mijn omgeving vragen om mijn website te testen en het werkblad in te vullen. Zo kan ik onderzoeken of de website ook begrijpelijk is voor mensen die de opdracht niet kennen en ontdekken welke verbeterpunten zij tegenkomen.
+
+# foto: wekblad
+
+### Verder met mijn songtekst: meer ruimte onder het gif
+
+Ik ben weer verdergegaan met het uitwerken van mijn songtekst. Tijdens het bekijken van mijn pagina merkte ik dat de volgende zin te dicht op het gif stond, waardoor de tekst door de afbeelding heen liep. Daarom heb ik de ruimte onder het gif aangepast en tussendoor in de browser gekeken hoe dit eruitzag. Hiermee wilde ik zorgen dat de animatie en de tekst elkaar niet overlappen en de songtekst goed leesbaar blijft.
+
+Ik wil nu eerst verderwerken aan de rest van de songtekst, zodat ik een complete versie heb. Daarna ga ik het geheel opnieuw bekijken en bepalen wat ik nog kan aanvullen of aanpassen om het ontwerp verder te verbeteren.
+
+<img src="./assets/images-readme/ruimtegif.png" alt="" />
+Foto: Ik heb meer ruimte gecreert tussen het gifje en de songteskt.
+
+### ‘Town’ uitbeelden met een dorpssilhouet
+
+Hierna ben ik verdergegaan met de zin ‘’cause you’re in a new town’. Ik wilde het woord ‘town’ visueel uitbeelden. Daarom heb ik een afbeelding van een dorpssilhouet toegevoegd, waarin het woord zelf is verwerkt. Zo vormen de huisjes, bomen en kerk samen met de letters één geheel.
+
+Ik heb de afbeelding in de HTML op de plek van het woord ‘town’ gezet en een alt-tekst toegevoegd. De rest van de zin staat erboven, zodat de afbeelding aansluit op wat je leest.
+
+Vervolgens heb ik een animatie gemaakt met de naam dorp-verschijnt. Aan het begin is het dorp doorzichtig, kleiner en iets naar beneden verplaatst. Tijdens de animatie wordt het zichtbaar, schuift het omhoog en groeit het naar zijn volledige grootte. Hiermee wilde ik het dorp laten verschijnen alsof je op een nieuwe plek aankomt.
+
+<img src="./assets/images-readme/town.png" alt="" />
+Foto: ik heb in canva eerst 2 verschillende afbeeldingen gemaakt en daarna de best in mijn html gezet.
 
 ## Zaterdag 17 oktober
 
