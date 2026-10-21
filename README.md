@@ -4,6 +4,8 @@
 
 # Sprint 3:
 
+## woensdag 21 oktober
+
 ## Dinsdag 20 oktober
 
 ### Hulp van een collega bij mijn code
