@@ -441,3 +441,22 @@ body:has(input[name="theme"][value="dark"]:checked)
 }
 
 /* haak patronen */
+
+/* Lichte afbeeldingen tonen */
+main article img[src*="-lmode"] {
+  display: block;
+}
+
+/* Donkere afbeeldingen verbergen */
+main article img[src*="-dmode"] {
+  display: none;
+}
+
+/* Donkere modus */
+body:has(input[value="dark"]:checked) main article img[src*="-lmode"] {
+  display: none;
+}
+
+body:has(input[value="dark"]:checked) main article img[src*="-dmode"] {
+  display: block;
+}
