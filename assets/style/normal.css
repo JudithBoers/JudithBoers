@@ -226,7 +226,7 @@ header nav {
   padding: 1em;
 }
 
-@media (min-width: 48em) {
+/* @media (min-width: 48em) {
   header nav {
     display: flex;
     justify-content: center;
