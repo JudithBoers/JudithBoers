@@ -22,6 +22,30 @@ Foto: Het verloop van de pagina over het beertje
 <img src="./assets/images-readme/beertjeaf.png" alt="" />
 Foto: De pagina over het beertje + het haak patroon af.
 
+### Menu aanpassen
+
+#### Mijn ‘over mij’- en haakpatronenpagina opbouwen
+
+Daarna ben ik begonnen aan mijn ‘over mij’-pagina en de overzichtspagina met haakpatronen. Tijdens het werken wisselde ik steeds tussen deze pagina’s. Daardoor lopen de screenshots wat door elkaar.
+
+Op de haakpatronenpagina heb ik een introductie en korte beschrijvingen van de haakfiguurtjes toegevoegd. Hiermee wil ik bezoekers helpen een patroon te kiezen. Ook heb ik de navigatie overzichtelijker gemaakt met de links Home, Haakpatronen en Contact.
+
+Op mijn ‘over mij’-pagina vertel ik wie ik ben, wat ik studeer en hoe mijn liefde voor haken en ontwerpen samenkomt op deze website. Daarnaast heb ik een persoonlijk sfeerbeeld toegevoegd en vermeld dat dit met AI is bewerkt. Met een link naar de haakpatronen kunnen bezoekers vanuit mijn verhaal verder naar mijn creaties.
+
+Bij beide pagina’s heb ik de bestaande kleuren en lettertypes aangehouden en tussendoor in de browser bekeken hoe de inhoud overkomt.
+
+# foto toeveogen
+
+#### Een persoonlijke afbeelding voor beide modi
+
+Daarna heb ik een afbeelding van mijzelf gemaakt met een gehaakt lijstje eromheen. Dit past bij het onderwerp van mijn website en maakt mijn ‘over mij’-pagina persoonlijker.
+
+Ik heb twee versies gemaakt: één voor de lichte modus en één voor de donkere modus. In de donkere versie geeft de lamp naast het lijstje licht. Zo wilde ik een speels detail toevoegen dat aansluit op de gekozen modus.
+
+Vervolgens heb ik beide afbeeldingen in mijn HTML gezet en met CSS bepaald welke zichtbaar is. Standaard verschijnt de lichte versie. Zodra de bezoeker de donkere modus kiest, wordt deze verborgen en verschijnt de versie met de brandende lamp. Hiervoor heb ik :has() en :checked gebruikt om op de geselecteerde themakeuze te reageren.
+
+# foto toevoegen
+
 ## woensdag 21 oktober
 
 ### Meer discosfeer met een achtergrond
