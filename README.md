@@ -34,9 +34,10 @@ Op mijn ‘over mij’-pagina vertel ik wie ik ben, wat ik studeer en hoe mijn l
 
 Bij beide pagina’s heb ik de bestaande kleuren en lettertypes aangehouden en tussendoor in de browser bekeken hoe de inhoud overkomt.
 
-# foto toeveogen
+<img src="./assets/images-readme/navigatie.png" alt="" />
+Foto: Ik heb mijn navigatue aangepast.
 
-#### Een persoonlijke afbeelding voor beide modi
+#### Een persoonlijke afbeelding voor beide modes
 
 Daarna heb ik een afbeelding van mijzelf gemaakt met een gehaakt lijstje eromheen. Dit past bij het onderwerp van mijn website en maakt mijn ‘over mij’-pagina persoonlijker.
 
@@ -44,7 +45,33 @@ Ik heb twee versies gemaakt: één voor de lichte modus en één voor de donkere
 
 Vervolgens heb ik beide afbeeldingen in mijn HTML gezet en met CSS bepaald welke zichtbaar is. Standaard verschijnt de lichte versie. Zodra de bezoeker de donkere modus kiest, wordt deze verborgen en verschijnt de versie met de brandende lamp. Hiervoor heb ik :has() en :checked gebruikt om op de geselecteerde themakeuze te reageren.
 
-# foto toevoegen
+<img src="./assets/images-readme/juud-licht-donker.png" alt="" />
+Foto: Hoe ik mijn 2 foto's heb toegevoegd.
+
+### De haakpatronenpagina afronden
+
+Daarna heb ik de overzichtspagina met mijn haakpatronen afgemaakt. Hier kunnen bezoekers de verschillende figuurtjes bekijken en kiezen over welk haakproject ze meer willen lezen.
+
+Vervolgens wilde ik onderzoeken of ik de afbeeldingen op deze pagina ook kan laten wisselen tussen de lichte en donkere modus, zoals bij mijn ‘over mij’-pagina. Hiervoor heb ik van ieder haakfiguurtje twee versies voorbereid, met een gehaakte omlijsting en een lampje. In de lichte versie staat het lampje uit en in de donkere versie brandt het.
+
+Mijn volgende stap is om deze afbeeldingen aan de themakeuze te koppelen. Daarmee wil ik de pagina meer samenhang geven en het wisselen van modus een speels detail meegeven.
+
+<img src="./assets/images-readme/haakpatr.png" alt="" />
+Foto: Ik heb de basis voor de pagina over de haak patronen af gemaakt.
+
+<img src="./assets/images-readme/licht:donker-dietjes.png" alt="" />
+Foto: De foto's van de diertjes met en zonder licht.
+
+### Algemene code voor de afbeeldingen
+
+Ik heb de CSS die alleen voor mijn persoonlijke foto werkte vervangen door algemene regels. De code kijkt nu of de bestandsnaam van een afbeelding `-lmode` of `-dmode` bevat. Hierdoor kan ik dezelfde regels gebruiken voor mijn eigen foto én de afbeeldingen van mijn haakfiguurtjes.
+
+Standaard worden de lichte afbeeldingen getoond. Wanneer de bezoeker de donkere modus kiest, worden deze verborgen en verschijnen de donkere versies met brandende lampjes.
+
+Ik heb beide modi in de browser bekeken om het resultaat te vergelijken. Zo hoef ik niet voor iedere afbeelding aparte CSS te schrijven en reageren de afbeeldingen op dezelfde manier op de themakeuze.
+
+<img src="./assets/images-readme/licht:donkerdieren.png" alt="" />
+Foto: De foto's van de diertjes met en zonder licht die in de pagina van het haken staan.
 
 ## woensdag 21 oktober
 
@@ -199,6 +226,8 @@ Ik had de verschillende varianten geprobeerd alleen daarvan ben ik vergeten foto
 <img src="./assets/images-readme/p.png" alt="" />
 Foto: Ik heb van 1 font meerdere varianten gedownload
 
+We hadden deze dag geen check-out
+
 ## Dinsdag 20 oktober
 
 ### Hulp van een collega bij mijn code
@@ -253,7 +282,8 @@ Ik besef dat ik door mijn vertrek het testmoment met een klasgenoot heb gemist. 
 
 Daarom ga ik mensen uit mijn omgeving vragen om mijn website te testen en het werkblad in te vullen. Zo kan ik onderzoeken of de website ook begrijpelijk is voor mensen die de opdracht niet kennen en ontdekken welke verbeterpunten zij tegenkomen.
 
-# foto: wekblad
+<img src="./assets/images-readme/werkblad.jpg" alt="" />
+Foto: Mijn ingevulde werkblad
 
 ### Verder met mijn songtekst: meer ruimte onder het gif
 
@@ -274,6 +304,8 @@ Vervolgens heb ik een animatie gemaakt met de naam dorp-verschijnt. Aan het begi
 
 <img src="./assets/images-readme/town.png" alt="" />
 Foto: ik heb in canva eerst 2 verschillende afbeeldingen gemaakt en daarna de best in mijn html gezet.
+
+We hadden deze dag geen Check-out.
 
 ## Zaterdag 17 oktober
 
@@ -946,6 +978,20 @@ Foto: Verschillende foto's van mijn YMCA
 <img src="./assets/images-readme/kleurenpallet-YMCA.png" alt="" />
 Foto: Mijn kleuren pallet voor YMCA
 
+### CHeck-out
+
+1. Welke variabelen kan ik gebruiken?
+
+Bij Seraphs kan ik experimenteren met wght en SRFS. Met wght verander ik de dikte van de letters. Met SRFS verander ik de schreven, de uiteinden van de letters. Ik wil onderzoeken welke combinatie bij mijn songtekst past.
+
+2. Wat kunnen deze variabelen toevoegen?
+
+Met verschillende diktes kan ik hiërarchie maken. Belangrijke woorden kunnen dikker worden, zodat ze meer opvallen dan de rest van de tekst. Met de schreven kan ik de uitstraling veranderen en onderzoeken hoe speels of uitgesproken ik de letters wil maken. Daarbij wil ik erop letten dat de songtekst goed leesbaar blijft.
+
+3. Hoe zou ik animatie kunnen toepassen?
+
+Ik zou de letters afwisselend dikker en dunner kunnen laten worden, alsof ze meebewegen op het ritme van de muziek. Ook kan ik woorden of letters na elkaar laten bewegen om accenten uit de zang te benadrukken. Ik wil hiermee experimenteren om te ontdekken wat bij de energie van Y.M.C.A. past, zonder dat de tekst te druk wordt.
+
 ## Donderdag 8 oktober
 
 ### Aan mijn Y.M.C.A. ontwerp beginnen
@@ -1298,7 +1344,7 @@ Daarnaast heb ik gezien dat structuur en experimenteren samen kunnen gaan. Een g
 
 Mijn volgende stap is om mijn schetsen te bekijken en te kiezen welke ideeën ik verder wil uitwerken. Daarna wil ik onderzoeken hoe ik die met HTML en CSS kan bouwen. Tegelijkertijd ga ik kijken wat ik nog heb gemist, zodat ik gericht kan werken aan het inhalen van de uitleg en opdrachten.
 
-### Check-out
+### Check-out 7 oktober
 
 1. Waarom is het goed om een grid in je ontwerp toe te passen? Noem een reden voor de ontwerper en een voor de bezoeker.
 

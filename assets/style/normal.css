@@ -226,7 +226,7 @@ header nav {
   padding: 1em;
 }
 
-/* @media (min-width: 48em) {
+@media (min-width: 48em) {
   header nav {
     display: flex;
     justify-content: center;
@@ -412,35 +412,6 @@ main > img[src*="koekje-wordt-opgegeten"] {
 /**************************
 * MARK: licht en donker foto's
 **************************/
-/* Contact */
-/* Standaard: lichte foto zichtbaar */
-img[src$="assets/Images/juud-lmode.png"] {
-  display: block;
-}
-
-img[src$="assets/Images/juud-dmode.png"] {
-  display: none;
-}
-
-/* Donkere modus gekozen */
-body:has(input[name="theme"][value="dark"]:checked)
-  img[src$="assets/Images/juud-lmode.png"] {
-  display: none;
-}
-
-body:has(input[name="theme"][value="dark"]:checked)
-  img[src$="assets/Images/juud-dmode.png"] {
-  display: block;
-}
-/* Foto’s verbergen op kleine schermen */
-@media (max-width: 40em) {
-  body:has(input[name="theme"]) img[src$="judith-licht.png"],
-  body:has(input[name="theme"]) img[src$="judith-donker.png"] {
-    display: none;
-  }
-}
-
-/* haak patronen */
 
 /* Lichte afbeeldingen tonen */
 main article img[src*="-lmode"] {
