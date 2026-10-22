@@ -4,6 +4,24 @@
 
 # Sprint 3:
 
+## Donderdag 22 oktober
+
+### Beertje
+
+#### Teddy en zijn babydekentje uitwerken
+
+Voor mijn laatste haakpatroon heb ik drie afbeeldingen en een gifje voorbereid, passend bij de stijl van mijn andere haakfiguurtjes. Daarna heb ik een introductiepagina gemaakt met informatie, tips en een knop naar het patroon.
+
+Op de aparte patroonpagina heb ik de afkortingen en instructies verdeeld over tussenkopjes en lijsten, zodat bezoekers de stappen makkelijk kunnen volgen. Ook heb ik vermeld dat het beeldmateriaal met AI is gemaakt en het patroon nog niet is proefgehaakt.
+
+Tot slot heb ik het lettertype van de `<h4>`-kopjes aangepast en de foto’s veranderd om de vormgeving beter op elkaar af te stemmen.
+
+<img src="./assets/images-readme/beertje.png" alt="" />
+Foto: Het verloop van de pagina over het beertje
+
+<img src="./assets/images-readme/beertjeaf.png" alt="" />
+Foto: De pagina over het beertje + het haak patroon af.
+
 ## woensdag 21 oktober
 
 ### Meer discosfeer met een achtergrond

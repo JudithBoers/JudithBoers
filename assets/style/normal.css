@@ -84,6 +84,11 @@ h3 {
   font-weight: 100;
   font-size: 1.9em;
 }
+h4 {
+  font-family: "Edu SA", sans-serif;
+  font-weight: 100;
+  font-size: 1.7em;
+}
 
 p {
   font-family: "Lato-Light", sans-serif;
@@ -96,6 +101,19 @@ ul {
   font-family: "Lato-Light", sans-serif;
   font-weight: 32;
   font-size: 1.2em;
+  line-height: 1.5;
+}
+ol {
+  font-family: "Lato-Light", sans-serif;
+  font-weight: 32;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+footer {
+  font-family: "Lato-Light", sans-serif;
+  font-weight: 32;
+  font-size: 0.8em;
   line-height: 1.5;
 }
 
