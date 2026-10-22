@@ -152,6 +152,11 @@ Ik heb nu ook het lettertype van mijn alinea’s (p) aangepast. Dit wilde ik al 
 
 Daarnaast heb ik meer witruimte tussen de tekstregels gemaakt, zodat de tekst minder dicht op elkaar staat. Hiermee wil ik de pagina’s rustiger en prettiger leesbaar maken, vooral bij de langere uitleg en haakpatronen.
 
+Ik had de verschillende varianten geprobeerd alleen daarvan ben ik vergeten foto's van te maken.
+
+<img src="./assets/images-readme/p.png" alt="" />
+Foto: Ik heb van 1 font meerdere varianten gedownload
+
 ## Dinsdag 20 oktober
 
 ### Hulp van een collega bij mijn code
