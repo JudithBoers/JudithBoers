@@ -41,7 +41,7 @@ body::before {
   content: "";
   position: absolute;
   inset: 0;
-  z-index: -1;
+  z-index: -10;
 
   background-image: url("../image/discovloer.png");
   background-position: center top;
@@ -1066,4 +1066,47 @@ footer {
     animation: none;
     transform: translateY(-2.5em);
   }
+}
+
+/********************/
+/* Grote Y.M.C.A */
+/********************/
+
+/* Een eigen laag voor de songtekst en achtergrondletters */
+main {
+  position: relative;
+  isolation: isolate;
+}
+
+/* Het eerste couplet en de letters op dezelfde plek */
+main > article[aria-label="Verse 1"],
+main > article[aria-hidden="true"] {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+/* Achtergrondartikel */
+main > article[aria-hidden="true"] {
+  z-index: -1;
+  min-width: 0;
+
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  place-items: center;
+  transform: rotate(-15deg);
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Grote achtergrondletters */
+main > article[aria-hidden="true"] > span {
+  display: block;
+
+  font-size: clamp(8em, 35vw, 28em);
+  font-variation-settings:
+    "wght" 200,
+    "SRFS" 0;
+  line-height: 1;
+
+  color: rgba(172, 49, 127, 0.34);
 }

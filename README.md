@@ -6,6 +6,44 @@
 
 ## Voor de les van vrijdag 23 okt
 
+### De alt-teksten aanvullen
+
+Vroeg in de ochtend ben ik verdergegaan met de laatste verbeteringen aan mijn website. Ik heb alle afbeeldingen nagelopen, omdat ik gisteren bij sommige de alt-tekst was vergeten of een te korte beschrijving had toegevoegd.
+
+Ik heb de ontbrekende alt-teksten aangevuld en bestaande beschrijvingen duidelijker gemaakt. Daarmee wil ik ervoor zorgen dat bezoekers die een screenreader gebruiken ook begrijpen wat de afbeeldingen laten zien en welke informatie ze toevoegen.
+
+<img src="./assets/images-readme/alt.png" alt="" />
+Foto: Alt"" toegevoegd aan mijn afbeeldingen.
+
+### Het beeld bij ‘town’ aanpassen
+
+Daarna heb ik opnieuw naar de afbeelding bij het woord ‘town’ in mijn songtekst gekeken. Ik vond de vorige versie toch niet helemaal passen bij wat ik wilde uitstralen. Daarom heb ik het beeld aangepast om het persoonlijker en levendiger te maken.
+
+Hiermee wil ik de betekenis van het woord blijven uitbeelden en het plaatje beter laten aansluiten op de speelse sfeer van mijn songtekst.
+
+<img src="./assets/images-readme/nieuwe-town.png" alt="" />
+Foto: Miijn town plaatje vernieuwd.
+
+### Y.M.C.A. op de achtergrond toevoegen
+
+Ik wilde de letters Y.M.C.A. groot achter mijn songtekst plaatsen. Daarom heb ik eerst teruggekeken naar hoe ik mijn bestaande achtergrond had opgebouwd. Dit hielp mij om na te denken over de plaatsing, maar voor de letters heb ik een andere aanpak gebruikt.
+
+Ik heb de letters achter de songtekst en vóór de discotegels geplaatst. Daarna heb ik met de grootte, positie en zichtbaarheid gespeeld. Zo wilde ik de achtergrond meer karakter geven, terwijl de songtekst op de voorgrond leesbaar blijft.
+
+<img src="./assets/images-readme/groot-ymca.png" alt="" />
+Foto: Y.M.C.A op de achtergond zetten
+
+### De achtergrondletters schuin plaatsen
+
+Daarna heb ik de grote Y.M.C.A.-letters verder vormgegeven. Met `transform: rotate(-15deg)` heb ik het achtergrondonderdeel schuin gezet. Hierdoor loopt de reeks letters schuin achter de songtekst langs en krijgt de compositie een speelser effect.
+
+Met Grid heb ik de vier letters over vier rijen verdeeld. Het achtergrondonderdeel staat in hetzelfde gridvak als het eerste couplet, maar ligt met `z-index: -1` achter de inhoud. De letters schalen met het scherm mee door `clamp()`.
+
+Ook heb ik de roze-paarse kleur duidelijker zichtbaar gemaakt, met een dekking van 34%. Tijdens het scrollen heb ik bekeken hoe de letters samengaan met de discotegels, tekst en afbeeldingen. Ik wilde dat ze opvallen, terwijl de songtekst de meeste aandacht blijft krijgen.
+
+<img src="./assets/images-readme/ymca-shuin.png" alt="" />
+Foto: De Y.M.C.A. schuin geplaats
+
 ## Donderdag 22 oktober
 
 ### Beertje
