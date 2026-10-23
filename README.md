@@ -4,6 +4,8 @@
 
 # Sprint 3:
 
+## Voor de les van vrijdag 23 okt
+
 ## Donderdag 22 oktober
 
 ### Beertje
