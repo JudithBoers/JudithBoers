@@ -283,6 +283,13 @@ html:has([value="dark"]:checked) header img:nth-of-type(2) {
 * MARK: Privacyinformatie
 **************************/
 
+/* Verberg het standaard driehoekje in Safari */
+body > aside[aria-label="Privacyinformatie"] a {
+  margin-left: 2.2em;
+  margin-right: 2.2em;
+  margin-bottom: 1em;
+}
+
 /* Zet het koekje rechtsonder, boven de pagina-inhoud */
 body > aside[aria-label="Privacyinformatie"] {
   position: fixed;
@@ -292,7 +299,7 @@ body > aside[aria-label="Privacyinformatie"] {
 }
 
 /* Alleen de section krijgt straks een gekleurde achtergrond */
-body > aside[aria-label="Privacyinformatie"] > details {
+aside[aria-label="Privacyinformatie"] > details {
   background: transparent;
   border: none;
 }
@@ -317,7 +324,7 @@ body > aside[aria-label="Privacyinformatie"] summary::-webkit-details-marker {
 }
 
 /* Grootte van het gesloten koekje */
-body > aside[aria-label="Privacyinformatie"] summary img {
+aside[aria-label="Privacyinformatie"] summary img {
   display: block;
   width: 8em;
   height: auto;

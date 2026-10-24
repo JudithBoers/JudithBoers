@@ -4,6 +4,19 @@
 
 # Sprint 3:
 
+## Vrijdag 23 oktober
+
+### Retrospectief: de onzichtbare last
+
+Tijdens de les heb ik een retrospectief gemaakt over het hele blok. Een van de opdrachten was om mijn ervaring uit te beelden met een metafoor. Ik wilde laten zien dat ik graag meer aan school had willen doen, maar dat mijn privéomstandigheden veel invloed hadden op mijn concentratie en energie.
+
+Daarom heb ik mijzelf getekend met een ballon waarop ‘studie’ staat. Die staat voor mijn motivatie en de richting waarin ik vooruit wil. Aan mijn been zit een ketting met een zware bol waarop ‘privé’ staat. Die verbeeldt wat mij tegenhoudt, ook wanneer ik zelf graag verder wil.
+
+Ik heb mijn tekening ‘De onzichtbare last’ genoemd. Aan mijn schoolwerk is misschien te zien dat ik minder heb kunnen doen dan ik wilde, maar de reden daarachter is niet altijd zichtbaar. Met deze metafoor wil ik laten zien dat mijn motivatie er wel is, terwijl de ruimte om die om te zetten in werk niet altijd hetzelfde is.
+
+<img src="./assets/images-readme/Metafoor3.jpg" alt="" />
+Foto: De metafoor die ik heb gemaakt voor het hele blok.
+
 ## Voor de les van vrijdag 23 okt
 
 ### De alt-teksten aanvullen
@@ -114,6 +127,8 @@ Ik heb beide modi in de browser bekeken om het resultaat te vergelijken. Zo hoef
 Foto: De foto's van de diertjes met en zonder licht die in de pagina van het haken staan.
 
 ## woensdag 21 oktober
+
+Vanwege mijn prive situatie redden ik het niet om naar school te komen maar ik heb wel gekeken hoe ik zo veel mogelijk kan doen.
 
 ### Meer discosfeer met een achtergrond
 
@@ -299,6 +314,8 @@ Foto: hoe ik de unhappy naar een zielig gezichtje kan zetten.
 #### Terugkijken op de hulp
 
 Daarna moest ik weer verder met de gesprekken, maar ik was heel blij met zijn hulp. Het was fijn om mijn ideeën te kunnen bespreken met iemand die ervaring heeft met programmeren en samen naar mijn code te kijken. Zijn uitleg hielp mij om verder te komen met zowel mijn persoonlijke website als mijn songtekst. Deze onderdelen heb ik dus met zijn begeleiding uitgewerkt.
+
+### voorbereiding voor woensdag 21 oktober.
 
 ## Maandag 19 oktober
 
