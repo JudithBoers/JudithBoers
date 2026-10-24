@@ -492,3 +492,43 @@ main > img[src*="juudhaak-"] {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+/**************************
+* MARK: Welkomstgif licht en donker
+**************************/
+
+/* Grootte en positie van beide varianten */
+main > img[src^="assets/Images/juudhaak-"][src$=".gif"] {
+  width: 100%;
+  max-width: 30em;
+  height: auto;
+  margin: 0;
+  margin-bottom: 1.7em;
+  align-self: end;
+  justify-self: center;
+}
+
+/* Standaard alleen de lichte variant tonen */
+main > img[src$="juudhaak-lmode.gif"] {
+  display: block;
+}
+
+main > img[src$="juudhaak-dmode.gif"] {
+  display: none;
+}
+
+/* Bij de keuze voor donker wisselen de afbeeldingen */
+html:has([value="dark"]:checked) main > img[src$="juudhaak-lmode.gif"] {
+  display: none;
+}
+
+html:has([value="dark"]:checked) main > img[src$="juudhaak-dmode.gif"] {
+  display: block;
+}
+
+/* Op kleine schermen staat het gifje onder de tekst */
+@media (max-width: 48em) {
+  main:has(> img[src$="juudhaak-lmode.gif"]) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
