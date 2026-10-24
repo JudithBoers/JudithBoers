@@ -726,19 +726,19 @@ main article:first-of-type p > span:nth-of-type(1) {
 main article:first-of-type p > span:nth-of-type(2) {
   display: block;
   width: fit-content;
-  margin: 0em auto 8em;
+  margin: 0em auto 5em;
   color: #d93030;
 
   font-size: 2em;
 
   animation: wegzakken linear both;
   animation-timeline: view();
-  animation-range: entry 100% exit 0%;
+  animation-range: entry 100% exit 100%;
 }
 
 @keyframes wegzakken {
   0%,
-  20% {
+  40% {
     translate: 0 0;
     opacity: 1;
     color: #d930c8;
@@ -751,7 +751,7 @@ main article:first-of-type p > span:nth-of-type(2) {
     opacity: 1;
     color: #d930c8;
     font-variation-settings:
-      "wght" 150,
+      "wght" 100,
       "SRFS" 0;
   }
 
@@ -795,6 +795,7 @@ main article:first-of-type p > span:nth-of-type(2):hover {
 main article:first-of-type p > span:nth-of-type(3) {
   display: inline-block;
   transform-origin: center;
+  margin-bottom: -1em;
 
   margin-inline: 0.5em;
   animation: roepen 5s ease-in-out infinite;
@@ -824,8 +825,8 @@ article[aria-label="Verse 1"] > p > img {
   width: 16em;
   max-width: 100%;
   height: auto;
-  margin: -5em auto;
-  margin-bottom: -2em;
+  margin: -8em auto;
+  margin-bottom: -3em;
 }
 
 /* Derde Young man: alsof iemand je roept */
@@ -860,7 +861,7 @@ main article:first-of-type p > span:nth-of-type(4) {
 /* Alleen de afbeelding van town */
 main article:first-of-type p > span:has(> img) {
   display: block;
-  margin: 1em auto 2em;
+  margin: 0em auto 1em;
   max-width: 100%;
 }
 
@@ -1006,7 +1007,7 @@ main article:first-of-type > img {
   width: 30em;
   max-width: 100%;
   height: auto;
-  margin: 3em auto;
+  margin: -2em auto;
 }
 /**********/
 /* FOOTER */
