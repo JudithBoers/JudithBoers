@@ -42,7 +42,7 @@ html {
   --privacy-achtergrond: light-dark(#30251f, #fff4e3);
   --privacy-tekst: light-dark(#fff4e3, #30251f);
   --privacy-rand: light-dark(#795238, #d9ae7e);
-  --whitespace: 1em: ;
+  --whitespace: 1em;
 }
 
 /**************************
@@ -58,7 +58,8 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
-  margin-block: var(--whitespace-s);
+  margin-top: 2.5em;
+  margin-bottom: 1.5em;
   margin-top: 2.5em;
   margin-bottom: 1.5em;
 }
@@ -297,7 +298,7 @@ aside[aria-label="Privacyinformatie"] a {
 }
 
 /* Zet het koekje rechtsonder, boven de pagina-inhoud */
-body > aside[aria-label="Privacyinformatie"] {
+aside[aria-label="Privacyinformatie"] {
   position: fixed;
   right: 1em;
   bottom: 1em;
@@ -311,13 +312,13 @@ aside[aria-label="Privacyinformatie"] > details {
 }
 
 /* Breedte van het geopende bericht */
-body > aside[aria-label="Privacyinformatie"] > details[open] {
+aside[aria-label="Privacyinformatie"] > details[open] {
   width: 20em;
   max-width: calc(100vw - 2em);
 }
 
 /* Zet het koekje en de knoptekst onder elkaar */
-body > aside[aria-label="Privacyinformatie"] summary {
+aside[aria-label="Privacyinformatie"] summary {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -325,43 +326,36 @@ body > aside[aria-label="Privacyinformatie"] summary {
 }
 
 /* Verberg het standaard driehoekje in Safari */
-body > aside[aria-label="Privacyinformatie"] summary::-webkit-details-marker {
+aside[aria-label="Privacyinformatie"] summary::-webkit-details-marker {
   display: none;
 }
 
 /* Grootte van het gesloten koekje */
 aside[aria-label="Privacyinformatie"] summary img {
   display: block;
-  width: 8em;
+  width: 10em;
   height: auto;
 }
 
 /* Verberg het koekje met het hapje als het bericht dicht is */
-body > aside[aria-label="Privacyinformatie"] summary img:nth-of-type(2) {
+aside[aria-label="Privacyinformatie"] summary img:nth-of-type(2) {
   display: none;
 }
 
 /* Verberg het hele koekje als het bericht open is */
-body
-  > aside[aria-label="Privacyinformatie"]
-  details[open]
-  summary
-  img:first-of-type {
+aside[aria-label="Privacyinformatie"] details[open] summary img:first-of-type {
   display: none;
 }
 
 /* Toon het grotere koekje met het hapje als het bericht open is */
-body
-  > aside[aria-label="Privacyinformatie"]
-  details[open]
-  summary
-  img:nth-of-type(2) {
+aside[aria-label="Privacyinformatie"] details[open] summary img:nth-of-type(2) {
   display: block;
-  width: 8em;
+  width: 10em;
+  margin-bottom: 0.2em;
 }
 
 /* Kleur, rand en afgeronde hoeken van het tekstvlak */
-body > aside[aria-label="Privacyinformatie"] details > section {
+aside[aria-label="Privacyinformatie"] details > section {
   display: grid;
   gap: 0.5em;
   background-color: var(--privacy-achtergrond);
@@ -371,20 +365,20 @@ body > aside[aria-label="Privacyinformatie"] details > section {
 }
 
 /* Grootte, kleur en ruimte rondom de titel */
-body > aside[aria-label="Privacyinformatie"] h2 {
+aside[aria-label="Privacyinformatie"] h2 {
   font-size: 1.9em;
   color: var(--privacy-tekst);
   margin: 0.75em;
 }
 
 /* Ruimte rondom de alinea’s en tussen de tekstregels */
-body > aside[aria-label="Privacyinformatie"] p {
+aside[aria-label="Privacyinformatie"] p {
   margin: 1em;
   line-height: 1.5;
 }
 
 /* Zichtbare selectierand bij bediening met het toetsenbord */
-body > aside[aria-label="Privacyinformatie"] summary:focus-visible {
+aside[aria-label="Privacyinformatie"] summary:focus-visible {
   outline: 0.2em solid var(--privacy-rand);
   outline-offset: 0.2em;
 }
@@ -445,6 +439,25 @@ body:has(input[value="dark"]:checked) main article img[src*="-dmode"] {
   display: block;
 }
 
+/* Lichte afbeelding standaard tonen */
+main > img[src$="juudhaak-lmode.png"] {
+  display: block;
+}
+
+/* Donkere afbeelding standaard verbergen */
+main > img[src$="juudhaak-dmode.png"] {
+  display: none;
+}
+
+/* Wissel de afbeeldingen bij de keuze voor donker */
+html:has([value="dark"]:checked) main > img[src$="juudhaak-lmode.png"] {
+  display: none;
+}
+
+html:has([value="dark"]:checked) main > img[src$="juudhaak-dmode.png"] {
+  display: block;
+}
+
 /**************************
 * MARK: klein scherm
 **************************/
@@ -453,5 +466,29 @@ body:has(input[value="dark"]:checked) main article img[src*="-dmode"] {
   /* Verberg afbeeldingen waarvan het bestand eindigt op .gif */
   img[src$=".gif"] {
     display: none;
+  }
+}
+
+/**************************
+* MARK: Afbeelding privacypagina
+**************************/
+
+/* Alleen de pagina met deze illustraties */
+main:has(> img[src*="juudhaak-"]) {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+/* Afbeelding onderaan naast de tekst */
+main > img[src*="juudhaak-"] {
+  align-self: end;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+/* Op kleine schermen onder de tekst */
+@media (max-width: 48em) {
+  main:has(> img[src*="juudhaak-"]) {
+    grid-template-columns: minmax(0, 1fr);
   }
 }

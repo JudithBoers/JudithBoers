@@ -6,7 +6,7 @@
 
 ## Zaterdag 24 oktober
 
-### Feedbsck verwerken
+### Feedback verwerken
 
 #### Losse links en knoppen aanpassen
 
@@ -36,6 +36,44 @@ Ik heb de ruimte en verdeling van de inhoud aangepast en het resultaat opnieuw o
 
 <img src="./assets/images-readme/tekstklienscherm.png" alt="" />
 Foto: Ik heb mijn main aangepast waardoor alles nu goed er uit ziet als het scherm klein is.
+
+### Een nieuw idee voor mijn privacymelding
+
+Gisteren heb ik met mijn groepje besproken welke feedback iedereen had gekregen. Een groepsgenoot vertelde dat hij het koekje bij zijn privacymelding moest aanpassen, omdat de melding niet een echt cookie is die je kan weigeren of accepteren. Hoewel ik deze feedback zelf niet had gekregen, zette het mij wel aan het denken over mijn eigen ontwerp.
+
+Ik begreep het punt: een koekje kan verwachtingen oproepen die niet aansluiten op de informatie in mijn privacymelding. Daarom ben ik gaan onderzoeken hoe ik dit onderdeel anders kan vormgeven, passend bij mijn haakwereld.
+
+Als eerste heb ik in Canva verschillende elementen verzameld en bekeken welke ik zou kunnen gebruiken. Hiermee wil ik een nieuw ontwerp maken dat aansluit op mijn website en waarmee bezoekers de privacyinformatie kunnen openen.
+
+<img src="./assets/images-readme/elementencookie.png" alt="" />
+Foto: De elementen die ik inressant vond voor mijn cookie.
+
+### Nieuwe afbeeldingen voor mijn privacymelding
+
+Als eerste heb ik twee afbeeldingen gemaakt voor de gesloten en geopende privacymelding. Ik heb ze vormgegeven in een stijl die bij mijn website past en daarna meteen de oude koekjesafbeeldingen vervangen. Ik vond het resultaat gelijk leuker en beter aansluiten op mijn haakwereld.
+
+Bij het bekijken van de donkere modus merkte ik alleen dat het kruisje om de melding te sluiten nauwelijks zichtbaar was. Daarom heb ik een nieuwe variant gemaakt met een achtergrondvlakje achter het kruisje. Hierdoor is het kruisje in zowel de lichte als de donkere modus duidelijk te zien.
+
+<img src="./assets/images-readme/nieuwecookies.png" alt="" />
+Foto: De elementen die ik inressant vond voor mijn cookie.
+
+### De positie en grootte verder aanpassen
+
+Daarna heb ik de positie en grootte van de afbeeldingen bij mijn privacymelding verder aangepast, zodat ze beter op de pagina passen.
+
+Tijdens het bekijken merkte ik dat ik de nieuwste afbeelding, met het achtergrondvlakje achter het kruisje, nog niet had toegevoegd. Daarom heb ik meteen de oude versie vervangen. Zo staat nu ook de aangepaste afbeelding in mijn website.
+
+<img src="./assets/images-readme/positiecookie.png" alt="" />
+Foto: De positie en grote goed zetten voor de nieuwe plaatjes.
+
+### Een persoonlijk beeld op mijn informatiepagina
+
+Ook heb ik een afbeelding van mijzelf toegevoegd aan mijn pagina met meer informatie. Hiermee wil ik de pagina persoonlijker maken en laten aansluiten op mijn haakwereld.
+
+Daarna heb ik de plaatsing aangepast, zodat de afbeelding onderaan blijft staan wanneer je de uitklapbare menu’s opent of sluit. Ook op een klein scherm staat de afbeelding helemaal onderaan. Zo krijgt de informatie eerst de ruimte en sluit het beeld de pagina af.
+
+<img src="./assets/images-readme/plaatjejuus.png" alt="" />
+Foto: nog en persoonlijke tast er bijgevoegd
 
 ## Vrijdag 23 oktober
 
