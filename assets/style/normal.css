@@ -181,7 +181,7 @@ header p {
 }
 
 /* Met behulp van de Deep Dive erin gezet. */
-@media (max-width: 43.75em) {
+@media (min-width: 48em) {
   header p {
     width: 100%;
   }
@@ -201,8 +201,6 @@ header img {
   pointer-events: none;
   filter: none;
 }
-/* Tweede gifje/afbeelding in de header: bijv. Flappie. */
-/* Op telefoons is het gifje niet zichtbaar */
 
 /* Vanaf iPad-formaat wordt het gifje zichtbaar */
 
@@ -222,15 +220,16 @@ header img:nth-of-type(2) {
 header nav {
   display: flex;
   justify-content: center;
-  gap: 0.3em;
+  gap: 0.1em;
   padding: 1em;
+  border-radius: 0.5em;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 40em) {
   header nav {
     display: flex;
     justify-content: center;
-    gap: 1em;
+    gap: 0.5em;
     padding: 1em;
   }
 }
@@ -239,11 +238,18 @@ header nav {
 **************************/
 
 main {
-  margin: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+
+  /* Kolommen mogen op kleine schermen smaller dan 20em worden */
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 20em), 1fr));
+
   gap: 3em;
   margin: 3em;
+}
+
+/* Laat onderdelen binnen het grid smaller worden */
+main > * {
+  min-width: 0;
 }
 
 /**************************
@@ -284,7 +290,7 @@ html:has([value="dark"]:checked) header img:nth-of-type(2) {
 **************************/
 
 /* Verberg het standaard driehoekje in Safari */
-body > aside[aria-label="Privacyinformatie"] a {
+aside[aria-label="Privacyinformatie"] a {
   margin-left: 2.2em;
   margin-right: 2.2em;
   margin-bottom: 1em;
@@ -437,4 +443,15 @@ body:has(input[value="dark"]:checked) main article img[src*="-lmode"] {
 
 body:has(input[value="dark"]:checked) main article img[src*="-dmode"] {
   display: block;
+}
+
+/**************************
+* MARK: klein scherm
+**************************/
+
+@media (max-width: 40em) {
+  /* Verberg afbeeldingen waarvan het bestand eindigt op .gif */
+  img[src$=".gif"] {
+    display: none;
+  }
 }

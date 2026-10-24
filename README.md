@@ -4,6 +4,39 @@
 
 # Sprint 3:
 
+## Zaterdag 24 oktober
+
+### Feedbsck verwerken
+
+#### Losse links en knoppen aanpassen
+
+Ik ben begonnen met het verwerken van de feedback op mijn HTML. Bij links die als enige in een `<p>` stonden, heb ik de overbodige alinea weggehaald en de `<a>` los geplaatst.
+
+Hierdoor veranderde de opmaak van mijn knoppen en stonden ze niet meer zoals ik wilde. Daarom heb ik de bijbehorende CSS aangepast om de plaatsing en onderlinge ruimte weer in balans te brengen. Zo heb ik mijn HTML eenvoudiger gemaakt en de vormgeving daarop afgestemd.
+
+<img src="./assets/images-readme/knopaanpassen.png" alt="" />
+Foto: Hoe ik mij a heb aangepast zodat alles weer goed staat.
+
+#### Mijn website verbeteren voor kleinere schermen
+
+Daarna ben ik verdergegaan met de feedback over kleinere schermen. Via de responsive weergave in de browser heb ik verschillende schermbreedtes uitgeprobeerd. Zo kon ik ook bekijken hoe mijn website eruitziet op een scherm dat smaller is dan mijn eigen telefoon.
+
+Ik merkte dat sommige teksten erg smal werden en onderdelen niet meer goed pasten. Daarom heb ik gewerkt aan de ruimte aan de zijkanten en onderzocht welke gifjes ik op kleine schermen kan verbergen. Hiermee wil ik de tekst meer ruimte geven en de pagina rustiger maken.
+
+Tussendoor heb ik steeds tussen smalle en brede schermen gewisseld om de gevolgen van mijn aanpassingen te bekijken. Daarbij lette ik op de titel, navigatie, afbeeldingen en tekstindeling. Zo heb ik geleerd dat testen op alleen mijn eigen telefoon niet voldoende is om te weten of mijn website op andere schermformaten goed werkt.
+
+<img src="./assets/images-readme/naarkleinscherm.png" alt="" />
+Foto: Hoe ik heb gekeken hoe ik mijn website kan verbeteren voor een klein scherm.
+
+### De indeling van mijn main opnieuw opbouwen
+
+Na de eerdere aanpassingen merkte ik dat de teksten op kleine schermen nog steeds niet prettig stonden. Daarom heb ik besloten om de volledige indeling van mijn `main` opnieuw aan te pakken.
+
+Ik heb de ruimte en verdeling van de inhoud aangepast en het resultaat opnieuw op een klein scherm bekeken. De tekst krijgt nu voldoende ruimte en sluit beter aan op de schermbreedte. Hiermee heb ik de eerdere verbetering verder uitgewerkt, zodat ook de hoofdinhoud op een klein scherm goed leesbaar is.
+
+<img src="./assets/images-readme/tekstklienscherm.png" alt="" />
+Foto: Ik heb mijn main aangepast waardoor alles nu goed er uit ziet als het scherm klein is.
+
 ## Vrijdag 23 oktober
 
 ### Retrospectief: de onzichtbare last
@@ -16,6 +49,24 @@ Ik heb mijn tekening ‘De onzichtbare last’ genoemd. Aan mijn schoolwerk is m
 
 <img src="./assets/images-readme/Metafoor3.jpg" alt="" />
 Foto: De metafoor die ik heb gemaakt voor het hele blok.
+
+### Feedback
+
+### Feedback van Diederik en een derdejaarsstudent
+
+Tijdens de les heb ik feedback gekregen van Diederik en een derdejaarsstudent. Eerst vroeg Diederik of ik de eerdere feedback had verwerkt. Ik kon uitleggen welke aanpassingen ik had gedaan, zoals het veranderen van het lettertype van mijn alinea’s. Ook heb ik toegelicht dat ik in mijn songtekst uitgebreider experimenteer met typografie. Mijn persoonlijke website wil ik rustig houden, terwijl ik met Y.M.C.A. juist wil laten zien wat ik met expressieve typografie kan.
+
+Diederik was blij met de voortgang van mijn songtekst. Hij vertelde zelfs dat hij mijn werk woensdag als voorbeeld in de les had laten zien. Dat vond ik fijn om te horen. Wel adviseerde hij om te kijken of ik minimaal één refrein kan toevoegen en de grote witruimtes tussen de onderdelen kan verkleinen.
+
+### Mijn code en schermformaten bekijken
+
+Daarna heeft de derdejaarsstudent mijn code bekeken. Een van de opmerkingen ging over een link die ik binnen een `<p>` had geplaatst. Voor een losse link, zoals een knop, kan die extra alinea overbodig zijn. Een link binnen een alinea is op zichzelf wel toegestaan.
+
+Ook bleek dat mijn website op schermen kleiner dan mijn eigen telefoon nog niet overal goed werkt. Tot nu toe had ik vooral op mijn eigen telefoon getest. Tijdens dit feedbackmoment heb ik geleerd hoe ik in de browser andere schermformaten kan bekijken. Daarmee kan ik gerichter controleren waar mijn indeling nog aanpassingen nodig heeft.
+
+Daarnaast bleek een stukje code dat ik rechtstreeks uit een deepdive had overgenomen niet helemaal goed te staan. Dat vond ik ergens grappig, omdat het uit een lesvoorbeeld kwam. Tegelijkertijd liet het mij zien dat ik overgenomen code altijd binnen mijn eigen website moet controleren.
+
+Met deze feedback heb ik weer concrete verbeterpunten om mijn website en songtekst verder af te werken.
 
 ## Voor de les van vrijdag 23 okt
 
