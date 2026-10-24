@@ -48,7 +48,7 @@ Als eerste heb ik in Canva verschillende elementen verzameld en bekeken welke ik
 <img src="./assets/images-readme/elementencookie.png" alt="" />
 Foto: De elementen die ik inressant vond voor mijn cookie.
 
-### Nieuwe afbeeldingen voor mijn privacymelding
+#### Nieuwe afbeeldingen voor mijn privacymelding
 
 Als eerste heb ik twee afbeeldingen gemaakt voor de gesloten en geopende privacymelding. Ik heb ze vormgegeven in een stijl die bij mijn website past en daarna meteen de oude koekjesafbeeldingen vervangen. Ik vond het resultaat gelijk leuker en beter aansluiten op mijn haakwereld.
 
@@ -57,7 +57,7 @@ Bij het bekijken van de donkere modus merkte ik alleen dat het kruisje om de mel
 <img src="./assets/images-readme/nieuwecookies.png" alt="" />
 Foto: De elementen die ik inressant vond voor mijn cookie.
 
-### De positie en grootte verder aanpassen
+#### De positie en grootte verder aanpassen
 
 Daarna heb ik de positie en grootte van de afbeeldingen bij mijn privacymelding verder aangepast, zodat ze beter op de pagina passen.
 
@@ -66,14 +66,27 @@ Tijdens het bekijken merkte ik dat ik de nieuwste afbeelding, met het achtergron
 <img src="./assets/images-readme/positiecookie.png" alt="" />
 Foto: De positie en grote goed zetten voor de nieuwe plaatjes.
 
-### Een persoonlijk beeld op mijn informatiepagina
+#### Een persoonlijk beeld op mijn informatiepagina
 
 Ook heb ik een afbeelding van mijzelf toegevoegd aan mijn pagina met meer informatie. Hiermee wil ik de pagina persoonlijker maken en laten aansluiten op mijn haakwereld.
 
 Daarna heb ik de plaatsing aangepast, zodat de afbeelding onderaan blijft staan wanneer je de uitklapbare menu’s opent of sluit. Ook op een klein scherm staat de afbeelding helemaal onderaan. Zo krijgt de informatie eerst de ruimte en sluit het beeld de pagina af.
-
+haken
 <img src="./assets/images-readme/plaatjejuus.png" alt="" />
 Foto: nog en persoonlijke tast er bijgevoegd
+
+### Een aparte beginpagina maken
+
+Daarna heb ik een nieuwe beginpagina gemaakt om bezoekers welkom te heten in mijn haakwereld. Eerst heb ik hoofdpagina.html aangemaakt en de volledige inhoud van mijn bestaande index.html hiernaartoe gekopieerd. Vervolgens heb ik uit index.html de onderdelen verwijderd die ik niet op mijn beginpagina wilde hebben.
+
+In index.html heb ik een korte introductie, een persoonlijke afbeelding en de knop Ontdek mijn haakwereld geplaatst. Via deze knop komen bezoekers op hoofdpagina.html, waar ze verder kunnen kijken naar mijn creaties.
+
+Ik heb bewust de privacymelding op beide pagina’s laten staan. Zo kunnen bezoekers de informatie meteen bij binnenkomst openen en later op de hoofdpagina opnieuw terugvinden.
+
+Tot slot heb ik op de andere pagina’s de Home- en teruglinks aangepast van index.htm` naar hoofdpagina.htm`. Daarmee komen bezoekers bij het teruggaan direct bij de inhoud van mijn website. Ook heb ik de beginpagina op een klein scherm bekeken om de plaatsing van de tekst, knop en afbeelding te controleren.
+
+<img src="./assets/images-readme/beginpagina.png" alt="" />
+Foto: een begin pagina gemaakt om het echt meer persoonlijker te mkaken.
 
 ## Vrijdag 23 oktober
 

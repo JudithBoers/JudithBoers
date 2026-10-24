@@ -480,12 +480,23 @@ main article span {
 /* SPOTLIGHTS */
 /**************/
 
-header > img {
-  position: absolute;
-  top: -3vh;
+/* Iedere letter is het uitgangspunt voor de eigen lichtbundel */
+header h1 > span {
+  position: relative;
+  display: inline-block;
+}
 
-  width: 22vw;
-  height: 35vh;
+/* De lichtbundels schalen mee met de lettergrootte */
+header h1 > span > img {
+  position: absolute;
+
+  left: 50%;
+  top: -0.65em;
+  transform: translateX(-50%);
+
+  width: 1.8em;
+  height: 2.2em;
+  max-width: none;
   object-fit: fill;
 
   pointer-events: none;
@@ -496,30 +507,21 @@ header > img {
   animation-iteration-count: infinite;
 }
 
-/* Eerste afbeelding: Y */
-header > img:nth-of-type(1) {
-  left: 23%;
+header h1 > span:nth-of-type(1) > img {
   animation-name: spotlight-y;
 }
 
-/* Tweede afbeelding: M */
-header > img:nth-of-type(2) {
-  left: 33.2%;
+header h1 > span:nth-of-type(2) > img {
   animation-name: spotlight-m;
 }
 
-/* Derde afbeelding: C */
-header > img:nth-of-type(3) {
-  left: 44.2%;
+header h1 > span:nth-of-type(3) > img {
   animation-name: spotlight-c;
 }
 
-/* Vierde afbeelding: A */
-header > img:nth-of-type(4) {
-  left: 53%;
+header h1 > span:nth-of-type(4) > img {
   animation-name: spotlight-a;
 }
-
 /**********************/
 /* SPOTLIGHTANIMATIES */
 /**********************/
@@ -528,7 +530,7 @@ header > img:nth-of-type(4) {
   0%,
   70%,
   80% {
-    opacity: 0.6;
+    opacity: 1;
   }
 
   16.67%,
@@ -551,7 +553,7 @@ header > img:nth-of-type(4) {
   16.67%,
   70%,
   80% {
-    opacity: 0.6;
+    opacity: 1;
   }
 }
 
@@ -567,7 +569,7 @@ header > img:nth-of-type(4) {
   33.33%,
   70%,
   80% {
-    opacity: 0.6;
+    opacity: 1;
   }
 }
 
@@ -583,7 +585,7 @@ header > img:nth-of-type(4) {
   50%,
   70%,
   80% {
-    opacity: 0.6;
+    opacity: 1;
   }
 }
 
@@ -692,7 +694,7 @@ main article:first-of-type p > span:nth-of-type(1) {
   display: block;
   width: auto;
 
-  margin-block: 2em 3em;
+  margin-block: 1em;
   text-align: center;
   line-height: 2.5;
   transform-origin: center;
@@ -724,7 +726,7 @@ main article:first-of-type p > span:nth-of-type(1) {
 main article:first-of-type p > span:nth-of-type(2) {
   display: block;
   width: fit-content;
-  margin: 1em auto 8em;
+  margin: 0em auto 8em;
   color: #d93030;
 
   font-size: 2em;
