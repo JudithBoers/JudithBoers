@@ -23,6 +23,64 @@ Bij de tweede herhaling van ‘It’s fun to stay at the Y.M.C.A.’ heb ik deze
 <img src="./assets/images-readme/tweedeymca.png" alt="" />
 Foto: hoe ik de twee Y.M.C.A er in heb gezet. en dat het herhaling is maar toch net iets anders.
 
+### Opnieuw feedback verwerken
+
+Ik heb mijn website opnieuw laten bekijken en kreeg weer bruikbare feedback. Er stonden nog een paar spel- en typefouten in de teksten, die ik meteen heb verbeterd. Ook bleek dat op de homepagina bij Misty, Bert en Teddy nog de algemene namen ‘poes’, ‘krab’ en ‘beertje’ stonden. Die heb ik aangepast naar de namen van de figuurtjes.
+
+#### De privacyknop verfijnen
+
+Samen hebben we nog eens naar mijn privacyknop gekeken. Die was erg nadrukkelijk aanwezig. Daarom heb ik het woord ‘Privacy’ aangepast, zodat het lijkt alsof het in de mand is gehaakt. Ook heb ik de bollen wol verder in de mand geplaatst en de naalden meer op haaknaalden laten lijken. Hiermee sluit de knop beter aan op mijn haakwereld.
+
+### Wat goed werkt
+
+De tester vond de opmaak prettig en waardeerde dat de haakpatronen aparte pagina’s hebben, zodat bezoekers niet eindeloos hoeven te scrollen. Ook vond ze de afbeeldingen en gifjes van mijzelf goed gelukt. De kleuren van de lichte en donkere modus werden positief ontvangen, vooral het detail dat de lampjes aan- en uitgaan.
+
+Deze feedback hielp mij om de laatste details te verbeteren en liet zien dat mijn persoonlijke stijl duidelijk overkomt.
+
+<img src="./assets/images-readme/feedabcktessa.png" alt="" />
+Foto: Een aantal foto's van de feedback en hoe ik het heb aangepast.
+
+### Songtekst
+
+#### De nadruk op ‘everything’ en ‘enjoy’
+
+Ik ben verdergegaan met mijn songtekst en heb het liedje opnieuw beluisterd. Bij de zin ‘They have everything for young men to enjoy’ hoorde ik minder uitgesproken accenten dan bij Y.M.C.A., maar ‘everything’ en ‘enjoy’ springen er wel uit. Daarom heb ik de rest van de zin rustig gehouden en deze twee woorden meer nadruk gegeven.
+
+Beide woorden heb ik in een em gezet en groter gemaakt. ‘Everything’ kreeg een blauwe kleur en een animatie waarbij het woord breder wordt. ‘Enjoy’ heb ik paars gemaakt en een dansende beweging gegeven, waarbij het omhoog beweegt en naar links en rechts draait. Tijdens die beweging verandert ook het lettergewicht van het variabele font.
+
+De animaties duren drie seconden. ‘Enjoy’ begint anderhalve seconde later, zodat de accenten elkaar afwisselen. Daarnaast heb ik gewerkt met extra letterruimte bij ‘everything’ en een schaduweffect bij ‘enjoy’. Zo probeer ik de nadruk die ik hoor in de muziek zichtbaar te maken in mijn typografie.
+
+<img src="./assets/images-readme/everthing-enjoy.png" alt="" />
+Foto: Hoe ik de volgende zin heb gemaakt.
+
+#### ‘All the boys’ nadruk geven
+
+Daarna ben ik verdergegaan met de laatste zin van het refrein. Tijdens het luisteren hoorde ik nadruk op ‘all the’ en vooral op ‘boys’. Dit wilde ik zichtbaar maken door de tekst naar het einde van de zin steeds groter en opvallender te laten worden.
+
+Ik heb ‘all the boys’ in een strong gezet en ‘boys’ daarbinnen een eigen em gegeven. Hierdoor kan ik beide onderdelen apart vormgeven. ‘All the’ heb ik vergroot en ‘BOYS’ nog groter gemaakt, met rode letters en een witte en blauwe schaduw. Dit sluit aan op de kleuren die ik eerder in het refrein heb gebruikt.
+
+Ook heb ik een hover-effect toegevoegd. Als je met de muis over ‘BOYS’ gaat, wordt het woord groter, draait het iets naar links en verandert het lettergewicht. Zo krijgt het belangrijkste woord van de zin extra nadruk en een speels effect.
+
+#### ‘BOYS’ in kleine stapjes laten bewegen
+
+Ik had het gevoel dat er nog iets miste bij ‘BOYS’. Daarom wilde ik een beweging toevoegen die zichtbaar wordt tijdens het scrollen. In Canva heb ik verschillende animaties bekeken om te ontdekken welk effect ik leuk vond. Het idee van een woord dat als een trappetje naar beneden beweegt, sprak mij het meest aan.
+
+Vervolgens heb ik teruggekeken naar mijn scrollanimatie voor ‘down’ en onderzocht hoe ik met @keyframes verschillende stapjes kon maken. Hierbij beweegt ‘BOYS’ als één geheel. Ik heb veel getest en geëxperimenteerd met het aantal treden en de afstand tussen de stappen. Helaas ben ik vergeten om van die tussenversies screenshots te maken.
+
+Uiteindelijk heb ik gekozen voor zes kleine stapjes. Daarmee krijgt het woord een speelse beweging, zonder dat het effect te heftig wordt. Als volgende stap wil ik onderzoeken of ik ook met de helderheid kan spelen om het woord tijdens het scrollen extra nadruk te geven.
+
+<img src="./assets/images-readme/boys.png" alt="" />
+Foto: Hoe ik de nadruk heb gelegd op de BOYS.
+
+### De beweging afmaken met transparantie
+
+Als laatste heb ik de zichtbaarheid van ‘BOYS’ tijdens de trapjesanimatie aangepast. Terwijl het woord bij het scrollen in kleine stapjes naar beneden beweegt, vervaagt het nu geleidelijk.
+
+Deze toevoeging maakt het effect voor mij helemaal af. Het woord springt eerst duidelijk naar voren en verdwijnt daarna rustig naar de achtergrond. Zo vormt de beweging een speelse afsluiting van mijn refrein.
+
+<img src="./assets/images-readme/boys2.png" alt="" />
+Foto: Hoe ik de nadruk heb gelegd op de BOYS.
+
 ## Zaterdag 24 oktober
 
 ### Feedback verwerken

@@ -1028,6 +1028,9 @@ article[aria-label="ymca, part 1"] p > span:nth-of-type(3) {
   width: fit-content;
   margin-block: 2em;
   font-size: 1em;
+  font-variation-settings:
+    "wght" 110,
+    "SRFS" 20;
 }
 
 /* Het extra woord FUN achter de tekst */
@@ -1045,9 +1048,9 @@ article[aria-label="ymca, part 1"] p > span > strong {
 
   rotate: -8deg;
   pointer-events: none;
-}
-
-article[aria-label="ymca, part 1"] p > span > strong :hover {
+  font-variation-settings:
+    "wght" 200,
+    "SRFS" 0;
 }
 
 /* Het hele woord */
@@ -1178,6 +1181,205 @@ article[aria-label="ymca, part 1"]
       0.12em 0.18em 0 currentColor;
 
     animation-timing-function: ease-in;
+  }
+}
+
+/* They have everthing for young men to enjoy */
+/* Beide nadrukwoorden */
+article[aria-label="ymca, part 1"] p > em {
+  display: inline-block;
+  font-style: normal;
+  font-size: 2.5em;
+  transition:
+    letter-spacing 0.3s ease,
+    text-shadow 0.3s ease;
+}
+
+/* Everything wordt breder */
+article[aria-label="ymca, part 1"] p > em:nth-of-type(1) {
+  color: #05059e;
+  transform-origin: left center;
+  margin-right: 0.8em;
+
+  animation: everything-breed 3s ease-in-out infinite;
+}
+
+/* Enjoy wiebelt iets later */
+article[aria-label="ymca, part 1"] p > em:nth-of-type(2) {
+  color: #9e058c;
+
+  animation: enjoy-dansen 3s ease-in-out infinite;
+  animation-delay: 1.5s;
+}
+
+@keyframes everything-breed {
+  0%,
+  60%,
+  100% {
+    scale: 1 1;
+    font-variation-settings:
+      "wght" 100,
+      "SRFS" 0;
+  }
+
+  30% {
+    scale: 1.15 1;
+    font-variation-settings:
+      "wght" 180,
+      "SRFS" 0;
+  }
+}
+
+@keyframes enjoy-dansen {
+  0%,
+  60%,
+  100% {
+    translate: 0 0;
+    rotate: 0deg;
+    font-variation-settings:
+      "wght" 200,
+      "SRFS" 0;
+  }
+
+  20% {
+    translate: 0 -0.15em;
+    rotate: -10deg;
+    font-variation-settings:
+      "wght" 100,
+      "SRFS" 0;
+  }
+
+  40% {
+    translate: 0 -0.5em;
+    rotate: 10deg;
+    font-variation-settings:
+      "wght" 150,
+      "SRFS" 0;
+  }
+}
+/* Everything krijgt meer ruimte */
+article[aria-label="ymca, part 1"] p > em:nth-of-type(1):hover {
+  letter-spacing: 0.1em;
+  color: #059e6e;
+}
+
+/* Enjoy krijgt een gekleurde schaduw */
+article[aria-label="ymca, part 1"] p > em:nth-of-type(2):hover {
+  text-shadow:
+    0.04em 0.1em white,
+    0.08em 0.2em #581b47;
+}
+
+/* All the */
+article[aria-label="ymca, part 1"] p > strong {
+  display: inline-block;
+  font-size: 1.8em;
+  font-variation-settings:
+    "wght" 120,
+    "SRFS" 5;
+}
+
+/* BOYS */
+article[aria-label="ymca, part 1"] p > strong > em {
+  display: inline-block;
+  font-style: normal;
+  font-size: 2.5em;
+
+  color: #d93030;
+  font-variation-settings:
+    "wght" 150,
+    "SRFS" 0;
+
+  text-shadow:
+    0.025em 0.03em white,
+    0.06em 0.1em #05059e;
+
+  transition:
+    scale 0.3s ease,
+    rotate 0.3s ease;
+}
+
+article[aria-label="ymca, part 1"] p > strong > em:hover {
+  scale: 1.15;
+  rotate: -5deg;
+  font-variation-settings:
+    "wght" 200,
+    "SRFS" 0;
+}
+
+/* BOYS loopt tijdens het scrollen een trapje af */
+article[aria-label="ymca, part 1"] p > strong > em {
+  display: inline-block;
+
+  animation: boys-trap linear both;
+  animation-timeline: view();
+  animation-range: entry 100% cover 50%;
+}
+
+@keyframes boys-trap {
+  0% {
+    translate: 0 0;
+    opacity: 1;
+  }
+
+  /* Hupje 1 */
+  8% {
+    translate: 0.1em -0.15em;
+    opacity: 1;
+  }
+  16% {
+    translate: 0.2em 0.4em;
+    opacity: 1;
+  }
+
+  /* Hupje 2 */
+  25% {
+    translate: 0.3em 0.25em;
+    opacity: 0.8;
+  }
+  33% {
+    translate: 0.4em 0.8em;
+    opacity: 0.8;
+  }
+
+  /* Hupje 3 */
+  41% {
+    translate: 0.5em 0.65em;
+    opacity: 0.6;
+  }
+  50% {
+    translate: 0.6em 1.2em;
+    opacity: 0.6;
+  }
+
+  /* Hupje 4 */
+  58% {
+    translate: 0.7em 1.05em;
+    opacity: 0.4;
+  }
+  66% {
+    translate: 0.8em 1.6em;
+    opacity: 0.4;
+  }
+
+  /* Hupje 5 */
+  75% {
+    translate: 0.9em 1.45em;
+    opacity: 0.2;
+  }
+  83% {
+    translate: 1em 2em;
+    opacity: 0.2;
+  }
+
+  /* Hupje 6 */
+  91% {
+    translate: 1.1em 1.85em;
+    opacity: 0;
+  }
+  100% {
+    translate: 1.2em 2.4em;
+    opacity: 0;
   }
 }
 
