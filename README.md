@@ -4,6 +4,25 @@
 
 # Sprint 3:
 
+## Zondag 25 oktober
+
+### SOngtekst
+
+#### Het refrein toevoegen en vormgeven
+
+Daarna ben ik verdergegaan met het refrein, zoals Diederik had geadviseerd. Ik wilde vooral de herkenbare letters Y.M.C.A. laten opvallen en hiermee het vrolijke, dansende gevoel van het liedje uitbeelden.
+
+Ik heb iedere letter en punt in een aparte <span> gezet, zodat ik ze afzonderlijk kan vormgeven. De letters kregen elk een eigen kleur: rood, blauw, groen en paars. Met een verspringend schaduweffect heb ik ze meer diepte gegeven.
+
+#### Beweging en herhaling
+
+Vervolgens heb ik een bounce-animatie toegevoegd waarbij de letters springen en de punten blijven staan. Ook heb ik een overgang voor het vergroten ingesteld, zodat ik met een hover-effect kan spelen. De grootte van Y.M.C.A. heb ik gekoppeld aan de schermbreedte.
+
+Bij de tweede herhaling van ‘It’s fun to stay at the Y.M.C.A.’ heb ik dezelfde opbouw gebruikt. Die herhaling past bij het liedje en zorgt voor samenhang in mijn ontwerp. De inleidende zinnen blijven klein en links uitgelijnd, terwijl Y.M.C.A. groot in het midden staat. Zo krijgt het belangrijkste deel van het refrein duidelijk de nadruk. Om de tweede Y.M.C.A. toch anders te maken gaat de animatie hier van voor naar achter.
+
+<img src="./assets/images-readme/tweedeymca.png" alt="" />
+Foto: hoe ik de twee Y.M.C.A er in heb gezet. en dat het herhaling is maar toch net iets anders.
+
 ## Zaterdag 24 oktober
 
 ### Feedback verwerken
@@ -83,10 +102,25 @@ In index.html heb ik een korte introductie, een persoonlijke afbeelding en de kn
 
 Ik heb bewust de privacymelding op beide pagina’s laten staan. Zo kunnen bezoekers de informatie meteen bij binnenkomst openen en later op de hoofdpagina opnieuw terugvinden.
 
-Tot slot heb ik op de andere pagina’s de Home- en teruglinks aangepast van index.htm` naar hoofdpagina.htm`. Daarmee komen bezoekers bij het teruggaan direct bij de inhoud van mijn website. Ook heb ik de beginpagina op een klein scherm bekeken om de plaatsing van de tekst, knop en afbeelding te controleren.
+Tot slot heb ik op de andere pagina’s de Home- en teruglinks aangepast van index.htm`naar hoofdpagina.htm. Daarmee komen bezoekers bij het teruggaan direct bij de inhoud van mijn website. Ook heb ik de beginpagina op een klein scherm bekeken om de plaatsing van de tekst, knop en afbeelding te controleren.
 
 <img src="./assets/images-readme/beginpagina.png" alt="" />
-Foto: een begin pagina gemaakt om het echt meer persoonlijker te mkaken.
+Foto: een begin pagina gemaakt om het echt meer persoonlijker te maken.
+
+### Mijn website laten testen
+
+Ik heb mijn website opnieuw laten bekijken door mensen uit mijn omgeving. Zij hebben de lichte en donkere modus getest en de mobiele versie in zowel portrait als landscape bekeken.
+
+De reacties waren positief: beide modi waren prettig leesbaar en de teksten werden als vlot, duidelijk en persoonlijk ervaren. Ook de afbeeldingen nodigden uit om verder te kijken. Vooral mijn ‘over mij’-tekst en de hakende Judith met haar tattoo werden gewaardeerd, omdat die mijn website persoonlijker maken.
+
+### Verbeterpunten verwerken
+
+Tijdens het testen kwamen ook een paar aandachtspunten naar voren. Het privacymandje zat op mobiel soms over de tekst en bleef tijdens het lezen in beeld staan. Daarnaast stond het kruisje van de geopende melding in landscape buiten beeld en in portrait erg hoog. Bij sommige haakpagina’s was de eerste alinea te smal, mogelijk doordat de animatie op mobiel verborgen wordt.
+
+Ik ben meteen met deze feedback aan de slag gegaan en heb verschillende punten aangepast. Het lukte mij alleen nog niet om de privacymelding verder naar beneden te plaatsen zoals ik wilde. Ondanks dat resterende punt kreeg ik terug dat de website al erg goed was. Deze test hielp mij om te ontdekken wat bezoekers prettig vinden en waar de mobiele weergave nog aandacht nodig heeft.
+
+<img src="./assets/images-readme/feedback.png" alt="" />
+Foto: De feedback die ik gekregen heb en hoe ik dit heb opgelost.
 
 ## Vrijdag 23 oktober
 
