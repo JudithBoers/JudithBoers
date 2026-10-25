@@ -333,7 +333,7 @@ aside[aria-label="Privacyinformatie"] summary::-webkit-details-marker {
 /* Grootte van het gesloten koekje */
 aside[aria-label="Privacyinformatie"] summary img {
   display: block;
-  width: 10em;
+  width: 8em;
   height: auto;
 }
 
@@ -350,7 +350,7 @@ aside[aria-label="Privacyinformatie"] details[open] summary img:first-of-type {
 /* Toon het grotere koekje met het hapje als het bericht open is */
 aside[aria-label="Privacyinformatie"] details[open] summary img:nth-of-type(2) {
   display: block;
-  width: 10em;
+  width: 8em;
   margin-bottom: 0.2em;
 }
 

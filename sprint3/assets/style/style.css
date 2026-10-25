@@ -1018,10 +1018,36 @@ article[aria-label="ymca, part 1"] {
   text-align: left;
 }
 
-/* Het kleine zinnetje boven Y.M.C.A. */
-article[aria-label="ymca, part 1"] p > span:has(+ span[aria-label="Y.M.C.A."]) {
+/* Its fun to stay at the */
+article[aria-label="ymca, part 1"] p > span:nth-of-type(1),
+article[aria-label="ymca, part 1"] p > span:nth-of-type(3) {
   display: block;
+  position: relative;
+  isolation: isolate;
+
+  width: fit-content;
+  margin-block: 2em;
   font-size: 1em;
+}
+
+/* Het extra woord FUN achter de tekst */
+article[aria-label="ymca, part 1"] p > span > strong {
+  position: absolute;
+  z-index: -1;
+
+  left: 0;
+  top: -0.35em;
+
+  font-size: 5em;
+  line-height: 1;
+  color: #9e058c24;
+  opacity: 50%;
+
+  rotate: -8deg;
+  pointer-events: none;
+}
+
+article[aria-label="ymca, part 1"] p > span > strong :hover {
 }
 
 /* Het hele woord */
