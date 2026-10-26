@@ -52,6 +52,17 @@ html {
 body {
   background-color: var(--background);
   color: var(--text-color);
+  cursor:
+    url("../images/wol-cursor.png") 26 2,
+    auto;
+}
+
+a,
+button,
+summary {
+  cursor:
+    url("../images/haaksteken-cursor.png") 2 21,
+    pointer;
 }
 
 img {
@@ -131,7 +142,6 @@ a {
   border: none;
   border-radius: 1em;
   font-size: 1.5em;
-  cursor: pointer;
   font-family: "Edu SA", sans-serif;
   text-decoration: none;
 }
@@ -320,7 +330,6 @@ aside[aria-label="Privacyinformatie"] summary {
   display: flex;
   flex-direction: column;
   align-items: center;
-  cursor: pointer;
 }
 
 /* Verberg het standaard driehoekje in Safari */
@@ -384,11 +393,6 @@ aside[aria-label="Privacyinformatie"] summary:focus-visible {
 /**************************
 * MARK: Uitklapbare uitleg
 **************************/
-
-/* Laat met de muis zien dat het onderwerp aanklikbaar is */
-main details summary {
-  cursor: pointer;
-}
 
 /* Toon welk onderwerp met het toetsenbord is geselecteerd */
 main details summary:focus-visible {

@@ -4,7 +4,37 @@
 
 # Sprint 3:
 
-## Zondag 25 oktober
+## Maandag 26 oktober
+
+### kleine aanpasingen
+
+#### Meer samenhang tussen de gifjes
+
+Ik heb gekeken hoe ik de gifjes op mijn website meer één geheel kon laten vormen. Bij het beertje en de krab had ik al aandacht besteed aan de omgeving. Daarom wilde ik ook de andere haakfiguurtjes op een vergelijkbare manier uitwerken.
+
+Voor het draakje, eendje, leeuwtje en Misty heb ik geprobeerd iets leuks te bedenken dat bij het diertje past. Daarbij wilde ik de speelse beweging behouden en de gifjes een wat huiselijkere sfeer geven.
+
+Zo krijgt ieder figuurtje een eigen plekje, terwijl de gifjes beter op elkaar aansluiten. Hiermee wil ik de warme, persoonlijke sfeer van mijn website ook in het beeldmateriaal terug laten komen.
+
+<img src="./assets/images-readme/gifs.png" alt="" />
+Foto: De gifjes die ik meer samenhang heb gegeven.
+
+#### Een muisaanwijzer in mijn haakthema
+
+Ik wilde ook mijn muisaanwijzer laten aansluiten op mijn website. Daarom heb ik in Canva twee kleine afbeeldingen gemaakt: een bolletje wol met een haaknaald voor de gewone aanwijzer en een haaknaald met steken voor links, knoppen en uitklapmenu’s. De afbeeldingen waren 40 × 40 pixels.
+
+Ik vermoedde dat ik de afbeeldingen met url() in mijn CSS kon toevoegen, zoals ik eerder met een achtergrond had gedaan. Toch had ik het gevoel dat mijn code nog niet compleet was. Ik wilde eerst uitleg zoeken op YouTube, maar vanwege de beperkte tijd heb ik mijn idee en code aan ChatGPT voorgelegd.
+
+#### Het klikpunt en een reserveaanwijzer toevoegen
+
+ChatGPT wees mij op het klikpunt en de reserveaanwijzer die nog ontbraken. Met twee getallen na de afbeelding geef ik aan waar het precieze klikpunt zit. Daarna volgt `auto` of `pointer`, zodat de browser een standaardaanwijzer kan gebruiken als de afbeelding niet geladen wordt.
+
+Ik kreeg ook advies over de afmetingen. Mijn afbeeldingen van 40 × 40 pixels zijn niet automatisch te groot, maar het blijft belangrijk om te controleren of ze goed worden weergegeven en prettig werken.
+
+Na het aanvullen van mijn CSS werkte mijn aangepaste muisaanwijzer. Het is een klein detail, maar het maakt mijn website voor mij persoonlijker en zorgt ervoor dat het haakthema ook tijdens het navigeren terugkomt.
+
+<img src="./assets/images-readme/muis.png" alt="" />
+Foto: hoe ik gevraagd aan chat of mijn code klopt.
 
 ### SOngtekst
 
@@ -323,6 +353,20 @@ Foto: De foto's van de diertjes met en zonder licht die in de pagina van het hak
 ## woensdag 21 oktober
 
 Vanwege mijn prive situatie redden ik het niet om naar school te komen maar ik heb wel gekeken hoe ik zo veel mogelijk kan doen.
+
+### Voorbereiding voor de les
+
+#### Twee artikelen lezen
+
+Voor de les moest ik twee artikelen lezen. Eén daarvan heb ik niet kunnen lezen, omdat ik cookies moest accepteren om toegang te krijgen. Dat wilde ik niet, waardoor ik dat artikel niet verder heb kunnen bekijken.
+Het andere artikel ging over The Dead Internet Theory. Volgens deze theorie wordt het internet steeds meer gevuld met bots en AI-content, waardoor echte menselijke interactie minder zichtbaar wordt. Het artikel bespreekt deze zorgen, maar de theorie is geen bewezen beschrijving van het hele internet.
+
+#### Wat ik uit het artikel heb gehaald
+
+Bots kunnen nuttige taken uitvoeren, maar ook spam en nepreacties verspreiden. Door AI is het bovendien makkelijker geworden om grote hoeveelheden teksten en afbeeldingen te maken. Automatische likes en reacties kunnen vervolgens de indruk geven dat deze inhoud populair of betrouwbaar is.
+Wat mij vooral opviel, is dat platforms verdienen aan onze aandacht. Daardoor krijgen klikken, likes en kijktijd soms meer aandacht dan de kwaliteit van de inhoud. Dit kan het moeilijker maken om betrouwbare informatie te herkennen en betekenisvol contact te vinden.
+
+Voor mij is de belangrijkste les dat ik kritisch moet blijven kijken naar wat ik online tegenkom. Wie heeft iets gemaakt, met welk doel en is het duidelijk of AI is gebruikt? Het artikel liet mij nadenken over de vraag of het internet vooral draait om menselijke verbinding, of steeds meer om automatische inhoud en geld verdienen.
 
 ### Meer discosfeer met een achtergrond
 
