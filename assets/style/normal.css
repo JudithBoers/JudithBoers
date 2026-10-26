@@ -144,22 +144,22 @@ a {
   font-size: 1.5em;
   font-family: "Edu SA", sans-serif;
   text-decoration: none;
-}
 
-a:hover {
-  background: var(--hover-button);
-  color: var(--button-hover-text);
-}
+  &:hover {
+    background: var(--hover-button);
+    color: var(--button-hover-text);
+  }
 
-a:focus-visible {
-  outline: 0.2em solid var(--text-color);
-  outline-offset: 0.2em;
-}
+  &:focus-visible {
+    outline: 0.2em solid var(--text-color);
+    outline-offset: 0.2em;
+  }
 
-a:active {
-  background-color: var(--basis-button);
-  color: var(--button-text);
-  transform: scale(0.5);
+  &:active {
+    background-color: var(--basis-button);
+    color: var(--button-text);
+    transform: scale(0.5);
+  }
 }
 
 /**************************
@@ -189,11 +189,9 @@ header p {
   width: calc(66.666% - 1em);
   line-height: 1.5;
   z-index: 10;
-}
 
-/* Met behulp van de Deep Dive erin gezet. */
-@media (min-width: 48em) {
-  header p {
+  /* Met behulp van de Deep Dive erin gezet. */
+  @media (min-width: 48em) {
     width: 100%;
   }
 }
@@ -211,20 +209,25 @@ header img {
   z-index: 1;
   pointer-events: none;
   filter: none;
-}
 
-header img:nth-of-type(2) {
-  position: static;
-  float: right;
-  width: 20em;
-  max-width: 40%;
-  height: auto;
-  margin: -2em 2em 1em 4em;
+  &:nth-of-type(2) {
+    position: static;
+    float: right;
+    width: 20em;
+    max-width: 40%;
+    height: auto;
+    margin: -2em 2em 1em 4em;
+  }
 }
 
 /**************************
 * MARK: Navigatie
 **************************/
+
+a {
+  &:focus {
+  }
+}
 
 header nav {
   display: flex;
@@ -232,16 +235,15 @@ header nav {
   gap: 0.1em;
   padding: 1em;
   border-radius: 0.5em;
-}
 
-@media (min-width: 40em) {
-  header nav {
+  @media (min-width: 40em) {
     display: flex;
     justify-content: center;
     gap: 0.5em;
     padding: 1em;
   }
 }
+
 /**************************
 * MARK: Hoofdinhoud en grid
 **************************/
@@ -254,11 +256,11 @@ main {
 
   gap: 3em;
   margin: 3em;
-}
 
-/* Laat onderdelen binnen het grid smaller worden */
-main > * {
-  min-width: 0;
+  /* Laat onderdelen binnen het grid smaller worden */
+  > * {
+    min-width: 0;
+  }
 }
 
 /**************************
@@ -298,25 +300,25 @@ html:has([value="dark"]:checked) header img:nth-of-type(2) {
 * MARK: Privacyinformatie
 **************************/
 
-/* Verberg het standaard driehoekje in Safari */
-aside[aria-label="Privacyinformatie"] a {
-  margin-left: 2.2em;
-  margin-right: 2.2em;
-  margin-bottom: 1em;
-}
-
 /* Zet het koekje rechtsonder, boven de pagina-inhoud */
 aside[aria-label="Privacyinformatie"] {
   position: fixed;
   right: 1em;
   bottom: 0.5em;
   z-index: 10;
-}
 
-/* Alleen de section krijgt straks een gekleurde achtergrond */
-aside[aria-label="Privacyinformatie"] > details {
-  background: transparent;
-  border: none;
+  /* Verberg het standaard driehoekje in Safari */
+  a {
+    margin-left: 2.2em;
+    margin-right: 2.2em;
+    margin-bottom: 1em;
+  }
+
+  /* Alleen de section krijgt straks een gekleurde achtergrond */
+  > details {
+    background: transparent;
+    border: none;
+  }
 }
 
 /* Breedte van het geopende bericht */

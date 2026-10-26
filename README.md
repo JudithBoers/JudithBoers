@@ -4,6 +4,8 @@
 
 # Sprint 3:
 
+<details>
+
 ## Maandag 26 oktober
 
 ### kleine aanpasingen
@@ -35,6 +37,11 @@ Na het aanvullen van mijn CSS werkte mijn aangepaste muisaanwijzer. Het is een k
 
 <img src="./assets/images-readme/muis.png" alt="" />
 Foto: hoe ik gevraagd aan chat of mijn code klopt.
+
+</details>
+<details>
+
+## zondag 25 oktober
 
 ### SOngtekst
 
@@ -110,6 +117,7 @@ Deze toevoeging maakt het effect voor mij helemaal af. Het woord springt eerst d
 
 <img src="./assets/images-readme/boys2.png" alt="" />
 Foto: Hoe ik de nadruk heb gelegd op de BOYS.
+</details>
 
 ## Zaterdag 24 oktober
 
