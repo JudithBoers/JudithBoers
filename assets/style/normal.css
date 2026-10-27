@@ -1,3 +1,5 @@
+/* Met behulp van Sanne mijn CSS zo mooi en overzichtelijk kunnen maken */
+
 /**************************
 * MARK: Lettertypes
 **************************/
@@ -18,6 +20,7 @@
   font-style: normal;
 }
 
+/* Lettertype voor de paragrafen. */
 @font-face {
   font-family: "Lato-Light";
   src: url(../type/Lato-Light.ttf);
@@ -71,8 +74,6 @@ img {
   display: block;
   margin-top: 2.5em;
   margin-bottom: 1.5em;
-  margin-top: 2.5em;
-  margin-bottom: 1.5em;
 }
 
 /**************************
@@ -96,6 +97,7 @@ h3 {
   font-weight: 100;
   font-size: 1.9em;
 }
+
 h4 {
   font-family: "Edu SA", sans-serif;
   font-weight: 100;
@@ -115,6 +117,7 @@ ul {
   font-size: 1.2em;
   line-height: 1.5;
 }
+
 ol {
   font-family: "Lato-Light", sans-serif;
   font-weight: 32;
@@ -146,7 +149,7 @@ a {
   text-decoration: none;
 
   &:hover {
-    background: var(--hover-button);
+    background-color: var(--hover-button);
     color: var(--button-hover-text);
   }
 
@@ -168,79 +171,74 @@ a {
 
 header {
   margin: 2em;
-}
 
-header form {
-  position: absolute;
-  top: 1.5em;
-  right: 2em;
+  form {
+    position: absolute;
+    top: 1.5em;
+    right: 2em;
 
-  display: flex;
-  gap: 1em;
+    display: flex;
+    gap: 1em;
 
-  color: var(--text-color);
-  z-index: 2;
-}
-
-header p {
-  grid-column: 1 / -1;
-  font-size: 1.25em;
-  margin-top: 0em;
-  width: calc(66.666% - 1em);
-  line-height: 1.5;
-  z-index: 10;
-
-  /* Met behulp van de Deep Dive erin gezet. */
-  @media (min-width: 48em) {
-    width: 100%;
+    color: var(--text-color);
+    z-index: 2;
   }
-}
 
-/* Eerste gifje/afbeelding in de header. */
-header img {
-  position: absolute;
-  width: 10em;
-  height: auto;
-  max-width: none;
-  margin: 0;
-  left: 22em;
-  top: 12.3em;
+  p {
+    grid-column: 1 / -1;
+    font-size: 1.25em;
+    margin-top: 0em;
+    width: calc(66.666% - 1em);
+    line-height: 1.5;
+    z-index: 10;
 
-  z-index: 1;
-  pointer-events: none;
-  filter: none;
+    /* Met behulp van de Deep Dive erin gezet. */
+    @media (min-width: 48em) {
+      width: 100%;
+    }
+  }
 
-  &:nth-of-type(2) {
-    position: static;
-    float: right;
-    width: 20em;
-    max-width: 40%;
+  /* Eerste gifje/afbeelding in de header. */
+  img {
+    position: absolute;
+    width: 10em;
     height: auto;
-    margin: -2em 2em 1em 4em;
+    max-width: none;
+    margin: 0;
+    left: 22em;
+    top: 12.3em;
+
+    z-index: 1;
+    pointer-events: none;
+    filter: none;
+
+    &:nth-of-type(2) {
+      position: static;
+      float: right;
+      width: 20em;
+      max-width: 40%;
+      height: auto;
+      margin: -2em 2em 1em 4em;
+    }
   }
-}
 
-/**************************
-* MARK: Navigatie
-**************************/
+  /**************************
+  * MARK: Navigatie
+  **************************/
 
-a {
-  &:focus {
-  }
-}
-
-header nav {
-  display: flex;
-  justify-content: center;
-  gap: 0.1em;
-  padding: 1em;
-  border-radius: 0.5em;
-
-  @media (min-width: 40em) {
+  nav {
     display: flex;
     justify-content: center;
-    gap: 0.5em;
+    gap: 0.1em;
     padding: 1em;
+    border-radius: 0.5em;
+
+    @media (min-width: 40em) {
+      display: flex;
+      justify-content: center;
+      gap: 0.5em;
+      padding: 1em;
+    }
   }
 }
 
@@ -307,99 +305,113 @@ aside[aria-label="Privacyinformatie"] {
   bottom: 0.5em;
   z-index: 10;
 
-  /* Verberg het standaard driehoekje in Safari */
+  /* Ruimte rondom de link in het privacybericht */
   a {
     margin-left: 2.2em;
     margin-right: 2.2em;
     margin-bottom: 1em;
   }
 
-  /* Alleen de section krijgt straks een gekleurde achtergrond */
+  /* Alleen de section krijgt een gekleurde achtergrond */
   > details {
     background: transparent;
     border: none;
+
+    /* Breedte van het geopende bericht */
+    &[open] {
+      width: 20em;
+      max-width: calc(100vw - 2em);
+    }
   }
-}
 
-/* Breedte van het geopende bericht */
-aside[aria-label="Privacyinformatie"] > details[open] {
-  width: 20em;
-  max-width: calc(100vw - 2em);
-}
+  /* Zet het koekje en de knoptekst onder elkaar */
+  summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-/* Zet het koekje en de knoptekst onder elkaar */
-aside[aria-label="Privacyinformatie"] summary {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+    /* Verberg het standaard driehoekje in Safari */
+    &::-webkit-details-marker {
+      display: none;
+    }
 
-/* Verberg het standaard driehoekje in Safari */
-aside[aria-label="Privacyinformatie"] summary::-webkit-details-marker {
-  display: none;
-}
+    /* Grootte van het gesloten koekje */
+    img {
+      display: block;
+      width: 8em;
+      height: auto;
+    }
 
-/* Grootte van het gesloten koekje */
-aside[aria-label="Privacyinformatie"] summary img {
-  display: block;
-  width: 8em;
-  height: auto;
-}
+    /* Verberg het koekje met het hapje als het bericht dicht is */
+    img:nth-of-type(2) {
+      display: none;
+    }
+  }
 
-/* Verberg het koekje met het hapje als het bericht dicht is */
-aside[aria-label="Privacyinformatie"] summary img:nth-of-type(2) {
-  display: none;
-}
+  /* Verberg het hele koekje als het bericht open is */
+  details[open] summary img:first-of-type {
+    display: none;
+  }
 
-/* Verberg het hele koekje als het bericht open is */
-aside[aria-label="Privacyinformatie"] details[open] summary img:first-of-type {
-  display: none;
-}
+  /* Toon het koekje met het hapje als het bericht open is */
+  details[open] summary img:nth-of-type(2) {
+    display: block;
+    width: 8em;
+    margin-bottom: 0.2em;
+  }
 
-/* Toon het grotere koekje met het hapje als het bericht open is */
-aside[aria-label="Privacyinformatie"] details[open] summary img:nth-of-type(2) {
-  display: block;
-  width: 8em;
-  margin-bottom: 0.2em;
-}
+  /* Kleur, rand en afgeronde hoeken van het tekstvlak */
+  details > section {
+    display: grid;
+    gap: 0.5em;
+    background-color: var(--privacy-achtergrond);
+    color: var(--privacy-tekst);
+    border: 0.15em solid var(--privacy-rand);
+    border-radius: 2em;
+  }
 
-/* Kleur, rand en afgeronde hoeken van het tekstvlak */
-aside[aria-label="Privacyinformatie"] details > section {
-  display: grid;
-  gap: 0.5em;
-  background-color: var(--privacy-achtergrond);
-  color: var(--privacy-tekst);
-  border: 0.15em solid var(--privacy-rand);
-  border-radius: 2em;
-}
+  /* Grootte, kleur en ruimte rondom de titel */
+  h2 {
+    font-size: 1.9em;
+    color: var(--privacy-tekst);
+    margin: 0.75em;
+  }
 
-/* Grootte, kleur en ruimte rondom de titel */
-aside[aria-label="Privacyinformatie"] h2 {
-  font-size: 1.9em;
-  color: var(--privacy-tekst);
-  margin: 0.75em;
-}
+  /* Ruimte rondom de alinea’s en tussen de tekstregels */
+  p {
+    margin: 1em;
+    line-height: 1.5;
+  }
 
-/* Ruimte rondom de alinea’s en tussen de tekstregels */
-aside[aria-label="Privacyinformatie"] p {
-  margin: 1em;
-  line-height: 1.5;
-}
-
-/* Zichtbare selectierand bij bediening met het toetsenbord */
-aside[aria-label="Privacyinformatie"] summary:focus-visible {
-  outline: 0.2em solid var(--privacy-rand);
-  outline-offset: 0.2em;
+  /* Zichtbare selectierand bij bediening met het toetsenbord */
+  summary:focus-visible {
+    outline: 0.2em solid var(--privacy-rand);
+    outline-offset: 0.2em;
+  }
 }
 
 /**************************
 * MARK: Uitklapbare uitleg
 **************************/
 
-/* Toon welk onderwerp met het toetsenbord is geselecteerd */
-main details summary:focus-visible {
-  outline: 0.2em solid var(--text-color);
-  outline-offset: 0.2em;
+main details {
+  /* Het aanklikbare kopje */
+  summary {
+    font-family: "Edu SA", sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+
+    /* Toon welk onderwerp met het toetsenbord is geselecteerd */
+    &:focus-visible {
+      outline: 0.2em solid var(--text-color);
+      outline-offset: 0.2em;
+    }
+  }
+
+  /* De tekst die tevoorschijn komt */
+  p {
+    font-size: 1.2em;
+  }
 }
 
 /* Op telefoons is het gifje niet zichtbaar */
@@ -421,7 +433,7 @@ main > img[src*="koekje-wordt-opgegeten"] {
 }
 
 /**************************
-* MARK: licht en donker foto's
+* MARK: Licht en donker foto's
 **************************/
 
 /* Lichte afbeeldingen tonen */
@@ -463,7 +475,7 @@ html:has([value="dark"]:checked) main > img[src$="juudhaak-dmode.png"] {
 }
 
 /**************************
-* MARK: klein scherm
+* MARK: Klein scherm
 **************************/
 
 @media (max-width: 40em) {
@@ -545,5 +557,41 @@ html:has([value="dark"]:checked) main > img[src$="juudhaak-dmode.gif"] {
   header p {
     /* Gebruik de hele beschikbare breedte */
     width: auto;
+  }
+}
+
+/**************************
+* MARK: Toeren haakpatronen
+**************************/
+
+main ol[aria-label="Toeren"] {
+  /* Begin bij ieder nieuw patroon opnieuw met tellen */
+  counter-reset: toer;
+
+  /* Vervang de gewone nummering door onze eigen tekst */
+  list-style-type: "";
+  padding-left: 0;
+
+  li {
+    /* Tel bij iedere regel één toer erbij */
+    counter-increment: toer;
+
+    margin-bottom: 0.7em;
+    line-height: 1.6;
+
+    /* Zet automatisch het toernummer voor de instructie */
+    &::before {
+      content: "Toer " counter(toer) ": ";
+      font-family: "Edu SA", sans-serif;
+      font-size: 1.2em;
+      font-weight: 500;
+    }
+
+    /* Maak het aantal steken tussen de haakjes kleiner */
+    small {
+      font-size: 0.8em;
+      margin-left: 0.4em;
+      white-space: nowrap;
+    }
   }
 }

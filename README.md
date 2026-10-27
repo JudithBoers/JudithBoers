@@ -4,6 +4,82 @@
 
 # Sprint 3:
 
+<details>
+<summary> Dinsdag 27 oktober </summary>
+
+### Feedback verwerken van gisteren
+
+#### De uitklapmenu’s laten aansluiten op mijn website
+
+Katey gaf tijdens de feedback aan dat de kopjes van mijn uitklapmenu’s wat groter mochten. Daardoor ontdekte ik dat ik de opmaak van mijn details en summary nog niet bewust had ingesteld.
+
+Ik heb de kopjes van de uitklapmenu’s hetzelfde lettertype gegeven als mijn andere kopjes, maar dan iets kleiner. De tekst binnen de menu’s heb ik juist iets kleiner gemaakt dan mijn gewone alinea’s, waarbij ik erop heb gelet dat deze goed leesbaar blijft.
+
+Hierdoor sluiten de uitklapmenu’s beter aan op de rest van mijn website en vormt de typografie meer één geheel.
+
+<img src="./assets/images-readme/feedback-katey.png" alt="" />
+Foto: De feedback verwerkt die ik gister heb gekregen van Katey
+
+#### Mijn CSS opruimen met nesting
+
+Ik heb de voorbeelden die Sanne in mijn code had gemaakt opnieuw bekeken en gebruikt om zelf met CSS-nesting aan de slag te gaan. Vervolgens heb ik dit in mijn hele CSS-bestand toegepast, zodat regels die bij elkaar horen bij elkaar staan en ik minder selectors hoef te herhalen.
+
+Na iedere samenvoeging heb ik mijn website via Live Server gecontroleerd. Zo kon ik stap voor stap bekijken of de vormgeving en werking nog klopten en eventuele foutjes meteen aanpassen.
+
+Volgens mij is dit goed gelukt. Mijn CSS is nu overzichtelijker en door de voorbeelden zelf toe te passen, begrijp ik beter hoe nesting werkt.
+
+<img src="./assets/images-readme/css.png" alt="" />
+Foto: Ik heb mijn css mooiere en overzichtelijk gemaakt.
+
+#### Meer samenhang in mijn afbeeldingen en gifjes
+
+Ik heb gekeken hoe ik mijn afbeeldingen en gifjes meer één geheel kon laten vormen. Door de feedback van Sanne zag ik dat ik verschillende stijlen door elkaar gebruikte, waardoor het beeldmateriaal minder goed op elkaar aansloot.
+
+Vanwege de beschikbare tijd kon ik niet alles opnieuw tekenen of opbouwen. Daarom heb ik ChatGPT gevraagd om mijn gifjes dezelfde realistische uitstraling te geven als de eerder gemaakte afbeeldingen van mijzelf. Die afbeeldingen heb ik als voorbeeld meegestuurd.
+
+Daarna heb ik de resultaten zelf verder afgewerkt in Canva. Daar heb ik van de afbeeldingen weer bewegende gifjes gemaakt en deze gedownload voor mijn website.
+
+Ik begrijp nu beter waarom Sanne dit aangaf. Ik vond de beelden afzonderlijk leuk, maar samen vormden ze nog geen duidelijk geheel. Door de stijl op elkaar af te stemmen, komt de sfeer van mijn website beter naar voren.
+
+<img src="./assets/images-readme/nieuwegifjes.png" alt="" />
+Foto: Het verschil in de oude en de nieuwe gif.
+
+#### Afbeeldingen kiezen en de privacyknop aanpassen
+
+Ik heb gekeken welke afbeeldingen ik nog binnen de beschikbare tijd kan bewerken. Omdat ik niet zeker weet of ik alles ga redden, heb ik keuzes gemaakt in wat ik nog wil aanpassen om meer samenhang te krijgen.
+
+Ook de afbeeldingen van mijn privacyknop heb ik een realistischere uitstraling gegeven. De handjes vond ik daardoor niet meer goed passen. Daarom heb ik voor de geopende melding het mandje anders vormgegeven, zodat het lijkt alsof iemand al met het haakwerk bezig is. Zo past ook dit onderdeel beter bij de nieuwe stijl van mijn website.
+
+<img src="./assets/images-readme/cookienieuwe.png" alt="" />
+Foto: De verschillende cookies.
+
+#### De lampjes op elkaar afstemmen
+
+Ik heb bij alle schilderijtjes hetzelfde lampje gebruikt, zodat ze beter bij elkaar passen. Door dit detail consequent terug te laten komen, vormen de schilderijtjes meer één geheel en sluit het beeldmateriaal beter aan op de rest van mijn website.
+
+<img src="./assets/images-readme/schilder.png" alt="" />
+Foto: De schilderijtjes als 1 geheel gemaakt.
+
+#### Ook de gifjes dezelfde stijl geven
+
+Ik had de gifjes net allemaal een eigen, leuke omgeving gegeven. Toch merkte ik dat ook daarin weer verschillende stijlen door elkaar liepen. Daarom heb ik ze opnieuw aangepast en zo realistisch mogelijk gemaakt, zodat ze beter aansluiten op mijn andere afbeeldingen.
+
+Hierdoor behouden de diertjes hun eigen uitstraling, maar vormen de gifjes samen meer één geheel. Ik heb hiervan geleerd om niet alleen naar ieder beeld apart te kijken, maar ook naar hoe alle beelden bij elkaar passen op mijn website.
+
+<img src="./assets/images-readme/gifjes-n.png" alt="" />
+Foto: Hoe ik mijn gifjes heb veranderd zodat ze in de zelfde stijl zijn.
+
+#### De juiste lijsten gebruiken bij mijn haakpatronen
+
+Toen ik het volgende feedbackpunt van Sanne bekeek, ontdekte ik dat ik bij mijn haakpatronen overal een <ul> had gebruikt. Bij de stappen van een patroon is de volgorde juist belangrijk: je moet de toeren in de juiste volgorde uitvoeren. Daarom past een geordende lijst, een <ol>, hier beter. Voor de benodigdheden kan een <ul> wel blijven staan.
+Ik heb meteen gekeken of ik dit kon combineren met het trucje dat Sanne mij had uitgelegd: de lijstmarkering aanpassen, zodat er bijvoorbeeld ‘Toer 1’ en ‘Toer 2’ voor de stappen staat. Zo sluit de nummering beter aan op het haakpatroon.
+
+Uiteindelijk heb ik dit alleen bij het patroon van Flappie toegepast, omdat het meer werk kostte dan verwacht. Met meer tijd had ik dit ook bij de andere patronen willen doen.
+
+<img src="./assets/images-readme/patroon-flappie.png" alt="" />
+Foto: Ik heb het patroon van Flappie aangepast met de feedback van Sanne.
+</details>
+
 ## Maandag 26 oktober
 
 ### kleine aanpasingen voor de les
