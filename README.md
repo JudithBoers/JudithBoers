@@ -4,11 +4,9 @@
 
 # Sprint 3:
 
-<details>
-
 ## Maandag 26 oktober
 
-### kleine aanpasingen
+### kleine aanpasingen voor de les
 
 #### Meer samenhang tussen de gifjes
 
@@ -38,8 +36,42 @@ Na het aanvullen van mijn CSS werkte mijn aangepaste muisaanwijzer. Het is een k
 <img src="./assets/images-readme/muis.png" alt="" />
 Foto: hoe ik gevraagd aan chat of mijn code klopt.
 
-</details>
-<details>
+### In de les
+
+#### Elkaars werk bekijken tijdens de expo
+
+In de les hebben we een expo gehouden waarbij we elkaars websites konden bekijken. Bij ons werk lag een feedbackformulier waarop klasgenoten gekleurde stickers en opmerkingen konden achterlaten. Blauw stond voor privacy/wet en toegankelijkheid, rood voor ontwerp en groen voor techniek.
+
+#### De feedback op mijn website
+
+Ik kreeg positieve reacties op de duidelijke privacyinformatie en het gebruik van lege alt-teksten bij decoratieve afbeeldingen. Ook vonden klasgenoten mijn website overzichtelijk en kwam mijn persoonlijkheid duidelijk naar voren. De kleine details, zoals de lampjes die aan en uit gaan, werden gewaardeerd. Mijn songtekst werd daarnaast als kleurrijk omschreven.
+
+Op technisch gebied kreeg ik complimenten over het gebruik van Grid, de responsiviteit en de CSS-animaties. Er werd bijvoorbeeld genoemd dat een animatie soepel verliep.
+
+Het was fijn om mijn werk op deze manier te laten bekijken. De reacties geven mij vertrouwen dat mijn rustige website toch persoonlijk overkomt en dat de speelse details iets toevoegen aan het geheel.
+
+<img src="./assets/images-readme/expo.png" alt="" />
+Foto: Mijn feedback die ik gekregen heb tijdens de expo
+
+### Elkaars website en README beoordelen
+
+Na de expo werden we verdeeld in groepjes van vier. Ik zat samen met Katey, Samir en Lars. Katey en ik hebben elkaars website bekeken en beoordeeld. Zo konden we feedback geven en zien hoe de ander de opdracht had aangepakt.
+
+Daarna hebben we met z’n vieren onze README-bestanden doorgenomen. We controleerden of alle benodigde informatie erin stond. Hieruit bleek dat mijn README compleet was. Dat was fijn om te horen, omdat ik naast mijn website ook de bijbehorende documentatie goed op orde wil hebben.
+
+<img src="./assets/images-readme/elkaarbeoordelen.png" alt="" />
+Foto: De beoordelings formulieren die we hebben ingevuld.
+
+### Mijn CSS overzichtelijker maken met nesting
+
+Aan het einde van de les kwam Sanne even bij mij zitten. Hij had een paar handige tips voor mijn code en legde uit hoe ik CSS kan nesten. Daarbij heeft hij een aantal voorbeelden in mijn code uitgewerkt, zodat ik kon zien hoe ik dit zelf kan toepassen.
+
+Met nesting kan ik CSS-regels die bij elkaar horen binnen elkaar schrijven. Hierdoor hoef ik niet steeds de volledige selector te herhalen en wordt duidelijker welke regels bij welk onderdeel horen.
+
+Ik was erg blij met deze uitleg. Mijn CSS-bestand is inmiddels behoorlijk uitgebreid en op deze manier kan ik mijn code netter en overzichtelijker maken. De voorbeelden van Sanne kan ik gebruiken om de rest van mijn CSS verder op te ruimen.
+
+<img src="./assets/images-readme/voorbeeld-sanne.png" alt="" />
+Foto: De voorbeelden die Sanne gaf voor het nesten van mijn css.
 
 ## zondag 25 oktober
 
@@ -117,7 +149,6 @@ Deze toevoeging maakt het effect voor mij helemaal af. Het woord springt eerst d
 
 <img src="./assets/images-readme/boys2.png" alt="" />
 Foto: Hoe ik de nadruk heb gelegd op de BOYS.
-</details>
 
 ## Zaterdag 24 oktober
 
