@@ -7,6 +7,8 @@
 <details>
 <summary> Dinsdag 27 oktober </summary>
 
+## Dinsdag 27 oktober
+
 ### Feedback verwerken van gisteren
 
 #### De uitklapmenu’s laten aansluiten op mijn website
@@ -80,7 +82,10 @@ Uiteindelijk heb ik dit alleen bij het patroon van Flappie toegepast, omdat het 
 Foto: Ik heb het patroon van Flappie aangepast met de feedback van Sanne.
 </details>
 
-## Maandag 26 oktober
+<details>
+<summary> Dinsdag 27 oktober </summary>
+
+## Dinsdag 27 oktober
 
 ### kleine aanpasingen voor de les
 
@@ -148,6 +153,11 @@ Ik was erg blij met deze uitleg. Mijn CSS-bestand is inmiddels behoorlijk uitgeb
 
 <img src="./assets/images-readme/voorbeeld-sanne.png" alt="" />
 Foto: De voorbeelden die Sanne gaf voor het nesten van mijn css.
+
+</details>
+
+<details>
+<summary> zondag 25 oktober </summary>
 
 ## zondag 25 oktober
 
@@ -225,6 +235,11 @@ Deze toevoeging maakt het effect voor mij helemaal af. Het woord springt eerst d
 
 <img src="./assets/images-readme/boys2.png" alt="" />
 Foto: Hoe ik de nadruk heb gelegd op de BOYS.
+
+</details>
+
+<details>
+<summary> Zaterdag 24 oktober </summary>
 
 ## Zaterdag 24 oktober
 
@@ -325,6 +340,11 @@ Ik ben meteen met deze feedback aan de slag gegaan en heb verschillende punten a
 <img src="./assets/images-readme/feedback.png" alt="" />
 Foto: De feedback die ik gekregen heb en hoe ik dit heb opgelost.
 
+</details>
+
+<details>
+<summary> Vrijdag 23 oktober </summary>
+
 ## Vrijdag 23 oktober
 
 ### Retrospectief: de onzichtbare last
@@ -396,6 +416,11 @@ Ook heb ik de roze-paarse kleur duidelijker zichtbaar gemaakt, met een dekking v
 <img src="./assets/images-readme/ymca-shuin.png" alt="" />
 Foto: De Y.M.C.A. schuin geplaats
 
+</details>
+
+<details>
+<summary> Donderdag 22 oktober </summary>
+
 ## Donderdag 22 oktober
 
 ### Beertje
@@ -464,6 +489,11 @@ Ik heb beide modi in de browser bekeken om het resultaat te vergelijken. Zo hoef
 
 <img src="./assets/images-readme/licht:donkerdieren.png" alt="" />
 Foto: De foto's van de diertjes met en zonder licht die in de pagina van het haken staan.
+
+</details>
+
+<details>
+<summary> Woensdag 21 oktober </summary>
 
 ## woensdag 21 oktober
 
@@ -636,6 +666,11 @@ Foto: Ik heb van 1 font meerdere varianten gedownload
 
 We hadden deze dag geen check-out
 
+</details>
+
+<details>
+<summary> Dinsdag 20 oktober </summary>
+
 ## Dinsdag 20 oktober
 
 ### Hulp van een collega bij mijn code
@@ -668,7 +703,10 @@ Foto: hoe ik de unhappy naar een zielig gezichtje kan zetten.
 
 Daarna moest ik weer verder met de gesprekken, maar ik was heel blij met zijn hulp. Het was fijn om mijn ideeën te kunnen bespreken met iemand die ervaring heeft met programmeren en samen naar mijn code te kijken. Zijn uitleg hielp mij om verder te komen met zowel mijn persoonlijke website als mijn songtekst. Deze onderdelen heb ik dus met zijn begeleiding uitgewerkt.
 
-### voorbereiding voor woensdag 21 oktober.
+</details>
+
+<details>
+<summary> Maandag 19 oktober </summary>
 
 ## Maandag 19 oktober
 
@@ -717,6 +755,11 @@ Foto: ik heb in canva eerst 2 verschillende afbeeldingen gemaakt en daarna de be
 
 We hadden deze dag geen Check-out.
 
+</details>
+
+<details>
+<summary> Zaterdag 17 oktober </summary>
+
 ## Zaterdag 17 oktober
 
 ### Het gif toevoegen aan mijn songtekst
@@ -735,6 +778,11 @@ Op deze manier heb ik stap voor stap gezocht naar een passende grootte en plaats
 
 <img src="./assets/images-readme/gifjegeplaats.png" alt="" />
 Foto: Hoe ik het gijfje in de songtekdt heb geplaats.
+
+</details>
+
+<details>
+<summary> Vrijdag 16 oktober </summary>
 
 ## Vrijdag 16 oktober
 
@@ -763,6 +811,11 @@ Foto: Mijn eerste opzetjes voor het
 
 <img src="./assets/images-readme/gifje.png" alt="" />
 Foto: Hoe het gifje er uiteindelijk is geworden.
+
+</details>
+
+<details>
+<summary> Donderdag 15 oktober </summary>
 
 ## Donderdag 15 oktober
 
@@ -854,6 +907,11 @@ Uit de reacties kwam naar voren dat het volledig uitbeelden van de handeling, zo
 Deze feedback geeft mij een richting om verder te werken. Ik kan mijn idee behouden, maar moet de handeling aanpassen zodat het poppetje zichzelf overeind helpt. Zo heeft het feedbackmoment mij toch geholpen om een keuze te maken voor de verdere uitwerking
 
 Ik ga morgen kijken hoe ik dit kan proberen uit te werken.
+
+</details>
+
+<details>
+<summary> Woensdag 14 oktober </summary>
 
 ## Woensdag 14 oktober
 
@@ -1043,6 +1101,11 @@ Foto: Verschillende dingen geprobeerd om Young man zo goed mogelijk te laten ove
 
 Dit was vooral een proces van proberen, vergelijken en bijstellen. Ik merkte dat kleine veranderingen in grootte, transparantie en timing veel invloed hebben op de uitstraling. Daarnaast leerde ik dat ik bij een animatie ook rekening moet houden met de ruimte eromheen. Ik wil dat ‘YOUNG MAN’ aandacht trekt, terwijl de volledige zin prettig leesbaar blijft.
 
+</details>
+
+<details>
+<summary> Maandag 12 oktober </summary>
+
 ## Maandag 12 oktober
 
 ### De titel afmaken en feedback verzamelen
@@ -1088,6 +1151,11 @@ Foto: De punten tussen de letters vervangen door muziek npotjes.
 ## Herfstvakantie van 12 okt tot 18 okt
 
 Helaas verdrietig nieuws gekregen in mijn privé omgeving waardoor niet mij zelf kan inzetten zoals ik dat wil.
+
+</details>
+
+<details>
+<summary> Vrijdag 9 oktober </summary>
 
 ## Vrijdag 9 oktober
 
@@ -1402,6 +1470,11 @@ Met verschillende diktes kan ik hiërarchie maken. Belangrijke woorden kunnen di
 
 Ik zou de letters afwisselend dikker en dunner kunnen laten worden, alsof ze meebewegen op het ritme van de muziek. Ook kan ik woorden of letters na elkaar laten bewegen om accenten uit de zang te benadrukken. Ik wil hiermee experimenteren om te ontdekken wat bij de energie van Y.M.C.A. past, zonder dat de tekst te druk wordt.
 
+</details>
+
+<details>
+<summary> Donderdag 8 oktober </summary>
+
 ## Donderdag 8 oktober
 
 ### Aan mijn Y.M.C.A. ontwerp beginnen
@@ -1687,6 +1760,11 @@ Daarnaast wil ik onderzoeken of ik iets van de dansende of draaiende letters kan
 
 Zodra ik een werkende versie heb, wil ik opnieuw testen. Met de schetsen heb ik vooral reacties op het idee verzameld. In de browser kan ik ook testen hoe de daadwerkelijke beweging overkomt en of het tempo prettig is.
 
+</details>
+
+<details>
+<summary> Woensdag 7 okttober </summary>
+
 ## woensdag 7 oktober
 
 ### Weer aansluiten bij de lessen
@@ -1787,8 +1865,12 @@ Foto: Mijn retro spectief.
 
 Deze week wil ik zoveel mogelijk werk inhalen, zodat ik weer bij ben. Daardoor kunnen sommige onderdelen in mijn learning log bij een andere dag staan dan de dag waarop de opdracht oorspronkelijk gepland was.
 
+</details>
+
 # Sprint 2:
 
+<details>
+<summary> 1 tot 6 oktober </summary>
 ## i.v.m. een geplande verassings stedentrip ben ik afwezig van 1 tot 6 oktober.
 
 ## wat neem ik mee naar de volgende sprint
@@ -1800,6 +1882,11 @@ Daarnaast wil ik het lettertype van mijn alinea’s aanpassen. Dit ben ik deze s
 Ook wil ik met JavaScript de keuze voor de lichte of donkere weergave bewaren. Zo hoeven bezoekers hun voorkeur niet opnieuw in te stellen wanneer ze naar een andere pagina gaan.
 
 Verder wil ik mijn website blijven uitbreiden en de vormgeving verbeteren. Ik wil ook onderzoeken hoe ik meer persoonlijke elementen kan toevoegen, zodat de website nog beter bij mij past. Hoe ik dat precies ga doen, weet ik nog niet. Daarmee wil ik in de volgende sprint experimenteren.
+
+</details>
+
+<details>
+<summary> WOensdag 30 september </summary>
 
 ## Woensdag 30 september
 
@@ -2122,6 +2209,11 @@ Voor de nieuwe varianten heb ik weer eerst een schets gemaakt en daarna weer met
 <img src="./assets/images-readme/cookievariatie2.png" alt="" />
 Foto: De nieuwe varianten na de feedback.
 
+</details>
+
+<details>
+<summary> Maandag 28 september </summary>
+
 ## Maandag 28 september
 
 ### Bi-weekly Geek 2 – Het web en de wet
@@ -2274,6 +2366,11 @@ Ik ga na de les nieuwe varianten maken op mijn gecombineerde cookie en deze weer
 <img src="./assets/images-readme/feedback-cookie-1.png" alt="" />
 Foto: de feedback die ik heb gekregen om mijn wireframes.
 
+</details>
+
+<details>
+<summary> Vrijdag 25 september </summary>
+
 ## Vrijdag 25 september
 
 Door privé omstandigheiden kon ik helaas niet bij de les zijn.
@@ -2412,6 +2509,11 @@ In de onderdelen die ik heb onderzocht, gebruik ik geen optionele cookies of ana
 
 Wilt u meer weten over de hosting? Lees dan [GitHubs uitleg over gegevensverzameling bij GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
 
+</details>
+
+<details>
+<summary> Woensdag 23 september </summary>
+
 ## Woensdag 23 september
 
 ### Gast spreker
@@ -2495,6 +2597,11 @@ Tijdens het lezen en kijken heb ik aantekeningen gemaakt. Foto’s van deze aant
 <img src="./assets/images-readme/Aantekeningen-huiswerk21-9.png" alt="Aantekeningen van het huiswerk voor woensdag 23-9" />
 Foto: Aantekeningen van het huiswerk voor woensdag 23-9
 
+</details>
+
+<details>
+<summary> Maandag 21 september </summary>
+
 ## maandag 21 september
 
 ### live coderen
@@ -2572,7 +2679,12 @@ Ik heb een paar foto’s gemaakt van de website terwijl ik eraan werkte. Die voe
 <img src="./assets/images-readme/21-9.png" alt=" Meerdere HTML's aangemaakt." />
 Foto: Verder gewerkt aan mijn website.
 
+</details>
+
 # Sprint 1:
+
+<details>
+<summary> Vrijdag 18 september </summary>
 
 ## Vrijdag 18 september (eerste DEADLINE!)
 
@@ -2739,6 +2851,11 @@ Het is gelukt om nog stappen te zetten en mijn website op tijd in te leveren. Mi
 
 Ik merk dat ik kritisch blijf kijken naar mijn eigen werk en daardoor steeds nieuwe dingen zie die ik wil verbeteren. Voor deze deadline heb ik geleerd om keuzes te maken in de tijd die ik had. De README bijwerken en de onderdelen waar ik nog niet tevreden over ben, neem ik mee als volgende stappen.
 
+</details>
+
+<details>
+<summary> Woensdag 16 september </summary>
+
 ## Woensdag 16 september
 
 ### Zelfstandig werken aan je website
@@ -2809,6 +2926,11 @@ Dit liet mij zien waarom het belangrijk is om een website niet alleen zelf te co
 
 <img src="./assets/images-readme/testen-lauwendees.png" alt=" Foto's van het bewijs dat ze getest hebben en hoe het er uit ziet." />
 Foto: bewijs van testing + resultaat op mijn website.
+
+</details>
+
+<details>
+<summary> Maandag 14 september </summary>
 
 ## Maandag 14 september
 
@@ -2982,6 +3104,11 @@ Ik heb geleerd dat:
 - het belangrijk is om na te denken over openheid, privacy en onafhankelijkheid.
 
 De voorbereiding gaf mij genoeg achtergrondinformatie om tijdens de Bi-Weekly Geek mee te kunnen praten over vragen zoals: Wie heeft controle over het internet? en Wie is verantwoordelijk voor de betrouwbaarheid van het internet?
+
+</details>
+
+<details>
+<summary> Vrijdag 11 september </summary>
 
 ## Vrijdag 11 september
 
@@ -3161,6 +3288,11 @@ Ik lette erop dat:
 - hover- en focus-states mogelijk zijn;
 - mobiel en desktop herkenbaar bij elkaar horen.
 
+</details>
+
+<details>
+<summary> Woensdag 9 september </summary>
+
 ## woensdag 9 september (online les NS-staking)
 
 ### Visual Research, Crazy 8 en schermschetsen
@@ -3321,6 +3453,11 @@ Ik heb de presentatie met Remark.js gemaakt in Visual Studio Code. Iedere nieuwe
 (---)
 Voor titels gebruikte ik een # en voor opsommingen een -. In mijn presentatiemap maakte ik een aparte map met de naam images. Hierin plaatste ik alle collages en screenshots.
 
+</details>
+
+<details>
+<summary> Maandag 7 september </summary>
+
 ## Maandag 7 september
 
 ### Sprintplanning en onderzoek
@@ -3454,7 +3591,12 @@ Daarnaast vond ik het idee van Learning in Public interessant. Mijn digital gard
 
 ## Voorbereiding maandag 7 september: We hebben voor deze les geen voorbereiding.
 
+</details>
+
 # Sprint 0:
+
+<details>
+<summary> Vrijdag 4 september </summary>
 
 ## vrijdag 4 september
 
@@ -3596,6 +3738,11 @@ Bij het kiezen van mijn lettertypes wil ik daarom letten op:
 
 Wat ik vooral meeneem, is dat ik mijn keuze niet alleen moet kunnen uitleggen met ‘ik vind dit lettertype mooi’. Ik moet ook kunnen onderbouwen waarom het bij mijn website past en waarom het voor de gebruiker prettig leesbaar is.
 
+</details>
+
+<details>
+<summary> Woensdag 2 september </summary>
+
 ## woensdag 2 september
 
 ### verwerking van de les
@@ -3704,6 +3851,11 @@ Voor mijn eigen website wil ik daarom bewust omgaan met de hoeveelheid fonts en 
 <img src="./assets/images-readme/aantekeningen3september.png" alt="aantekeningen van HTML en CSS basis" />
  Foto: aantekeningen van HTML en CSS basi
 
+ </details>
+
+<details>
+<summary> Maandag 31 augustus </summary>
+
 ## kick-off maandag 31 augustus:
 
 31 augustus: Check out
@@ -3738,3 +3890,5 @@ Foto: Hier kozen we onze eigen domein naam
 Foto: Dit is het begin wat we gekregen hadden om onze website te maken.
 
 <img src="./assets/images-readme/Blancoversiewebsite.png" alt="Dit is het begin wat we gekregen hadden om onze website te maken." />
+
+</details>
