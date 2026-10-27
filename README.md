@@ -80,6 +80,15 @@ Uiteindelijk heb ik dit alleen bij het patroon van Flappie toegepast, omdat het 
 
 <img src="./assets/images-readme/patroon-flappie.png" alt="" />
 Foto: Ik heb het patroon van Flappie aangepast met de feedback van Sanne.
+
+#### Mijn README overzichtelijker maken
+
+Mijn README was inmiddels één grote lap tekst geworden, waardoor het lastig was om snel een bepaalde dag terug te vinden. Daarom heb ik met <details> en <summary> een uitklapmenu per dag toegevoegd.
+In de <summary> staat de dag en binnen de <details> staat de bijbehorende inhoud. Zo kan je zelf kiezen welke dag je wilt openen en blijft de rest ingeklapt. Hierdoor is mijn README overzichtelijker en kan je makkelijker door mijn proces navigeren.
+
+<img src="./assets/images-readme/readme.png" alt="" />
+Foto: Menu gemaakt in mijn read me.
+
 </details>
 
 <details>
@@ -153,6 +162,16 @@ Ik was erg blij met deze uitleg. Mijn CSS-bestand is inmiddels behoorlijk uitgeb
 
 <img src="./assets/images-readme/voorbeeld-sanne.png" alt="" />
 Foto: De voorbeelden die Sanne gaf voor het nesten van mijn css.
+
+#### Mijn reflectie en afsluiting
+
+Als afsluiting van dit blok heb ik een reflectie geschreven. Hierin kijk ik terug op mijn proces, de keuzes die ik heb gemaakt, de feedback die ik heb gekregen en wat ik daarvan heb geleerd. Ook beschrijf ik wat goed ging, wat ik lastig vond en wat ik een volgende keer anders zou aanpakken. Deze reflectie heb ik als apart bestand ingeleverd.
+
+Tijdens dit blok heb ik veel geleerd over HTML, CSS, toegankelijkheid en het maken van een website die op verschillende schermformaten werkt. Door te experimenteren, feedback te vragen en mijn werk steeds opnieuw te bekijken, is mijn website stap voor stap gegroeid tot een persoonlijke haakwereld.
+
+Voor mijn gevoel zal dit project nooit helemaal af zijn. Tijdens het maken ontdek ik steeds nieuwe dingen die ik wil toevoegen, verbeteren of anders wil vormgeven. Zo zou ik graag een toggleknop willen maken om tussen de lichte en donkere modus te wisselen. Ook wil ik alle haakpatronen netjes en op dezelfde manier uitwerken. Daar had ik binnen dit blok niet genoeg tijd voor, maar het zijn ideeën waarmee ik mijn website verder kan laten groeien.
+
+Ik heb geleerd om keuzes te maken binnen de beschikbare tijd en te accepteren dat ik niet ieder idee meteen kan uitvoeren. Daarnaast heb ik gemerkt dat ik soms een stapje terug moet doen en rekening moet houden met mijzelf. Ik ben trots op wat ik heb gemaakt en op de vooruitgang die ik heb geboekt. Met deze README heb ik mijn proces vastgelegd, van de eerste ideeën en experimenten tot het resultaat dat er nu staat.
 
 </details>
 
